@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the information below."
+type: software
+title: "BestFit-Python-Examples"
+version: 0.0.0
+repository-code: 
+date-released: ""
+license: BSD-3-Clause
+url: "https://github.com/USACE-RMC/BestFit-Python-Examples.git"
+abstract: >-
+  This repository contains Python notebooks that demonstrate the RMC.BestFit library through pythonnet. 
+  The goal is to give practical, reproducible examples for Bayesian estimation, fitting, and analysis.
+keywords:
+  - BestFit
+  - pythonnet
+  - MCMC
+  - optimization
+  - probability distributions
+  - fitting
+  - analysis
+  - bayesian
+authors:
+    - family-names: "Niblett"
+      given-names: "Sadie"
+      email: "sadie.s.niblett@usace.army.mil"
+      affiliation: "U.S. Army Corps of Engineers, Risk Management Center"
+      orcid: "https://orcid.org/0009-0008-8588-4816"
