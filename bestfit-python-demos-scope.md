@@ -39,10 +39,10 @@ bestfit-python-examples/
 |
 |-- notebooks/
 |   |-- 00_getting_started.ipynb
-|   |-- 01_distributions.ipynb
-|   |-- 02_distribution_fitting.ipynb
+|   |-- 01_distribution_fitting.ipynb
+|   |-- 02_model_selection_and_comparison.ipynb
 |   |-- 03_bayesian_flood_frequency.ipynb
-|   |-- 04_model_selection_and_comparison.ipynb
+|   |-- 04_distribution_analysis.ipynb
 |   |-- 05_rating_curve_analysis.ipynb
 |   |-- 06_time_series_forecasting.ipynb
 |   |-- 07_spatial_extremes.ipynb
@@ -96,23 +96,7 @@ print(f"P(X < 120) = {gev.CDF(120):.4f}")
 
 ---
 
-### 01. Distributions
-**Purpose:** Tour of the 15 univariate distributions optimized for hydrologic extremes.
-
-**Content:**
-- Creating distributions (Normal, GEV, LogNormal, LogPearson Type III, Gamma, Weibull, Gumbel, etc.)
-- PDF, CDF, inverse CDF (quantiles)
-- Generating random samples
-- Statistical properties (mean, std, skewness, kurtosis)
-- L-moments calculations
-- Plotting distributions with matplotlib
-- Comparison across related distributions (e.g., GEV vs Gumbel)
-
-**Real-world context:** "Which distribution best fits annual maximum floods?"
-
----
-
-### 02. Distribution Fitting
+### 01. Distribution Fitting
 **Purpose:** Parameter estimation from observed data using multiple methods.
 
 **Content:**
@@ -140,6 +124,21 @@ ranked = sorted(analysis.Results, key=lambda x: x.AIC)
 for result in ranked[:3]:
     print(f"{result.Distribution.Type}: AIC={result.AIC:.2f}")
 ```
+
+---
+
+### 02. Model Selection and Comparison
+**Purpose:** Compare candidate models using information criteria and Bayesian model averaging.
+
+**Content:**
+- Information criteria: AIC, BIC, DIC, WAIC, LOO-CV
+- Pareto smoothed importance sampling (PSIS)
+- Model weights and selection uncertainty
+- Composite/ensemble models for robust predictions
+- Demonstrating over-fitting risks and regularization strategies
+- Posterior predictive checks
+
+**Real-world context:** Choosing between GEV and LogPearson Type III for Bulletin 17C compliance.
 
 ---
 
@@ -179,20 +178,13 @@ print(f"100-year flood: {q100:.1f} ± {uncertainty:.1f} m³/s")
 
 ---
 
-### 04. Model Selection and Comparison
-**Purpose:** Compare candidate models using information criteria and Bayesian model averaging.
+### 04.Distribution Analysis
+**Purpose:**
 
 **Content:**
-- Information criteria: AIC, BIC, DIC, WAIC, LOO-CV
-- Pareto smoothed importance sampling (PSIS)
-- Model weights and selection uncertainty
-- Composite/ensemble models for robust predictions
-- Demonstrating over-fitting risks and regularization strategies
-- Posterior predictive checks
-
-**Real-world context:** Choosing between GEV and LogPearson Type III for Bulletin 17C compliance.
 
 ---
+
 
 ### 05. Rating Curve Analysis
 **Purpose:** Stage-discharge relationship fitting and prediction.
@@ -293,33 +285,6 @@ All optimized for hydrologic extremes:
 
 ---
 
-## Phased Implementation
-
-### Phase 1: Foundations (MVP)
-- Notebooks 00, 01, 02
-- One complete stationary flood frequency workflow
-- Simple CSV → fitted distribution → return-period table
-- **Delivery:** End-to-end example a new Python user can follow
-
-### Phase 2: Core Workflows
-- Notebook 03 and 04
-- Bayesian MCMC + model comparison
-- Sensitivity analysis (e.g., with/without paleo data)
-- **Delivery:** Technical practitioners can customize for their own data
-
-### Phase 3: Specialized Methods
-- Notebook 05 (rating curves) and 06 (time series)
-- Optional: Notebook 07 (spatial extremes)
-- **Delivery:** Domain-specific examples beyond simple frequency analysis
-
-### Phase 4: Operationalization
-- Notebook 90
-- Config-driven batch execution
-- HTML/PDF reporting
-- **Delivery:** Production-ready automation pipeline
-
----
-
 ## Code Style & Dependencies
 
 ### Python Packages
@@ -344,43 +309,6 @@ pyyaml>=5.3.0
 - Comments explain the "why" behind choices, not just the "what"
 - Plots follow consistent styling (color palettes, fonts, grid)
 - Helper functions in `helper_functions.py` to keep notebooks readable
-
----
-
-## Expected Outcomes
-
-### After Phase 1
-- User can load BestFit from Python, fit a distribution, extract return periods
-- Reproducible example comparing MLE vs Bayesian on synthetic data
-
-### After Phase 2
-- User understands posterior vs prior, how to set priors for flood frequency
-- Can compare GEV vs LogPearson Type III using information criteria
-- Knows when/how to incorporate historical/paleo data
-
-### After Phase 3
-- Can build rating curves from stage-discharge data
-- Can forecast streamflow 12 months ahead
-- Can estimate floods at ungauged sites using regional data
-
-### After Phase 4
-- Can run 50+ sites through standardized workflow in one command
-- Outputs automatically formatted for reports/presentations
-- Results reproducible and version-controlled
-
----
-
-## Success Criteria
-
-✅ **Every notebook runs top-to-bottom** on a clean environment without manual edits
-
-✅ **Real-world parity:** One notebook result matches a known BestFit desktop example
-
-✅ **Reproducibility:** Inputs/outputs versioned; same setup produces same results
-
-✅ **Usability:** A new Python user (familiar with pandas/matplotlib) can follow all examples
-
-✅ **Extensibility:** Clear patterns for adding new distributions, sites, or estimation methods
 
 ---
 
