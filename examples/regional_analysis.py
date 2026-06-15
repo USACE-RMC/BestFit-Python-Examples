@@ -1,7 +1,7 @@
 ﻿from __future__ import annotations
 
 import pythonnet
-pythonnet.load("netfx")
+pythonnet.load("coreclr")
 
 import clr
 import numpy as np
@@ -12,6 +12,7 @@ import sys
 sys.path.append(str(Path(__file__).resolve().parents[1] / "notebooks"))
 from helper_functions import resolve_bestfit_dll, resolve_numerics_dll
 
+# Load the paired Numerics and BestFit assemblies from the same preferred build.
 clr.AddReference(str(resolve_numerics_dll()))
 clr.AddReference(str(resolve_bestfit_dll()))
 

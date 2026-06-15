@@ -46,7 +46,7 @@ bestfit-python-examples/
 |   |-- 05_rating_curve_analysis.ipynb
 |   |-- 06_time_series_forecasting.ipynb
 |   |-- 07_spatial_extremes.ipynb
-|   |-- 90_batch_workflow_and_reporting.ipynb
+|   |-- 08_batch_workflow_and_reporting.ipynb
 |   `-- helper_functions.py        # Shared helpers for plotting, I/O, etc.
 |
 |-- examples/
@@ -100,14 +100,10 @@ print(f"P(X < 120) = {gev.CDF(120):.4f}")
 **Purpose:** Parameter estimation from observed data using multiple methods.
 
 **Content:**
-- Method of Moments (MOM)
-- Maximum Likelihood Estimation (MLE)
-- L-Moments (L and TL-moments)
-- Comparing estimation method results
-- Goodness-of-fit tests (Kolmogorov-Smirnov, Anderson-Darling, chi-squared)
-- Plotting fitted vs empirical CDF
-- Bootstrap confidence intervals on parameters
-- Weighted plotting positions (Weibull, median ranks, etc.)
+- Data input types
+- Probability distributions for flood frequency analysis
+- `FittingAnalyses` method from BestFit
+- Comparing goodness of fit metrics (AIC, BIC, RMSE)
 
 **Real-world context:** Flood frequency analysis — fitting annual peak flows from a gauge station.
 
@@ -127,18 +123,12 @@ for result in ranked[:3]:
 
 ---
 
-### 02. Model Selection and Comparison
-**Purpose:** Compare candidate models using information criteria and Bayesian model averaging.
+### 02. Model Estimation
+**Purpose:** Compare different BestFit Estimation methods
 
 **Content:**
-- Information criteria: AIC, BIC, DIC, WAIC, LOO-CV
-- Pareto smoothed importance sampling (PSIS)
-- Model weights and selection uncertainty
-- Composite/ensemble models for robust predictions
-- Demonstrating over-fitting risks and regularization strategies
-- Posterior predictive checks
 
-**Real-world context:** Choosing between GEV and LogPearson Type III for Bulletin 17C compliance.
+**Real-world context:** 
 
 ---
 
@@ -299,9 +289,21 @@ pyyaml>=5.3.0
 ```
 
 ### .NET Requirements
-- .NET 6.0 or .NET Framework 4.7.2+
+- .NET 6.0+ for the current local `RMC-BestFit` build
+- .NET Framework 4.7.2+ only when intentionally using a legacy BestFit build
 - Numerics.dll (math/MCMC engine)
 - RMC.BestFit.dll (models and analyses)
+
+### DLL Resolution Policy
+The helper functions should keep BestFit and Numerics paired whenever possible.
+
+Preferred order:
+1. User-pinned environment variables: `RMC_BESTFIT_DLL` and `RMC_NUMERICS_DLL`.
+2. `C:\GIT\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\...`.
+3. `C:\GIT\RMC-BestFit Version 2.0 (Beta-3)\Release\Libraries\...`.
+4. `C:\GIT\RMC-BestFit-Dev\...`, then standalone `C:\GIT\Numerics\...` only as a fallback for Numerics.
+
+The `RMC-BestFit` source build is preferred over the standalone `Numerics` build because BestFit is compiled against a specific Numerics API surface. Loading both DLLs from the same BestFit output folder reduces version skew and avoids namespace/import failures. Environment variables remain first because they are an explicit user override.
 
 ### Code Quality
 - Notebooks use markdown cells for narrative
@@ -310,12 +312,23 @@ pyyaml>=5.3.0
 - Plots follow consistent styling (color palettes, fonts, grid)
 - Helper functions in `helper_functions.py` to keep notebooks readable
 
+### Reference Repository Alignment
+Use the local `C:\GIT\Numerics-Python-Examples` repository as the style and structure reference:
+
+- Keep notebooks practical and executable top-to-bottom.
+- Start with environment/runtime setup, then DLL loading, then namespace imports.
+- Include enough markdown to explain the modeling decision before the code that implements it.
+- Prefer concise comments inside code cells for conversion, API-boundary, and statistical assumptions.
+- End notebooks with a short summary and IEEE-style references.
+- Keep script examples runnable from the repository root and write deterministic CSV outputs under `outputs/tables`.
+
 ---
 
 ## Open Questions / Refinements
 
-- **DLL pathing:** Finalize the recommended installation approach (system PATH vs manual reference loading)
+- **DLL pathing:** Keep manual reference loading for demos; document environment-variable overrides as the recommended user customization point.
 - **Licensing:** Confirm licensing obligations for batch/automated execution
 - **Cross-platform:** Test and document Linux/macOS workarounds (WSL, Docker, etc.)
 - **Threading:** Document any thread-safety constraints for parallel site processing
 - **Export formats:** Which output formats most valuable for practitioners? (Excel, Parquet, NetCDF, etc.)
+- **Notebook depth:** Expand notebooks 03 and 04 from placeholders into runnable Bayesian and distribution-analysis workflows once the current BestFit Bayesian API is stable.

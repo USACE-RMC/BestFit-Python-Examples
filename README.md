@@ -35,11 +35,11 @@ Python packages (see `notebook-requirements.txt`):
 pip install -r notebook-requirements.txt
 ```
 
-2. Set DLL environment variables (recommended):
+2. Set DLL environment variables only if you want to override the local defaults:
 
 ```powershell
-$env:RMC_BESTFIT_DLL="C:\GIT\RMC-BestFit Version 2.0 (Beta-3)\Release\Libraries\RMC.BestFit.dll"
-$env:RMC_NUMERICS_DLL="C:\GIT\RMC-BestFit Version 2.0 (Beta-3)\Release\Libraries\Numerics.dll"
+$env:RMC_BESTFIT_DLL="C:\GIT\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\RMC.BestFit.dll"
+$env:RMC_NUMERICS_DLL="C:\GIT\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\Numerics.dll"
 ```
 
 3. Start Jupyter:
@@ -99,8 +99,8 @@ If DLL load fails, verify paths first.
 ## Troubleshooting
 
 - `pythonnet` runtime error at import:
-  - ensure `pythonnet.load("netfx")` for .NET Framework builds
-  - switch to `coreclr` only for .NET 6+ builds
+  - use `pythonnet.load("coreclr")` for the current .NET build
+  - use `pythonnet.load("netfx")` only for legacy .NET Framework builds
 - `FileNotFoundError` for DLLs:
   - set env vars explicitly
 - `AddReference` load conflicts:
