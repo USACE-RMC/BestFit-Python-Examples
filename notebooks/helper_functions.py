@@ -51,7 +51,17 @@ def convert_to_dotnet_array(values):
     arr = list(float(v) for v in values)
     return System.Array[System.Double](arr)
 
+def convert_to_dotnet_2d_array(matrix):
+    """Convert a 2D NumPy array into a .NET 2D array of doubles.
 
-def convert_to_donet_array(values):
-    """Backward-compatible alias for the original misspelled helper name."""
-    return convert_to_dotnet_array(values)
+    Requires that the Numerics .NET runtime has already been loaded
+    (i.e., clr.AddReference has been called).
+    """
+    from System import Array, Double
+
+    rows, cols = matrix.shape
+    net_array = Array.CreateInstance(Double, rows, cols)
+    for i in range(rows):
+        for j in range(cols):
+            net_array[i, j] = float(matrix[i, j])
+    return net_array
