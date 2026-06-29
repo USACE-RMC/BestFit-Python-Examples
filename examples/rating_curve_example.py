@@ -1,39 +1,75 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
-import numpy as np
+import pythonnet
+
+pythonnet.load("coreclr")
+
+import clr
 import pandas as pd
 from pathlib import Path
+import sys
 
-rng = np.random.default_rng(5)
-stage = np.linspace(0.6, 5.0, 70)
-q_true = np.where(stage < 2.2, 18 * (stage - 0.3) ** 1.7, 65 * (stage - 0.3) ** 1.15)
-q_obs = np.maximum(0.1, q_true * (1 + rng.normal(0, 0.08, size=stage.size)))
+sys.path.append(str(Path(__file__).resolve().parents[1] / "notebooks"))
+from helper_functions import convert_to_dotnet_array, resolve_bestfit_dll, resolve_numerics_dll
 
-break_stage = 2.2
-mask = stage < break_stage
+clr.AddReference(str(resolve_numerics_dll()))
+clr.AddReference(str(resolve_bestfit_dll()))
 
-# Segment fits in log-log space
-c1 = np.polyfit(np.log(stage[mask] - 0.3), np.log(q_obs[mask]), 1)
-c2 = np.polyfit(np.log(stage[~mask] - 0.3), np.log(q_obs[~mask]), 1)
+from RMC.BestFit.Estimation import MaximumLikelihood, OptimizationMethod
+from RMC.BestFit.Models import RatingCurve
 
-b1, a1 = c1[0], np.exp(c1[1])
-b2, a2 = c2[0], np.exp(c2[1])
 
-df = pd.DataFrame({"stage": stage, "discharge_obs": q_obs})
-df["discharge_fit"] = np.where(stage < break_stage, a1 * (stage - 0.3) ** b1, a2 * (stage - 0.3) ** b2)
-df["residual"] = df["discharge_obs"] - df["discharge_fit"]
-df["pct_error"] = 100.0 * df["residual"] / np.maximum(df["discharge_obs"], 1e-9)
+true_params = convert_to_dotnet_array(
+    [
+        0.30,  # zero-flow stage
+        1.25,  # log10(alpha)
+        1.70,  # exponent
+        0.08,  # log-space error
+    ]
+)
 
-rmse = float(np.sqrt(np.mean(df["residual"] ** 2)))
-mae = float(np.mean(np.abs(df["residual"])))
+generator = RatingCurve()
+generator.SetParameterValues(true_params)
+synthetic = generator.GenerateSyntheticData(sampleSize=70, minStage=0.6, maxStage=5.0, seed=5)
+stage_ts = synthetic.Item1
+discharge_ts = synthetic.Item2
 
-# Build a rating table at fixed stage increments
-stage_table = np.arange(0.6, 5.01, 0.1)
-rating_table = pd.DataFrame({"stage": stage_table})
-rating_table["discharge_fit"] = np.where(
-    rating_table["stage"] < break_stage,
-    a1 * (rating_table["stage"] - 0.3) ** b1,
-    a2 * (rating_table["stage"] - 0.3) ** b2,
+model = RatingCurve(stage_ts, discharge_ts, numberOfSegments=1)
+mle = MaximumLikelihood(model, OptimizationMethod.MultilevelSingleLinkage)
+mle.Estimate()
+
+if not mle.IsEstimated:
+    raise RuntimeError("BestFit MaximumLikelihood did not converge for the rating curve.")
+
+fit_params = mle.BestParameterSet.Values
+model.SetParameterValues(fit_params)
+
+stage = [float(point.Value) for point in stage_ts]
+discharge_obs = [float(point.Value) for point in discharge_ts]
+discharge_fit = [float(model.Predict(fit_params, h)) for h in stage]
+residual = [obs - fit for obs, fit in zip(discharge_obs, discharge_fit)]
+pct_error = [100.0 * err / max(obs, 1e-9) for err, obs in zip(residual, discharge_obs)]
+residual_stats = list(model.Residuals(fit_params))
+
+df = pd.DataFrame(
+    {
+        "stage": stage,
+        "discharge_obs": discharge_obs,
+        "discharge_fit": discharge_fit,
+        "residual": residual,
+        "pct_error": pct_error,
+    }
+)
+
+rmse = float((sum(float(r) * float(r) for r in residual_stats) / len(residual_stats)) ** 0.5)
+mae = float(sum(abs(r) for r in residual) / len(residual))
+
+table = model.GenerateRatingTable(parameters=fit_params, minStage=0.6, maxStage=5.0, numPoints=45)
+rating_table = pd.DataFrame(
+    {
+        "stage": [float(table[i, 0]) for i in range(table.GetLength(0))],
+        "discharge_fit": [float(table[i, 1]) for i in range(table.GetLength(0))],
+    }
 )
 
 results_dir = Path(__file__).resolve().parents[1] / "outputs" / "tables"
@@ -42,9 +78,10 @@ df.to_csv(results_dir / "rating_curve_observed_vs_fit.csv", index=False)
 rating_table.to_csv(results_dir / "rating_curve_table.csv", index=False)
 
 print("Rating Curve Demo")
-print(f"Segment 1: Q={a1:.3f}(h-0.3)^{b1:.3f}")
-print(f"Segment 2: Q={a2:.3f}(h-0.3)^{b2:.3f}")
-print(f"Break stage: {break_stage:.2f}")
+print("BestFit MLE parameters")
+for parameter in model.Parameters:
+    print(f"- {parameter.Name}: {parameter.Value:.4f}")
+print(f"Log-likelihood: {mle.BestParameterSet.Fitness:.3f}")
 print(f"RMSE: {rmse:.3f}")
 print(f"MAE: {mae:.3f}")
 print("\nFirst 10 observed rows")
