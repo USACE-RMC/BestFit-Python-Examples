@@ -1,57 +1,17 @@
 ﻿# BestFit Python Examples
 
-Practical Python demos for **RMC-BestFit** using `pythonnet`, with notebook-first workflows and script examples for flood frequency, rating curves, forecasting, and regional analysis.
+[![License: 0BSD](https://img.shields.io/badge/License-0BSD-blue.svg)](https://opensource.org/licenses/0BSD)
+[![DOI](https://zenodo.org/badge/1135095276.svg)](https://doi.org/10.5281/zenodo.19715583)
+
+This repository contains Python notebooks that demonstrate the USACE-RMC BestFit .NET library through pythonnet. The notebooks provide practical, reproducible examples of BestFit applications including flood frequency, rating curves, forecasting, and regional analysis.
 
 ## What This Repo Contains
-
-- `notebooks/00_getting_started.ipynb` to `08_batch_workflow_and_reporting.ipynb`
-- `examples/` runnable Python scripts
-- `notebooks/helper_functions.py` shared DLL path helpers
+- `notebooks/` 7 Juptyer notebooks organized by topic
+- `examples/` runnable Python example scripts
+- `notebooks/helper_functions.py` shared helper functions
 - `bestfit-python-demos-scope.md` project scope and roadmap
 
-## Requirements
-
-- Windows + Python 3.10+
-- .NET runtime compatible with your BestFit build
-- RMC DLLs:
-  - `RMC.BestFit.dll`
-  - `Numerics.dll`
-
-Python packages (see `notebook-requirements.txt`):
-
-- `pythonnet`
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `scipy`
-- `statsmodels`
-- `jupyter`
-
-## Setup
-
-1. Install dependencies:
-
-```powershell
-pip install -r notebook-requirements.txt
-```
-
-2. Set DLL environment variables only if you want to override the local defaults:
-
-```powershell
-$env:RMC_BESTFIT_DLL="C:\GIT\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\RMC.BestFit.dll"
-$env:RMC_NUMERICS_DLL="C:\GIT\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\Numerics.dll"
-```
-
-3. Start Jupyter:
-
-```powershell
-jupyter lab
-```
-
-Open notebooks in numeric order starting with `00_getting_started.ipynb`.
-
 ## Notebooks Guide
-
 - `00_getting_started.ipynb`: runtime setup, DLL loading, first distribution calls, troubleshooting
 - `01_distributions.ipynb`: distribution tour and shape comparison
 - `02_distribution_fitting.ipynb`: empirical return periods and fitted quantile curves
@@ -68,8 +28,119 @@ Each notebook includes:
 - Step-by-step code
 - End summary with recommended exercises
 
-## Example Scripts
 
+## Requirements
+- Windows + Python 3.10+
+- .NET runtime compatible with your BestFit build (.NET 6+)
+   - Install the [.NET SDK](https://dotnet.microsoft.com/download) if you don't already have it
+- The [RMC.Numerics](https://www.nuget.org/packages/RMC.Numerics) NuGet package (see Quick Start)
+- RMC DLLs (see Quick Start)
+  - `RMC.BestFit.dll`
+  - `Numerics.dll`
+
+Python packages (see `notebook-requirements.txt`):
+- `pythonnet`
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `statsmodels`
+- `jupyter`
+
+## Quick Start
+The quick start will walk you through creating a virtual Python environment, installing the notebook requirements, and pulling in the `RMC.BestFit` NuGet package. For a more in-depth walkthrough see notebook [`00_getting_started.ipynb`](notebooks/00_getting_started.ipynb).  
+**NOTE:** The commands below assume Windows. See notebook `00` for macOS/Linux equivalents.
+**NOTE:** This demo use both the `RMC.BestFit.dll`and `Numerics.dll`. When you download RMC BestFit, Numerics comes automatically built in (!!!CHECK IF THIS IS TRUE WITH NUGET PACKAGE!!!). Thus we only need BestFit to access both. You can download Numerics separately as the stand alone library if you wish.
+
+1. Create and activate a virtual Python environment
+
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
+   pip install ipykernel
+   python -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
+   ```
+
+2. Install the Python requirements
+
+   ```bash
+   pip install -r notebook-requirements.txt
+   ```
+
+3. Install the `RMC.BestFit` NuGet package
+
+   ```bash
+   # Option A — global NuGet cache (recommended; requires the .NET SDK):
+   dotnet add package RMC.BestFit
+
+   # Option B — local packages/ folder (requires nuget.exe on PATH):
+   nuget install RMC.BestFit -OutputDirectory packages
+   ```
+
+   Both commands pull the **latest** published version by default.
+
+   The notebooks auto-discover the DLL in either location via `resolve_bestfit_dll()` in [`notebooks/helper_functions.py`](notebooks/helper_functions.py).
+
+4. Load BestFit and Numerics in a notebook or script
+
+   ```python
+   import pythonnet
+   pythonnet.load("coreclr")
+
+   import clr
+   from helper_functions import resolve_bestfit_dll, resolve_numerics_dll
+
+   clr.AddReference(str(resolve_besfit_dll()))
+   clr.AddReference(str(resolve_numerics_dll()))
+   ```
+
+5. Run a `FittingAnalysis` on data to quickly fit the 15 distributions most commonly used for flood frequency.
+
+  ```python
+  from RMC.BestFit import ExactData, ExactSeries
+  from RMC.BestFit.Models import DataFrame
+  from RMC.BestFit.Analyses import FittingAnalysis
+
+  annual_peaks = [
+    45000, 52000, 38000, 61000, 49000, 55000, 42000, 67000, 39000, 48000,
+    51000, 36000, 58000, 44000, 53000, 47000, 62000, 41000, 50000, 37000,
+    54000, 46000, 59000, 43000, 56000, 40000, 63000, 35000, 57000, 45000]
+  df = DataFrame()
+  df.ExactSeries = ExactSeries(convert_to_dotnet_array(annual_peaks))
+
+  analysis = FittingAnalysis(df)  
+  analysis.RunAsync().Wait()
+  ```
+
+## Using a local BestFit (+ Numerics) build instead of NuGet
+If you prefer to build BestFit or Numerics from source — for example, to develop against the latest `main` branch — clone the [BestFit](https://github.com/USACE-RMC/BestFit) and [Numerics](https://github.com/USACE-RMC/Numerics) repos and build them:
+
+```bash
+git clone https://github.com/USACE-RMC/BestFit.git
+cd BestFit
+dotnet build BestFit.sln --configuration Release
+
+git clone https://github.com/USACE-RMC/Numerics.git
+cd Numerics
+dotnet build Numerics.sln --configuration Release
+```
+
+Then point the notebooks at your build by setting the `BESTFIT_DLL` `NUMERICS_DLL` environment variables before launching Jupyter:
+
+```powershell
+# PowerShell
+$env:BESTFIT_DLL = "C:\path\to\RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\RMC.BestFit.dll"
+$env:NUMERICS_DLL = "C:\path\to\Numerics\Numerics\bin\Release\net8.0\Numerics.dll"
+
+# bash / zsh
+export BESTFIT_DLL=/path/to/RMC-BestFit\src\RMC.BestFit\bin\Debug\net10.0\RMC.BestFit.dll
+export NUMERICS_DLL=/path/to/Numerics/Numerics/bin/Release/net8.0/Numerics.dll
+
+```
+
+`resolve_bestfit_dll` and `resolve_numerics_dll()` use these variable first, then fall back to the NuGet cache and finally a local `packages/` folder.
+
+## Example Scripts
 Run from repo root:
 
 ```powershell
@@ -87,17 +158,7 @@ Current script outputs:
 - `outputs/tables/regional_analysis_site_records.csv`
 - `outputs/tables/regional_analysis_site_quantiles.csv`
 
-## DLL Resolution Behavior
-
-`notebooks/helper_functions.py` uses this order:
-
-1. `RMC_BESTFIT_DLL` / `RMC_NUMERICS_DLL` env vars
-2. Known local default paths in this dev environment
-
-If DLL load fails, verify paths first.
-
 ## Troubleshooting
-
 - `pythonnet` runtime error at import:
   - use `pythonnet.load("coreclr")` for the current .NET build
   - use `pythonnet.load("netfx")` only for legacy .NET Framework builds
@@ -106,8 +167,6 @@ If DLL load fails, verify paths first.
 - `AddReference` load conflicts:
   - restart kernel/session and re-run top cells only once
 
-## Notes
 
-- Some notebooks use synthetic data for deterministic demos.
-- Scope and planned enhancements are tracked in `bestfit-python-demos-scope.md`.
-- `Numerics-Python-Examples` in sibling folder was used as style/structure reference.
+## License
+This project is released under the [Zero-Clause BSD (0BSD) license](LICENSE).

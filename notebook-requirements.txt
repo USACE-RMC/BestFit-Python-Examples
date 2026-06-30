@@ -1,3 +1,7 @@
+# Python requirements for the notebooks + example scripts.
+#
+# Install with:    pip install -r notebook-requirements.txt
+
 pythonnet>=3.0.0
 numpy>=1.24.0
 pandas>=2.0.0
@@ -5,3 +9,4 @@ matplotlib>=3.7.0
 scipy>=1.10.0
 jupyter>=1.0.0
 ipykernel>=6.0.0
+plotly

@@ -168,13 +168,6 @@ print(f"100-year flood: {q100:.1f} ± {uncertainty:.1f} m³/s")
 
 ---
 
-### 04.Distribution Analysis
-**Purpose:**
-
-**Content:**
-
----
-
 
 ### 05. Rating Curve Analysis
 **Purpose:** Stage-discharge relationship fitting and prediction.
@@ -312,23 +305,4 @@ The `RMC-BestFit` source build is preferred over the standalone `Numerics` build
 - Plots follow consistent styling (color palettes, fonts, grid)
 - Helper functions in `helper_functions.py` to keep notebooks readable
 
-### Reference Repository Alignment
-Use the local `C:\GIT\Numerics-Python-Examples` repository as the style and structure reference:
-
-- Keep notebooks practical and executable top-to-bottom.
-- Start with environment/runtime setup, then DLL loading, then namespace imports.
-- Include enough markdown to explain the modeling decision before the code that implements it.
-- Prefer concise comments inside code cells for conversion, API-boundary, and statistical assumptions.
-- End notebooks with a short summary and IEEE-style references.
-- Keep script examples runnable from the repository root and write deterministic CSV outputs under `outputs/tables`.
-
 ---
-
-## Open Questions / Refinements
-
-- **DLL pathing:** Keep manual reference loading for demos; document environment-variable overrides as the recommended user customization point.
-- **Licensing:** Confirm licensing obligations for batch/automated execution
-- **Cross-platform:** Test and document Linux/macOS workarounds (WSL, Docker, etc.)
-- **Threading:** Document any thread-safety constraints for parallel site processing
-- **Export formats:** Which output formats most valuable for practitioners? (Excel, Parquet, NetCDF, etc.)
-- **Notebook depth:** Expand notebooks 03 and 04 from placeholders into runnable Bayesian and distribution-analysis workflows once the current BestFit Bayesian API is stable.
