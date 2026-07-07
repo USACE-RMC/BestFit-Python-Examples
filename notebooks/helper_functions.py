@@ -1,8 +1,8 @@
-from __future__ import annotations
+"""Helper functions used by notebooks in this repository."""
 
+from __future__ import annotations
 from pathlib import Path
 import os
-
 
 def resolve_bestfit_dll() -> Path:
     """Return the preferred RMC.BestFit.dll path.
@@ -45,11 +45,15 @@ def resolve_numerics_dll() -> Path:
 
 
 def convert_to_dotnet_array(values):
-    """Convert a Python iterable of numeric values to System.Double[] for .NET APIs."""
-    import System
+    """Convert a Python list into a 1D .NET array of doubles.
+
+    Requires that the Numerics .NET runtime has already been loaded
+    (i.e., clr.AddReference has been called)."""
+    from System import Array, Double
+
 
     arr = list(float(v) for v in values)
-    return System.Array[System.Double](arr)
+    return Array[Double](arr)
 
 def convert_to_dotnet_2d_array(matrix):
     """Convert a 2D NumPy array into a .NET 2D array of doubles.

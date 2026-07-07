@@ -32,7 +32,7 @@ This document defines the scope for a PythonNet demo repository that showcases t
 ```
 bestfit-python-examples/
 |-- README.md                      # Overview, installation, getting started
-|-- LICENSE                        # Same as BestFit (BSD-style, USACE-RMC)
+|-- LICENSE                        
 |-- notebook-requirements.txt      # Necessary Python packages to install
 |-- CONTRIBUTING.md                # How to contribute
 |-- CODE_OF_CONDUCT.md             # Community guidelines
@@ -41,26 +41,17 @@ bestfit-python-examples/
 |   |-- 00_getting_started.ipynb
 |   |-- 01_distribution_fitting.ipynb
 |   |-- 02_model_selection_and_comparison.ipynb
-|   |-- 03_bayesian_flood_frequency.ipynb
-|   |-- 04_distribution_analysis.ipynb
-|   |-- 05_rating_curve_analysis.ipynb
-|   |-- 06_time_series_forecasting.ipynb
-|   |-- 07_spatial_extremes.ipynb
-|   |-- 08_batch_workflow_and_reporting.ipynb
+|   |-- 03_time_series_forecasting.ipynb
+|   |-- 04_rating_curve_analysis.ipynb
+|   |-- 05_spatial_extremes.ipynb
+|   |-- 06_batch_workflow_and_reporting.ipynb
 |   `-- helper_functions.py        # Shared helpers for plotting, I/O, etc.
 |
-|-- examples/
-|   |-- flood_frequency_simple.py       # Bulletin 17C-style workflow
-|   |-- rating_curve_example.py         # Two-segment rating curve
-|   `-- regional_analysis.py            # Spatial GEV demonstration
-|
-|-- data/
-|   |-- raw/                       # Sample datasets (CSV)
-|   `-- processed/                 # Cleaned/cached outputs
-|
-`-- outputs/
-    |-- figures/                   # Publication-ready plots
-    `-- tables/                    # Model summaries, comparison tables
+`-- examples/
+    |-- flood_frequency_simple.py       # Bulletin 17C-style workflow
+    |-- rating_curve_example.py         # Two-segment rating curve
+    `-- regional_analysis.py            # Spatial GEV demonstration
+
 ```
 
 ---
@@ -78,22 +69,6 @@ bestfit-python-examples/
 - Reflection helpers to inspect available classes and methods
 - Troubleshooting guide for common pythonnet/runtime issues
 
-**Code Preview:**
-```python
-import clr
-clr.AddReference("RMC.BestFit")
-from RMC.BestFit.Models import UnivariateDistribution, UnivariateDistributionType
-
-# Create a GEV distribution
-gev = UnivariateDistribution(min_value=0, mode=50, quantile_90=100)
-print(f"GEV Mean: {gev.Mean:.2f}, Std: {gev.StandardDeviation:.2f}")
-print(f"P(X < 120) = {gev.CDF(120):.4f}")
-```
-
-**Outputs:**
-- Runtime diagnostics table
-- Pass/fail integration check
-
 ---
 
 ### 01. Distribution Fitting
@@ -107,20 +82,6 @@ print(f"P(X < 120) = {gev.CDF(120):.4f}")
 
 **Real-world context:** Flood frequency analysis — fitting annual peak flows from a gauge station.
 
-**Code Preview:**
-```python
-from RMC.BestFit.Analyses import FittingAnalysis
-
-# Fit all 15 distributions to annual maximum flows
-analysis = FittingAnalysis(data_frame)
-analysis.RunAsync()
-
-# Rank by AIC
-ranked = sorted(analysis.Results, key=lambda x: x.AIC)
-for result in ranked[:3]:
-    print(f"{result.Distribution.Type}: AIC={result.AIC:.2f}")
-```
-
 ---
 
 ### 02. Model Estimation
@@ -132,60 +93,7 @@ for result in ranked[:3]:
 
 ---
 
-### 03. Bayesian Flood Frequency
-**Purpose:** Practical Bayesian estimation for flood frequency studies.
-
-**Content:**
-- Understanding Bayesian workflow vs MLE
-- Setting prior distributions (Jeffreys, quantile-based)
-- Running DEMCzs sampler (differential evolution MCMC with snooker update)
-- Interpreting posterior summaries (mean, median, credible intervals)
-- Return-period quantile extraction with full uncertainty
-- Sensitivity analysis: with/without historical or paleofloods
-- Model diagnostics (effective sample size, trace plots, autocorrelation)
-
-**Real-world context:** Incorporating historical/paleo information into a 100-year flood estimate with honest uncertainty bounds.
-
-**Code Preview:**
-```python
-from RMC.BestFit.Models import UnivariateDistribution, UnivariateDistributionType
-from RMC.BestFit.Analyses import UnivariateAnalysis
-
-# Create GEV model
-model = UnivariateDistribution(data_frame, UnivariateDistributionType.GeneralizedExtremeValue)
-
-# Run Bayesian analysis
-analysis = UnivariateAnalysis(model)
-analysis.BayesianAnalysis.Iterations = 10000
-analysis.BayesianAnalysis.WarmupIterations = 5000
-analysis.RunAsync()
-
-# Extract return period quantile
-results = analysis.BayesianAnalysis.Results
-q100 = model.InverseCDF(1 - 1/100, results.MAP.Values)
-print(f"100-year flood: {q100:.1f} ± {uncertainty:.1f} m³/s")
-```
-
----
-
-
-### 05. Rating Curve Analysis
-**Purpose:** Stage-discharge relationship fitting and prediction.
-
-**Content:**
-- Two-/three-segment power-law rating curves
-- Data quality handling (measurement uncertainty)
-- Bayesian parameter estimation with DEMCzs
-- Generating rating tables across stage ranges
-- Forecast uncertainty propagation
-- Extrapolation guidance and pitfalls
-- Real vs synthetic examples
-
-**Real-world context:** Deriving streamflow from stage recorders without direct discharge measurements.
-
----
-
-### 06. Time Series Forecasting
+### 03. Time Series Forecasting
 **Purpose:** Streamflow prediction using AR, MA, ARIMA, and ARIMAX models.
 
 **Content:**
@@ -202,7 +110,23 @@ print(f"100-year flood: {q100:.1f} ± {uncertainty:.1f} m³/s")
 
 ---
 
-### 07. Spatial Extremes (Regional Analysis)
+### 04. Rating Curve Analysis
+**Purpose:** Stage-discharge relationship fitting and prediction.
+
+**Content:**
+- Two-/three-segment power-law rating curves
+- Data quality handling (measurement uncertainty)
+- Bayesian parameter estimation with DEMCzs
+- Generating rating tables across stage ranges
+- Forecast uncertainty propagation
+- Extrapolation guidance and pitfalls
+- Real vs synthetic examples
+
+**Real-world context:** Deriving streamflow from stage recorders without direct discharge measurements.
+
+---
+
+### 05. Spatial Extremes (Regional Analysis)
 **Purpose:** Combining information across multiple sites using spatial dependence.
 
 **Content:**
@@ -217,7 +141,7 @@ print(f"100-year flood: {q100:.1f} ± {uncertainty:.1f} m³/s")
 
 ---
 
-### 08. Batch Workflow and Reporting
+### 06. Batch Workflow and Reporting
 **Purpose:** Operationalize the notebooks into a config-driven batch runner.
 
 **Content:**

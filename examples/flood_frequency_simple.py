@@ -84,10 +84,8 @@ for t in return_periods:
 qt = pd.DataFrame(rows)
 
 # Save tables to .csv file
-results_dir = Path(__file__).resolve().parents[1] / "outputs" / "tables"
-results_dir.mkdir(parents=True, exist_ok=True)
-ret.to_csv(results_dir / "flood_frequency_empirical_vs_model.csv", index=False)
-qt.to_csv(results_dir / "flood_frequency_return_period_table.csv", index=False)
+ret.to_csv("examples/flood_frequency_empirical_vs_model.csv", index=False)
+qt.to_csv("examples/flood_frequency_return_period_table.csv", index=False)
 
 # Sort by best AIC
 best = sorted(analysis.FittedDistributions, key=lambda fd: fd.AIC)[0]
@@ -100,8 +98,6 @@ cols = ["return_period", "value"] + list(lookup.keys())
 print(ret[cols].tail(10).round(2).to_string(index=False))
 print("\nReturn-period quantile table")
 print(qt.round(2).to_string(index=False))
-print("\nWrote:", results_dir / "flood_frequency_empirical_vs_model.csv")
-print("Wrote:", results_dir / "flood_frequency_return_period_table.csv")
 
 ## Add graphs here
 import numpy as np

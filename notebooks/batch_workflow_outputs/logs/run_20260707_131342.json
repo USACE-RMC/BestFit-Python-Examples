@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-07-07T13:13:42.909885",
+  "config_metadata": {
+    "version": "1.0",
+    "description": "Demonstration batch workflow: 4 synthetic flood frequency sites",
+    "created": "2026-07-07T13:13:42.906299"
+  },
+  "sites_count": 4,
+  "analyses_enabled": {
+    "distribution_fitting": {
+      "enabled": true,
+      "distributions": [
+        "GeneralizedExtremeValue",
+        "LogPearsonTypeIII"
+      ]
+    },
+    "model_comparison": {
+      "enabled": true,
+      "method": "likelihood"
+    },
+    "return_periods": [
+      10,
+      50,
+      100
+    ]
+  }
+}

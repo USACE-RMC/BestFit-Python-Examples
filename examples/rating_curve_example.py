@@ -73,10 +73,8 @@ rating_table = pd.DataFrame({
     })
 
 # Print results to a csv file
-results_dir = Path(__file__).resolve().parents[1] / "outputs" / "tables"
-results_dir.mkdir(parents=True, exist_ok=True)
-df.to_csv(results_dir / "rating_curve_observed_vs_fit.csv", index=False)
-rating_table.to_csv(results_dir / "rating_curve_table.csv", index=False)
+df.to_csv("examples/rating_curve_observed_vs_fit.csv", index=False)
+rating_table.to_csv("examples/rating_curve_table.csv", index=False)
 
 print("Rating Curve Demo")
 print("BestFit MLE parameters")
@@ -89,8 +87,6 @@ print("\nFirst 10 observed rows")
 print(df.head(10).round(3).to_string(index=False))
 print("\nRating table preview")
 print(rating_table.head(10).round(3).to_string(index=False))
-print("\nWrote:", results_dir / "rating_curve_observed_vs_fit.csv")
-print("Wrote:", results_dir / "rating_curve_table.csv")
 
 # Add graphs here
 import numpy as np

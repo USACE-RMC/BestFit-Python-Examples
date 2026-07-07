@@ -72,10 +72,8 @@ site_summary["cv_scaled"] = site_summary["std_scaled"] / site_summary["mean_scal
 final = at_site.merge(site_summary, on="site", how="left")
 
 # Write results to .csv file
-results_dir = Path(__file__).resolve().parents[1] / "outputs" / "tables"
-results_dir.mkdir(parents=True, exist_ok=True)
-regional.to_csv(results_dir / "regional_analysis_site_records.csv", index=False)
-final.to_csv(results_dir / "regional_analysis_site_quantiles.csv", index=False)
+regional.to_csv("examples/regional_analysis_site_records.csv", index=False)
+final.to_csv("examples/regional_analysis_site_quantiles.csv", index=False)
 
 print("Regional Analysis Demo")
 print("BestFit regional scaled distribution")
@@ -86,8 +84,6 @@ for t in return_periods:
 
 print("\nSite quantiles")
 print(final.round(2).to_string(index=False))
-print("\nWrote:", results_dir / "regional_analysis_site_records.csv")
-print("Wrote:", results_dir / "regional_analysis_site_quantiles.csv")
 
 # Add graphs here
 import numpy as np

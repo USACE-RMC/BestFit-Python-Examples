@@ -1,0 +1,39 @@
+metadata:
+  version: 1.0
+  description: "Multi-site flood frequency study - 50 gauge stations"
+  timestamp: "2024-01-15"
+
+data:
+  source_type: "csv"  # csv, database, api
+  directory: "../data"
+  file_pattern: "{site}_daily.csv"  # {site} placeholder
+  sites:
+    - "A101"
+    - "A102"
+    - "A103"
+    - "A104"
+
+analysis:
+  distribution_fitting:
+    enabled: true
+    distributions: ["GeneralizedExtremeValue", "LogPearsonTypeIII"]
+  
+  model_comparison:
+    enabled: true
+    method: "DIC"
+  
+  time_series:
+    enabled: true
+    models: ["AR", "ARIMA"]
+  
+  rating_curves:
+    enabled: true
+    segments: 2
+  
+  regional_analysis:
+    enabled: true
+
+output:
+  base_directory: "../outputs"
+  formats: ["csv", "json", "excel", "html"]
+  create_report: true
