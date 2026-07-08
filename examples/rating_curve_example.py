@@ -73,8 +73,8 @@ rating_table = pd.DataFrame({
     })
 
 # Print results to a csv file
-df.to_csv("examples/rating_curve_observed_vs_fit.csv", index=False)
-rating_table.to_csv("examples/rating_curve_table.csv", index=False)
+df.to_csv("examples/output_tables/rating_curve_observed_vs_fit.csv", index=False)
+rating_table.to_csv("examples/output_tables/rating_curve_table.csv", index=False)
 
 print("Rating Curve Demo")
 print("BestFit MLE parameters")
@@ -105,6 +105,7 @@ discharge_curve = rating_table["discharge_fit"].to_numpy(dtype=float)
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 
 # 1) Observed vs fitted rating curve
+# Compare observed stage-discharge measurements to the fitted rating curve.
 sort_idx = np.argsort(stage_arr)
 axes[0, 0].scatter(
     stage_arr,
@@ -128,6 +129,8 @@ axes[0, 0].grid(True, alpha=0.3)
 axes[0, 0].legend()
 
 # 2) Observed vs fitted scatter with 1:1 line
+# This comparison shows whether the fitted discharge values are close to the
+# observed values across the data range. Points on the 1:1 line indicate perfect fit.
 xy_min = min(discharge_obs_arr.min(), discharge_fit_arr.min())
 xy_max = max(discharge_obs_arr.max(), discharge_fit_arr.max())
 axes[0, 1].scatter(
@@ -154,6 +157,7 @@ axes[0, 1].grid(True, alpha=0.3)
 axes[0, 1].legend()
 
 # 3) Residuals vs stage
+# Plot the model residuals against stage to look for systematic bias or heteroscedasticity.
 axes[1, 0].axhline(0.0, color="black", linestyle="--", linewidth=1.2)
 axes[1, 0].scatter(
     stage_arr,
@@ -169,6 +173,8 @@ axes[1, 0].set_ylabel("Residual (Observed - Fitted)")
 axes[1, 0].grid(True, alpha=0.3)
 
 # 4) Percent error histogram
+# Summarize the distribution of relative errors between observed and fitted
+# discharge values.
 axes[1, 1].hist(
     pct_error_arr,
     bins=14,

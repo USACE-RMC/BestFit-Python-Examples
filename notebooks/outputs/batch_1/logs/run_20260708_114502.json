@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-07T13:13:42.909885",
+  "timestamp": "2026-07-08T11:45:02.570278",
   "config_metadata": {
     "version": "1.0",
     "description": "Demonstration batch workflow: 4 synthetic flood frequency sites",
-    "created": "2026-07-07T13:13:42.906299"
+    "created": "2026-07-08T11:45:02.566601"
   },
   "sites_count": 4,
   "analyses_enabled": {

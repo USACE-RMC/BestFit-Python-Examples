@@ -1,0 +1,35 @@
+metadata:
+  version: "1.0"
+  description: "Demonstration batch workflow: 4 synthetic flood frequency sites"
+  created: !!python/object/apply:datetime.datetime.now []
+
+data:
+  source_type: "synthetic"  # Could be 'csv', 'database', 'api'
+  sites:
+    - A101
+    - A102
+    - A103
+    - A104
+  n_years: 40
+  seed: 77
+
+analysis:
+  distribution_fitting:
+    enabled: true
+    distributions:
+      - GeneralizedExtremeValue
+      - LogPearsonTypeIII
+  model_comparison:
+    enabled: true
+    method: "likelihood"
+  return_periods:
+    - 10
+    - 50
+    - 100  # Return periods to estimate (years)
+
+output:
+  base_directory: "../notebooks/outputs/batch_1"
+  formats:
+    - csv
+    - json
+  create_report: true

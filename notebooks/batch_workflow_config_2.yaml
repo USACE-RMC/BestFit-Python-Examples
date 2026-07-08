@@ -1,0 +1,51 @@
+metadata:
+  version: 1.0
+  description: "Production batch run - Quarterly update for regional study"
+  created: "2024-01-15"
+
+data:
+  source_type: "csv"  # Options: csv, database, api
+  directory: "../data/inflow"
+  file_pattern: "{site}_annual_peaks.csv"
+  sites:
+    - "A101"
+    - "A102"
+    - "A103"
+    - "A104"
+    - "A105"
+  n_years: 40
+  seed: 42
+
+analysis:
+  distribution_fitting:
+    enabled: true
+    distributions: 
+      - "GeneralizedExtremeValue"
+      - "LogPearsonTypeIII"
+  
+  model_comparison:
+    enabled: true
+    method: "likelihood"
+  
+  time_series:
+    enabled: false  # Set to true to add ARIMA forecasting
+    models: ["AR", "ARIMA"]
+  
+  rating_curves:
+    enabled: false
+    segments: 2
+  
+  regional_analysis:
+    enabled: false
+  
+  return_periods: [10, 25, 50, 100, 500]
+
+output:
+  base_directory: "../notebooks/outputs/batch_2"
+  formats: ["csv", "json", "html"]
+  create_report: true
+
+validation:
+  min_record_length: 20
+  outlier_method: "iqr"  # iqr or zscore
+  max_coefficient_variation: 0.75
