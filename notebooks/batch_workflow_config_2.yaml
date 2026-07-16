@@ -19,24 +19,21 @@ data:
 analysis:
   distribution_fitting:
     enabled: true
-    distributions: 
-      - "GeneralizedExtremeValue"
-      - "LogPearsonTypeIII"
   
   model_comparison:
     enabled: true
-    method: "likelihood"
+    method: "aic"
   
   time_series:
-    enabled: false  # Set to true to add ARIMA forecasting
+    enabled: true  # Set to true to add ARIMA forecasting
     models: ["AR", "ARIMA"]
   
   rating_curves:
-    enabled: false
+    enabled: true
     segments: 2
   
   regional_analysis:
-    enabled: false
+    enabled: true
   
   return_periods: [10, 25, 50, 100, 500]
 

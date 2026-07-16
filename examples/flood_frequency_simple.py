@@ -238,15 +238,5 @@ axes[1, 0].set_ylabel("Design Flow (cfs)")
 axes[1, 0].grid(True, alpha=0.3, which="both")
 axes[1, 0].legend()
 
-# 4) KS statistic bar chart
-# If enabled, this bar chart would display the Kolmogorov-Smirnov goodness-of-fit
-# statistic for the top fitted distributions to help compare fit quality.
-# top_fit_df = fit_df.head(3).copy()
-# axes[1, 1].bar(top_fit_df["Model"], top_fit_df["KS Statistic"], color=["steelblue", "coral", "seagreen"][:len(top_fit_df)])
-# axes[1, 1].set_title("Goodness of Fit (KS Statistic)")
-# axes[1, 1].set_ylabel("KS Statistic")
-# axes[1, 1].grid(True, alpha=0.3, axis="y")
-# axes[1, 1].tick_params(axis="x", rotation=15)
-
 plt.tight_layout()
 plt.show()
