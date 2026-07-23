@@ -39,7 +39,7 @@ Pull requests may take several weeks or longer to review. Before submitting code
 1. **Open an issue first** to discuss the proposed change
 2. **Follow the coding standards**, including XML documentation on all public types and members
 3. **Include unit tests** that validate against known results (R, SciPy, Mathematica, or published tables)
-5. **Ensure a clean build** with zero errors and zero warnings
+4. **Ensure a clean build** with zero errors and warnings
 
 ## Developer Certificate of Origin
 

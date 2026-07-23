@@ -1,5 +1,5 @@
-"""Simple flood frequency demo. One this file runs you will have a popup window of graphs
-and tables will be outputed to the terminal and written to csv files under outputs/tables/"""
+"""Simple flood frequency demo. When this script runs, it opens a plotting window and writes 
+CSV tables to examples/output_tables/."""
 
 from __future__ import annotations
 import pythonnet

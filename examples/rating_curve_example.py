@@ -1,5 +1,5 @@
-"""Rating curve analysis using BestFit. This file produces a pop up window with graphs 
-with tables outputted through the terminal and written into csv files under outputs/tables/"""
+"""Rating curve analysis using BestFit. This script opens a plotting window and writes 
+CSV tables to examples/output_tables/."""
 
 from __future__ import annotations
 import pythonnet

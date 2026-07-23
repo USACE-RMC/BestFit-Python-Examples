@@ -3,31 +3,22 @@
 [![License: 0BSD](https://img.shields.io/badge/License-0BSD-blue.svg)](https://opensource.org/licenses/0BSD)
 [![DOI](https://zenodo.org/badge/1135095276.svg)](https://doi.org/10.5281/zenodo.19715583)
 
-This repository contains Python notebooks that demonstrate the USACE-RMC BestFit .NET library through pythonnet. The notebooks provide practical, reproducible examples of BestFit applications including flood frequency, rating curves, forecasting, and regional analysis.
+This repository contains Python notebooks that demonstrate the USACE-RMC BestFit .NET library through pythonnet. The notebooks provide practical, reproducible examples of BestFit applications for flood frequency, rating curves, forecasting, and regional analysis.
 
 ## What This Repo Contains
-- `notebooks/` 7 Juptyer notebooks organized by topic
-- `examples/` runnable Python example scripts
-- `notebooks/helper_functions.py` shared helper functions
-- `bestfit-python-demos-scope.md` project scope and roadmap
+- `notebooks/` contains 7 Jupyter notebooks organized by topic
+- `examples/` contains runnable Python example scripts
+- `notebooks/helper_functions.py` contains shared helper functions
+- `notebooks/` also includes YAML workflow configuration examples for batch analysis
 
 ## Notebooks Guide
-- `00_getting_started.ipynb`: runtime setup, DLL loading, first distribution calls, troubleshooting
-- `01_distributions.ipynb`: distribution tour and shape comparison
-- `02_distribution_fitting.ipynb`: empirical return periods and fitted quantile curves
-- `03_bayesian_flood_frequency.ipynb`: uncertainty workflow (bootstrap posterior proxy)
-- `04_model_selection_and_comparison.ipynb`: AIC/BIC comparison patterns
-- `05_rating_curve_analysis.ipynb`: segmented stage-discharge fitting
-- `06_time_serie_forecasting.ipynb`: ARIMAX-style forecasting demo
-- `07_spatial_extremes.ipynb`: index-flood regional pooling
-- `08_batch_workflow_and_reporting.ipynb`: config-driven multi-site batch flow and exports
-
-Each notebook includes:
-
-- Intro context
-- Step-by-step code
-- End summary with recommended exercises
-
+- `00_getting_started.ipynb`: runtime setup, DLL loading, first distribution calls, and troubleshooting
+- `01_distribution_fitting.ipynb`: a distribution tour and shape comparisons
+- `02_model_estimation.ipynb`: empirical return periods and fitted quantile curves
+- `03_time_series_forecasting.ipynb`: forecasting workflows and time-series examples
+- `04_rating_curve_analysis.ipynb`: segmented stage-discharge fitting and diagnostics
+- `05_spatial_extremes.ipynb`: index-flood regional pooling examples
+- `06_batch_workflow_and_reporting.ipynb`: config-driven multi-site batch workflows and exports
 
 ## Requirements
 - Windows + Python 3.10+
@@ -49,8 +40,8 @@ Python packages (see `notebook-requirements.txt`):
 
 ## Quick Start
 The quick start will walk you through creating a virtual Python environment, installing the notebook requirements, and pulling in the `RMC.BestFit` NuGet package. For a more in-depth walkthrough see notebook [`00_getting_started.ipynb`](notebooks/00_getting_started.ipynb).  
-**NOTE:** The commands below assume Windows. See notebook `00` for macOS/Linux equivalents.
-**NOTE:** This demo use both the `RMC.BestFit.dll`and `Numerics.dll`. When you download RMC BestFit, Numerics comes automatically built in (!!!CHECK IF THIS IS TRUE WITH NUGET PACKAGE!!!). Thus we only need BestFit to access both. You can download Numerics separately as the stand alone library if you wish.
+**NOTE:** The commands below assume Windows. See notebook `00_getting_started.ipynb` for macOS/Linux equivalents.
+**NOTE:** This demo uses both `RMC.BestFit.dll` and `Numerics.dll`. When you download RMC BestFit, Numerics is typically included as a dependency, so you generally only need BestFit to access both. You can also download Numerics separately if you prefer.
 
 1. Create and activate a virtual Python environment
 
@@ -90,7 +81,7 @@ The quick start will walk you through creating a virtual Python environment, ins
    import clr
    from helper_functions import resolve_bestfit_dll, resolve_numerics_dll
 
-   clr.AddReference(str(resolve_besfit_dll()))
+   clr.AddReference(str(resolve_bestfit_dll()))
    clr.AddReference(str(resolve_numerics_dll()))
    ```
 
@@ -151,12 +142,12 @@ py examples\regional_analysis.py
 
 Current script outputs:
 
-- `outputs/tables/flood_frequency_empirical_vs_model.csv`
-- `outputs/tables/flood_frequency_return_period_table.csv`
-- `outputs/tables/rating_curve_observed_vs_fit.csv`
-- `outputs/tables/rating_curve_table.csv`
-- `outputs/tables/regional_analysis_site_records.csv`
-- `outputs/tables/regional_analysis_site_quantiles.csv`
+- `examples/output_tables/flood_frequency_empirical_vs_model.csv`
+- `examples/output_tables/flood_frequency_return_period_table.csv`
+- `examples/output_tables/rating_curve_observed_vs_fit.csv`
+- `examples/output_tables/rating_curve_table.csv`
+- `examples/output_tables/regional_analysis_site_records.csv`
+- `examples/output_tables/regional_analysis_site_quantiles.csv`
 
 ## Troubleshooting
 - `pythonnet` runtime error at import:

@@ -3,13 +3,13 @@ message: "If you use this software, please cite it using the information below."
 type: software
 title: "BestFit-Python-Examples"
 version: 0.0.0
-repository-code: 
-date-released: ""
+repository-code: "https://github.com/USACE-RMC/BestFit-Python-Examples"
+date-released: 
 license: BSD-3-Clause
 url: "https://github.com/USACE-RMC/BestFit-Python-Examples.git"
 abstract: >-
-  This repository contains Python notebooks that demonstrate the RMC.BestFit library through pythonnet. 
-  The goal is to give practical, reproducible examples for Bayesian estimation, fitting, and analysis.
+  This repository contains Python notebooks and scripts that demonstrate the RMC.BestFit library through pythonnet.
+  The goal is to provide practical, reproducible examples for fitting, estimation, forecasting, and regional analysis workflows.
 keywords:
   - BestFit
   - pythonnet

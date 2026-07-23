@@ -1,5 +1,5 @@
-"""Regional analysis using site dependent AIC values. This file produces a pop up window of graphs
-while tables are outputted via the terminal and written to csv files found in outputs/tables/"""
+"""Regional analysis using site-dependent AIC values. This script opens a plotting window and writes 
+CSV tables to examples/output_tables/."""
 
 from __future__ import annotations
 import pythonnet
