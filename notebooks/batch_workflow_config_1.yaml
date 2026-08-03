@@ -1,3 +1,13 @@
+# BestFit Batch Workflow Configuration Schema
+# This YAML file configures a batch processing workflow for flood frequency analysis
+# across multiple sites with BestFit. All paths are relative to the notebooks directory.
+#
+# Schema Notes:
+# - metadata: Workflow identification and version information
+# - data: Input data source and site configuration
+# - analysis: Analysis modules to enable and their parameters
+# - output: Output directory and format options
+#
 metadata:
   version: "1.0"
   description: "Demonstration batch workflow: 4 synthetic flood frequency sites"

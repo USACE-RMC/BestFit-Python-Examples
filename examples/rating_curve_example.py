@@ -1,5 +1,23 @@
-"""Rating curve analysis using BestFit. This script opens a plotting window and writes 
-CSV tables to examples/output_tables/."""
+"""This script demonstrates a complete rating curve (stage-discharge) analysis workflow:
+1. Generate synthetic stage-discharge measurement data
+2. Estimate rating curve parameters using Maximum Likelihood Estimation (MLE)
+3. Generate a rating table for a range of stage values
+4. Create diagnostic plots:
+   - Observed vs. fitted rating curve
+   - Scatter plot with 1:1 line to assess fit quality
+   - Residuals vs. stage to check for systematic bias
+   - Percent error distribution histogram
+5. Export results to CSV files for report generation
+
+A rating curve is a mathematical relationship between stream stage (water level) and 
+discharge (flow rate). This is essential for converting stage measurements into flow 
+estimates at ungaged sites or for extending discharge records.
+
+Outputs:
+- rating_curve_observed_vs_fit.csv: Point-by-point comparison of observations and fits
+- rating_curve_table.csv: Discharge estimates for a range of stage values
+- matplotlib plots: Diagnostic visualizations of model performance
+"""
 
 from __future__ import annotations
 import pythonnet
@@ -10,6 +28,8 @@ import clr
 import pandas as pd
 from pathlib import Path
 import sys
+import numpy as np
+import matplotlib.pyplot as plt
 
 sys.path.append(str(Path(__file__).resolve().parents[1] / "notebooks"))
 from helper_functions import convert_to_dotnet_array, resolve_bestfit_dll, resolve_numerics_dll
@@ -22,13 +42,16 @@ from RMC.BestFit.Models import RatingCurve
 
 
 true_params = convert_to_dotnet_array([
-        0.30,  # zero-flow stage
-        1.25,  # log10(alpha)
-        1.70,  # exponent
-        0.08,  # log-space error
+        0.30,  # zero-flow stage: the stage at which discharge is zero (y-intercept)
+        1.25,  # log10(alpha): log-scale discharge coefficient parameter
+        1.70,  # exponent: power law exponent determining rating curve shape
+        0.08,  # log-space error: standard deviation of measurement error in log space
     ])
 
 # Use the rating curve class to generate synthetic data
+# The RatingCurve model implements the standard power law form: Q = alpha * (H - H0)^n
+# where Q is discharge, H is stage, H0 is the zero-flow stage, alpha is a coefficient,
+# and n is the exponent. Measurement error is added in log-space to be realistic.
 generator = RatingCurve()
 generator.SetParameterValues(true_params)
 synthetic = generator.GenerateSyntheticData(sampleSize=70, minStage=0.6, maxStage=5.0, seed=5)
@@ -36,6 +59,9 @@ stage_ts = synthetic.Item1
 discharge_ts = synthetic.Item2
 
 # Estimating parameters using MLE
+# Maximum Likelihood Estimation (MLE) finds parameter values that maximize the probability
+# of observing the data given the model. We use MultilevelSingleLinkage optimization to
+# handle the non-convex parameter space and avoid local minima.
 model = RatingCurve(stage_ts, discharge_ts, numberOfSegments=1)
 mle = MaximumLikelihood(model, OptimizationMethod.MultilevelSingleLinkage)
 mle.Estimate()
@@ -87,10 +113,6 @@ print("\nFirst 10 observed rows")
 print(df.head(10).round(3).to_string(index=False))
 print("\nRating table preview")
 print(rating_table.head(10).round(3).to_string(index=False))
-
-# Add graphs here
-import numpy as np
-import matplotlib.pyplot as plt
 
 stage_arr = np.asarray(stage, dtype=float)
 discharge_obs_arr = np.asarray(discharge_obs, dtype=float)

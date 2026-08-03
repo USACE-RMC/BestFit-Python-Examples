@@ -1,5 +1,25 @@
-"""Regional analysis using site-dependent AIC values. This script opens a plotting window and writes 
-CSV tables to examples/output_tables/."""
+"""This script demonstrates a regional flood frequency analysis workflow using index-flood pooling:
+1. Generate synthetic data for multiple sites with site-dependent index floods (mean flows)
+2. Scale peak flows by the index flood (divide by mean) to create dimensionless data
+3. Pool scaled data from all sites and fit a single regional distribution
+4. Use the regional distribution to compute return period quantiles
+5. Map quantiles back to physical space using site-specific index floods
+6. Generate diagnostic plots:
+   - Scaled CDFs by site vs. pooled CDF with regional fit
+   - Boxplots showing spread at each site with quantile lines
+   - Return-period quantile curves for each site
+   - Site mean vs. coefficient of variation scatter plot
+7. Export site summaries and quantiles to CSV files
+
+Regional analysis improves estimation for sites with short records by pooling information 
+across many sites. The index-flood approach assumes that flood distributions have similar 
+shapes across sites but different magnitudes proportional to a regional index (typically mean).
+
+Outputs:
+- regional_analysis_site_records.csv: Raw site-year data and scaled values
+- regional_analysis_site_quantiles.csv: Site-specific quantile estimates
+- matplotlib plots: Regional analysis diagnostics and comparisons
+"""
 
 from __future__ import annotations
 import pythonnet
@@ -10,6 +30,8 @@ import clr
 import pandas as pd
 from pathlib import Path
 import sys
+import numpy as np
+import matplotlib.pyplot as plt
 
 sys.path.append(str(Path(__file__).resolve().parents[1] / "notebooks"))
 from helper_functions import resolve_bestfit_dll, resolve_numerics_dll
@@ -23,18 +45,29 @@ from RMC.BestFit.Models import DataFrame
 from Numerics.Distributions import Normal
 
 # Build synthetic site data
+# The index-flood method assumes that flood distributions at different sites have the same
+# shape but different scales. We model this by scaling each site's peaks by its index flood
+# (typically the mean annual peak), creating dimensionless data that can be pooled regionally.
+# This approach improves quantile estimates for sites with short records by leveraging
+# information from sites with longer records.
 site_names = [f"S{i:02d}" for i in range(1, 9)]
 records = []
 for site_index, site in enumerate(site_names, start=1):
+    # Each site has a different index flood (mean scale)
     index_flood = 7000.0 + 650.0 * site_index
+    # Add noise to create variability around the trend
     noise = list(Normal(0.0, 0.18).GenerateRandomValues(35, 250 + site_index))
     for offset, z in enumerate(noise):
         year = 1990 + offset
         trend = 1.0 + 0.003 * offset
+        # Peak flow = index_flood * trend_multiplier * (1 + random_variation)
         peak = max(500.0, index_flood * trend * (1.0 + float(z)))
         records.append((site, year, peak, index_flood))
 regional = pd.DataFrame(records, columns=["site", "year", "peak", "index_flood"])
 
+# Scale peaks by the index flood to create dimensionless data suitable for regional analysis
+# Scaled_peak = peak / index_flood represents the deviation from mean annual peak (in units of the mean)
+# All sites' scaled data are pooled together to estimate a single regional distribution
 regional["scaled_peak"] = regional["peak"] / regional["index_flood"]
 
 # Create BestFit DataFrame
@@ -84,10 +117,6 @@ for t in return_periods:
 
 print("\nSite quantiles")
 print(final.round(2).to_string(index=False))
-
-# Add graphs here
-import numpy as np
-import matplotlib.pyplot as plt
 
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 site_order = sorted(site_names)

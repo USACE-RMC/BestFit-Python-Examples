@@ -1,5 +1,16 @@
-"""Simple flood frequency demo. When this script runs, it opens a plotting window and writes 
-CSV tables to examples/output_tables/."""
+"""This script demonstrates a complete flood frequency analysis workflow using BestFit:
+1. Generate synthetic annual peak flow data with a trend component
+2. Detrend the data to create a stationary series for distribution fitting
+3. Fit multiple probability distributions to the residuals
+4. Compute return period quantiles using the fitted distributions
+5. Generate diagnostic plots comparing empirical and fitted distributions
+6. Export results to CSV files for further analysis
+
+Outputs:
+- flood_frequency_empirical_vs_model.csv: Empirical return periods vs. model predictions
+- flood_frequency_return_period_table.csv: Return period quantile estimates
+- matplotlib plots: Visual comparison of fits, CDFs, and flood frequency curves
+"""
 
 from __future__ import annotations
 import pythonnet
@@ -34,9 +45,12 @@ peaks = pd.DataFrame({"year": years, "peak_cfs": peaks})
 # Build BestFit dataframe
 df = DataFrame()
 # Detrend the synthetic series before fitting stationary distributions.
-# Fit a linear trend and use residuals for distribution fitting. When we
+# This is a critical preprocessing step: we remove any temporal trend (linear increase/decrease
+# in mean) from the data before fitting, because BestFit's distributions assume stationarity.
+# We fit a linear trend and use residuals for distribution fitting. When we
 # compute quantiles and PDFs we will add the trend back at a reference year
 # (most recent year) so returned design flows are on the original scale.
+# This approach separates non-stationary behavior (trend) from stationary variability (residuals).
 fit = np.polyfit(peaks["year"].to_numpy(dtype=float), peaks["peak_cfs"].to_numpy(dtype=float), 1)
 peaks["trend"] = np.polyval(fit, peaks["year"].to_numpy(dtype=float))
 peaks["residual"] = peaks["peak_cfs"] - peaks["trend"]
@@ -87,6 +101,8 @@ ret = pd.DataFrame(rows).sort_values("return_period")
 ret["F"] = 1.0 - 1.0 / ret["return_period"]
 # Distances returned by the fitted distributions are residuals; add the
 # reference trend to shift quantiles/PDFs back to original flow scale.
+# The models were trained on residuals (detrended data), so we must transform
+# their predictions back to the original scale by adding the trend value.
 for name, dist in lookup.items():
     ret[name] = [float(dist.InverseCDF(float(min(max(p, 1e-6), 1 - 1e-6)))) + trend_ref for p in ret["F"]]
 

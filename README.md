@@ -20,6 +20,35 @@ This repository contains Python notebooks that demonstrate the USACE-RMC BestFit
 - `05_spatial_extremes.ipynb`: index-flood regional pooling examples
 - `06_batch_workflow_and_reporting.ipynb`: config-driven multi-site batch workflows and exports
 
+## Project Structure
+
+```
+BestFit-Python-Examples/
+├── examples/                             # Standalone Python example scripts
+│   ├── flood_frequency_simple.py               # Simple flood frequency analysis example
+│   ├── rating_curve_example.py                 # Rating curve (stage-discharge) fitting example
+│   ├── regional_analysis.py                    # Index-flood regional analysis example
+│   └── output_tables/                          # CSV output directory for examples
+├── notebooks/                            # Jupyter notebooks and helper code
+│   ├── 00_getting_started.ipynb                # Setup and configuration guide
+│   ├── 01_distribution_fitting.ipynb           # Distribution fitting and comparison
+│   ├── 02_model_estimation.ipynb               # Parameter estimation workflows
+│   ├── 03_time_series_forecasting.ipynb        # Time series forecasting with ARIMA
+│   ├── 04_rating_curve_analysis.ipynb          # Stage-discharge relationship modeling
+│   ├── 05_spatial_extremes.ipynb               # Regional flood frequency analysis
+│   ├── 06_batch_workflow_and_reporting.ipynb   # Batch processing and reporting
+│   ├── helper_functions.py                     # Shared utility functions (DLL resolution, conversions)
+│   ├── batch_workflow_config_1.yaml            # Example batch configuration (simple)
+│   ├── batch_workflow_config_2.yaml            # Example batch configuration (advanced)
+│   └── outputs/                                # Output directory for notebook results
+├── CONTRIBUTING.md                       # Contribution guidelines
+├── CODE_OF_CONDUCT.md                    # Code of conduct
+├── CITATION.cff                          # Citation metadata
+├── LICENSE                               # BSD-3-Clause license
+├── README.md                             # This file
+└── notebook-requirements.txt             # Python dependencies
+```
+
 ## Requirements
 - Windows + Python 3.10+
 - .NET runtime compatible with your BestFit build (.NET 6+)
@@ -70,7 +99,7 @@ The quick start will walk you through creating a virtual Python environment, ins
 
    Both commands pull the **latest** published version by default.
 
-   The notebooks auto-discover the DLL in either location via `resolve_bestfit_dll()` in [`notebooks/helper_functions.py`](notebooks/helper_functions.py).
+   The notebooks auto-discover the DLL in either location via `resolve_bestfit_dll()` in [notebooks/helper_functions.py](notebooks/helper_functions.py).
 
 4. Load BestFit and Numerics in a notebook or script
 
@@ -158,6 +187,28 @@ Current script outputs:
 - `AddReference` load conflicts:
   - restart kernel/session and re-run top cells only once
 
+## Best Practices
+
+- **Always load the .NET runtime first** — Call `pythonnet.load("coreclr")` before importing `clr`. This is the most common setup mistake.
+- **Use virtual environments** — Create a `.venv` for this project to avoid dependency conflicts.
+- **Check data quality** — Review raw data for outliers, gaps, and stationarity before fitting distributions.
+- **Use multiple distributions** — BestFit can fit many distributions simultaneously; compare AIC/BIC to select the best.
+- **Validate results** — Always inspect diagnostic plots and compare fitted models to empirical data visually.
+- **Document your workflow** — Keep notes on data sources, preprocessing steps, and modeling decisions for reproducibility.
+
+## Resources
+
+- [RMC-BestFit GitHub Repository](https://github.com/USACE-RMC/RMC-BestFit) — Main BestFit project
+- [Numerics-Python-Examples](https://github.com/USACE-RMC/Numerics-Python-Examples) — Numerics library demonstrations
+- [USACE-RMC Website](https://www.rmc.usace.army.mil/Software/RMC-BestFit/) — Official software page
+- [pythonnet Documentation](https://pythonnet.github.io/) — Python/.NET bridge documentation
+- [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) — Notebook platform documentation
+
+## References
+<a id="1">[1]</a>
+Haan, C. T., Barfield, B. J., & Hayes, J. C. (1994). *Design hydrology and sedimentology for small catchments*. Academic Press.
+
+For more details on flood frequency analysis theory, see documentation within the BestFit notebooks.
 
 ## License
 This project is released under the [Zero-Clause BSD (0BSD) license](LICENSE).

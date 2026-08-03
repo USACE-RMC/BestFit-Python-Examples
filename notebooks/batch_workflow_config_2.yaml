@@ -1,3 +1,16 @@
+# BestFit Batch Workflow Configuration Schema
+# This YAML file configures a comprehensive batch processing workflow for flood frequency analysis
+# across multiple sites with advanced features including time series forecasting, rating curves, 
+# and regional analysis. All paths are relative to the notebooks directory.
+#
+# Schema Notes:
+# - metadata: Workflow identification and version information
+# - data: Input data source and site configuration
+# - analysis: Analysis modules to enable and their parameters (distribution_fitting, model_comparison,
+#            time_series, rating_curves, regional_analysis)
+# - output: Output directory, format options, and report generation
+# - validation: Data quality checks (minimum record length, outlier detection, coefficient of variation)
+#
 metadata:
   version: 1.0
   description: "Production batch run - Quarterly update for regional study"
