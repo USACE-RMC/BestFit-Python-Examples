@@ -43,3 +43,9 @@ It rejects stale or altered evidence rather than silently treating it as complet
 No blanket Verification suite was run. No desktop or numerical algorithms, priors,
 seeds, tolerances, default iteration lengths, or public estimation contracts changed.
 These are engineering and source-parity checks, not a blanket scientific endorsement.
+
+The later [2026-09-22 public-readiness peer review](../docs/reviews/2026-09-22-python-public-readiness.md)
+identified seven open P2 findings and one P3 presentation issue despite passing
+execution and integrity checks. Its [evidence archive](peer-review/2026-09-22/README.md)
+records the independent cached replay and focused checks. The review findings
+remain open; this documentation does not claim remediation.

@@ -1,0 +1,212 @@
+{
+  "head": "0120e23b44e4da73e24fa1f91506efaca383fa93",
+  "scenario": "Tracked git archive, independent cached-only kernels, original examples filesystem reads and managed imports blocked",
+  "root": "<REVIEW_CHECKOUT>",
+  "python": "<REVIEW_ENV>\\Scripts\\python.exe",
+  "canonical_plot_source": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency",
+  "tracked_archive_sha256": "a70d5ea46715576cf22825acf3cf2851517bcd5d09ad8f73c3a7c8a4929f7cfa",
+  "no_runtime_or_output_at_start": true,
+  "notebooks": [
+    {
+      "notebook": "00_time_series_data.ipynb",
+      "status": "passed",
+      "original_sha256": "8594f4342c0c3dab346faf8aa8db66f5627d9199713abe9038d004911b27ca39",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 10.625
+    },
+    {
+      "notebook": "01_input_data.ipynb",
+      "status": "passed",
+      "original_sha256": "ae8e352fca989ead0011a1b17e6de406e342152561ff81d8dda758a6cafb43c5",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 5,
+      "displayed_png_count": 6,
+      "error_outputs": 0,
+      "elapsed_seconds": 3.265
+    },
+    {
+      "notebook": "02_distribution_fitting.ipynb",
+      "status": "passed",
+      "original_sha256": "0e33b57cb90c85790918eb74d3555c58b45255d77945737d455ff05229537826",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 3,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.781
+    },
+    {
+      "notebook": "03_stationary_information_expansion.ipynb",
+      "status": "passed",
+      "original_sha256": "6851467a409632c6501708d0d90100933e9baf6ff84437fe1221152cf3ab3aa7",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 4,
+      "error_outputs": 0,
+      "elapsed_seconds": 3.062
+    },
+    {
+      "notebook": "04_nonstationary_univariate.ipynb",
+      "status": "passed",
+      "original_sha256": "fe3bdc1c6ebf7d488d885bf52d046017074e6fde8b202c7f323e0427271e4241",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.828
+    },
+    {
+      "notebook": "05_bulletin_17c.ipynb",
+      "status": "passed",
+      "original_sha256": "a8f897eeacba4e388594a3ab5088ea9c57408692988a60d4a7d2c68dbdb82d9e",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 4,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.844
+    },
+    {
+      "notebook": "06_advanced_univariate.ipynb",
+      "status": "passed",
+      "original_sha256": "47b377faf390e41b342352f3ab4d434c9303530bfbc0b52e823ac77dd816c28a",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.656
+    },
+    {
+      "notebook": "07_bivariate_analysis.ipynb",
+      "status": "passed",
+      "original_sha256": "31656699682510d29f8d0b9fd6c9609fc70f832706ee3f1386b8b003329093a5",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 3,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.609
+    },
+    {
+      "notebook": "08_coincident_frequency.ipynb",
+      "status": "passed",
+      "original_sha256": "eef96865c42e576c844a15a2d0f5a090d7d9e70b6a360c2a5e800c8eeec9794e",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 3,
+      "displayed_png_count": 2,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.641
+    },
+    {
+      "notebook": "09_rating_curves.ipynb",
+      "status": "passed",
+      "original_sha256": "a28a9679a3436909a6d3d38c942cd704f30bcf92490853131b07e0658575e19e",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.359
+    },
+    {
+      "notebook": "10_classic_time_series.ipynb",
+      "status": "passed",
+      "original_sha256": "da33c17f8b8f98ae554123d7f0edc415130918d17233ee2e356727c391474045",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 4,
+      "displayed_png_count": 4,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.672
+    },
+    {
+      "notebook": "11_regression.ipynb",
+      "status": "passed",
+      "original_sha256": "3d6dd2f8a3aaea9770b9331ed90aeb9e0819eba191aecf6402456070ad9fff79",
+      "origins": {
+        "examples": "<REVIEW_CHECKOUT>\\bestfit_examples\\__init__.py",
+        "plots": "<BESTFIT_SOURCE>\\skills\\bestfit-frequency\\bestfit_plots\\__init__.py",
+        "cwd": "<REVIEW_CHECKOUT>",
+        "managed_guard": true
+      },
+      "postflight": true,
+      "notebook_code_cells": 3,
+      "displayed_png_count": 3,
+      "error_outputs": 0,
+      "elapsed_seconds": 2.375
+    }
+  ],
+  "no_runtime_or_output_at_end": true,
+  "passed": 12,
+  "failed": 0,
+  "total_seconds": 40.717,
+  "limitations": [
+    "Reused existing dependency environment and canonical plotting source, not a fresh dependency install.",
+    "No numerical estimation, online imports, REST/MCP, or RUN_ANALYSES=True paths executed.",
+    "Audit hook blocks Python open calls under original examples checkout; it is not an OS-level file-access trace."
+  ]
+}
