@@ -1,0 +1,62 @@
+{
+  "analysis_name": "Mixture Distribution - 2 Normals",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 838.2090777825389,
+      "BIC": 851.2349287124794,
+      "DIC": 838.2208651998847,
+      "RMSE": 1.1934051551378648
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.30304183971696663,
+        0.30244577757268115,
+        0.30421858175665284,
+        0.3014151668974004,
+        0.3033110290724504,
+        0.30287648054145516,
+        0.3029495462236579,
+        0.3022381172127365,
+        0.30230733733271803,
+        0.3013959390862944,
+        0.3011690509152438,
+        0.30323411782802645
+      ],
+      "chain_count": 12,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501,
+        3501
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:03:52.583761+00:00",
+  "output_snapshot": "mixture-distribution-examples/mixture-distribution-2-normals-e80ca0e331ee.json.gz",
+  "output_snapshot_bytes": 3562142,
+  "output_snapshot_sha256": "5ae2f553b0bce8a7f84ad01a77b2d0d27f1bc65062c832d2bba6e3ebf36d6bdb",
+  "project_slug": "mixture-distribution-examples",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "e80ca0e331ee7996ce69987e27cd847d3ab3042cce37bbc717c17ab7146808f3",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/4-mixture-analysis/mixture-distribution-examples.bestfit",
+  "source_sha256": "8368ec937d842879033a2976bcaafb257b8d12539024436194b1c8cd6c579ab1",
+  "started_utc": "2026-09-22T18:03:43.999063+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 8.578
+}

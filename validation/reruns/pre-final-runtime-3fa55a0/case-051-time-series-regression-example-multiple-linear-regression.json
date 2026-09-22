@@ -1,0 +1,62 @@
+{
+  "analysis_name": "Multiple Linear Regression",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 114.50028307839905,
+      "BIC": 132.5239609140718,
+      "DIC": 114.44713895442067,
+      "RMSE": 0.34114682964545423
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.2228734040916782,
+        0.22226195969850793,
+        0.22306183664051685,
+        0.22468081833564066,
+        0.22267343485617597,
+        0.22220427626518996,
+        0.22211967389632364,
+        0.22106214428549453,
+        0.22235809875403784,
+        0.22284263959390863,
+        0.22208506383633286,
+        0.22142362713428704
+      ],
+      "chain_count": 12,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T17:06:34.231782+00:00",
+  "output_snapshot": "time-series-regression-example/multiple-linear-regression-4d3c8422f33c.json.gz",
+  "output_snapshot_bytes": 4306656,
+  "output_snapshot_sha256": "0b96b1fc70d292a90e766b5f1dadd8c6d6657f7b2d5440e86a35e57bd1011e30",
+  "project_slug": "time-series-regression-example",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "4d3c8422f33ccb923e99b2b1982904573683b85359f6e4bebc401a24b3979f3e",
+  "source_relative_path": "examples/7-time-series-analysis/3-time-series-regression-example/time-series-regression-example.bestfit",
+  "source_sha256": "d84276fb50bcb6fc9bde46f361917abedada3398b3b5bacde42dfc01889a6115",
+  "started_utc": "2026-09-22T17:06:26.701305+00:00",
+  "status": "completed",
+  "table": "Time Series Analysis",
+  "wall_seconds": 7.531
+}

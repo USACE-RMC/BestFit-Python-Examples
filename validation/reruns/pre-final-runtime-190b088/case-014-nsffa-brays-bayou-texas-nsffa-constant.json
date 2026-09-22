@@ -1,0 +1,50 @@
+{
+  "analysis_name": "NSFFA - Constant",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1228.7137573197747,
+      "BIC": 1236.4068018941782,
+      "DIC": 1228.3468630581006,
+      "RMSE": 22.833832656042084
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.25473840397393716,
+        0.2576866008644604,
+        0.2574866137668538,
+        0.2575253209470357,
+        0.2549706470550287,
+        0.25555770595445454
+      ],
+      "chain_count": 6,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:01:27.886070+00:00",
+  "output_snapshot": "nsffa-brays-bayou-texas/nsffa-constant-a78df60a7cd7.json.gz",
+  "output_snapshot_bytes": 1465206,
+  "output_snapshot_sha256": "753803f6183dce952e3bf2ffa3441461f76ea18637be3596a222fadcb29d8251",
+  "project_slug": "nsffa-brays-bayou-texas",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "a78df60a7cd7d96bb4338be97727a9d6dd8270677e9f1e00f0fd730615ca7b8b",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+  "source_sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31",
+  "started_utc": "2026-09-22T18:01:21.622106+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 6.266
+}

@@ -1,0 +1,69 @@
+{
+  "analysis_name": "USC00040741 - Seasonal Point Process",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 182.04713525574851,
+      "BIC": 210.3142511655687,
+      "DIC": 179.50362495678115,
+      "RMSE": 1.2830551429902288
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.10615757575757576,
+        0.1077878787878788,
+        0.1048939393939394,
+        0.10646363636363636,
+        0.10573939393939394,
+        0.1079030303030303,
+        0.10868787878787879,
+        0.10628181818181819,
+        0.1088,
+        0.10597272727272727,
+        0.10694848484848485,
+        0.1047030303030303,
+        0.10532727272727273,
+        0.1066030303030303,
+        0.10489090909090909,
+        0.10578181818181819
+      ],
+      "chain_count": 16,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:48:52.884469+00:00",
+  "output_snapshot": "point-process-examples/usc00040741-seasonal-point-process-e32b30668b92.json.gz",
+  "output_snapshot_bytes": 6804849,
+  "output_snapshot_sha256": "00485974a33f8cde7dace23d6b69930163789d86a4dd47e9e49a2d2ef10b72d5",
+  "project_slug": "point-process-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "e32b30668b921032dfc3622cac8d04b00b08c69fe0261f6c85ffea48f44212eb",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/3-point-process-analysis/point-process-examples.bestfit",
+  "source_sha256": "97cbda9e1747c6996af85ecadcf52a2ba02f28e0863c9d9e0d2c8305e1594514",
+  "started_utc": "2026-09-22T16:48:44.052926+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 8.828
+}

@@ -1,26 +1,4 @@
-# Python requirements for the notebooks and example scripts.
-#
-# Python Version Requirements:
-#   Python 3.10+ is required for full compatibility with BestFit and pythonnet.
-#   See 00_getting_started.ipynb for detailed setup instructions.
-#
-# Installation:
-#   pip install -r notebook-requirements.txt
-#
-# Version Notes:
-#   - pythonnet: Required to interop with .NET DLLs (BestFit, Numerics)
-#   - numpy/pandas: Data manipulation and analysis
-#   - matplotlib/plotly: Visualization (matplotlib for static plots, plotly for interactive)
-#   - scipy: Statistical functions and distributions
-#   - jupyter/ipykernel: Notebook runtime
-#
-
-pythonnet>=3.0.0
-numpy>=1.24.0
-pandas>=2.0.0
-matplotlib>=3.7.0
-scipy>=1.10.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
-plotly>=5.0.0
-statsmodels>=0.13.0
+# Install from this checkout, then install the compatible shared plotting package.
+-e .[notebooks]
+# python -m pip install ../RMC-BestFit/skills/bestfit-frequency
+jupyterlab>=4,<5

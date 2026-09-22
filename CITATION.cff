@@ -2,14 +2,14 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the information below."
 type: software
 title: "BestFit-Python-Examples"
-version: 0.0.0
+version: 0.2.0
 repository-code: "https://github.com/USACE-RMC/BestFit-Python-Examples"
-date-released: 2024-01-01
-license: BSD-3-Clause
+license: 0BSD
 url: "https://github.com/USACE-RMC/BestFit-Python-Examples.git"
 abstract: >-
-  This repository contains Python notebooks and scripts that demonstrate the RMC.BestFit library through pythonnet.
-  The goal is to provide practical, reproducible examples for fitting, estimation, forecasting, and regional analysis workflows.
+  Twelve notebooks follow the saved RMC-BestFit application examples using frozen source data,
+  visible model settings, and a shared plotting package. They cover flood frequency, information
+  expansion, dependence, coincident frequency, rating curves, time series, and regression.
 keywords:
   - BestFit
   - pythonnet

@@ -1,0 +1,58 @@
+{
+  "analysis_name": "NSFFA - Linear - Logistic",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1173.0076580095683,
+      "BIC": 1185.8293989669075,
+      "DIC": 1172.2961824689098,
+      "RMSE": 408.7724653853325
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.2196488888888889,
+        0.22257333333333335,
+        0.22168,
+        0.22379555555555555,
+        0.22147111111111112,
+        0.2233111111111111,
+        0.22241333333333332,
+        0.22174222222222223,
+        0.22205777777777777,
+        0.21967555555555557
+      ],
+      "chain_count": 10,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:10:49.640628+00:00",
+  "output_snapshot": "nsffa-brays-bayou-texas/nsffa-linear-logistic-04db303c8e5c.json.gz",
+  "output_snapshot_bytes": 3181557,
+  "output_snapshot_sha256": "6b11ad58f0ceda4099967e3a34fceba1c1675b26be4e9b4d217d801962e6f85e",
+  "project_slug": "nsffa-brays-bayou-texas",
+  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "schema_version": 1,
+  "settings_sha256": "04db303c8e5c4e6ead0c953567c362f4526943c9b3502e30c2c1cf390c24766e",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+  "source_sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31",
+  "started_utc": "2026-09-22T18:10:36.563071+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 13.079
+}

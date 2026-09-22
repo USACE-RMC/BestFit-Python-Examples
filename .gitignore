@@ -58,6 +58,11 @@ examples/output_tables/
 notebooks/outputs/
 
 # Testing
+.runtime/
+output/reruns/
+dotnet/bin/
+dotnet/obj/
+.superpowers/
 .coverage
 htmlcov/
 .tox/

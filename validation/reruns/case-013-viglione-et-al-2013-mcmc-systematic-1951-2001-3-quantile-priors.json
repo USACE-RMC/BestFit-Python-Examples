@@ -1,0 +1,50 @@
+{
+  "analysis_name": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 481.3395941085282,
+      "BIC": 487.1350710067012,
+      "DIC": 478.85570798569347,
+      "RMSE": 8.035575856674198
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.26634702073600525,
+        0.26750266371608883,
+        0.26819932792394063,
+        0.26575690517170725,
+        0.2696582247356774,
+        0.2678960740922875
+      ],
+      "chain_count": 6,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        2400,
+        2400,
+        2400,
+        2400,
+        2400,
+        2400
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:10:00.661746+00:00",
+  "output_snapshot": "viglione-et-al-2013/mcmc-systematic-1951-2001-3-quantile-priors-8687a7a9ba36.json.gz",
+  "output_snapshot_bytes": 1193973,
+  "output_snapshot_sha256": "80d4b1b33a54d4afc112b7b6f335377e89466ecfb3b0da10d48c3688c4a724c2",
+  "project_slug": "viglione-et-al-2013",
+  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "schema_version": 1,
+  "settings_sha256": "8687a7a9ba36fe9889c26346b7d5c13f3d8334190215f9779ae5af7912cd1ebc",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+  "source_sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86",
+  "started_utc": "2026-09-22T18:09:59.494249+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 1.172
+}

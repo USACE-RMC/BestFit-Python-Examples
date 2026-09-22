@@ -1,0 +1,70 @@
+{
+  "analysis_name": "USC00040741 - Seasonal Point Process",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 182.04713525574851,
+      "BIC": 210.3142511655687,
+      "DIC": 179.50362495678115,
+      "RMSE": 1.2830551429902288
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.10615757575757576,
+        0.1077878787878788,
+        0.1048939393939394,
+        0.10646363636363636,
+        0.10573939393939394,
+        0.1079030303030303,
+        0.10868787878787879,
+        0.10628181818181819,
+        0.1088,
+        0.10597272727272727,
+        0.10694848484848485,
+        0.1047030303030303,
+        0.10532727272727273,
+        0.1066030303030303,
+        0.10489090909090909,
+        0.10578181818181819
+      ],
+      "chain_count": 16,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:12:25.716196+00:00",
+  "output_snapshot": "point-process-examples/usc00040741-seasonal-point-process-e32b30668b92.json.gz",
+  "output_snapshot_bytes": 6804868,
+  "output_snapshot_sha256": "f93b2f2ee1fb7881a28fd04d9a64403c126d09665e8e13e5425aef1f997ab1b9",
+  "project_slug": "point-process-examples",
+  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "schema_version": 1,
+  "settings_sha256": "e32b30668b921032dfc3622cac8d04b00b08c69fe0261f6c85ffea48f44212eb",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/3-point-process-analysis/point-process-examples.bestfit",
+  "source_sha256": "97cbda9e1747c6996af85ecadcf52a2ba02f28e0863c9d9e0d2c8305e1594514",
+  "started_utc": "2026-09-22T18:12:16.644114+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 9.062
+}

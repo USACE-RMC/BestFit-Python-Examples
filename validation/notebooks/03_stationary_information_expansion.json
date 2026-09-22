@@ -1,0 +1,10 @@
+{
+  "notebook": "03_stationary_information_expansion.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "6851467a409632c6501708d0d90100933e9baf6ff84437fe1221152cf3ab3aa7",
+  "elapsedSeconds": 2.734
+}

@@ -1,0 +1,36 @@
+[
+  {"notebook":"02","slug":"viglione-et-al-2013","table":"Distribution Fitting Analysis","names":[
+    "Fit - Systematic (1951-2001)","Fit - Systematic (1951-2005)",
+    "Fit - Systematic (1951-2001) + Temporal Expansion","Fit - Systematic (1951-2005) + Temporal Expansion"]},
+  {"notebook":"03","slug":"viglione-et-al-2013","table":"Univariate Distribution Analysis","names":[
+    "MCMC - Systematic (1951-2001)","MCMC - Systematic (1951-2005)",
+    "MCMC - Systematic (1951-2001) + Temporal","MCMC - Systematic (1951-2005) + Temporal",
+    "MCMC - Systematic (1951-2001) + Causal","MCMC - Systematic (1951-2005) + Causal",
+    "MCMC - Systematic (1951-2001) + Temporal + Causal","MCMC - Systematic (1951-2005) + Temporal + Causal",
+    "MCMC - Systematic (1951-2001) + 3 Quantile Priors"]},
+  {"notebook":"04","slug":"nsffa-brays-bayou-texas","table":"Univariate Distribution Analysis","names":[
+    "NSFFA - Constant","NSFFA - Linear","NSFFA - Logistic","NSFFA - Step",
+    "NSFFA - Linear - Logistic","NSFFA - Logistic - Logistic","NSFFA - Step - Logistic","Bayesian Model Average"]},
+  {"notebook":"05","slug":"bulletin-17c-examples","table":"Univariate Distribution Analysis","names":[
+    "Example #2","Example #2 - BCB","Example #4","Example #4 - BCB"]},
+  {"notebook":"06","slug":"point-process-examples","table":"Univariate Distribution Analysis","names":[
+    "USC00040741 - Point Process","USC00040741 - GEV","USC00040741 - Seasonal Point Process"]},
+  {"notebook":"06","slug":"mixture-distribution-examples","table":"Univariate Distribution Analysis","names":[
+    "Mixture Distribution - 2 Normals","Mixture Distribution - 2 Normals - Zero-Inflated"]},
+  {"notebook":"06","slug":"mixed-population-examples","table":"Univariate Distribution Analysis","names":[
+    "Competing Flood Types","Mixture of Flood Types"]},
+  {"notebook":"07","slug":"bivariate-distribution-examples","table":"Bivariate Distribution Analysis","names":[
+    "AMH Copula","Clayton Copula","Frank Copula","Gumbel Copula","Joe Copula","Normal Copula"]},
+  {"notebook":"08","slug":"sum-two-normals","table":"Bivariate Distribution Analysis","names":[
+    "CFA - Rho = -0.5","CFA - Rho = 0.0","CFA - Rho = +0.5"]},
+  {"notebook":"08","slug":"waimea-river-stage-frequency","table":"Bivariate Distribution Analysis","names":[
+    "CFA - Normal - Conditional"]},
+  {"notebook":"09","slug":"usgs-07024175-mississippi-rating-curve","table":"Rating Curve Analysis","names":[
+    "USGS 07024175 Rating Curve"]},
+  {"notebook":"09","slug":"synthetic-rating-curve-examples","table":"Rating Curve Analysis","names":[
+    "1 Segment Rating Curve","2 Segment Rating Curve","3 Segment Rating Curve"]},
+  {"notebook":"10","slug":"classic-time-series-examples","table":"Time Series Analysis","names":[
+    "Airline Passengers - TSA","Nile River Flows - TSA","Mauna Loa - CO2"]},
+  {"notebook":"11","slug":"time-series-regression-example","table":"Time Series Analysis","names":[
+    "Simple Linear Regression","Multiple Linear Regression"]}
+]

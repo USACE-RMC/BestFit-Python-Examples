@@ -1,0 +1,49 @@
+{
+  "analysis_name": "CFA - Normal - Conditional",
+  "dependencies": [
+    {
+      "name": "WaimeaPk - Exact + Historical + RR Prior_RSkew",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 7.531
+    },
+    {
+      "name": "MakaweliPk - Cond - Exact",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 2.391
+    },
+    {
+      "name": "Normal Copula - Conditional",
+      "status": "completed",
+      "table": "Bivariate Distribution Analysis",
+      "wall_seconds": 4.078
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 0.0,
+      "BIC": 0.0,
+      "DIC": 0.0,
+      "RMSE": 0.0
+    },
+    "is_estimated": true
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T17:06:16.454361+00:00",
+  "output_snapshot": "waimea-river-stage-frequency/cfa-normal-conditional-441c2fe541f8.json.gz",
+  "output_snapshot_bytes": 3590342,
+  "output_snapshot_sha256": "23b269b1cfba77bddf9ce5dd40325f74313cbbe26dc898ca1d23823fa32392e9",
+  "project_slug": "waimea-river-stage-frequency",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "441c2fe541f807b1dd7a4a92d620796f6c46ecbcf14b3589e13c8295589dc5e2",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+  "source_sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914",
+  "started_utc": "2026-09-22T17:06:01.322352+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 15.125
+}

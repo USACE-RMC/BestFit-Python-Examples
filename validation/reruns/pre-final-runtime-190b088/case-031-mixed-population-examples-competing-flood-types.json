@@ -1,0 +1,43 @@
+{
+  "analysis_name": "Competing Flood Types",
+  "dependencies": [
+    {
+      "name": "Full POR Snow Driven",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 1.218
+    },
+    {
+      "name": "Full POR Rainfall Driven",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 1.11
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 0.0,
+      "BIC": 0.0,
+      "DIC": 0.0,
+      "RMSE": 0.0
+    },
+    "is_estimated": true
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:04:06.984000+00:00",
+  "output_snapshot": "mixed-population-examples/competing-flood-types-ab44974dc6de.json.gz",
+  "output_snapshot_bytes": 1715670,
+  "output_snapshot_sha256": "931a4074fc704848835f7380e7891815b8fc1978bb0de025443d33b0a212da17",
+  "project_slug": "mixed-population-examples",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "ab44974dc6de44284e30d8c57e61dbe2635b0fa539a99438b1b5268130e5f013",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/5-composite-analysis/mixed-population-examples.bestfit",
+  "source_sha256": "fe44dd30ef55fbd5dac151657d299d50033a287f9e3efd87bfb92efdcbd906f6",
+  "started_utc": "2026-09-22T18:04:03.390191+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 3.593
+}

@@ -1,0 +1,10 @@
+{
+  "notebook": "08_coincident_frequency.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 3,
+  "errorOutputs": 0,
+  "notebookSha256": "eef96865c42e576c844a15a2d0f5a090d7d9e70b6a360c2a5e800c8eeec9794e",
+  "elapsedSeconds": 2.579
+}

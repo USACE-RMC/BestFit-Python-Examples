@@ -1,0 +1,4 @@
+# Preserve the exact bytes recorded by execution and source-parity receipts.
+notebooks/*.ipynb -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+validation/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/plot-gallery/index.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

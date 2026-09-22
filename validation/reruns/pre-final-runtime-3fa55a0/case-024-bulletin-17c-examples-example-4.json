@@ -1,0 +1,36 @@
+{
+  "analysis_name": "Example #4",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1617.0784720908946,
+      "BIC": 1624.4064258603655,
+      "DIC": null,
+      "RMSE": 4326.175977739518
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [],
+      "chain_count": 0,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": []
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:52:30.459471+00:00",
+  "output_snapshot": "bulletin-17c-examples/example-4-95b9f760f42e.json.gz",
+  "output_snapshot_bytes": 406875,
+  "output_snapshot_sha256": "6d13696d5ad4d02553da0f1c3bb343350979242353859144e204e7ff85bbd366",
+  "project_slug": "bulletin-17c-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "95b9f760f42edf46e8c0fbd0af29da54cb940e0808c3b66bbaf77efb9fc27d63",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+  "source_sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3",
+  "started_utc": "2026-09-22T16:52:29.577226+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 0.875
+}

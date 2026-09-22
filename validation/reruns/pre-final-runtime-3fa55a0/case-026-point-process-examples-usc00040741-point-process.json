@@ -1,0 +1,49 @@
+{
+  "analysis_name": "USC00040741 - Point Process",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 372.8768230733049,
+      "BIC": 383.4769915394874,
+      "DIC": 372.7998536432228,
+      "RMSE": 1.2361855084543558
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.2810270305141604,
+        0.2801045093864912,
+        0.28272369524546803,
+        0.2806528611057351,
+        0.28144635829946457,
+        0.28363331397974323
+      ],
+      "chain_count": 6,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:48:41.884099+00:00",
+  "output_snapshot": "point-process-examples/usc00040741-point-process-569654258299.json.gz",
+  "output_snapshot_bytes": 1496771,
+  "output_snapshot_sha256": "2083a97e0f68a3c027ef4fb69df03e19c53b2b2a98d2c2d93ba413ef79f859d8",
+  "project_slug": "point-process-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "569654258299c3e02bca87eb7e00d7130e6376c1a4ac5968480d6a5b8c45549c",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/3-point-process-analysis/point-process-examples.bestfit",
+  "source_sha256": "97cbda9e1747c6996af85ecadcf52a2ba02f28e0863c9d9e0d2c8305e1594514",
+  "started_utc": "2026-09-22T16:48:38.805877+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 3.078
+}

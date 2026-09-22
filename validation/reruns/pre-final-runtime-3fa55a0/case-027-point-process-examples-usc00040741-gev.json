@@ -1,0 +1,49 @@
+{
+  "analysis_name": "USC00040741 - GEV",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 248.0753867172858,
+      "BIC": 254.6894645754587,
+      "DIC": 247.96694812430385,
+      "RMSE": 0.3784865865068961
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.27409199406489904,
+        0.2730017418231082,
+        0.2734146184117154,
+        0.2755306109283272,
+        0.27220179343268175,
+        0.273601703115928
+      ],
+      "chain_count": 6,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:48:43.704997+00:00",
+  "output_snapshot": "point-process-examples/usc00040741-gev-75e1b3ce66ad.json.gz",
+  "output_snapshot_bytes": 1506515,
+  "output_snapshot_sha256": "98a36b7d4a09fd5a598a66a29af1b3d91fdf28d945759c6692ce9279d47b973e",
+  "project_slug": "point-process-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "75e1b3ce66ade6458c3c650c526e315207b754535e566efe9deb1a12a0937d9e",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/3-point-process-analysis/point-process-examples.bestfit",
+  "source_sha256": "97cbda9e1747c6996af85ecadcf52a2ba02f28e0863c9d9e0d2c8305e1594514",
+  "started_utc": "2026-09-22T16:48:42.193651+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 1.5
+}

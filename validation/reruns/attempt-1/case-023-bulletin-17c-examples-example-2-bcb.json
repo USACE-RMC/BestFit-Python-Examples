@@ -1,0 +1,19 @@
+{
+  "analysis_name": "Example #2 - BCB",
+  "dependencies": [],
+  "error": "AttributeError: 'NoneType' object has no attribute 'Length'",
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:48:34.459416+00:00",
+  "project_slug": "bulletin-17c-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "0fd02c1fab012abaea24b5a77a318bc5ecb2d4665acdfad6639271c493dc24c3",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+  "source_sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3",
+  "started_utc": "2026-09-22T16:48:32.221437+00:00",
+  "status": "failed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 2.25
+}
