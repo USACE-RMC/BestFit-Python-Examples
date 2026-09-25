@@ -27,7 +27,7 @@ def main() -> None:
     args = parser.parse_args()
     lock = json.loads((ROOT / "runtime-lock.json").read_text(encoding="utf-8"))
     source = (args.bestfit_source or ROOT / ".runtime" / "source").resolve()
-    git = ["git", "-c", f"safe.directory={source.as_posix()}", "-C", str(source)]
+    git = ["git", "-c", "core.longpaths=true", "-c", f"safe.directory={source.as_posix()}", "-C", str(source)]
     if not source.exists() and args.bestfit_source is None:
         run(["git", "clone", "--no-checkout", lock["bestFitRepository"], str(source)])
         run([*git, "checkout", "--detach", lock["bestFitCommit"]])
@@ -54,7 +54,8 @@ def main() -> None:
                "fileHashes": {name: file_hash(library / name) for name in ("RMC.BestFit.dll", "Numerics.dll")}}
     (ROOT / ".runtime" / "provenance.json").write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     if args.install_plots:
-        run([sys.executable, "-m", "pip", "install", str(source / "skills" / "bestfit-frequency")])
+        run([sys.executable, "-m", "pip", "install", "--force-reinstall", "--no-deps",
+             str(source / "skills" / "bestfit-frequency")])
     print(json.dumps(receipt, indent=2))
 
 

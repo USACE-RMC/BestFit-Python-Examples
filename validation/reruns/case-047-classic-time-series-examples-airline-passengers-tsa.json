@@ -35,20 +35,20 @@
     }
   },
   "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
-  "finished_utc": "2026-09-22T18:14:36.435753+00:00",
+  "finished_utc": "2026-09-25T19:48:27.711170+00:00",
   "output_snapshot": "classic-time-series-examples/airline-passengers-tsa-901fb01b7395.json.gz",
-  "output_snapshot_bytes": 2076852,
-  "output_snapshot_sha256": "57bfbf8e7c343110f7e7d87180513a295a9c467a17dce2d2cc45673d8e2d9378",
+  "output_snapshot_bytes": 2076853,
+  "output_snapshot_sha256": "011b78a7c17b91ed3beb840bd571ce09067274b6381303bd8f56363294485cd2",
   "project_slug": "classic-time-series-examples",
-  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
   "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
-  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
   "schema_version": 1,
   "settings_sha256": "901fb01b7395a50e5720f38ff92000598a7259cecae4d1f910dae537fb04b708",
   "source_relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
   "source_sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb",
-  "started_utc": "2026-09-22T18:14:34.596288+00:00",
+  "started_utc": "2026-09-25T19:48:24.453719+00:00",
   "status": "completed",
   "table": "Time Series Analysis",
-  "wall_seconds": 1.828
+  "wall_seconds": 3.25
 }

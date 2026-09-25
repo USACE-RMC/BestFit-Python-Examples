@@ -1,4 +1,4 @@
-# Install from this checkout, then install the compatible shared plotting package.
+# Install from this checkout, then run: python scripts/install_plots.py
+# The plotting installer uses runtime-lock.json and handles Windows Git long paths.
 -e .[notebooks]
-# python -m pip install ../RMC-BestFit/skills/bestfit-frequency
 jupyterlab>=4,<5

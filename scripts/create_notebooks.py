@@ -537,7 +537,7 @@ def main():
         while the source CSV dates the same values to 1871–1970. This walkthrough applies the documented 26-year **display-date correction** below.
         It keeps the original project, values, model and saved results unchanged and records the correction in each date plot's metadata.
         Nile uses saved ARIMA(1,1,0), trains on 80 of 100 values, and has `ForecastingTimeSteps=0`; its final 20 values are also held out, not future forecasts.
-        The app-compatible residual plot stores dates as numeric OLE Automation dates on a linear axis despite its response-unit label; the display correction shifts those encoded dates consistently without changing source timestamps or the model.
+        The Python residual view converts the app's OLE Automation date coordinates to a Date axis; the display correction shifts those dates consistently without changing source timestamps or the model.
         '''),
         code('''
         from bestfit_examples.presentation import corrected_nile_dates
@@ -589,7 +589,7 @@ def main():
         The second saved model adds Production, Savings and Unemployment to Income.
         Use the aligned covariates and saved transformations. Coefficients are conditional associations under this model;
         additional predictors do not by themselves establish causal effects or improve out-of-sample performance.
-        Both analyses use the saved `BlockBootstrap` covariate-extension method for their 30-step future horizon; this preserves cross-covariate blocks instead of inventing known future covariates.
+        Both analyses use the saved `BlockBootstrap` covariate-extension method for their 30-step future horizon. Each covariate is resampled separately, preserving within-series blocks but not synchronized cross-covariate dependence. Deterministic predictions extend each covariate with its mean. Residual horizontal coordinates are observation dates, displayed on a Date axis.
         '''),
         code('''
         display(multiple.settings)

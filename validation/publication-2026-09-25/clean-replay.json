@@ -1,0 +1,105 @@
+{
+  "scenario": "Clean candidate files; fresh dependency environment; independent cached-only kernels; managed imports and original examples reads blocked",
+  "python": "3.12.14",
+  "noRuntimeOrOutput": true,
+  "notebooks": [
+    {
+      "notebook": "00_time_series_data.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 3,
+      "notebookSha256": "d2a1eac4bae97facbc1497d1ea2a38039a3def4d25e1da3b755dfeb38e26370e",
+      "elapsedSeconds": 11.219
+    },
+    {
+      "notebook": "01_input_data.ipynb",
+      "status": "passed",
+      "codeCells": 5,
+      "figureCount": 6,
+      "notebookSha256": "19e4cbb2074862d2e235aeeb69faf4d6ae71245ef39f4ebb9604b3db7ed1e1a9",
+      "elapsedSeconds": 2.984
+    },
+    {
+      "notebook": "02_distribution_fitting.ipynb",
+      "status": "passed",
+      "codeCells": 3,
+      "figureCount": 3,
+      "notebookSha256": "3483fa997b4c5650301222001e9181555a79ea8d341d1298aa93e0a3c6f60dc1",
+      "elapsedSeconds": 2.922
+    },
+    {
+      "notebook": "03_stationary_information_expansion.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 4,
+      "notebookSha256": "3d6cae182c35e7bdc341d3408898ad6fb889aedb3ac357153753e9e8c8819aea",
+      "elapsedSeconds": 3.109
+    },
+    {
+      "notebook": "04_nonstationary_univariate.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 3,
+      "notebookSha256": "20888746b9b5253c60d17a7a8a109683a8b353c2ffeac25287e4e48cae33e751",
+      "elapsedSeconds": 3.0
+    },
+    {
+      "notebook": "05_bulletin_17c.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 4,
+      "notebookSha256": "4ae153c1ec4b9446aeaa5764c66a0cf9ec8dd4aa93622903dc7f4fdcdea1e502",
+      "elapsedSeconds": 3.0
+    },
+    {
+      "notebook": "06_advanced_univariate.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 3,
+      "notebookSha256": "125bc00c7b328f495266e63bfc807c81a58f80f23c8fe6a5c22bd9f1b418d549",
+      "elapsedSeconds": 2.797
+    },
+    {
+      "notebook": "08_coincident_frequency.ipynb",
+      "status": "passed",
+      "codeCells": 3,
+      "figureCount": 2,
+      "notebookSha256": "35b6b0eeb0d53c93464382cdd1e29e626c1b9c9ad02074df20e4785d37ff99e8",
+      "elapsedSeconds": 2.703
+    },
+    {
+      "notebook": "09_rating_curves.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 3,
+      "notebookSha256": "41d3332ac9d016804dd24b4f8d116b501e637853a344815db4593b340659929f",
+      "elapsedSeconds": 2.469
+    },
+    {
+      "notebook": "10_classic_time_series.ipynb",
+      "status": "passed",
+      "codeCells": 4,
+      "figureCount": 4,
+      "notebookSha256": "9dd58290ddc262a70d45c4f1b985dc16c3bf2aa15296f183026f359ef8e5add4",
+      "elapsedSeconds": 2.75
+    },
+    {
+      "notebook": "11_regression.ipynb",
+      "status": "passed",
+      "codeCells": 3,
+      "figureCount": 3,
+      "notebookSha256": "36892379330f2afdd5aa65728b92225b7fc9a59d66f30eb06c15a7333a46ecc0",
+      "elapsedSeconds": 2.515
+    },
+    {
+      "notebook": "07_bivariate_analysis.ipynb",
+      "status": "passed",
+      "codeCells": 3,
+      "figureCount": 3,
+      "notebookSha256": "cabf64f93e106328664eae5bbaca4e85289c6b74170560cd1a58805b7199da5e",
+      "elapsedSeconds": 2.625
+    }
+  ],
+  "passed": 12,
+  "figureCount": 41
+}

@@ -39,7 +39,7 @@ class Case:
         return pd.DataFrame(self.data.get("candidates", []))
 
     def plot(self, name="frequency"):
-        from bestfit_plots import render_plot
+        from .plotting import render_plot
         return render_plot(self.data["plots"][name])
 
     def show(self, name="frequency"):

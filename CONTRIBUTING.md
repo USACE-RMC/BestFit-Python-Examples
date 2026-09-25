@@ -1,4 +1,4 @@
-# Contributing to BestFit
+# Contributing to BestFit Python Examples
 
 Thank you for your interest in contributing to BestFit-Python-Examples! We welcome bug reports, feature requests, validation results, and other feedback from the community.
 
@@ -30,7 +30,7 @@ Feature requests are welcome. Please [open an issue](../../issues/new) describin
 
 ### Report Validation Results
 
-Given the life-safety applications of Numerics, which this demo is an extension of, independent validation is especially valuable. If you have compared this software's results against other software (e.g., R packages, published tables, or analytical solutions), we would appreciate hearing about it through an issue.
+Given the flood-risk applications of BestFit and its Numerics dependency, independent validation is especially valuable. If you have compared this software's results against other software (e.g., R packages, published tables, or analytical solutions), we would appreciate hearing about it through an issue.
 
 ### Submit a Pull Request
 
@@ -43,6 +43,8 @@ Pull requests may take several weeks or longer to review. Before submitting code
 
 For this curriculum, start from a saved app example and retain its data provenance,
 model settings and scientific context. Keep the teaching surface at 12 notebooks.
+Preserve notebook narratives unless a source-verified technical correction is needed.
+Upstream AI-generated narration is still awaiting author review.
 Put reusable plotting changes in RMC-BestFit's canonical `bestfit_plots` package.
 Run the Python contract tests and `scripts/validate_notebooks.py`; record full
 numerical reruns separately from cached notebook execution. Never replace source

@@ -1,0 +1,10 @@
+{
+  "notebook": "11_regression.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 3,
+  "errorOutputs": 0,
+  "notebookSha256": "3d6dd2f8a3aaea9770b9331ed90aeb9e0819eba191aecf6402456070ad9fff79",
+  "elapsedSeconds": 2.297
+}

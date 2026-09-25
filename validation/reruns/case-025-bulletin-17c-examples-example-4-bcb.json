@@ -17,20 +17,20 @@
     }
   },
   "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
-  "finished_utc": "2026-09-22T18:12:11.491356+00:00",
+  "finished_utc": "2026-09-25T19:40:42.218083+00:00",
   "output_snapshot": "bulletin-17c-examples/example-4-bcb-c731c32a4f7c.json.gz",
   "output_snapshot_bytes": 106173,
-  "output_snapshot_sha256": "277fcfcc0783c22c5a82181e19f85de8edc76acbd20396eb2ed97c57227e9bfd",
+  "output_snapshot_sha256": "916fa672d16ed1d24b190bad430b83db65e39d8bff407146e4629afad41fcd07",
   "project_slug": "bulletin-17c-examples",
-  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
   "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
-  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
   "schema_version": 1,
   "settings_sha256": "c731c32a4f7c77cf5daf56a91d95cf34f41814b27a2aaaf1f7cce9bcade357d0",
   "source_relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
   "source_sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3",
-  "started_utc": "2026-09-22T18:12:08.446656+00:00",
+  "started_utc": "2026-09-25T19:40:15.400527+00:00",
   "status": "completed",
   "table": "Univariate Distribution Analysis",
-  "wall_seconds": 3.047
+  "wall_seconds": 26.829
 }

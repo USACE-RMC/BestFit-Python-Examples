@@ -35,20 +35,20 @@
     }
   },
   "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
-  "finished_utc": "2026-09-22T18:10:16.948860+00:00",
+  "finished_utc": "2026-09-25T19:34:58.978934+00:00",
   "output_snapshot": "nsffa-brays-bayou-texas/nsffa-linear-ae92132395f3.json.gz",
   "output_snapshot_bytes": 2243657,
-  "output_snapshot_sha256": "5585f34f1cc5867ccee085723119e4f6658df1347fd9f8ce05f2418ed915a978",
+  "output_snapshot_sha256": "e8168eabc0964307eb692e7aade2a1055edee7f36f047d6f9cff97dfa3e0d19f",
   "project_slug": "nsffa-brays-bayou-texas",
-  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
   "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
-  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
   "schema_version": 1,
   "settings_sha256": "ae92132395f324f974635a20db1411b894d51b00e7fe0a01d8d336192847302f",
   "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
   "source_sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31",
-  "started_utc": "2026-09-22T18:10:07.661664+00:00",
+  "started_utc": "2026-09-25T19:34:47.349309+00:00",
   "status": "completed",
   "table": "Univariate Distribution Analysis",
-  "wall_seconds": 9.281
+  "wall_seconds": 11.625
 }

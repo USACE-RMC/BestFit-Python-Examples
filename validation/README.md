@@ -1,51 +1,50 @@
 # Validation evidence
 
-The examples use BestFit commit `5b4883c41ba46c43678d59cd42fd8180918f64dc`,
-.NET 10, and RMC.Numerics 2.2.0. Frozen project sources remain at app commit
-`3fa55a0f75bbd583e2fb7fce42180faa376f007c`. This distinction preserves the original
-example records while pinning the compatible plotting/API implementation.
+The current [2026-09-25 publication check](publication-2026-09-25/README.md)
+uses public BestFit commit `db5807d6e3a85606797cda79542f2d51a80a57a6`,
+.NET 10, and RMC.Numerics 2.2.0. Frozen project sources remain at
+`3fa55a0f75bbd583e2fb7fce42180faa376f007c`. All 22 projects have identical
+non-description cells at those revisions; the 239 changed descriptions were
+not imported because the upstream narration is still under review.
 
-| Check | Evidence |
+| Check | Current result |
 |---|---|
-| Notebook execution | 12 independent kernels passed; per-file hashes and timing in `notebooks/` |
-| Full-settings reruns | 51 completed at the locked runtime; all 51 receipts and output checksums verified; 310.876 s summed analysis time |
-| Examples Python suite | 52 passed |
-| Plot package, comparator, exporter contracts | 95 passed and 6 subtests passed |
-| BestFit fast suites | Core 3434, UI 645, App 444, API 526: 5049 passed |
-| Desktop plot parity | 45 slots; 84 populated variants passed, one expected empty stationary chronology |
-| Packaging | Both wheels built; canonical plotting wheel rendered PNG/SVG with managed imports blocked; skill ZIP built |
-| Runtime bootstrap | Exact paired assembly identities and hashes checked; zero build warnings/errors |
-| Source audits | Nile values/dates, published B17C comparisons and three fitted sum-of-Normals controls checked |
+| Notebook execution | 12 independent kernels, 41 figures, zero errors; clean-copy replay also passed with managed imports blocked |
+| Original-settings analyses | 51 completed; all 51 receipts and output checksums verified |
+| Examples Python suite | 71 passed |
+| Shared plots, comparator, exporter contracts | 131 passed and 15 subtests passed |
+| BestFit fast suites | Core 3434, UI 645, App 444, API 532: 5055 passed |
+| Saved plots | All 560 views from 71 cases rendered |
+| Desktop parity | 45 slots, 85 populated variants passed, one expected empty stationary chronology |
+| Visual review | All 41 notebook figures and all 85 populated gallery variants inspected |
+| Installation and metadata | Public pinned plotting install verified by installed commit identity; wheels built; CFF schema and dependency checks passed |
+| Runtime | Exact assembly identities and hashes checked; zero build warnings/errors |
 
-The 71 saved cases contain 560 named views, prepared from 22 complete project
-snapshots. These cached views are readable without CLR, a server, or a download.
-The plot gallery is separate from the concise notebook selections.
+The map has one more acceptance variant than the earlier review:
+`input_data.chronology--saved_index`. The independent desktop references are
+stored in [plot-parity/app-reference](plot-parity/app-reference/); original
+coordinates are retained even when documented Python display labels differ.
 
-`source-checks.json` records the official B17C comparisons, the Nile CSV/project
-date audit, and the fitted sum-of-Normals analytic control. `run-quality-summary.json`
-reports diagnostics for full-settings reruns. Completed execution does not certify
-sampler convergence. The Airline Passengers case retains its observed R-hat/ESS
-concerns in notebook 10; no sampler setting or acceptance criterion was changed.
+The [follow-up review](../docs/reviews/2026-09-25-publication-refresh.md) documents
+the disposition of the eight findings in the earlier
+[2026-09-22 review](../docs/reviews/2026-09-22-python-public-readiness.md).
+That historical report and its evidence remain available. Superseded successful
+notebook/run receipts and the old diagnostic summary are preserved under
+[archive/2026-09-22](archive/2026-09-22/).
 
-The B17C numbers compare saved app GMM results with published EMA values. Numerical
-proximity does not establish method equivalence. Information criteria are compared
-only when the response observations and likelihood treatment permit it; other
-metric tables are explicitly descriptive. Composite placeholder zeros display as
-unavailable. The Nile display correction shifts dates by 26 years, with original
-source bytes retained.
+`source-checks.json` records the published B17C comparisons, Nile CSV/project
+date check, and fitted sum-of-Normals analytic controls. `run-quality-summary.json`
+records current rerun diagnostics. The Airline Passengers case retains its
+R-hat/ESS warnings. Completion does not certify convergence or model suitability;
+the B17C GMM results are not official EMA/MGBT results.
 
-`reruns/` keeps completed-run receipts and named prior attempts, including recorder
-failures and superseded restoration/runtime evidence. Large rerun snapshots live
-under ignored `output/reruns/`; their byte counts and hashes remain in receipts.
-Use `python scripts/run_curriculum_analyses.py` to repeat or verify current receipts.
-It rejects stale or altered evidence rather than silently treating it as completed.
+`reruns/` contains current receipts and named prior attempts. Large rerun snapshots
+remain under ignored `output/reruns/`; hashes and byte counts are in receipts.
+After runtime bootstrap, `python scripts/run_curriculum_analyses.py` verifies
+existing local output or reports it as missing/stale. Use `--rerun-existing` to
+explicitly repeat the original settings. The full Python test suite requires the
+managed runtime; saved notebook replay does not.
 
-No blanket Verification suite was run. No desktop or numerical algorithms, priors,
-seeds, tolerances, default iteration lengths, or public estimation contracts changed.
-These are engineering and source-parity checks, not a blanket scientific endorsement.
-
-The later [2026-09-22 public-readiness peer review](../docs/reviews/2026-09-22-python-public-readiness.md)
-identified seven open P2 findings and one P3 presentation issue despite passing
-execution and integrity checks. Its [evidence archive](peer-review/2026-09-22/README.md)
-records the independent cached replay and focused checks. The review findings
-remain open; this documentation does not claim remediation.
+No blanket Verification suite was run. Numerical algorithms, priors, seeds,
+tolerances, iteration lengths, source payloads, and estimation contracts were
+preserved. Human scientific review and development remain ongoing.

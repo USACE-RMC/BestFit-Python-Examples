@@ -31,20 +31,20 @@
     }
   },
   "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
-  "finished_utc": "2026-09-22T18:09:59.351075+00:00",
+  "finished_utc": "2026-09-25T19:34:35.703083+00:00",
   "output_snapshot": "viglione-et-al-2013/mcmc-systematic-1951-2005-temporal-causal-9b725456e801.json.gz",
-  "output_snapshot_bytes": 1504221,
-  "output_snapshot_sha256": "51f7fe7d7ceec4233cb9ea8c19326e278f2dfb6db3d16c6d9a6525ac3a0d1999",
+  "output_snapshot_bytes": 1504223,
+  "output_snapshot_sha256": "1115dd7fa815cafedb456eb7a74299509913baef2fe7b1b49fd3e7e70785e704",
   "project_slug": "viglione-et-al-2013",
-  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
   "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
-  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
   "schema_version": 1,
   "settings_sha256": "9b725456e80149f8717fa57204eabb637d332e7bc3124b89e3392e0416574adb",
   "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
   "source_sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86",
-  "started_utc": "2026-09-22T18:09:58.098269+00:00",
+  "started_utc": "2026-09-25T19:34:33.863804+00:00",
   "status": "completed",
   "table": "Univariate Distribution Analysis",
-  "wall_seconds": 1.25
+  "wall_seconds": 1.844
 }

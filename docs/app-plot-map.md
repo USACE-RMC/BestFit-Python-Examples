@@ -11,7 +11,7 @@ the separate report checks source-bound geometry, axes, labels, series presence,
 | `time_series_data.seasonality` | `input_data.py::time_series_plots` | default | {'verified': 1} |
 | `time_series_data.acf` | `input_data.py::time_series_plots` | default | {'verified': 1} |
 | `time_series_data.pacf` | `input_data.py::time_series_plots` | default | {'verified': 1} |
-| `input_data.chronology` | `input_data.py::input_data_plots` | calendar_year, water_year | {'verified': 2} |
+| `input_data.chronology` | `input_data.py::input_data_plots` | calendar_year, water_year, saved_index | {'verified': 3} |
 | `input_data.frequency` | `input_data.py::input_data_plots` | default, exact, interval, uncertain, low_outlier | {'verified': 5} |
 | `input_data.seasonality` | `input_data.py::input_data_plots` | default | {'verified': 1} |
 | `input_data.density` | `input_data.py::input_data_plots` | default | {'verified': 1} |
@@ -57,7 +57,9 @@ the separate report checks source-bound geometry, axes, labels, series presence,
 
 The stationary univariate chronology tab is conditionally absent. Its empty record is expected; the nonstationary case supplies this slot's populated evidence.
 
-The current desktop time-series residual factory displays OLE Automation date numbers on a linear axis and binds its horizontal title to the response unit. Python preserves that app default for 1:1 replication. Those horizontal coordinates are dates, not fitted responses. The main time-series plot uses a true date axis. This existing desktop behavior is not changed here.
+Python displays time-series residuals on a Date axis, corrects fitting Q-Q labels, and distinguishes frequentist uncertainty, prediction intervals, and observed seasonal ranges. The comparison applies these explicit presentation corrections to a copy of the independent reference, keeping its coordinates and the original export intact. Contours carry numeric levels and seasonal dates display month names. These corrections do not alter estimation or stored results.
+
+The examples renderer spaces CDF contour labels with a small blank margin. The zero-inflated mixture retains the independently exported desktop log range (0.1 to 1000); near-zero positive coordinates remain stored outside that view. These layout choices are checked separately from geometry parity.
 
 Factory-default presentation is compared; saved custom colors/titles, WPF interaction, and pixel-identical font rasterization are excluded. Simulation, contour grids, priors, intervals, and diagnostics come from the unchanged BestFit/Numerics methods or completed API export. No renderer refits data.
 

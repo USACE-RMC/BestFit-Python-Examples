@@ -1,0 +1,50 @@
+{
+  "analysis_name": "MCMC - Systematic (1951-2001) + Temporal",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 510.4354967925718,
+      "BIC": 522.4248530584289,
+      "DIC": 510.4407522287647,
+      "RMSE": 20.626109250630105
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.27840784465518353,
+        0.2750274175859622,
+        0.2796013160441262,
+        0.2796464744210051,
+        0.27656280239984515,
+        0.2783820398683956
+      ],
+      "chain_count": 6,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:09:52.477024+00:00",
+  "output_snapshot": "viglione-et-al-2013/mcmc-systematic-1951-2001-temporal-17f50e955789.json.gz",
+  "output_snapshot_bytes": 1510159,
+  "output_snapshot_sha256": "83f1eea64eeb53d764833d0d48187bdb9e2c543ccea383cac1f2ac49472d250a",
+  "project_slug": "viglione-et-al-2013",
+  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "schema_version": 1,
+  "settings_sha256": "17f50e95578958642bd43d9f6f340f9ab60312b719d638f7ff997f4a16f5e670",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+  "source_sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86",
+  "started_utc": "2026-09-22T18:09:51.016719+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 1.453
+}

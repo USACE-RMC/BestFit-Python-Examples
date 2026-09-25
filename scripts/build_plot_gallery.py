@@ -97,14 +97,16 @@ def prepare_spec(slug, reference):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--bestfit-source", type=Path, default=ROOT.parent/"RMC-BestFit")
+    parser.add_argument("--reference-dir", type=Path, default=ROOT/"validation/plot-parity/app-reference")
+    parser.add_argument("--reference-images", type=Path, default=ROOT/"output/plot-reference-gallery")
     parser.add_argument("--only", help="Plot ID prefix, for a targeted refresh")
-    parser.add_argument("--images", action="store_true", help="Render representative PNG/SVG pairs after geometry preparation")
+    parser.add_argument("--images", action="store_true", help="Render PNG/SVG pairs for every populated variant")
     args = parser.parse_args()
     from bestfit_examples.runtime import load_bestfit
-    from bestfit_plots import validate_spec, export_plot
+    from bestfit_plots import validate_spec
+    from bestfit_examples.plotting import export_plot
     load_bestfit()
-    app = args.bestfit_source.resolve()
-    reference_dir = app/"validation/plot-parity/app-reference"
+    reference_dir = args.reference_dir
     references = json.loads((reference_dir/"index.json").read_text(encoding="utf-8"))
     source_manifest = json.loads((ROOT/"data/source-manifest.json").read_text(encoding="utf-8"))["projects"]
     slugs = {entry["source_relative_path"].replace("\\", "/").lower(): slug for slug,entry in source_manifest.items()}
@@ -112,7 +114,6 @@ def main():
     (output/"specs").mkdir(parents=True, exist_ok=True)
     manifest_path = output/"index.json"
     records = json.loads(manifest_path.read_text(encoding="utf-8")) if args.only and manifest_path.exists() else []
-    represented = set()
     for item in references:
         if args.only and not item["plotId"].startswith(args.only):
             continue
@@ -134,7 +135,7 @@ def main():
             (output/"specs"/(key+".json.gz")).write_bytes(data)
             record.update(pythonStatus="prepared", slug=slug, sourceSha256=reference["sourceSha256"],
                           specSha256=hashlib.sha256(data).hexdigest(), referenceSha256=hashlib.sha256(path.read_bytes()).hexdigest())
-            if args.images and item["plotId"] not in represented:
+            if args.images:
                 export_plot(spec, output/key)
                 # Matplotlib path data ends some lines with spaces; keep generated
                 # vector files clean in Git without changing their coordinates.
@@ -142,10 +143,9 @@ def main():
                 svg_path.write_text("\n".join(line.rstrip() for line in
                     svg_path.read_text(encoding="utf-8").splitlines())+"\n",
                     encoding="utf-8", newline="\n")
-                source_png = app/"output/plot-reference-gallery"/(key+".png")
+                source_png = args.reference_images/(key+".png")
                 if source_png.exists():
                     shutil.copyfile(source_png, output/(key+"--app.png"))
-                represented.add(item["plotId"])
                 record["image"] = key+".png"
         except Exception as error:
             record.update(pythonStatus="failed", error=f"{type(error).__name__}: {error}")
@@ -159,9 +159,12 @@ def main():
         image_path = output/(key+".png")
         images = (f'<div class="pair"><figure><img src="{key}.png"><figcaption>Python</figcaption></figure>'
                   f'<figure><img src="{key}--app.png"><figcaption>Desktop reference</figcaption></figure></div>' if image_path.exists() else "")
+        spec_link = (f'<a href="specs/{key}.json.gz">Source-bound PlotSpec</a>'
+                     if (output/"specs"/(key+".json.gz")).exists() else
+                     '<p>No plot is produced for this saved selection.</p>')
         cards.append(f'<article id="{key}"><h2>{html.escape(row["plotId"])} · {html.escape(row["variant"])}</h2>'
                      f'<p>{html.escape(row["element"])} · {html.escape(row["pythonStatus"])}</p>{images}'
-                     f'<p>{html.escape(row.get("error", ""))}</p><a href="specs/{key}.json.gz">Source-bound PlotSpec</a></article>')
+                     f'<p>{html.escape(row.get("error", ""))}</p>{spec_link}</article>')
     (output/"index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>BestFit app plot gallery</title>'
         '<style>body{max-width:1500px;margin:40px auto;padding:0 24px;font:16px system-ui;color:#203040;background:#fafafa}'
         'h1{font-size:36px}article{background:white;padding:24px;margin:24px 0;border:1px solid #dce2e8}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}'

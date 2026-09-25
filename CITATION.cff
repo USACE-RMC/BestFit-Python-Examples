@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the information below."
+message: >-
+  If you use this software, please cite the authors using the information below.
+  Reviewer: Julian (Tiki) Gonzalez, U.S. Army Corps of Engineers, Risk Management Center
+  (https://orcid.org/0009-0009-9058-7653). This repository is under active review and development.
 type: software
 title: "BestFit-Python-Examples"
-version: 0.2.0
+version: "0.2.0"
 repository-code: "https://github.com/USACE-RMC/BestFit-Python-Examples"
 license: 0BSD
 url: "https://github.com/USACE-RMC/BestFit-Python-Examples.git"
@@ -27,3 +30,8 @@ authors:
       email: "sadie.s.niblett@usace.army.mil"
       affiliation: "U.S. Army Corps of Engineers, Risk Management Center"
       orcid: "https://orcid.org/0009-0008-8588-4816"
+    - family-names: "Smith"
+      given-names: "C. Haden"
+      email: "cole.h.smith@usace.army.mil"
+      affiliation: "U.S. Army Corps of Engineers, Risk Management Center"
+      orcid: "https://orcid.org/0000-0002-4651-9890"

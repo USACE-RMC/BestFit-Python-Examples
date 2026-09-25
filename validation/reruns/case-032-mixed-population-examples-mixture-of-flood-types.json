@@ -5,13 +5,13 @@
       "name": "Sub-Sample - Snow Driven",
       "status": "completed",
       "table": "Univariate Distribution Analysis",
-      "wall_seconds": 0.828
+      "wall_seconds": 1.469
     },
     {
       "name": "Sub-Sample - Rain Driven",
       "status": "completed",
       "table": "Univariate Distribution Analysis",
-      "wall_seconds": 0.5
+      "wall_seconds": 1.313
     }
   ],
   "diagnostics": {
@@ -24,20 +24,20 @@
     "is_estimated": true
   },
   "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
-  "finished_utc": "2026-09-22T18:12:52.052940+00:00",
+  "finished_utc": "2026-09-25T19:43:27.776999+00:00",
   "output_snapshot": "mixed-population-examples/mixture-of-flood-types-5309518200fd.json.gz",
   "output_snapshot_bytes": 1740088,
-  "output_snapshot_sha256": "f1d87e51630eabfcde991f97182c3cdb25678a1482bb3696c0edfe6211e8835c",
+  "output_snapshot_sha256": "cb76cb07d455b1dc3ffd3879264374ae84fdbc6346843aa10bdaeecde470db62",
   "project_slug": "mixed-population-examples",
-  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
   "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
-  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
   "schema_version": 1,
   "settings_sha256": "5309518200fdc4bf4f9c05579361208566003023c39409fc72f2c0bf7bfadb81",
   "source_relative_path": "examples/4-univariate-distribution-analysis/5-composite-analysis/mixed-population-examples.bestfit",
   "source_sha256": "fe44dd30ef55fbd5dac151657d299d50033a287f9e3efd87bfb92efdcbd906f6",
-  "started_utc": "2026-09-22T18:12:49.330636+00:00",
+  "started_utc": "2026-09-25T19:43:20.151461+00:00",
   "status": "completed",
   "table": "Univariate Distribution Analysis",
-  "wall_seconds": 2.719
+  "wall_seconds": 7.625
 }

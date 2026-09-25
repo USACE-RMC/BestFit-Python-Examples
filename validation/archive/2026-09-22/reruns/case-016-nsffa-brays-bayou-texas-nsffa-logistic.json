@@ -1,0 +1,54 @@
+{
+  "analysis_name": "NSFFA - Logistic",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1179.6077113361,
+      "BIC": 1189.8651041019714,
+      "DIC": 1178.9430383540355,
+      "RMSE": 604.9457508649446
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.2186,
+        0.22023684210526315,
+        0.22082105263157895,
+        0.22085263157894736,
+        0.2187,
+        0.21913157894736843,
+        0.22152631578947368,
+        0.21818421052631579
+      ],
+      "chain_count": 8,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:10:24.974993+00:00",
+  "output_snapshot": "nsffa-brays-bayou-texas/nsffa-logistic-eef980956c82.json.gz",
+  "output_snapshot_bytes": 2248082,
+  "output_snapshot_sha256": "71716c9375755ffd1967e62b225efce0fcb15cc482db11d6e1c106ad82b0f7b7",
+  "project_slug": "nsffa-brays-bayou-texas",
+  "runtime_bestfit_sha256": "decf7b7db02a5860a4e28c3028f8ddb76e9f7b60a697fb7d313abe00bb422965",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "5b4883c41ba46c43678d59cd42fd8180918f64dc",
+  "schema_version": 1,
+  "settings_sha256": "eef980956c82fd694cfc5b8d1bd99577619ea40b49cd1aa4f17f79265688c38c",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+  "source_sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31",
+  "started_utc": "2026-09-22T18:10:17.169348+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 7.797
+}

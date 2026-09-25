@@ -1,0 +1,10 @@
+{
+  "notebook": "10_classic_time_series.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "da33c17f8b8f98ae554123d7f0edc415130918d17233ee2e356727c391474045",
+  "elapsedSeconds": 2.547
+}

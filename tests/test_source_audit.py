@@ -57,14 +57,47 @@ def test_sum_of_normals_checks_actual_response_grid_and_fitted_parameters() -> N
     assert first["analytic_aep"] == expected_survival
 
 
-def test_fresh_run_quality_separates_completion_from_chain_diagnostics() -> None:
-    summary = audit_run_quality()
-    assert summary["completion_status_counts"] == {"completed": 51}
+def test_fresh_run_quality_separates_completion_from_chain_diagnostics(tmp_path) -> None:
+    # A clean checkout contains receipts, but deliberately excludes large rerun
+    # snapshots. Exercise the audit with independent, portable diagnostic inputs.
+    import base64
+    import gzip
+    import hashlib
+    import json
+
+    receipts = tmp_path / "receipts"
+    outputs = tmp_path / "outputs"
+    receipts.mkdir()
+    outputs.mkdir()
+    for number, (name, chains, statistics) in enumerate([
+        ("Bayesian control", 4, [{"Rhat": 1.2, "ESS": 50},
+                                  {"Rhat": 1.0, "ESS": 1000},
+                                  {"Rhat": None, "ESS": None}]),
+        ("GMM control", 0, [{"Rhat": 0.0, "ESS": 0}]),
+    ], 1):
+        results = {"ParameterResults": [{"SummaryStatistics": item} for item in statistics]}
+        binary = base64.b64encode(json.dumps(results).encode()).decode()
+        raw = gzip.compress(json.dumps({"mcmc": {"bytes_base64": binary}}).encode())
+        output = f"case-{number}.json.gz"
+        (outputs / output).write_bytes(raw)
+        receipt = {"status": "completed", "analysis_name": name, "project_slug": "control",
+                   "output_snapshot": output, "output_snapshot_bytes": len(raw),
+                   "output_snapshot_sha256": hashlib.sha256(raw).hexdigest(),
+                   "diagnostics": {"mcmc": {"chain_count": chains}}}
+        (receipts / f"case-{number:03d}.json").write_text(json.dumps(receipt))
+    (receipts / "case-003.json").write_text(json.dumps({"status": "failed"}))
+    summary = audit_run_quality(receipts, outputs)
+    assert summary["completion_status_counts"] == {"completed": 2, "failed": 1}
     assert summary["convergence_status"] == "not_established_by_completion"
-    assert summary["parameter_diagnostics"]["finite_rhat_count"] == 136
-    assert summary["parameter_diagnostics"]["rhat_over_1_01_count"] == 4
-    assert summary["parameter_diagnostics"]["ess_below_400_count"] == 3
-    assert summary["parameter_diagnostics"]["rhat_ess_inapplicable_count"] == 12
-    assert {warning["analysis_name"] for warning in summary["screening_warnings"]} == {
-        "Airline Passengers - TSA"
-    }
+    diagnostics = summary["parameter_diagnostics"]
+    assert diagnostics["finite_rhat_count"] == 2
+    assert diagnostics["rhat_over_1_01_count"] == 1
+    assert diagnostics["ess_below_400_count"] == 1
+    assert diagnostics["rhat_ess_inapplicable_count"] == 1
+    assert diagnostics["rhat_ess_unavailable_count"] == 1
+    assert {warning["analysis_name"] for warning in summary["screening_warnings"]} == {"Bayesian control"}
+
+    import pytest
+    (outputs / "case-1.json.gz").write_bytes(b"tampered")
+    with pytest.raises(ValueError, match="hash/size mismatch"):
+        audit_run_quality(receipts, outputs)

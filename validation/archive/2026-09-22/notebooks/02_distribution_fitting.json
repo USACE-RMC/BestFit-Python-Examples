@@ -1,0 +1,10 @@
+{
+  "notebook": "02_distribution_fitting.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 3,
+  "errorOutputs": 0,
+  "notebookSha256": "0e33b57cb90c85790918eb74d3555c58b45255d77945737d455ff05229537826",
+  "elapsedSeconds": 2.516
+}

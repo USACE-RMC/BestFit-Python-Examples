@@ -1,15 +1,19 @@
 """Publish plot coverage only from current independently compared artifacts."""
 from collections import Counter
+import argparse
 import hashlib
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-APP = ROOT.parent / "RMC-BestFit"
 
 
 def main():
-    mapping_path = APP / "skills/bestfit-frequency/references/app-plot-map.json"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--bestfit-source", type=Path, default=ROOT.parent/"RMC-BestFit")
+    parser.add_argument("--reference-dir", type=Path, default=ROOT/"validation/plot-parity/app-reference")
+    args = parser.parse_args()
+    mapping_path = args.bestfit_source / "skills/bestfit-frequency/references/app-plot-map.json"
     mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
     report_path = ROOT / "validation/plot-parity/report.json"
     report = json.loads(report_path.read_text(encoding="utf-8"))
@@ -42,7 +46,7 @@ def main():
             row = rows[(slot["plotId"], variant)]
             key = slot["plotId"] + "--" + variant
             if row["status"] == "verified":
-                for path, field in ((APP / "validation/plot-parity/app-reference" / (key + ".json"), "referenceSha256"),
+                for path, field in ((args.reference_dir / (key + ".json"), "referenceSha256"),
                                     (ROOT / "docs/plot-gallery/specs" / (key + ".json.gz"), "specSha256")):
                     if hashlib.sha256(path.read_bytes()).hexdigest() != row[field]:
                         raise ValueError(f"Parity evidence is stale: {path}")
@@ -59,10 +63,11 @@ def main():
     mapping["evidenceCounts"] = report["counts"]
     lines += ["", "## Interpretation and deliberate boundaries", "",
               "The stationary univariate chronology tab is conditionally absent. Its empty record is expected; the nonstationary case supplies this slot's populated evidence.", "",
-              "The current desktop time-series residual factory displays OLE Automation date numbers on a linear axis and binds its horizontal title to the response unit. Python preserves that app default for 1:1 replication. Those horizontal coordinates are dates, not fitted responses. The main time-series plot uses a true date axis. This existing desktop behavior is not changed here.", "",
+              "Python displays time-series residuals on a Date axis, corrects fitting Q-Q labels, and distinguishes frequentist uncertainty, prediction intervals, and observed seasonal ranges. The comparison applies these explicit presentation corrections to a copy of the independent reference, keeping its coordinates and the original export intact. Contours carry numeric levels and seasonal dates display month names. These corrections do not alter estimation or stored results.", "",
+              "The examples renderer spaces CDF contour labels with a small blank margin. The zero-inflated mixture retains the independently exported desktop log range (0.1 to 1000); near-zero positive coordinates remain stored outside that view. These layout choices are checked separately from geometry parity.", "",
               "Factory-default presentation is compared; saved custom colors/titles, WPF interaction, and pixel-identical font rasterization are excluded. Simulation, contour grids, priors, intervals, and diagnostics come from the unchanged BestFit/Numerics methods or completed API export. No renderer refits data.", "",
               "Use `bestfit_plots.source.add_frequency_comparison(base, alternative, name)` or the skill CLI's `--compare-source` and `--compare-name` for source-identified overlays. Both source identities are retained; matching axes and units are required. A plotted comparison is not automatically a valid information-criterion ranking.", ""]
-    mapping_path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "docs/app-plot-map.json").write_text(json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "docs/app-plot-map.md").write_text("\n".join(lines), encoding="utf-8")
     print(dict(Counter(slot["status"] for slot in mapping["slots"])))
     return 0 if all(slot["status"] == "implemented" for slot in mapping["slots"]) else 1

@@ -60,6 +60,8 @@ notebooks/outputs/
 # Testing
 .runtime/
 output/reruns/
+output/plot-reference-gallery/
+output/publication-view-checks/
 dotnet/bin/
 dotnet/obj/
 .superpowers/

@@ -32,6 +32,16 @@ def analysis_snapshot(slug, restored):
         plots = frequency_plots(restored)
     if kind!="FittingAnalysis":
         plots.update({"diagnostic_"+k:v for k,v in diagnostic_plots(restored).items()})
+    if slug == "mixture-distribution-examples" and bool(getattr(model, "IsZeroInflated", False)):
+        # Independent desktop export: mixture.frequency--zero_inflated.json.
+        # A near-zero positive ordinate otherwise expands Matplotlib to 1e-16,
+        # making the nonzero distribution unreadable. Coordinates remain intact.
+        plots["frequency"]["axes"]["y"].update(minimum=0.1, maximum=1000.0)
+        plots["frequency"]["displayTransform"] = {
+            "kind": "desktop-view-limits",
+            "reference": "validation/plot-parity/app-reference/mixture.frequency--zero_inflated.json",
+            "reason": "Match the saved desktop log range; values below 0.1 remain stored but outside the view.",
+        }
     for spec in plots.values():
         validate_spec(spec)
     runtime = load_bestfit()

@@ -1,0 +1,730 @@
+{
+  "date": "2026-09-25",
+  "method": "Independent read-only gallery review and coordinating notebook-figure review; contact sheets and original-size follow-up on corrected plots",
+  "gallery": [
+    {
+      "key": "time_series_data.series--default",
+      "pythonPngSha256": "fc56eb646a7589d25e88d96e5a98ff758b1a0f2c7e0a1e127c7c94327a2b4ab9",
+      "desktopPngSha256": "b647c1037a6b7325e980b1c1027df240ef87a139b8f4aeed03921ea6c4237388",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_data.seasonality--default",
+      "pythonPngSha256": "a60e27fad932575f6f58f41861c4b36c117b32adcabd36eff7b2eb58bd390900",
+      "desktopPngSha256": "799ef1f1465300c482d9525e18486efb0dde679e658cbe585c8b062938b4c45f",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_data.acf--default",
+      "pythonPngSha256": "3a8270e49b923003dd31b1beca4b9b2c60bd18221309405fccbbba426124dbf5",
+      "desktopPngSha256": "1498e4a7212fa6b84d1ed7e860523e6dc47819828c4a3a5ecca457c2bda3a25d",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_data.pacf--default",
+      "pythonPngSha256": "c5da6ede2b5f5cea7dbb34a96f1c67d3acec33d16b30fac8043e1cdf34d28aed",
+      "desktopPngSha256": "0e6b372fb55bfcb7354e8a03f42f2cad6dcbcd39f672d28061b7daf6bf0b3877",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.chronology--calendar_year",
+      "pythonPngSha256": "3ec35077838add8a512e83e99fd5dd5228970c78f0ea5bed95b7671fe5c0736e",
+      "desktopPngSha256": "78fcb055542b0b00cfe93d5584f74f9c2761493f4256775b0988d91df522870c",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.chronology--water_year",
+      "pythonPngSha256": "8ac962f36ddb3c6baa74776dc17ddcb7865953a8a6b31fe7a5b8be90e8255b05",
+      "desktopPngSha256": "67123928979ba6251c226ae8cbe2621557258107ecd3a6f5653fa5708d6e0bbc",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.chronology--saved_index",
+      "pythonPngSha256": "3ec35077838add8a512e83e99fd5dd5228970c78f0ea5bed95b7671fe5c0736e",
+      "desktopPngSha256": "78fcb055542b0b00cfe93d5584f74f9c2761493f4256775b0988d91df522870c",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.frequency--default",
+      "pythonPngSha256": "4fcb10341fbb5a26cfea0f899c95d7009e2117cfc46687b8ef471a251e992208",
+      "desktopPngSha256": "82859b6e0cd0e5fe58f70c3bb0ad6e17f78702ac4401bf6ca756025d27476c94",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.frequency--exact",
+      "pythonPngSha256": "36d21f5c05957bac3996937e0988023dbc7685d870f8377bef0f4a518805960d",
+      "desktopPngSha256": "29bd54b10ecd350b21501a095b5a7fcc668c30cb5bfbd90eefb24bacf5b5649d",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.frequency--interval",
+      "pythonPngSha256": "a92f7a3cca9f3cc35298663ceb52a969777fda433ce4b572bcc73e69169e2d0f",
+      "desktopPngSha256": "7b8cb128381e7d27fe89ff6e96b2f92a96ecaf6744dd809b6917dd5359febf2e",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.frequency--uncertain",
+      "pythonPngSha256": "2a81ce348829d5ecf05c126e3acbd2a22f1758e97845fc2de304b0dd051153d6",
+      "desktopPngSha256": "ca7ff6608f226f9a0b4301ec95eea715f4bc8195ad4345299c0e9ff0e9d44453",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.frequency--low_outlier",
+      "pythonPngSha256": "b31bf46a0a3a872e145312248165a1ddf839bc6ab2a8f654b6cc46207e66b2ec",
+      "desktopPngSha256": "4cbade89fb55fb74ddd498211f99629cef91c3c3a429befb7640ec05509b71be",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.seasonality--default",
+      "pythonPngSha256": "78a74b1f94d12aba2a05f6fc5f5e9c57a558cf435cc045131ec8b024f615cf2e",
+      "desktopPngSha256": "859adb789f8aa4a01b5e1e51d721d7cfd105313acd1d300a8d2cbf149471f7e3",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.density--default",
+      "pythonPngSha256": "18b6e9e75295fb5bcd4c4e875234158250d9aca921c3557608cb3c53c72766f4",
+      "desktopPngSha256": "6ec40b8d70449208686c83b3ca5b157b9c6591c9cf2f9d72fe05a1b9eeb49a38",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.histogram--default",
+      "pythonPngSha256": "c4cb8c923bf1393d88ffb87f86a332d0c2bfec8b0f66fc7fe4e8fa61d84dc83e",
+      "desktopPngSha256": "4a14ae8804ba64b174b6512eefb07b5577495e9ba8dfec5531bc7615a9331e52",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.qq--default",
+      "pythonPngSha256": "185f1fc6a5df72ea2f78c13fb9553f99f69e11fa0b50ca2d8a1377ea47526eda",
+      "desktopPngSha256": "810fc329e59476a90805c5d1a4b1bbc0a8080b3976eceb76318adb1cabfb746f",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.qq--real",
+      "pythonPngSha256": "53818225fde872cc9ea02364250cb949c442279a83f68eee878cef5e6bc1529f",
+      "desktopPngSha256": "02b0e449f58e9df1cff63eb9bd0373179ae35b66591702a134189f4d89c440a3",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.qq--log10",
+      "pythonPngSha256": "185f1fc6a5df72ea2f78c13fb9553f99f69e11fa0b50ca2d8a1377ea47526eda",
+      "desktopPngSha256": "810fc329e59476a90805c5d1a4b1bbc0a8080b3976eceb76318adb1cabfb746f",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.acf--default",
+      "pythonPngSha256": "b777e600c53d7c8ba9b974d12cbb0beaed97b59be7d03b04a5c828e276deecb5",
+      "desktopPngSha256": "af46158724502b84283b702c12aefa3711082f820024e967a7ab68e12fb65963",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.pacf--default",
+      "pythonPngSha256": "c606645e10dad1fecabac7bd2e3b159b6b4f24a2656f2fda6c76ed86084f6fff",
+      "desktopPngSha256": "8ba9ca82bcf29bbee1d1af124651ddd3dd328e5377e575d553e9fd3e5c78b56a",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.mean_residual_life--default",
+      "pythonPngSha256": "22aac5799e31c1b9a4c9272a9847539a88391ad0022abde9b805fd74c1b67a34",
+      "desktopPngSha256": "8f259b79190f559febd15e2ca607114f5b227e80a15d8b043b333459dedda67f",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.modified_scale--default",
+      "pythonPngSha256": "6043c4336f53c7ecfafa4b6b363deaa8c1017af2d6735249132c6a8221438b43",
+      "desktopPngSha256": "cd91c9525d4605c17a37971d45c0c0c7fb3e8907aece518a74ed31c7c99f61ef",
+      "status": "inspected"
+    },
+    {
+      "key": "input_data.shape--default",
+      "pythonPngSha256": "ae9182761829369edfa50b13a70921f1d59398ec5136236bf227c360c2b808b8",
+      "desktopPngSha256": "4ddcc613808399c7d1135cebac2f7dbe74cae014edc0eda96e7dc07da6dd2064",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.frequency--default",
+      "pythonPngSha256": "7b75844d00deb147739299960a65992c180e781f6cbed6cf759bbd837424957c",
+      "desktopPngSha256": "f47c0bac0a3fb02dcb4bf2b2308b0921066069fce9d068a4cd9d051e773d2adf",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.frequency--comparison",
+      "pythonPngSha256": "7b75844d00deb147739299960a65992c180e781f6cbed6cf759bbd837424957c",
+      "desktopPngSha256": "f47c0bac0a3fb02dcb4bf2b2308b0921066069fce9d068a4cd9d051e773d2adf",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.pdf--default",
+      "pythonPngSha256": "72e1965137f83a21cf1cac46557b54fb6f3b732c7d6c8c5a852eea9f1eb729a6",
+      "desktopPngSha256": "69cca55dc7ec59c51ed970a5e0220bcf69f489a7e9414d8586314b975ad6a9de",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.pdf--comparison",
+      "pythonPngSha256": "72e1965137f83a21cf1cac46557b54fb6f3b732c7d6c8c5a852eea9f1eb729a6",
+      "desktopPngSha256": "69cca55dc7ec59c51ed970a5e0220bcf69f489a7e9414d8586314b975ad6a9de",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.cdf--default",
+      "pythonPngSha256": "9dc1dabef274e8c69f4c27abdc320ffe12cbb252bff145a89b1dd0a194305eaa",
+      "desktopPngSha256": "2b3a43cac1ba25f261322f34c1bac555d09ab2498c7b4bbe6da8c0571eaedb19",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.cdf--comparison",
+      "pythonPngSha256": "9dc1dabef274e8c69f4c27abdc320ffe12cbb252bff145a89b1dd0a194305eaa",
+      "desktopPngSha256": "2b3a43cac1ba25f261322f34c1bac555d09ab2498c7b4bbe6da8c0571eaedb19",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.pp--default",
+      "pythonPngSha256": "1bf7d86a6b4ba2940da031e259758e282f7f242da648d43aa028177c33eb8206",
+      "desktopPngSha256": "23f3735469e3edb4fc9ffc36ab256fc2ea00b748fc42f7d8819430fc4d0e9c8e",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.pp--comparison",
+      "pythonPngSha256": "1bf7d86a6b4ba2940da031e259758e282f7f242da648d43aa028177c33eb8206",
+      "desktopPngSha256": "23f3735469e3edb4fc9ffc36ab256fc2ea00b748fc42f7d8819430fc4d0e9c8e",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.qq--default",
+      "pythonPngSha256": "544f75eceb383ca0d849b71afcbb92a3c74e939e0268709ae08fa0a3178943d1",
+      "desktopPngSha256": "515e6e903fbb0d21f9d26286115db2141da9f37d64f1de71d42ee4108caa5f65",
+      "status": "inspected"
+    },
+    {
+      "key": "fitting.qq--comparison",
+      "pythonPngSha256": "544f75eceb383ca0d849b71afcbb92a3c74e939e0268709ae08fa0a3178943d1",
+      "desktopPngSha256": "515e6e903fbb0d21f9d26286115db2141da9f37d64f1de71d42ee4108caa5f65",
+      "status": "inspected"
+    },
+    {
+      "key": "univariate.frequency--stationary",
+      "pythonPngSha256": "da30e982e88714d05f356ba52e8b49c9558454a3863132f6f469a2cb6f5b4c13",
+      "desktopPngSha256": "568de51376ba5161ee1dcd8237f57c703cd869ba9bf17a8c6ec53eccaccd2e79",
+      "status": "inspected"
+    },
+    {
+      "key": "univariate.frequency--nonstationary",
+      "pythonPngSha256": "84581a45062ee3c5aaf5a30fb69bc41c36de7b8b0397ef55720c9e6191adc980",
+      "desktopPngSha256": "6bf1f277e7816398247f588f36c19c74555f7709faa55c750420f2fe256406ff",
+      "status": "inspected"
+    },
+    {
+      "key": "univariate.frequency--comparison",
+      "pythonPngSha256": "f286a5a8ab2ffd9241db6c429e9c006bd5d3d6ddbb1fe1e3546afe885de5fa64",
+      "desktopPngSha256": "6bd1e62446e44c9a2dad3c964b4e1ac158e52007e05fe4ae241cc3a8900c9639",
+      "status": "inspected"
+    },
+    {
+      "key": "univariate.frequency--quantile_prior",
+      "pythonPngSha256": "82d3ef4b794a18249ed031598558a71991e196eeb568d9c9f4ffe208a3254d29",
+      "desktopPngSha256": "d854ad54e3bf8714053e34cb02bbcd2583698931cc7f42827d89810a54d8c921",
+      "status": "inspected"
+    },
+    {
+      "key": "univariate.chronology--nonstationary",
+      "pythonPngSha256": "6a8e198592ead0b8ae90917b5d84630273225c7f0e4b7d191633de7d42520676",
+      "desktopPngSha256": "3024148de9148b75631011a096dcea4729d54ff3dad2584a44f9919d3ea66d53",
+      "status": "inspected"
+    },
+    {
+      "key": "b17c.frequency--mv_normal",
+      "pythonPngSha256": "b28988be9eb97849f63b28002dc84ecd355139aa25edbbfba1a4770ce1db473e",
+      "desktopPngSha256": "7e0cba1d8c7166e40af62d636214c52c6017da279f3a8dd257d3da0a148f31c9",
+      "status": "inspected"
+    },
+    {
+      "key": "b17c.frequency--bcb",
+      "pythonPngSha256": "3526008f0f70e35b159614a833e720532cb71134ca251ee75a00f2b77522d694",
+      "desktopPngSha256": "04d3463c14d5dbf9225ffb05c72e694c1f2b410794d67c7e35bf4a8149961ed0",
+      "status": "inspected"
+    },
+    {
+      "key": "b17c.frequency--historical_interval",
+      "pythonPngSha256": "c9067e700b369b80745768d43572f285b360e666d07f412faff46b193973c97d",
+      "desktopPngSha256": "dd7f35f7e2b904fe469fbd6ab1d291e4d7576591a7e5fd1e233866a117412186",
+      "status": "inspected"
+    },
+    {
+      "key": "b17c.frequency--low_outlier",
+      "pythonPngSha256": "9d5ce11f4d7d81414c69b240666e9addec8651cd2096d2d0b1e1ed7dc04f75ca",
+      "desktopPngSha256": "3d81daf07cf4bb207c4269529926d268ee54e5b18cb5a58d25e4d7e09d30c3d6",
+      "status": "inspected"
+    },
+    {
+      "key": "point_process.frequency--pot",
+      "pythonPngSha256": "6bc0c517da5eca0fc042651e28c1591436849b1378c1160c08591a21e38e2c20",
+      "desktopPngSha256": "3de75af0d3e6265fb250a6b78495208317ac0fd4c5b04e2a96db84e99053282c",
+      "status": "inspected"
+    },
+    {
+      "key": "point_process.frequency--ams",
+      "pythonPngSha256": "5a33f4b703808f318a893c349b3450ca4ca0bf1728bc93ff7cad03d913e47b5b",
+      "desktopPngSha256": "470988ce731b7a43f7897dd4e6826c4222a3913e8fd2a6fb81d55e5a7a39c922",
+      "status": "inspected"
+    },
+    {
+      "key": "point_process.frequency--seasonal",
+      "pythonPngSha256": "126703d51d16a67809002810e400471fd387c4541fb0c134a68af7722c07e17d",
+      "desktopPngSha256": "e05059b42adab363a0f7e9132cf7b260fefebde43367f84aa3ea19a0aefaeeb8",
+      "status": "inspected"
+    },
+    {
+      "key": "point_process.frequency--comparison",
+      "pythonPngSha256": "7d4944047b93303805ae41f4b112320f7b90acc517141714b481ba6ca6fad588",
+      "desktopPngSha256": "e06e0946bd010deda07fcfad01501332b7715eab0b504509f5e0308302451470",
+      "status": "inspected"
+    },
+    {
+      "key": "composite.frequency--competing_risk",
+      "pythonPngSha256": "7360f58b98615a369874a8502e7e24dbf52139a91ffd20c4d6b502870bd6bd35",
+      "desktopPngSha256": "cd2a197b006feae5877758d8b59f7f1999877cc12245f76b888cb6e4df9eada5",
+      "status": "inspected"
+    },
+    {
+      "key": "composite.frequency--component",
+      "pythonPngSha256": "7360f58b98615a369874a8502e7e24dbf52139a91ffd20c4d6b502870bd6bd35",
+      "desktopPngSha256": "cd2a197b006feae5877758d8b59f7f1999877cc12245f76b888cb6e4df9eada5",
+      "status": "inspected"
+    },
+    {
+      "key": "coincident.frequency--default",
+      "pythonPngSha256": "0ea400afb76182626029bfb5e4201a212add4e2c3a03237d4409ed4a9c6166e6",
+      "desktopPngSha256": "28481a410f41f892878672833353d77cb879849c8e816f9261084a3b6e2e90ec",
+      "status": "inspected"
+    },
+    {
+      "key": "coincident.frequency--comparison",
+      "pythonPngSha256": "1e4a79eebb027ff513eee742df01ff3cbe2d499eb3299f44d50122f37c5a6856",
+      "desktopPngSha256": "9e004f9b55dd76ea50409257ac7cc9e8c381decd703a7efabbf345d52638fbcc",
+      "status": "inspected"
+    },
+    {
+      "key": "coincident.frequency--linear_response",
+      "pythonPngSha256": "0ea400afb76182626029bfb5e4201a212add4e2c3a03237d4409ed4a9c6166e6",
+      "desktopPngSha256": "28481a410f41f892878672833353d77cb879849c8e816f9261084a3b6e2e90ec",
+      "status": "inspected"
+    },
+    {
+      "key": "rating.curve--default",
+      "pythonPngSha256": "a4d404238a5791529c5d82cf33bafd69b9603a4d7a673271980a309e434894e3",
+      "desktopPngSha256": "3db6343298b81a1b878e428a23e1f2f68d29ca00ece5b834c2276de10b228aeb",
+      "status": "inspected"
+    },
+    {
+      "key": "rating.curve--segmented",
+      "pythonPngSha256": "2381afc30b3342f9d687fc61383091a5c8c06a2d6b6e1cb2ff9e9ff7be71c30c",
+      "desktopPngSha256": "9eb84098ae3f75117a9f967d4526318bb9d2db228bb7145b3939f7889e076622",
+      "status": "inspected"
+    },
+    {
+      "key": "rating.residuals--default",
+      "pythonPngSha256": "0793bdf1e37c2672d02750bbe01d385a40351688644363bd5cad7083e020d997",
+      "desktopPngSha256": "4d0e0a121d3e3bc08c4e22dc24943b4d0ca1dfb9bdf0942608ba6e02169890d5",
+      "status": "inspected"
+    },
+    {
+      "key": "rating.residual_histogram--default",
+      "pythonPngSha256": "cdaeeec4ac1d0f855c5525930c84ec0f80b7712e5227513e6e831ac523c8fdfc",
+      "desktopPngSha256": "dd1678b51d2fa2e99096b6c558a7b19339eae625627b295711fd526a71a1a3b6",
+      "status": "inspected"
+    },
+    {
+      "key": "rating.residual_qq--default",
+      "pythonPngSha256": "91488863f052c0e3eaacc2cd4e379f6d8ebc304b2f271fcd3a7e9eee8f17b8fd",
+      "desktopPngSha256": "a579297a5833f10cc9d73e767fb36561f2876043110901c49163e64f57bed58b",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.series--training",
+      "pythonPngSha256": "b4b1a20b07f9bca744c1833bbaa63f3e8f37cdcc62703c7397b632f9aac05b69",
+      "desktopPngSha256": "604865bd7cd4c6c5c273dd06214fbb3cb3de0123296eb6fa2b4324b1c1db1dfb",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.series--forecast",
+      "pythonPngSha256": "b4b1a20b07f9bca744c1833bbaa63f3e8f37cdcc62703c7397b632f9aac05b69",
+      "desktopPngSha256": "604865bd7cd4c6c5c273dd06214fbb3cb3de0123296eb6fa2b4324b1c1db1dfb",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.residuals--default",
+      "pythonPngSha256": "d0cc8920719b2676112df6c40ef6b4b521ceba1823b985f051e9af5fdb4c5182",
+      "desktopPngSha256": "3636f5ccf0f2c131e413e11bf50ddcb6cec26a8fba7f03c05bcde6710f0f3511",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.residual_histogram--default",
+      "pythonPngSha256": "71be468ef8c26988810924a8515ac8590708cb7840d7d0c79c560d35a7a93eaa",
+      "desktopPngSha256": "7190db2a19815b47f5023e8c401f85f3dbbeaac23dc36eee3b6660f5469897d5",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.residual_qq--default",
+      "pythonPngSha256": "0b06f81a9eb6d0c64d205a3982312f3ed5b29f441f7116f3ecd48fe845423c31",
+      "desktopPngSha256": "e913308af41a13721de187c1f343509ee83e4533b884671778c550824c7bf6e0",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.residual_acf--default",
+      "pythonPngSha256": "3191a6e82fdca6614d130e8c32df26221aca87328b6a3d05c434d82c982ab699",
+      "desktopPngSha256": "102d9d75cabaf7f846cbd0d314f8e5b40bbfec7d0240796548422183357ce50b",
+      "status": "inspected"
+    },
+    {
+      "key": "time_series_analysis.residual_pacf--default",
+      "pythonPngSha256": "4e1e42edac73c0fcd65fe5178f9961c284655e2c489652ac801739b01df848a6",
+      "desktopPngSha256": "d7bf8b0449113d33c8db0a37af34d6f15c6a53e3753e93d5347ea04995f14da6",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.trace--chain",
+      "pythonPngSha256": "02be5fb89669436d6ed133b13862efb64603ce79b9084b5838440777d8e547b2",
+      "desktopPngSha256": "776f9f1a2944ab21beebcb48ee85f5166e1b2a0a3a89994479f553226cc6701c",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.trace--warmup",
+      "pythonPngSha256": "2f321ca218904d3fc3f8fd11cffda35cd5ef8c380d8a35a0be1597c0422cea24",
+      "desktopPngSha256": "68f4de758f3368539a1724f0cc5bf6a96fbd1546f4162621ba4d9b918e71e11c",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.histogram--posterior",
+      "pythonPngSha256": "71f131ba4583c81068921ec6c4f703cc620c70ce568c250dae689a675a5954d3",
+      "desktopPngSha256": "9e5f138fe93b7920f1b8c7e61ecfb3a25789631a020d9ea430530e7a97c400df",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.histogram--prior",
+      "pythonPngSha256": "03c6bbe12995cba6693067155d1c893b3f3712028d31af38bdb2ce810780187a",
+      "desktopPngSha256": "e2e4e7cdde4cac8973d5e5e870e90b411e150b1b5e1d05c554786a38d555fcce",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.kde--posterior",
+      "pythonPngSha256": "79a9186566566c7764e6e71d135a6ffcdcd0790f84efc4e77a2ea1003c41619d",
+      "desktopPngSha256": "451d19f06d32afa27fe444310848c78759b5f94ae73fb03103999164cb568b2c",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.acf--parameter",
+      "pythonPngSha256": "c1805c5c272ed77aeb01bf14197367a23e61a5e6165ab95d794abd7c38c7c324",
+      "desktopPngSha256": "a8cbac740b8529ca9fd085f2150e4b6a6ccf4cef66827c4015d5c941dc9835d8",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.mean_log_likelihood--default",
+      "pythonPngSha256": "476a7ba004a9691a8c657d5a3433c7c8f14ef2650cb1d68f00d14da9b6967fbb",
+      "desktopPngSha256": "db9e7908abb8dc8965b59e96dcdf64f73174fa49803eff77740197240a0c4253",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.pair_heatmap--parameter_pair",
+      "pythonPngSha256": "bea0950608fae5db4ec593cf93675e80e92451a7d36747325e32cdbc0cea0f21",
+      "desktopPngSha256": "4a7c71f132c94494427ca6dede7855db505dfcc96f7a9227ed7adc42944bfe86",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--bayesian_leverage",
+      "pythonPngSha256": "cd81573ea0db2cc657fdbcbd1789f6eeaf3c53ab3b74f76ae8649c10ed1e354f",
+      "desktopPngSha256": "44890797052d69bd8c35ab9af98b720591304d7afa0ef8aa8012eff1d39d1253",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--bayesian_fit",
+      "pythonPngSha256": "df58e97bd834a6ae5d607eea0f088a25be361c3ca925bbe72cfdf77f667376d2",
+      "desktopPngSha256": "f4a4737abe3e188ce544efa3edd1a09ab05b237f3f1b0b6183ca89a6bff66609",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--bayesian_variance",
+      "pythonPngSha256": "4c993799441aa22efc831395f0e3336ae15c93790a81f68233a4d1b623c4ebd5",
+      "desktopPngSha256": "a32a969c423afb7afbba7d7f5d776656a57951d16b5f65671d40afa9ef686fa0",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--gmm_fit",
+      "pythonPngSha256": "5af0e856903494a951d85e459de056202c6a9b075cdbbee71bb419f7ab39be71",
+      "desktopPngSha256": "6421ed407eb5349235dc3957b95621462078caec6f905a7884b240e32af190fc",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--gmm_variance",
+      "pythonPngSha256": "0e6b9e2cc2310bb84303f0e2641b199b66e1f09f54b173fd653bf67e93c3f55a",
+      "desktopPngSha256": "fcb4d93b34ab9096adeedcfe8677efe3e7a9e334c7e2e280eaec9d6eb239184e",
+      "status": "inspected"
+    },
+    {
+      "key": "shared_diagnostics.influence--leave_one_out",
+      "pythonPngSha256": "a1643a61de5efe7367821b251be22fc9277e2871954884b55247a9ed76a920f4",
+      "desktopPngSha256": "19cbc24124c910b06231b1d02d8fd608f76e0e985b4b1c3a4b5134f56686c31f",
+      "status": "inspected"
+    },
+    {
+      "key": "mixture.frequency--mixture",
+      "pythonPngSha256": "aa5c6e93d7fb6cd95600be88113a417ceb8d86bdb1dea84a7e3e073030f67374",
+      "desktopPngSha256": "5904d900276fb2f5041690d4e46e06f0cb11388e567a68913a8e8022fa14ac97",
+      "status": "inspected"
+    },
+    {
+      "key": "mixture.frequency--zero_inflated",
+      "pythonPngSha256": "4951229eee2c7dcb6e2047af40bcdb46da4fb3af7055c26bbdfbf8b02fcac933",
+      "desktopPngSha256": "f4c6b3ce0c9a191faf64e19bcfdc4db62d6b54ceae204ebe4b1cca659ab4cc9e",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--scatter_values",
+      "pythonPngSha256": "539db98e65421fb9356ca219982c0987eb5517273ba0e6a47d21e007cb9f9c90",
+      "desktopPngSha256": "af2c988fee0c3f8de6b96acfd079f1bd3bd1a0a38ffaaa096167949ec8460679",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--scatter_cdf",
+      "pythonPngSha256": "74489ba82187fb8c1e7705dfbdbf2bb7ad6996b7484d00771d23d0828b41b9cd",
+      "desktopPngSha256": "1cd0500e9d226a56b9f34d62c5de74193c8948ea5986310fb043109005b2a598",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--density_values",
+      "pythonPngSha256": "9c819b2ef4360bef01365af112113169b670864a5862857264437d835c47b3d8",
+      "desktopPngSha256": "5f46bd98465be3296016d65a2e83c20e4eb63d3c6dcc1c7918c0bec1529674c9",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--density_cdf",
+      "pythonPngSha256": "5922c7b9f09ca8f715890ecabba77dffba0ac69076a6b023f94cf5002f9ab41c",
+      "desktopPngSha256": "5721c21e143d2d29a437e48d4dc91e2d56a41825cc5b0066ad0f41047f048b4d",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--joint_exceedance_values",
+      "pythonPngSha256": "81ca6a3cd83dc0cb4cc445fd05c8ad5bd31b04b7143a4540ce7db0a70788bbed",
+      "desktopPngSha256": "df8ddf57af5c2d8e701c92da656845453ed36b165a1afeb5a093885f4bf3e245",
+      "status": "inspected"
+    },
+    {
+      "key": "bivariate.distribution--joint_exceedance_cdf",
+      "pythonPngSha256": "7ee8e141f293bad2a93ff99f6fc2319c813407654cd0becea95053e55e4681fd",
+      "desktopPngSha256": "d641c56eeb0da37462b01dbdb540b61fa185be72675e56bcbd4f3d8ce4ba76c1",
+      "status": "inspected"
+    }
+  ],
+  "notebooks": [
+    {
+      "figure": "00_time_series_data--06-01.png",
+      "pngSha256": "42599a06f6dcff936e6b84b26e2de4d0932cacf421bda56535bea0e30f984c2a",
+      "status": "inspected"
+    },
+    {
+      "figure": "00_time_series_data--06-02.png",
+      "pngSha256": "0453e3a759223f9469166e694d4a422375f24702ed395cbd47ee5b7a9c968c26",
+      "status": "inspected"
+    },
+    {
+      "figure": "00_time_series_data--08-00.png",
+      "pngSha256": "e4b8426d64f900517cfe2a9006fe318626fd44b7e9e10628c6c7ebbaf2401449",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--04-02.png",
+      "pngSha256": "dcf122f8b615b3877e5225cd7c01db612eb9cc34ca7796e556f591490dd9d927",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--04-03.png",
+      "pngSha256": "6f04429c1920c297eb5885b811747f09d638883d7cddf9241e14992ff9513f95",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--06-02.png",
+      "pngSha256": "77886f749f94d6ac6a44936a01c1a0ddfa73a4a21fe98686aa8e239d11af4347",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--06-03.png",
+      "pngSha256": "53694d8e6846f71e21b8f95a3d1d0766965db35ebae755a5821f0829b449588b",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--08-01.png",
+      "pngSha256": "4891d0786d1fe0fa460ccd371fe32fe81d84fd53c710799113f7ee99ec1bf537",
+      "status": "inspected"
+    },
+    {
+      "figure": "01_input_data--10-03.png",
+      "pngSha256": "45c94e37d739ce5fe07f1371e275f15f03f56fa00897e69cd7b36fd915e4a9b7",
+      "status": "inspected"
+    },
+    {
+      "figure": "02_distribution_fitting--04-02.png",
+      "pngSha256": "3cb776d2b09ffb0723fa50e360732dad24984209ce906c338bd60b8d256621e1",
+      "status": "inspected"
+    },
+    {
+      "figure": "02_distribution_fitting--06-00.png",
+      "pngSha256": "7d84918c0444567f603bcaf560d35d2d5999be3a56218c78dfeee6341296b877",
+      "status": "inspected"
+    },
+    {
+      "figure": "02_distribution_fitting--06-01.png",
+      "pngSha256": "42666e36f56a212aab7f3fb9a852368a9bead526498a2b5dcf64eaa12e2d62bd",
+      "status": "inspected"
+    },
+    {
+      "figure": "03_stationary_information_expansion--04-02.png",
+      "pngSha256": "8003ddd13782747c8d8f9c9b6f4476f54cb726dbe60edd359a7d285d9d968be0",
+      "status": "inspected"
+    },
+    {
+      "figure": "03_stationary_information_expansion--06-00.png",
+      "pngSha256": "58ca193d1db6c8878c674cd78f5e2281dd10864b4fa0628998b7a7baaac0bad3",
+      "status": "inspected"
+    },
+    {
+      "figure": "03_stationary_information_expansion--06-01.png",
+      "pngSha256": "362175e45720c2edb040e3e7361871fc11e2e6959e720a716219bd3bf45e55f0",
+      "status": "inspected"
+    },
+    {
+      "figure": "03_stationary_information_expansion--08-00.png",
+      "pngSha256": "d13e0ef4ea82943889a0e3d94f3e54ddec5dab1544a8fa04e01d82ea14c2a9b5",
+      "status": "inspected"
+    },
+    {
+      "figure": "04_nonstationary_univariate--06-00.png",
+      "pngSha256": "c20450d47fa2f8866d8344655ac7e46892578ab23b7cd18f2bdaa4e4510bf518",
+      "status": "inspected"
+    },
+    {
+      "figure": "04_nonstationary_univariate--06-01.png",
+      "pngSha256": "3fb10df987479b016592a0bc1424d12261ba95d5686b095116a122cc64d3f301",
+      "status": "inspected"
+    },
+    {
+      "figure": "04_nonstationary_univariate--08-00.png",
+      "pngSha256": "d4e4b44d8e4c183becdd04981b0ed7aa4ec9f453d995a9bb9916a00f7ecc5fc4",
+      "status": "inspected"
+    },
+    {
+      "figure": "05_bulletin_17c--04-03.png",
+      "pngSha256": "4de455970ad6f4b7f10086be55356916ca8cd2979b6846ee89de59036699568a",
+      "status": "inspected"
+    },
+    {
+      "figure": "05_bulletin_17c--06-00.png",
+      "pngSha256": "0ba3233bd0667487a368d9172feb4c2e8200b7e43a9be15d8a5773110e7635b6",
+      "status": "inspected"
+    },
+    {
+      "figure": "05_bulletin_17c--06-01.png",
+      "pngSha256": "a595754d80a9d98260d51bc732b5ab7ec3f26ac4c4235ead2b19c007b8afb194",
+      "status": "inspected"
+    },
+    {
+      "figure": "05_bulletin_17c--08-02.png",
+      "pngSha256": "4687b2fbc0512d1d9905156458ea4bc8f0de2fac1852cae1a13e18233c233fbf",
+      "status": "inspected"
+    },
+    {
+      "figure": "06_advanced_univariate--04-01.png",
+      "pngSha256": "2dc6a478c94b1a556abe6bcc8f9623e1aa281a7537f1bc1a16ef66c0e64ec75a",
+      "status": "inspected"
+    },
+    {
+      "figure": "06_advanced_univariate--06-00.png",
+      "pngSha256": "86b4bfc7e77b8e0e49676e44b28e0afbc886702947671d2f8d941b6bceb82ba2",
+      "status": "inspected"
+    },
+    {
+      "figure": "06_advanced_univariate--08-00.png",
+      "pngSha256": "1db0852cc717f99beb2e9dcb43f230f6c2a1d38ed8da15122a10aeadcd6796d3",
+      "status": "inspected"
+    },
+    {
+      "figure": "07_bivariate_analysis--04-03.png",
+      "pngSha256": "0315e5558f6fff0e1e911401abadfe22141569c4b1327eb07ec46092b23b225d",
+      "status": "inspected"
+    },
+    {
+      "figure": "07_bivariate_analysis--06-00.png",
+      "pngSha256": "07ec2e1578aec912ca797c2b994abdbb7f7cc9dd7f8e729f831b5b34f02b6429",
+      "status": "inspected"
+    },
+    {
+      "figure": "07_bivariate_analysis--06-01.png",
+      "pngSha256": "5ffecc14a95761c000674abf6c9f778d5df8af3592d428d6ea7e9abf9b776cba",
+      "status": "inspected"
+    },
+    {
+      "figure": "08_coincident_frequency--04-00.png",
+      "pngSha256": "ae7dbefa98583d2255fba440ae55b09ac1537195e89ee6c9bb6f19a3f30ba7fb",
+      "status": "inspected"
+    },
+    {
+      "figure": "08_coincident_frequency--06-02.png",
+      "pngSha256": "ab574e71f94c0ac270bc2b839d8a39bb3cc0f32dc0c129950ff5d288368057e6",
+      "status": "inspected"
+    },
+    {
+      "figure": "09_rating_curves--04-03.png",
+      "pngSha256": "f4b8b77ecbbb6d9fe20c8d2a3c5f7181b6fde4e80fd0d9983a6307cec3bdc279",
+      "status": "inspected"
+    },
+    {
+      "figure": "09_rating_curves--06-00.png",
+      "pngSha256": "33c5a28178852407a158a836b64286b6d4e3d167a848a4daa9256652fecd4b3e",
+      "status": "inspected"
+    },
+    {
+      "figure": "09_rating_curves--06-01.png",
+      "pngSha256": "65be13aff3a857d1f28ce9c20a77b8b2844dbca245f641c07839f6f2983b8802",
+      "status": "inspected"
+    },
+    {
+      "figure": "10_classic_time_series--04-02.png",
+      "pngSha256": "95fbd37bd458d072b6dd1b75ec4fc490c577adaecdf61f55ce3f15ebd9716f0e",
+      "status": "inspected"
+    },
+    {
+      "figure": "10_classic_time_series--04-03.png",
+      "pngSha256": "2a88e9fe5c55b9df438fb559411dd35884ce6a2a2870e559f6ca8339cec17984",
+      "status": "inspected"
+    },
+    {
+      "figure": "10_classic_time_series--06-02.png",
+      "pngSha256": "ece37209758e456a14d1321e5137cbc9be083acb3f41947e6e3100b483cfd861",
+      "status": "inspected"
+    },
+    {
+      "figure": "10_classic_time_series--08-01.png",
+      "pngSha256": "fe4f0a95650ba8662a3c6f7a5180625dec3e53179708c4364972a1e9f20d5957",
+      "status": "inspected"
+    },
+    {
+      "figure": "11_regression--04-03.png",
+      "pngSha256": "91d038cc85879a53f2ecc6fbba16f32cb2bf3c7cd9c4b4588c8f25897a49c8cb",
+      "status": "inspected"
+    },
+    {
+      "figure": "11_regression--06-04.png",
+      "pngSha256": "a3e5b05362d454c5ad01ef2a8cf25e862e80898180dbbc14ce6a3c354e3d9622",
+      "status": "inspected"
+    },
+    {
+      "figure": "11_regression--06-05.png",
+      "pngSha256": "561e1221166ed9f8ce388a19f9631379025e29997a00a4db1f70745cac69a06b",
+      "status": "inspected"
+    }
+  ],
+  "findingsResolved": [
+    "Clipped and crowded CDF contour labels",
+    "Zero-inflated mixture log autoscaling",
+    "Windows Git long paths during public install",
+    "Same-version plotting package was not replaced without force-reinstall"
+  ],
+  "humanScientificReviewComplete": false
+}
