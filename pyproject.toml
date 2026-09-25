@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bestfit-examples"
+version = "0.2.0"
+description = "Source-backed RMC-BestFit Python teaching examples"
+readme = "README.md"
+license = "0BSD"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Sadie Niblett", email = "sadie.s.niblett@usace.army.mil"},
+    {name = "C. Haden Smith", email = "cole.h.smith@usace.army.mil"},
+]
+requires-python = ">=3.10"
+dependencies = ["pythonnet>=3.0.5,<4", "numpy>=1.26,<3", "pandas>=2.2,<4", "matplotlib>=3.8,<4", "scipy>=1.13,<2"]
+
+[project.optional-dependencies]
+notebooks = ["nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6.29,<8"]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+include = ["bestfit_examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

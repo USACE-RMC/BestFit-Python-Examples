@@ -1,0 +1,50 @@
+{
+  "analysis_name": "Nile River Flows - TSA",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1016.9984062557375,
+      "BIC": 1024.144486159759,
+      "DIC": 1016.3188915901637,
+      "RMSE": 156.3184314576501
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.618263337849171,
+        0.6158118831043159,
+        0.6151603122379201,
+        0.6151087026643443,
+        0.6131023804915812,
+        0.616773111412167
+      ],
+      "chain_count": 6,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-25T19:48:29.519074+00:00",
+  "output_snapshot": "classic-time-series-examples/nile-river-flows-tsa-b449303e62db.json.gz",
+  "output_snapshot_bytes": 1529396,
+  "output_snapshot_sha256": "2c68179195598c08d11bf047dd402bc0a4580a060ce3833e396a02e8941b950f",
+  "project_slug": "classic-time-series-examples",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "schema_version": 1,
+  "settings_sha256": "b449303e62db6c5069efe685216a3780df2b9f9fae5f476948c85bbef41e68bd",
+  "source_relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+  "source_sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb",
+  "started_utc": "2026-09-25T19:48:27.801362+00:00",
+  "status": "completed",
+  "table": "Time Series Analysis",
+  "wall_seconds": 1.719
+}

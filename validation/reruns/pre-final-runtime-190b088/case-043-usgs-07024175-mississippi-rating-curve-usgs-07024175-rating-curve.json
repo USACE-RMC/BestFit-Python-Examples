@@ -1,0 +1,54 @@
+{
+  "analysis_name": "USGS 07024175 Rating Curve",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 2233.4645239626057,
+      "BIC": 2243.721916728477,
+      "DIC": 2233.321223837809,
+      "RMSE": 30328.581766139872
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.20878947368421052,
+        0.2072,
+        0.21096315789473685,
+        0.20883157894736842,
+        0.20967368421052632,
+        0.20706842105263157,
+        0.20830526315789474,
+        0.20700526315789475
+      ],
+      "chain_count": 8,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:05:10.216245+00:00",
+  "output_snapshot": "usgs-07024175-mississippi-rating-curve/usgs-07024175-rating-curve-df72b109f4b4.json.gz",
+  "output_snapshot_bytes": 2241255,
+  "output_snapshot_sha256": "19b0d5ac325127dd57c0d050a02920ef0bc1f32847e2540bfafc6311fbbae446",
+  "project_slug": "usgs-07024175-mississippi-rating-curve",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "df72b109f4b40d41b8ccfa21c0aded19736bda553ceb5303112f91193d9406ce",
+  "source_relative_path": "examples/6-rating-curve-analysis/usgs-07024175-mississippi-rating-curve.bestfit",
+  "source_sha256": "997fe961e233f540cf64171dfd5b2475b23b9f4ac8cc51459dd545b242a24ece",
+  "started_utc": "2026-09-22T18:05:07.112358+00:00",
+  "status": "completed",
+  "table": "Rating Curve Analysis",
+  "wall_seconds": 3.11
+}

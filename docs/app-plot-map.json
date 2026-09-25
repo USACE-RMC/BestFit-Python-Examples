@@ -1,0 +1,1421 @@
+{
+  "manifestVersion": 1,
+  "slotCount": 45,
+  "coveragePolicy": "A renderer or a generic primitive is not evidence of a populated app plot; mark a slot implemented only after its adapter and source fixture tests pass.",
+  "slots": [
+    {
+      "plotId": "time_series_data.series",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesData/TimeSeriesElement.cs::CreateDefaultTimeSeriesPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesData/TimeSeries/TimeSeriesControl.xaml.cs::UpdateTimeSeriesPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::time_series_plots",
+      "sourceFixture": [
+        "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit",
+          "element": "Airline Passengers",
+          "referenceSha256": "9599a34bf9244eda8c3b09db814a7eb6647e9d08da15a7a3afda95af07160764",
+          "specSha256": "23a59fefe3950dca8b66e2fc60d4fb80193e740f38b7f100355a3169d40d6eb3"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_data.seasonality",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesData/TimeSeriesElement.cs::CreateDefaultSeasonalityPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesData/TimeSeries/TimeSeriesControl.xaml.cs::UpdateSeasonalityPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::time_series_plots",
+      "sourceFixture": [
+        "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit",
+          "element": "Airline Passengers",
+          "referenceSha256": "7ad8f66172d3634bbb262257764d53ba92be576f9220288d8816220369a1725f",
+          "specSha256": "912b2404c4502b637dfe71e4629d0010fb5b8f97b71895fe9182059d9b3ded31"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_data.acf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesData/TimeSeriesElement.cs::CreateDefaultACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesData/TimeSeries/TimeSeriesControl.xaml.cs::UpdateACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::time_series_plots",
+      "sourceFixture": [
+        "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit",
+          "element": "Airline Passengers",
+          "referenceSha256": "135d0769f806c7546e5fcbc1e0011660e31dcca5a6d5a020ebb70164bd9917c1",
+          "specSha256": "df45be9ec69820474ababd5f04e01b7e755c3704941f50cf9cd33d661df3947f"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_data.pacf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesData/TimeSeriesElement.cs::CreateDefaultPACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesData/TimeSeries/TimeSeriesControl.xaml.cs::UpdatePACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::time_series_plots",
+      "sourceFixture": [
+        "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\1-time-series-data\\6-manual-entry\\manual-entry-example.bestfit",
+          "element": "Airline Passengers",
+          "referenceSha256": "5a15340fc2b06d12953413583c3e1bb886fad6207146646ff41cf70184cc65d8",
+          "specSha256": "ea97e4688249338a2a01680db4af9f7f77c3161256c5ee91f69b58c75d67487b"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.chronology",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultChronologyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateChronologyPlot",
+      "variants": [
+        "calendar_year",
+        "water_year",
+        "saved_index"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "calendar_year",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "c1e18bf13851b72a5b0cc3c78aa57a4586afc2d3d575eb87f4ca73b57f6f9128",
+          "specSha256": "dbdf83d80f4290c4a5b66b7e891a4d80bc5d3d363a8089803586ef9cf0a304c7"
+        },
+        {
+          "variant": "water_year",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Water Year",
+          "referenceSha256": "b7895aafeb444b6d7a86bc726714cb1026ed399c6fec0410ba10006bd2698e19",
+          "specSha256": "ae4fc0f41224d8fecc3497f49926b1f6b2f9ea97c1d44fd446012c4d1c72d48b"
+        },
+        {
+          "variant": "saved_index",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "6f5a02831860d53240c6de711eecaf25cfde7785f62914ae654617b6ed10fd60",
+          "specSha256": "975b02e5ba92f4b7ad3d8551b2ae2e6d2a3bb592a75e65232e298ec8321308e5"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "default",
+        "exact",
+        "interval",
+        "uncertain",
+        "low_outlier"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\4-measurement-errors\\sinnemahoning-move3-bayesian.bestfit",
+        "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "45333c5da1ec226ade7749118b1aeb529f603801e83b451e414d26873b5e087e",
+          "specSha256": "41c3423274c2a3ee211f94fa57d15acbc8006b46dadfa00f6e6b7fa4bedab4fc"
+        },
+        {
+          "variant": "exact",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #1 - Data",
+          "referenceSha256": "42a5b23ae541965aa777b06b49834a4feab6484999777d7c1cd4d72f8ee0a8f3",
+          "specSha256": "d06f3499d4fe43dbb3762022611cbb5e753d283ba528f35a0b3b06f29efa880e"
+        },
+        {
+          "variant": "interval",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #4 - Data",
+          "referenceSha256": "7e9401dc3bc22f2867225648cf365c290acd39a1fb350af898a14ec2dc732ee8",
+          "specSha256": "d7188c61e3bf0c4b78de50f650a78823bf3bbe8726b979d482fd0f3e425b9913"
+        },
+        {
+          "variant": "uncertain",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\4-measurement-errors\\sinnemahoning-move3-bayesian.bestfit",
+          "element": "Sinnemahoning - MOVE.3 - With Errors",
+          "referenceSha256": "833ed350f55a35ad23c00fd1a613629069b256a7294a71524118398c2811d167",
+          "specSha256": "c4c5312d97f5da697913ab968fb6b26d7c0f9828dd247e2ea61424d83b77620b"
+        },
+        {
+          "variant": "low_outlier",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #2 - Data",
+          "referenceSha256": "6c3dc3acd3ec582b0c8d1e63a80bd37b5e2ecb23ec51917e880cd75e05c55947",
+          "specSha256": "69ddb9629b597b1d3ee9ea5a4188e50b8dab959fbaf8c8b2a2671b94c5702788"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.seasonality",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultSeasonalityPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateSeasonalityPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "f9a5dbf72cc406ca01b3af6d55f86b1cb685affe33ec41cd33c77ddf17d7f609",
+          "specSha256": "267f5c5fdec1d10e6977af12651bf68d2e57f67902e969d8a8c44083966245fb"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.density",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultDensityPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateDensityPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "835eb1327654e6e593b9d01f9005951ea19a107ff3e5b158e23f8bc94d5c507e",
+          "specSha256": "3832f135ccfe1a5952cb7a3a1795160e032250d449a82589d4700e527042e032"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.histogram",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultHistogramPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateHistogramPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "0aedf16b490966e2dc79f255f8bdbcf0a555e820172f0f215d35b381aaf53469",
+          "specSha256": "6d2bf006b8b56511644bed75470a1ff35507339ba25bebc72a4a5c61cd9284a6"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.qq",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultQQPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateQQPlot",
+      "variants": [
+        "default",
+        "real",
+        "log10"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "18094ea21b584644ecf7b56e54a905119c8e8f6d545c0f78454071d12fa6a5ae",
+          "specSha256": "bbee4a84249d3e79939c9de95f1e68600fb683b083690e04ff155419f423b880"
+        },
+        {
+          "variant": "real",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "8cc9bbf0f30870c2fbd2b213de3c827ce1133005fe3b88bc08d77382dbe97d97",
+          "specSha256": "08e2fd13371fa6dac925f4ffd69ed81e8cd4866f9764522de7ceac2d29bbc3c4"
+        },
+        {
+          "variant": "log10",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "8936bd7bb4a48d694c4867ad41f523a714a11609afb4fb8347cb6588167b7883",
+          "specSha256": "4cb3304207224a6473f42e99b94e82285a321bd3d9dcabba652dcff1ac916cd8"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.acf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdateACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "301f78f00f36fdd9cc7ef47d999a80804baf757a8fefb2c4eec995f1c0d53e0f",
+          "specSha256": "0733c48e741663095f4c3b19ee8c4f603c464fb6d2e11afa473d5975a23f5a64"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.pacf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultPACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::UpdatePACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\2-input-data\\1-block-maximum\\usgs-block-max-example.bestfit",
+          "element": "USGS - 01134500 - Block Max - Calendar Year",
+          "referenceSha256": "57f7344964b6d76102db420af0509f157bbe384641775f23947797040950e7f8",
+          "specSha256": "9aad87c7061c6252d35a526d0c9a1dc4c670f9f4149be624a85908847128ef28"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.mean_residual_life",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultMRLPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::DrawMRLPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - POT",
+          "referenceSha256": "0340b8d887f113f6f168138caa410cb040e69d01a5d4c71e3e64d0554243d768",
+          "specSha256": "efa14557cc4a0fd97e11256895703476058c2153111c3718d9ace50e7c846430"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.modified_scale",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultModifiedScalePlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::DrawModifiedScalePlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - POT",
+          "referenceSha256": "fa175c8939b3e0728c7a88c34825ec29644203b953de3207a6c7e4755caea788",
+          "specSha256": "c68741d9f0fcace8b76ee3887af4817bde9af72bd2146748a8872f14bf802585"
+        }
+      ]
+    },
+    {
+      "plotId": "input_data.shape",
+      "appFactory": "src/RMC.BestFit.UI/Elements/InputData/InputData.cs::CreateDefaultShapePlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/InputData/InputDataControl.xaml.cs::DrawShapePlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/input_data.py::input_data_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - POT",
+          "referenceSha256": "4cacf73ec0afc1be499730f57bf5a2cf6ab72aa81852878f81dc8719aadf75cc",
+          "specSha256": "5f75f0bbc9ea5239adeda6f35927b896103ff4dd592d851ec07cec1878fa7969"
+        }
+      ]
+    },
+    {
+      "plotId": "fitting.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/DistributionFitting/FittingAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/FittingAnalysis/FittingAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "default",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "5bdec922368282f2d725fc6fe18a9fa5c37a6333a329ebf6c00988668d160c9c",
+          "specSha256": "6d2a2d98ab230d3a815ade85da298c9302a9a97f413d5e8e0b05d65094d70fd4"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "f16029bc6f8bf2e16b01184d9366c0edb7dfcf3d41980743b01d51c8f6351a43",
+          "specSha256": "5e65ac82dabb05841f6609d65df64b7bb63462c6c8d7b3ae690ef4cf60c5cbb6"
+        }
+      ]
+    },
+    {
+      "plotId": "fitting.pdf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/DistributionFitting/FittingAnalysis.cs::CreateDefaultPDFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/FittingAnalysis/FittingAnalysisControl.xaml.cs::UpdatePDFPlot",
+      "variants": [
+        "default",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "800c9ba17c99394780abbd212a514a2e72214bc7bb1f79f5fed342ec875b631e",
+          "specSha256": "2d6689665dc18c0cd7413cc9790a8d47c6de7be5601ef2c2dc69a458388a6198"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "dc62357c846266aef21291bfdd53f0fa1d64a087b11703ca210040dd6255633c",
+          "specSha256": "6da535c2af94e379a53f256b6bee655e8a90c7ef1570f44e41dccee97d5741e0"
+        }
+      ]
+    },
+    {
+      "plotId": "fitting.cdf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/DistributionFitting/FittingAnalysis.cs::CreateDefaultCDFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/FittingAnalysis/FittingAnalysisControl.xaml.cs::UpdateCDFPlot",
+      "variants": [
+        "default",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "950c6ba9d7b63dc346f0dc76560bf26de7ad145f0a5d132b9b9711f22a640c6a",
+          "specSha256": "db990248f7ed72393d430b1b322604c67d76ef39ca0d6fc44c9a8cb3b03ebccd"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "519553687129e85afef86a6b561dfe26b61425905fc1863873a1fc14504d40d7",
+          "specSha256": "a61c050ce59dad6bb6858af40a0cd03edb70ca937d92a040c1a4dfac32d3609f"
+        }
+      ]
+    },
+    {
+      "plotId": "fitting.pp",
+      "appFactory": "src/RMC.BestFit.UI/Elements/DistributionFitting/FittingAnalysis.cs::CreateDefaultPPPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/FittingAnalysis/FittingAnalysisControl.xaml.cs::UpdatePPPlot",
+      "variants": [
+        "default",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "842f4648925dee1de7b22602f87c730922d7ff0b0260befde915aaa8daf8a4bd",
+          "specSha256": "3710e0bb7be2d4fd42b1b044158ccd0e93ee1acc0d47d90cbbac1fc7492690e5"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "e2cf0049e5694189b5e1a76099bc50fcde794474c57cddd15cbed2daedd08e2c",
+          "specSha256": "34e0d3583bc4a2ace8108079c1db72daf60fa543d519a6d3c7d9c7248009f57c"
+        }
+      ]
+    },
+    {
+      "plotId": "fitting.qq",
+      "appFactory": "src/RMC.BestFit.UI/Elements/DistributionFitting/FittingAnalysis.cs::CreateDefaultQQPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/FittingAnalysis/FittingAnalysisControl.xaml.cs::UpdateQQPlot",
+      "variants": [
+        "default",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "96dc35b5f3b00c90b23e2587ae7584b67de4c62a74ff5a448e7a315435503444",
+          "specSha256": "7a9f0d229eb0d6e153001a51e530accd1488ee36306686d9d224b43f78a300a8"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "Fit - Systematic (1951-2001)",
+          "referenceSha256": "239e34c19ee9c87e559a92c320c96b2c617fae35c158f18fd480d882fcd7efdc",
+          "specSha256": "d96c3f960a4b06b6ccd24b4a1bc6e61dcfa0027a814729eace304b5cdb291fe5"
+        }
+      ]
+    },
+    {
+      "plotId": "univariate.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/UnivariateAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/Univariate/UnivariateAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "stationary",
+        "nonstationary",
+        "comparison",
+        "quantile_prior"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\5-nonstationary-ffa\\nsffa-brays-bayou-texas.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "stationary",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "fb8ce2ed7518652ddb39a00350c52cb1acb6253687c8ae99af9bab22e3ab8b6c",
+          "specSha256": "68f7dffac4da3a671cc7cbdf65840e927d73eae2c2f341a03e3fd056e6132c34"
+        },
+        {
+          "variant": "nonstationary",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\5-nonstationary-ffa\\nsffa-brays-bayou-texas.bestfit",
+          "element": "NSFFA - Linear",
+          "referenceSha256": "dcef77546f7e3e949c7bf918200dfbcd4264159ba69b717d349108ed7282eaeb",
+          "specSha256": "667658f5990d92cc0428cdfb53cea418ea2b5ac18c5e0baa4c36fc4fb7924618"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "2ef645c54f0664a50c3f19425b2a6170ec7e3c9de5f94ea317def3530e774b6c",
+          "specSha256": "14ca66affc4e1b08d3706433310726fa4dc2d93409b23f9b96564a5620629e8a"
+        },
+        {
+          "variant": "quantile_prior",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+          "referenceSha256": "ee46e323629bc6f2e56789df8ad091a157ff2a72886e1ebab59737359c39aa3d",
+          "specSha256": "9515790f73a0d4c8734ddccda3bcf1f349359401a33b7369c085b42cd20a8772"
+        }
+      ]
+    },
+    {
+      "plotId": "univariate.chronology",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/UnivariateAnalysis.cs::CreateDefaultChronologyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/Univariate/UnivariateAnalysisControl.xaml.cs::UpdateChronologyPlot",
+      "variants": [
+        "stationary",
+        "nonstationary"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\5-nonstationary-ffa\\nsffa-brays-bayou-texas.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "stationary",
+          "status": "app_conditional_empty",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)"
+        },
+        {
+          "variant": "nonstationary",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\5-nonstationary-ffa\\nsffa-brays-bayou-texas.bestfit",
+          "element": "NSFFA - Linear",
+          "referenceSha256": "016379853e18d2b7626a0d99bce397b6d641a7739c60f6c8c37fc5e87147e463",
+          "specSha256": "89f33cc7727ec8020be65d045ac4bccd3ede90dd0519c79c120b8e3d250affe4"
+        }
+      ]
+    },
+    {
+      "plotId": "b17c.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/B17CAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/B17C/B17CAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "mv_normal",
+        "bcb",
+        "historical_interval",
+        "low_outlier"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "mv_normal",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #1",
+          "referenceSha256": "c06c6749d0403cc2322db2a3a79ffff6148254b6c5eb4d2b12208f9b3e1b969a",
+          "specSha256": "4ac3840e65c6f4bc7ae8f5679fb32346d60f88c1ca0eab281145fc342d1e3000"
+        },
+        {
+          "variant": "bcb",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #1 - BCB",
+          "referenceSha256": "9134e97a33f1ff44063c1c76c49e1efd4b7e7e178b75879974e9389cd71d9ad7",
+          "specSha256": "092d64ea33ff8b7c2fc4cab2dd9fcbe5f70ce3fd021f201bd9711e69966747b3"
+        },
+        {
+          "variant": "historical_interval",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #4",
+          "referenceSha256": "67f854c06c4a69de11c0dfb3f1026c274f8692ab81ec2357d59d23d889e8766f",
+          "specSha256": "a4c3aba67b2642f236568f444f1dc4f3009e6e7be57a592c53d6172e91b5fffe"
+        },
+        {
+          "variant": "low_outlier",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #2",
+          "referenceSha256": "10fc618a44fd68d9dd313f9682a19957528986cca0c3dbb3ba9d63552c0d79c6",
+          "specSha256": "f9748f33164f37e4e73e0e515470ce5304a8aa57d0032ae1de63ab26e4001370"
+        }
+      ]
+    },
+    {
+      "plotId": "point_process.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/PointProcessAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/PointProcess/PointProcessAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "pot",
+        "ams",
+        "seasonal",
+        "comparison"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "pot",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - Point Process",
+          "referenceSha256": "07934c79337f93bbd9779109655751649a0bdd8b7fdd9ae2cb7e34250597409a",
+          "specSha256": "8c909bf6cc259fef568371e62be84c5dd8f2a97016ef09a59838d757299c6d50"
+        },
+        {
+          "variant": "ams",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - Point Process",
+          "referenceSha256": "0d3c559ee5aa570d1b4d3b7d7184dce36039954b2676781557b7ad0428cb03c2",
+          "specSha256": "c52ad1e5ec3ce0840e981f7fabbed012b6f3294850903a8b95ba08d21d0b35fc"
+        },
+        {
+          "variant": "seasonal",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - Seasonal Point Process",
+          "referenceSha256": "3d3c31d0cf7d96b80c630a97f961a927488e2f88fd9722318a19f7e4de63bdb2",
+          "specSha256": "c3c574ca200a55c78e12498bc1078c8cadbd1c70054fe469d25eaf298c33f4ae"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "element": "USC00040741 - Point Process",
+          "referenceSha256": "d813b76b85b1a6ac04f1f82665b2f188ed5c435fa8d7b6dfa1ff0e1c98eff2b6",
+          "specSha256": "a6632aa34f82349c99fd7b18b3db264e2f2434a0f34353988d98debaab077762"
+        }
+      ]
+    },
+    {
+      "plotId": "mixture.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/MixtureAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/Mixture/MixtureAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "mixture",
+        "zero_inflated"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\4-mixture-analysis\\mixture-distribution-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "mixture",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\4-mixture-analysis\\mixture-distribution-examples.bestfit",
+          "element": "Mixture Distribution - 2 Normals",
+          "referenceSha256": "7e409d20822ececb874b06fc308a71ec37ce6ad0e211af078d9f1044011d18f3",
+          "specSha256": "3195b4dea97fa8aba85559e7637db00274a31fde7cda57c85910358363b1edd9"
+        },
+        {
+          "variant": "zero_inflated",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\4-mixture-analysis\\mixture-distribution-examples.bestfit",
+          "element": "Mixture Distribution - 2 Normals - Zero-Inflated",
+          "referenceSha256": "b9656bc10e4de5fa1fc8e8a6ef9dc6cfc45374d1e292fdd18d9b34d85ec91eab",
+          "specSha256": "751b58feab7b624bf7eae473016974fd7136a6372f6036d247e2c4a8695e3700"
+        }
+      ]
+    },
+    {
+      "plotId": "composite.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/UnivariateAnalysis/CompositeAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/UnivariateAnalysis/Composite/CompositeAnalysisControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "competing_risk",
+        "component"
+      ],
+      "adapter": "bestfit_plots/adapters/frequency.py::frequency_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\5-composite-analysis\\mixed-population-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "competing_risk",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\5-composite-analysis\\mixed-population-examples.bestfit",
+          "element": "Competing Flood Types",
+          "referenceSha256": "53257374bc189638a2041a542b73d53fdd35363b819818aa804bb3ac50da07f2",
+          "specSha256": "15ed3433e42f9095a945f169aa414bbf5318fa6cc802a9e45f08225fbdff5c49"
+        },
+        {
+          "variant": "component",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\5-composite-analysis\\mixed-population-examples.bestfit",
+          "element": "Competing Flood Types",
+          "referenceSha256": "3404e1e8a9328071b06454d6a71940be068906291da0d3303e6d4e98a25d6e9e",
+          "specSha256": "a0b1c59adaa84c7ddcce7cd31df7ca9442f1f58c2b031f94624de86fc570977d"
+        }
+      ]
+    },
+    {
+      "plotId": "bivariate.distribution",
+      "appFactory": "src/RMC.BestFit.UI/Elements/BivariateAnalysis/BivariateAnalysis.cs::CreateDefaultCopulaPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/BivariateAnalysis/Bivariate/BivariateAnalysisControl.xaml.cs::UpdateCopulaPlot",
+      "variants": [
+        "scatter_values",
+        "scatter_cdf",
+        "density_values",
+        "density_cdf",
+        "joint_exceedance_values",
+        "joint_exceedance_cdf"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::bivariate_plots",
+      "sourceFixture": [
+        "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "scatter_values",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "975a8a80e074757cac6349d036ce09e270669c05126768450779dd7ad7304c4a",
+          "specSha256": "16b1bd589ce1528d5ed1961c402ec1ef92a1f13b4fef75fef956d85b6b1840fb"
+        },
+        {
+          "variant": "scatter_cdf",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "af91a737ba93df0b088aff47bd3dede5e8e0236fffd9a606b6d2fdce7c18881d",
+          "specSha256": "8addeb35c7926a5fe52ef10117ded8227ddafc32f693bacf588d56bc4899e326"
+        },
+        {
+          "variant": "density_values",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "e5c905f385c0a138b8afc63fc9ee73df841c3f37221b28cafc433842aa98d947",
+          "specSha256": "dce59714e2f401d9d860921a190d616c452484192c9157d3e81dad8c1b8b36e1"
+        },
+        {
+          "variant": "density_cdf",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "d1b6424d50449bfb57541a886f5265dbd09db357d0cca7b1260347135ba852d4",
+          "specSha256": "bef3c1a8505730cfcf6c6b833d069b92a540160da53c2ed95b52f6614a6e6414"
+        },
+        {
+          "variant": "joint_exceedance_values",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "fdb0a43996cd9a26c379166686201c1f2844ccd22a29bfd1fbb5b2c957ee4010",
+          "specSha256": "1c764940591f29d9c1d1eef6868f4782a46e858eb8afa596acf97b11d6aab1bc"
+        },
+        {
+          "variant": "joint_exceedance_cdf",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\1-bivariate-distributions\\bivariate-distribution-examples.bestfit",
+          "element": "Normal Copula",
+          "referenceSha256": "444fefeac02117851fbfb2afad8088993bea3c592de262a86651a06ee928b2cc",
+          "specSha256": "6b4090e0678b4c278fbdb2121b3c361979680eec69433cae2af325fb69f8304b"
+        }
+      ]
+    },
+    {
+      "plotId": "coincident.frequency",
+      "appFactory": "src/RMC.BestFit.UI/Elements/BivariateAnalysis/CoincidentFrequencyAnalysis.cs::CreateDefaultFrequencyPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/BivariateAnalysis/CoincidentFrequency/CoincidentFrequencyControl.xaml.cs::UpdateFrequencyPlot",
+      "variants": [
+        "default",
+        "comparison",
+        "linear_response"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::coincident_plots",
+      "sourceFixture": [
+        "examples\\5-bivariate-distribution-analysis\\2-coincident-frequency\\sum-two-normals.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\2-coincident-frequency\\sum-two-normals.bestfit",
+          "element": "CFA - Rho = 0.0",
+          "referenceSha256": "91387b0ac44cbe792d4563d37901a41d1b179fd6a2af6d9f2c379fe5b21cda17",
+          "specSha256": "bb7b3982999956fbe2dd7e95e59afcb3f07daa32212addfa05d7d195c75be182"
+        },
+        {
+          "variant": "comparison",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\2-coincident-frequency\\sum-two-normals.bestfit",
+          "element": "CFA - Rho = 0.0",
+          "referenceSha256": "93ab657b97085228ee2fb302052ca8906f4e6c4e4f8d852d330b8ce8e66b85ba",
+          "specSha256": "46d165e00c55a4f030a7f110e41b3819a3bc86238a842632ae8afcebd6347147"
+        },
+        {
+          "variant": "linear_response",
+          "status": "verified",
+          "source": "examples\\5-bivariate-distribution-analysis\\2-coincident-frequency\\sum-two-normals.bestfit",
+          "element": "CFA - Rho = 0.0",
+          "referenceSha256": "6307117244e75c98f9eceb2763e65c78a7c925a05ce478bc52653eda3a19f102",
+          "specSha256": "ce2aa8effb6194822f5927d4350b080c2e3fe9bddabd1905243273b00e2a1f5b"
+        }
+      ]
+    },
+    {
+      "plotId": "rating.curve",
+      "appFactory": "src/RMC.BestFit.UI/Elements/RatingCurveAnalysis/RatingCurveAnalysis.cs::CreateDefaultRatingCurvePlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/RatingCurveAnalysis/RatingCurveAnalysisControl.xaml.cs::UpdateRatingCurvePlot",
+      "variants": [
+        "default",
+        "segmented"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::rating_plots",
+      "sourceFixture": [
+        "examples\\6-rating-curve-analysis\\synthetic-rating-curve-examples.bestfit",
+        "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit",
+          "element": "USGS 07024175 Rating Curve",
+          "referenceSha256": "2289a5789aaba0edd6688dc98bf33fa83e8c329af057834aa8576b940cf33c46",
+          "specSha256": "850f3c77d181b9d69a3f13fccc6f1f94256dfa0515dd93ea882b7558c32e3689"
+        },
+        {
+          "variant": "segmented",
+          "status": "verified",
+          "source": "examples\\6-rating-curve-analysis\\synthetic-rating-curve-examples.bestfit",
+          "element": "2 Segment Rating Curve",
+          "referenceSha256": "fb5d9ba9ac0e9e21315f261bab9600a1620d9eb882938d3cea73490b21e41154",
+          "specSha256": "4a46f750cfd11950e3c531df6be8a513c70dfc4b95a6484d22a86c0a91654ddc"
+        }
+      ]
+    },
+    {
+      "plotId": "rating.residuals",
+      "appFactory": "src/RMC.BestFit.UI/Elements/RatingCurveAnalysis/RatingCurveAnalysis.cs::CreateDefaultResidualPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/RatingCurveAnalysis/RatingCurveAnalysisControl.xaml.cs::UpdateResidualsPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::rating_plots",
+      "sourceFixture": [
+        "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit",
+          "element": "USGS 07024175 Rating Curve",
+          "referenceSha256": "ee7263dda24bbe2f6c8768278225caadd58084fc4e693a925e8affffba489eb3",
+          "specSha256": "e7bc8ea90e238d71917bc15a81c346d610719d36d26a4dbf6985bbf82b7d7ca2"
+        }
+      ]
+    },
+    {
+      "plotId": "rating.residual_histogram",
+      "appFactory": "src/RMC.BestFit.UI/Elements/RatingCurveAnalysis/RatingCurveAnalysis.cs::CreateDefaultResidualHistogramPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/RatingCurveAnalysis/RatingCurveAnalysisControl.xaml.cs::UpdateHistogramPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::rating_plots",
+      "sourceFixture": [
+        "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit",
+          "element": "USGS 07024175 Rating Curve",
+          "referenceSha256": "583378bb93c8aa5faece9e0ab8e99ddf75cc06b1b006f4b4f2a2b622249cfbe9",
+          "specSha256": "d434eee192f6459d7028d352212de0046fa72f36630f8bcc0bd5156f1175450b"
+        }
+      ]
+    },
+    {
+      "plotId": "rating.residual_qq",
+      "appFactory": "src/RMC.BestFit.UI/Elements/RatingCurveAnalysis/RatingCurveAnalysis.cs::CreateDefaultResidualQQPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/RatingCurveAnalysis/RatingCurveAnalysisControl.xaml.cs::UpdateQQPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::rating_plots",
+      "sourceFixture": [
+        "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\6-rating-curve-analysis\\usgs-07024175-mississippi-rating-curve.bestfit",
+          "element": "USGS 07024175 Rating Curve",
+          "referenceSha256": "76e8be5972078929057987f6b97323bcb187839e49b4ab86f39155891048fc02",
+          "specSha256": "9f6a7c415d90f78652f318a0c1c9b0fe367c8c09c1158c712068a0d6a969f0cf"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.series",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultTimeSeriesPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdateTimeSeriesPlot",
+      "variants": [
+        "training",
+        "forecast"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "training",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "864e01378157fb153a8c738e86b8c2c72397684d87c2b78b3d73adbb725bcd70",
+          "specSha256": "0dd2e313e64e44d9c6d97b554d8b6f6e1619347d4ab33ea4ef78d99a39076088"
+        },
+        {
+          "variant": "forecast",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "7e41ad765d2b33a7d9f95e9b9872516596872dd7f0e56086be4a3e877558df4c",
+          "specSha256": "fc2ec5bad75636d9a3800c6a6caae46d6a01b890e5cc428c16de8a3fe33958b1"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.residuals",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultResidualPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdateResidualsPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "b5c1a298d8c5fd7f8ce1b8bedee2675011dbfa464dfa5819c53ca42a3ada209e",
+          "specSha256": "962b4eb9c04ce4e0ca05be1c6e77c8a0100b981b64a1fcfc4c6f9cca61304af6"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.residual_histogram",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultResidualHistogramPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdateHistogramPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "1d2af5b48345c409ac2a8cfcfeaa6ecb4aa9274c5308853f9e23289c5e2c5a0c",
+          "specSha256": "e3b8eabca6af88be4255e8e91b2afc6366ab595411feb57c1ffc94dff6d44f67"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.residual_qq",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultResidualQQPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdateQQPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "f5185ef8bd4dd86b26e15653ff4bd78707fd5d2b665eb5c94e818555b789a8f2",
+          "specSha256": "82e1f2cc5fefbcad303c5c3b11cfb65c4fda3df7de946e1f4d0692f372740362"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.residual_acf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultResidualACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdateACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "3edb7109115ce0b867dae5b527e23be29e8c953f1eff3ebe0ccdf8dd180ab01d",
+          "specSha256": "2389d94eacc5e44df6eef417ffd4f65290d46e6f22e81cd067fb55208c2da167"
+        }
+      ]
+    },
+    {
+      "plotId": "time_series_analysis.residual_pacf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/TimeSeriesAnalysis/TimeSeriesAnalysis.cs::CreateDefaultResidualPACFPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/TimeSeriesAnalysis/TimeSeriesAnalysisControl.xaml.cs::UpdatePACFPlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/response_models.py::time_series_analysis_plots",
+      "sourceFixture": [
+        "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\7-time-series-analysis\\2-classic-time-series-examples\\classic-time-series-examples.bestfit",
+          "element": "Airline Passengers - TSA",
+          "referenceSha256": "2f67b353a6500a260a8f2c5a54d03c2e3323be41fa76d548c63d6d019d0444dc",
+          "specSha256": "fa4b3e28396dd65f7292d630a36d795c47cb76a75133befcb8eb4a570777ec32"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.trace",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultMarkovChainTracePlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/MarkovChainTraceControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "chain",
+        "warmup"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "chain",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "6685012e7c4769c3e7bf2395939fbe185297b85d4e12e896f48740ab8e233348",
+          "specSha256": "be462747fe43e1acee2e261573c016b0d3bba644a6393351b83442ce61e39301"
+        },
+        {
+          "variant": "warmup",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "a404cbf4b721538f8520fcf3b50ac90a5701fcf0d5abf10f20fbf0caa3bbb397",
+          "specSha256": "5e62dc672b4b7711408e6e0e2563bae687fb20c3e5ff81bcfb7250fbc24d7f36"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.histogram",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultHistogramPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/HistogramControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "posterior",
+        "prior"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "posterior",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "0e108d26bde3ed12764d414d2bc6aefefca0c0c714c5deb59b81f750fa427fd1",
+          "specSha256": "87b3ff3f7dadbcf765b0f03badea56a558c348ddec5a5d27635a57f9e6ad704d"
+        },
+        {
+          "variant": "prior",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "b98a4f9f16c031e5efa946884fe06e4c9ef8c361991f0b28ba2ec5aa122b8dec",
+          "specSha256": "13862401306aff666422bd1727985e318c4513b588e9f6ab680824f59068b05b"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.kde",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultKernelDensityPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/KernelDensityControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "posterior"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "posterior",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "8fdae406d82cb82de524a0590086af033c958f2fed49f6e6f78f40419647f51d",
+          "specSha256": "4eb599b593ab3c84ba7787f0f72f98c09df9bd06eebb42ba1fa7fa1b23004ed1"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.acf",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultAutocorrelationPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/AutocorrelationControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "parameter"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "parameter",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "c248f352367e310b568af50417add89899340f4efecc6594751c6143ca88149d",
+          "specSha256": "ab2408829b19f9b83d7f63f8334365dde6f692987be4031d0af5c27eb7ca7b97"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.mean_log_likelihood",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultMeanLikelihoodPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/MeanLikelihoodControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "default"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "default",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "4bd050daa660bdf17ce10cdbb44635c7dae045335f58f649ea2f8942da282cf6",
+          "specSha256": "7b17d8a5defccf6ece2bfa39bf85d526ac5a6828de07056e1c635bb3ad5242ac"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.pair_heatmap",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultBivariateHeatMapPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/BivariateHeatMapControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "parameter_pair"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "parameter_pair",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "52fde08448cf7fab347c8ad8c45f1d2119bfebfabc49594865dc625dc3520391",
+          "specSha256": "fc25159520335d68b30e99e9f7141187da96dee2e3bc478c3cdda940b523dd12"
+        }
+      ]
+    },
+    {
+      "plotId": "shared_diagnostics.influence",
+      "appFactory": "src/RMC.BestFit.UI/Elements/Support/BayesianController.cs::CreateDefaultInfluenceDiagnosticsPlot",
+      "appPopulation": "src/RMC.BestFit.App/GUI/Support/Controls/InfluenceDiagnosticsControl.xaml.cs::UpdatePlot",
+      "variants": [
+        "bayesian_leverage",
+        "bayesian_fit",
+        "bayesian_variance",
+        "gmm_fit",
+        "gmm_variance",
+        "leave_one_out"
+      ],
+      "adapter": "bestfit_plots/adapters/diagnostics.py::diagnostic_plots",
+      "sourceFixture": [
+        "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+        "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit"
+      ],
+      "status": "implemented",
+      "evidence": [
+        {
+          "variant": "bayesian_leverage",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "174cf318e6a3f5881a195c5914b5fa37608618ea9055052cef25ee0bcef565f0",
+          "specSha256": "2f8549c222d02785f67f07f5fef1488f2fe9b81216a3db68de86e20765125cd4"
+        },
+        {
+          "variant": "bayesian_fit",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "8a939b77c4b10b93acc2caeeaa8a61849c6b0858f6d2dcbc232fad1683ebaa22",
+          "specSha256": "da2c72a3557cc59adc04f5cb5d11ae20ca83e2dd7527ba340843a00246c8f562"
+        },
+        {
+          "variant": "bayesian_variance",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "4cba25627d070741888bc949831e14a44be0ce131cfe1c3bbc01eebba310cc93",
+          "specSha256": "14388e1c10489a3cd0bbc1e21ad3733830df81023ae0558c3540931fb3db2bf5"
+        },
+        {
+          "variant": "gmm_fit",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #1",
+          "referenceSha256": "639d2ca3e8cb786ffaf7091fb17685a1afc2858e8fdf20a5f674f1a13326b579",
+          "specSha256": "52faaa3e820cee924f91b862281b043f19726b54f8ac3bad6521099bdb812481"
+        },
+        {
+          "variant": "gmm_variance",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\2-bulletin-17C-analysis\\1-bulletin17C-examples\\bulletin-17c-examples.bestfit",
+          "element": "Example #1",
+          "referenceSha256": "9e9199e17bc0e15ac245571cac4a27207823e6938fe97a6df879c0d51cf4f7e5",
+          "specSha256": "de4069ebab311944cb32d50d0bb63b9fb295e35f790ac4bfb43d06a9053b7b11"
+        },
+        {
+          "variant": "leave_one_out",
+          "status": "verified",
+          "source": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\1-information-expansion\\viglione-et-al-2013.bestfit",
+          "element": "MCMC - Systematic (1951-2001)",
+          "referenceSha256": "588f65cbcd90d88e1b5c36c2fbc351a83b075cddcbf5972c8c8b74195c97e666",
+          "specSha256": "9c83c59b9f1ac9266c7473911db16e5463f7a4304f5f08f5b5cfeb7b07579776"
+        }
+      ]
+    }
+  ],
+  "evidenceReport": "BestFit-Python-Examples/validation/plot-parity/report.json",
+  "evidenceReportSha256": "e11a30b478269758f1f9058fc598c809e92d02b9f73c4c78fb2b3d679d135bbe",
+  "evidenceCounts": {
+    "verified": 85,
+    "app_conditional_empty": 1
+  }
+}

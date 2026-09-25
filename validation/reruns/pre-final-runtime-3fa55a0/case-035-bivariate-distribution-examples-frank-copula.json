@@ -1,0 +1,58 @@
+{
+  "analysis_name": "Frank Copula",
+  "dependencies": [
+    {
+      "name": "Frank - Marginal X",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.344
+    },
+    {
+      "name": "Frank - Marginal Y",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.328
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": -110.21901065514353,
+      "BIC": -107.61384046915545,
+      "DIC": -110.19001396148333,
+      "RMSE": 0.013175027213972101
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.43135,
+        0.43038333333333334,
+        0.42841666666666667,
+        0.43001666666666666
+      ],
+      "chain_count": 4,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:49:32.547143+00:00",
+  "output_snapshot": "bivariate-distribution-examples/frank-copula-a383a099e2d2.json.gz",
+  "output_snapshot_bytes": 2343332,
+  "output_snapshot_sha256": "00ccbb66eac572a2a8596f71f5adf80485913a64151c90305aa939ee1a90cdbc",
+  "project_slug": "bivariate-distribution-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "a383a099e2d2fb46f8de37675550297a3f2012602be5c69f3b952381ec668ee1",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+  "source_sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec",
+  "started_utc": "2026-09-22T16:49:29.226623+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 3.312
+}

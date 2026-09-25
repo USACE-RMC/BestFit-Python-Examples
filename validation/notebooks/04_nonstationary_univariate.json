@@ -1,0 +1,10 @@
+{
+  "notebook": "04_nonstationary_univariate.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "20888746b9b5253c60d17a7a8a109683a8b353c2ffeac25287e4e48cae33e751",
+  "elapsedSeconds": 4.11
+}

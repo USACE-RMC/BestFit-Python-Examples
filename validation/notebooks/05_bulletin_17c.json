@@ -1,0 +1,10 @@
+{
+  "notebook": "05_bulletin_17c.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "4ae153c1ec4b9446aeaa5764c66a0cf9ec8dd4aa93622903dc7f4fdcdea1e502",
+  "elapsedSeconds": 3.562
+}

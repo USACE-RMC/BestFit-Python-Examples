@@ -1,0 +1,49 @@
+{
+  "analysis_name": "CFA - Rho = -0.5",
+  "dependencies": [
+    {
+      "name": "X Marginal - Rho = -0.5",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.797
+    },
+    {
+      "name": "Y Marginal - Rho = -0.5",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.812
+    },
+    {
+      "name": "Normal Copula - Rho = -0.5",
+      "status": "completed",
+      "table": "Bivariate Distribution Analysis",
+      "wall_seconds": 5.672
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 0.0,
+      "BIC": 0.0,
+      "DIC": 0.0,
+      "RMSE": 0.0
+    },
+    "is_estimated": true
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-25T19:44:26.351829+00:00",
+  "output_snapshot": "sum-two-normals/cfa-rho-0-5-af78f623b019.json.gz",
+  "output_snapshot_bytes": 2356985,
+  "output_snapshot_sha256": "acab68e24c7b3093682c2362e996e54fa933a0e5b628ec530974c97bbaadaec6",
+  "project_slug": "sum-two-normals",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "schema_version": 1,
+  "settings_sha256": "af78f623b019cbae2b4003fb092410b84e5f5984b164c2fd32c330b4bfb5f0e8",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+  "source_sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3",
+  "started_utc": "2026-09-25T19:44:16.516230+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 9.844
+}

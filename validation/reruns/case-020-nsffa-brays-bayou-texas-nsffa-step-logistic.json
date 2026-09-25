@@ -1,0 +1,62 @@
+{
+  "analysis_name": "NSFFA - Step - Logistic",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1154.4375236012072,
+      "BIC": 1169.8236127500143,
+      "DIC": 1154.8344044363869,
+      "RMSE": 163.57487467041372
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.16418243347177358,
+        0.16603984002461158,
+        0.16595523765574527,
+        0.16612444239347793,
+        0.16654360867558837,
+        0.16632056606675896,
+        0.16559760036917398,
+        0.16550530687586526,
+        0.16624365482233502,
+        0.16314413167205044,
+        0.1653361021381326,
+        0.16336332871865866
+      ],
+      "chain_count": 12,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-25T19:38:32.938305+00:00",
+  "output_snapshot": "nsffa-brays-bayou-texas/nsffa-step-logistic-0dd577c45361.json.gz",
+  "output_snapshot_bytes": 4168183,
+  "output_snapshot_sha256": "65701ae29d255bfe0abed7eceee3d0251a4541d60080bddee6e226d0f1d9268e",
+  "project_slug": "nsffa-brays-bayou-texas",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "schema_version": 1,
+  "settings_sha256": "0dd577c4536145973295d41d1c48770057df08114ce9f4bd48ff75f63ad50787",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+  "source_sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31",
+  "started_utc": "2026-09-25T19:37:26.580896+00:00",
+  "status": "completed",
+  "table": "Univariate Distribution Analysis",
+  "wall_seconds": 66.359
+}

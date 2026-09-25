@@ -1,4 +1,4 @@
-# Contributing to BestFit
+# Contributing to BestFit Python Examples
 
 Thank you for your interest in contributing to BestFit-Python-Examples! We welcome bug reports, feature requests, validation results, and other feedback from the community.
 
@@ -30,16 +30,25 @@ Feature requests are welcome. Please [open an issue](../../issues/new) describin
 
 ### Report Validation Results
 
-Given the life-safety applications of Numerics, which this demo is an extension of, independent validation is especially valuable. If you have compared this software's results against other software (e.g., R packages, published tables, or analytical solutions), we would appreciate hearing about it through an issue.
+Given the flood-risk applications of BestFit and its Numerics dependency, independent validation is especially valuable. If you have compared this software's results against other software (e.g., R packages, published tables, or analytical solutions), we would appreciate hearing about it through an issue.
 
 ### Submit a Pull Request
 
 Pull requests may take several weeks or longer to review. Before submitting code:
 
 1. **Open an issue first** to discuss the proposed change
-2. **Follow the coding standards**, including XML documentation on all public types and members
+2. **Follow the coding standards**, including docstrings for reusable Python interfaces
 3. **Include unit tests** that validate against known results (R, SciPy, Mathematica, or published tables)
 4. **Ensure a clean build** with zero errors and warnings
+
+For this curriculum, start from a saved app example and retain its data provenance,
+model settings and scientific context. Keep the teaching surface at 12 notebooks.
+Preserve notebook narratives unless a source-verified technical correction is needed.
+Upstream AI-generated narration is still awaiting author review.
+Put reusable plotting changes in RMC-BestFit's canonical `bestfit_plots` package.
+Run the Python contract tests and `scripts/validate_notebooks.py`; record full
+numerical reruns separately from cached notebook execution. Never replace source
+data or shorten sampling to obtain a passing demonstration.
 
 ## Developer Certificate of Origin
 
@@ -59,4 +68,4 @@ If you discover a security vulnerability, please do **not** open a public issue.
 
 ## License
 
-See [LICENSE](LICENSE) for details. This software is provided by USACE-RMC under a BSD-style license with a no-endorsement clause.
+See [LICENSE](LICENSE) for the Zero-Clause BSD terms.

@@ -1,0 +1,53 @@
+{
+  "analysis_name": "1 Segment Rating Curve",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 3156.2359676437572,
+      "BIC": 3171.051097542382,
+      "DIC": 3156.3705013223853,
+      "RMSE": 224.36464296481583
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.24583157894736843,
+        0.2466578947368421,
+        0.2454421052631579,
+        0.24564736842105264,
+        0.24672105263157895,
+        0.24556842105263157,
+        0.2464578947368421,
+        0.24835263157894738
+      ],
+      "chain_count": 8,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:50:27.686863+00:00",
+  "output_snapshot": "synthetic-rating-curve-examples/1-segment-rating-curve-ed09dd46802f.json.gz",
+  "output_snapshot_bytes": 2174943,
+  "output_snapshot_sha256": "40dafc132d842ff7934f15f741862769b8e26fbe056f1938b86d774d3501ae1a",
+  "project_slug": "synthetic-rating-curve-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "ed09dd46802f7c8e2b036c277d8e95c8875e6c7cbf32b3121d14040c7cd963b1",
+  "source_relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+  "source_sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17",
+  "started_utc": "2026-09-22T16:50:21.434731+00:00",
+  "status": "completed",
+  "table": "Rating Curve Analysis",
+  "wall_seconds": 6.25
+}

@@ -1,0 +1,59 @@
+{
+  "analysis_name": "Clayton Copula",
+  "dependencies": [
+    {
+      "name": "Clayton - Marginal X",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.359
+    },
+    {
+      "name": "Clayton - Marginal Y",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.375
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": -60.94932723280312,
+      "BIC": -58.34415704681503,
+      "DIC": -60.99748977179949,
+      "RMSE": 0.022539335334635965
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.43651666666666666,
+        0.4401833333333333,
+        0.4386,
+        0.43783333333333335
+      ],
+      "chain_count": 4,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:04:18.748685+00:00",
+  "output_snapshot": "bivariate-distribution-examples/clayton-copula-c0da43dc079d.json.gz",
+  "output_snapshot_bytes": 2347573,
+  "output_snapshot_sha256": "79c680c02e41e8c9a68e2feebad79d0474bd23c9ddda5be127f3a7dc874b3e29",
+  "project_slug": "bivariate-distribution-examples",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "c0da43dc079d33cc672caab89dbc712d5f023c0051b9d88293b17d7c8818a90e",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+  "source_sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec",
+  "started_utc": "2026-09-22T18:04:13.620363+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 5.125
+}

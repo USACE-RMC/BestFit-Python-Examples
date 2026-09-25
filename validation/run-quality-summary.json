@@ -1,0 +1,68 @@
+{
+  "completion_status_counts": {
+    "completed": 51
+  },
+  "convergence_status": "not_established_by_completion",
+  "mcmc_or_ensemble_result_count": 40,
+  "parameter_diagnostics": {
+    "ess_below_400_count": 3,
+    "ess_range": [
+      51.56085809824184,
+      14752.78115479991
+    ],
+    "finite_ess_count": 136,
+    "finite_rhat_count": 136,
+    "inapplicable_reason": "Frequentist B17C ensembles have no Markov chains; their R-hat and ESS are not MCMC convergence diagnostics.",
+    "rhat_ess_inapplicable_count": 12,
+    "rhat_ess_unavailable_count": 0,
+    "rhat_over_1_01_count": 4,
+    "rhat_range": [
+      0.9997728590996849,
+      1.262018700253505
+    ]
+  },
+  "receipt_count": 51,
+  "screening_thresholds": {
+    "ess_below": 400,
+    "rhat_over": 1.01,
+    "role": "descriptive warnings only; not scientific acceptance"
+  },
+  "screening_warnings": [
+    {
+      "analysis_name": "Airline Passengers - TSA",
+      "ess_below_400": [
+        {
+          "ess": 126.80584701485026,
+          "parameter_index": 1
+        },
+        {
+          "ess": 51.56085809824184,
+          "parameter_index": 2
+        },
+        {
+          "ess": 217.6743572738807,
+          "parameter_index": 3
+        }
+      ],
+      "project_slug": "classic-time-series-examples",
+      "rhat_over_1_01": [
+        {
+          "parameter_index": 0,
+          "rhat": 1.0813505602247955
+        },
+        {
+          "parameter_index": 1,
+          "rhat": 1.1587849229885856
+        },
+        {
+          "parameter_index": 2,
+          "rhat": 1.262018700253505
+        },
+        {
+          "parameter_index": 3,
+          "rhat": 1.161592876441394
+        }
+      ]
+    }
+  ]
+}

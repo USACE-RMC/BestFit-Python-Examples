@@ -1,0 +1,58 @@
+{
+  "analysis_name": "Joe Copula",
+  "dependencies": [
+    {
+      "name": "Joe - Marginal X",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.437
+    },
+    {
+      "name": "Joe - Marginal Y",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.484
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": -92.8305975460614,
+      "BIC": -90.22542736007331,
+      "DIC": -92.83760333527823,
+      "RMSE": 0.014225919540631942
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.43083333333333335,
+        0.42855,
+        0.4358166666666667,
+        0.4316833333333333
+      ],
+      "chain_count": 4,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:49:45.969654+00:00",
+  "output_snapshot": "bivariate-distribution-examples/joe-copula-9210d1c8ffb2.json.gz",
+  "output_snapshot_bytes": 2338039,
+  "output_snapshot_sha256": "df18e306a04038d1b048fdcd1e7fab6fe8bf9f5b760f137d3b263083fe2f9e9c",
+  "project_slug": "bivariate-distribution-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "9210d1c8ffb2e9d08f9205207d9359f3ed1dcead35e6880cf548cbd6c22ce73c",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+  "source_sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec",
+  "started_utc": "2026-09-22T16:49:39.071764+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 6.89
+}

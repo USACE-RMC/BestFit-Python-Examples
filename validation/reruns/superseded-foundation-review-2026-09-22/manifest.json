@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "superseded_attempts": [
+    {
+      "analysis_name": "CFA - Rho = -0.5",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/sum-two-normals/cfa-rho-0-5-af78f623b019.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-039-sum-two-normals-cfa-rho-0-5.json",
+      "case_number": 39,
+      "original_output_snapshot": "output/reruns/sum-two-normals/cfa-rho-0-5-af78f623b019.json.gz",
+      "original_receipt": "validation/reruns/case-039-sum-two-normals-cfa-rho-0-5.json",
+      "output_snapshot_sha256": "aafd76283d23728b94efcabcc132d497515a4c6e5b6553512e90230f46044758",
+      "reason": "CFA omitted saved marginal posterior chains; upstream uncertainty was not propagated."
+    },
+    {
+      "analysis_name": "CFA - Rho = 0.0",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/sum-two-normals/cfa-rho-0-0-4aa6724385da.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-040-sum-two-normals-cfa-rho-0-0.json",
+      "case_number": 40,
+      "original_output_snapshot": "output/reruns/sum-two-normals/cfa-rho-0-0-4aa6724385da.json.gz",
+      "original_receipt": "validation/reruns/case-040-sum-two-normals-cfa-rho-0-0.json",
+      "output_snapshot_sha256": "acd525cc14c9fb287ef5d24437dd92724493828fb7659576dd906655493f1595",
+      "reason": "CFA omitted saved marginal posterior chains; upstream uncertainty was not propagated."
+    },
+    {
+      "analysis_name": "CFA - Rho = +0.5",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/sum-two-normals/cfa-rho-0-5-8a6eea797e77.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-041-sum-two-normals-cfa-rho-0-5.json",
+      "case_number": 41,
+      "original_output_snapshot": "output/reruns/sum-two-normals/cfa-rho-0-5-8a6eea797e77.json.gz",
+      "original_receipt": "validation/reruns/case-041-sum-two-normals-cfa-rho-0-5.json",
+      "output_snapshot_sha256": "03586d742d6cf1283155619066567a9239d511179dffa5051acfbafdb18e8af8",
+      "reason": "CFA omitted saved marginal posterior chains; upstream uncertainty was not propagated."
+    },
+    {
+      "analysis_name": "CFA - Normal - Conditional",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/waimea-river-stage-frequency/cfa-normal-conditional-441c2fe541f8.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-042-waimea-river-stage-frequency-cfa-normal-conditional.json",
+      "case_number": 42,
+      "original_output_snapshot": "output/reruns/waimea-river-stage-frequency/cfa-normal-conditional-441c2fe541f8.json.gz",
+      "original_receipt": "validation/reruns/case-042-waimea-river-stage-frequency-cfa-normal-conditional.json",
+      "output_snapshot_sha256": "b1f1efb9402a34d8aa37b81a280e4b58ad17259d4b23617a2b1cb21e2fe969e8",
+      "reason": "CFA omitted saved marginal posterior chains; upstream uncertainty was not propagated."
+    },
+    {
+      "analysis_name": "Simple Linear Regression",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/time-series-regression-example/simple-linear-regression-93bc3143cbf8.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-050-time-series-regression-example-simple-linear-regression.json",
+      "case_number": 50,
+      "original_output_snapshot": "output/reruns/time-series-regression-example/simple-linear-regression-93bc3143cbf8.json.gz",
+      "original_receipt": "validation/reruns/case-050-time-series-regression-example-simple-linear-regression.json",
+      "output_snapshot_sha256": "4fce703da652c15b802409deab46c6b4ddb657acffb51c140031bc76b8adcd7e",
+      "reason": "ARIMAX SetCovariates replaced saved parameter values, bounds, priors, and fixed flags with defaults."
+    },
+    {
+      "analysis_name": "Multiple Linear Regression",
+      "archived_output_snapshot": "output/reruns/superseded-foundation-review-2026-09-22/time-series-regression-example/multiple-linear-regression-4d3c8422f33c.json.gz",
+      "archived_receipt": "validation/reruns/superseded-foundation-review-2026-09-22/case-051-time-series-regression-example-multiple-linear-regression.json",
+      "case_number": 51,
+      "original_output_snapshot": "output/reruns/time-series-regression-example/multiple-linear-regression-4d3c8422f33c.json.gz",
+      "original_receipt": "validation/reruns/case-051-time-series-regression-example-multiple-linear-regression.json",
+      "output_snapshot_sha256": "ea2f2da3c08e332f47ad5dffe5488eb2cb8f54b4da85e34fc6cc02028b33ad9d",
+      "reason": "ARIMAX SetCovariates replaced saved parameter values, bounds, priors, and fixed flags with defaults."
+    }
+  ]
+}

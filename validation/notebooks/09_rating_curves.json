@@ -1,0 +1,10 @@
+{
+  "notebook": "09_rating_curves.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "41d3332ac9d016804dd24b4f8d116b501e637853a344815db4593b340659929f",
+  "elapsedSeconds": 2.859
+}

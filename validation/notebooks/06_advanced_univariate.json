@@ -1,0 +1,10 @@
+{
+  "notebook": "06_advanced_univariate.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "codeCells": 4,
+  "errorOutputs": 0,
+  "notebookSha256": "125bc00c7b328f495266e63bfc807c81a58f80f23c8fe6a5c22bd9f1b418d549",
+  "elapsedSeconds": 3.359
+}

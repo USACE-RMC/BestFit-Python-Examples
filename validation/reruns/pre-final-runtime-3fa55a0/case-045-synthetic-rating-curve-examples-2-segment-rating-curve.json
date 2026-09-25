@@ -1,0 +1,65 @@
+{
+  "analysis_name": "2 Segment Rating Curve",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 3700.116114710855,
+      "BIC": 3726.0425920334483,
+      "DIC": 3699.8599970131986,
+      "RMSE": 2036.6227682496915
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.20079647517369936,
+        0.20044060328757837,
+        0.2004202677512286,
+        0.2012709710218607,
+        0.1998440942213184,
+        0.20086764955092357,
+        0.20017624131503134,
+        0.20038298593458737,
+        0.20055922724961872,
+        0.2001559057786816,
+        0.20193187595322826,
+        0.20094221318420608,
+        0.20047788510421963,
+        0.1991459074733096
+      ],
+      "chain_count": 14,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:50:42.453365+00:00",
+  "output_snapshot": "synthetic-rating-curve-examples/2-segment-rating-curve-c881070a1c7c.json.gz",
+  "output_snapshot_bytes": 5274238,
+  "output_snapshot_sha256": "68d0cd10aa55a508c8b1b512bf7c859abab11359374e2d423070781ca0dab450",
+  "project_slug": "synthetic-rating-curve-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "c881070a1c7c44915a4640566a3fa9ce9f9c1ba7f4140fd0925b8ac01b9de497",
+  "source_relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+  "source_sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17",
+  "started_utc": "2026-09-22T16:50:27.962248+00:00",
+  "status": "completed",
+  "table": "Rating Curve Analysis",
+  "wall_seconds": 14.485
+}

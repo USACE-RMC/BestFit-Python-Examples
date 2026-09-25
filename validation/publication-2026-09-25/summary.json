@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-25",
+  "baselineExamplesCommit": "1121ade3049d61be057cf8d9b32f401bbcdeaac0",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "frozenSourceCommit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "tests": {
+    "examplesPython": 71,
+    "upstreamPython": 131,
+    "upstreamSubtests": 15,
+    "dotnetSuites": [
+      {
+        "suite": "RMC.BestFit.Api.Tests",
+        "total": 532,
+        "passed": 532,
+        "failed": 0,
+        "trxSha256": "6baff034addb02638f9b3368dbfdfe728c7af29369171e386276fc500d5d353c"
+      },
+      {
+        "suite": "RMC.BestFit.App.Tests",
+        "total": 444,
+        "passed": 444,
+        "failed": 0,
+        "trxSha256": "ea46ac143f67291354e09e8b1faab77f5f7061d7a5b4c6ae09c9b0bd943ad197"
+      },
+      {
+        "suite": "RMC.BestFit.Tests",
+        "total": 3434,
+        "passed": 3434,
+        "failed": 0,
+        "trxSha256": "0d950f073ba7a8e16b4d6b605bc8a1edf30c8e2720978e5b71d91cdaac74ea25"
+      },
+      {
+        "suite": "RMC.BestFit.UI.Tests",
+        "total": 645,
+        "passed": 645,
+        "failed": 0,
+        "trxSha256": "9b573f2e992e3241e68e31374cf7a6217dd82e2a56ab4a1abb30a7f5e823bd78"
+      }
+    ],
+    "dotnetTotal": 5055
+  },
+  "notebooks": {
+    "count": 12,
+    "figures": 41,
+    "errors": 0,
+    "changedMarkdownCells": [
+      {
+        "notebook": "10_classic_time_series.ipynb",
+        "cellIndex": 5
+      },
+      {
+        "notebook": "11_regression.ipynb",
+        "cellIndex": 5
+      }
+    ],
+    "changedCodeCells": []
+  },
+  "savedViews": {
+    "cases": 71,
+    "views": 560
+  },
+  "reruns": {
+    "completed": 51,
+    "failed": 0,
+    "receiptIntegrityVerified": 51,
+    "summedAnalysisSeconds": 905.327,
+    "convergenceAccepted": false
+  },
+  "parity": {
+    "verified": 85,
+    "app_conditional_empty": 1
+  },
+  "plotSlots": 45,
+  "variantCount": 86,
+  "blanketVerificationSuiteRun": false,
+  "packaging": {
+    "examplesWheelSha256": "75cb1209091fd07e9343d480715d3264f30797c333d249abf854d4ec35c7702c",
+    "licenseAndAuthorsVerified": true,
+    "citationSchema": "CFF 1.2.0",
+    "citationValid": true
+  }
+}

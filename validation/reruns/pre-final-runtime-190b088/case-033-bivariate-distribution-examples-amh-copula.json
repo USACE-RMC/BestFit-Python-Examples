@@ -1,0 +1,59 @@
+{
+  "analysis_name": "AMH Copula",
+  "dependencies": [
+    {
+      "name": "AMH - Marginal X",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.625
+    },
+    {
+      "name": "AMH - Marginal Y",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.39
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": -12.150559743312288,
+      "BIC": -9.545389557324196,
+      "DIC": -12.336076828742621,
+      "RMSE": 0.014712055488648504
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.41385,
+        0.4247166666666667,
+        0.4215833333333333,
+        0.4245
+      ],
+      "chain_count": 4,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:04:13.420640+00:00",
+  "output_snapshot": "bivariate-distribution-examples/amh-copula-2798c7fc2523.json.gz",
+  "output_snapshot_bytes": 2582079,
+  "output_snapshot_sha256": "f19fcd34d9f6faea710ccae0fcf761c4a39c68ec45e312c01b532ed6338eaf2a",
+  "project_slug": "bivariate-distribution-examples",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "2798c7fc2523f3478703e8a1eadd3bd2d1262c398e3e9488f175e7cd78856eac",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+  "source_sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec",
+  "started_utc": "2026-09-22T18:04:10.143072+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 3.281
+}

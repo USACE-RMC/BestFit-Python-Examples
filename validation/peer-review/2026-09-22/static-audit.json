@@ -1,0 +1,488 @@
+{
+  "repositories": {
+    "BestFit-Python-Examples": {
+      "files": 561,
+      "bytes": 190478674,
+      "largest": [
+        {
+          "path": "data\\projects\\waimea-river-stage-frequency.json.gz",
+          "bytes": 31480761
+        },
+        {
+          "path": "data\\projects\\nsffa-brays-bayou-texas.json.gz",
+          "bytes": 16888927
+        },
+        {
+          "path": "data\\projects\\synthetic-rating-curve-examples.json.gz",
+          "bytes": 14265606
+        },
+        {
+          "path": "data\\projects\\usgs-download-example.json.gz",
+          "bytes": 12456531
+        },
+        {
+          "path": "data\\projects\\mixture-distribution-examples.json.gz",
+          "bytes": 12140145
+        },
+        {
+          "path": "data\\projects\\bivariate-distribution-examples.json.gz",
+          "bytes": 11980375
+        },
+        {
+          "path": "data\\projects\\viglione-et-al-2013.json.gz",
+          "bytes": 11082470
+        },
+        {
+          "path": "data\\projects\\point-process-examples.json.gz",
+          "bytes": 10847215
+        }
+      ],
+      "trackedGenerated": []
+    },
+    "RMC-BestFit": {
+      "files": 1542,
+      "bytes": 473072873,
+      "largest": [
+        {
+          "path": "output\\pdf\\rmc-bestfit-technical-reference.pdf",
+          "bytes": 39086393
+        },
+        {
+          "path": "examples\\5-bivariate-distribution-analysis\\2-coincident-frequency\\waimea-river-stage-frequency.bestfit",
+          "bytes": 36700160
+        },
+        {
+          "path": "examples\\7-time-series-analysis\\1-synthetic-data-examples\\synthetic-time-series-examples.bestfit",
+          "bytes": 25427968
+        },
+        {
+          "path": "examples\\6-rating-curve-analysis\\synthetic-rating-curve-examples.bestfit",
+          "bytes": 22872064
+        },
+        {
+          "path": "examples\\4-univariate-distribution-analysis\\1-univariate-analysis\\5-nonstationary-ffa\\nsffa-brays-bayou-texas.bestfit",
+          "bytes": 21626880
+        },
+        {
+          "path": "examples\\4-univariate-distribution-analysis\\4-mixture-analysis\\mixture-distribution-examples.bestfit",
+          "bytes": 20840448
+        },
+        {
+          "path": "examples\\4-univariate-distribution-analysis\\3-point-process-analysis\\point-process-examples.bestfit",
+          "bytes": 17629184
+        },
+        {
+          "path": "examples\\6-rating-curve-analysis\\USGS 01570500 Susquehanna River at Harrisburg, PA.bestfit.bak",
+          "bytes": 16777216
+        }
+      ],
+      "trackedGenerated": []
+    }
+  },
+  "notebooks": [
+    {
+      "path": "00_time_series_data.ipynb",
+      "cells": 10,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\00_time_series_data-cell-06-00.png",
+        "notebook-images\\00_time_series_data-cell-06-01.png",
+        "notebook-images\\00_time_series_data-cell-08-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "01_input_data.ipynb",
+      "cells": 11,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        },
+        {
+          "cell": 10,
+          "executionCount": 5
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\01_input_data-cell-04-00.png",
+        "notebook-images\\01_input_data-cell-04-01.png",
+        "notebook-images\\01_input_data-cell-06-02.png",
+        "notebook-images\\01_input_data-cell-06-03.png",
+        "notebook-images\\01_input_data-cell-08-04.png",
+        "notebook-images\\01_input_data-cell-10-05.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "02_distribution_fitting.ipynb",
+      "cells": 8,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\02_distribution_fitting-cell-04-00.png",
+        "notebook-images\\02_distribution_fitting-cell-06-01.png",
+        "notebook-images\\02_distribution_fitting-cell-06-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "03_stationary_information_expansion.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\03_stationary_information_expansion-cell-04-00.png",
+        "notebook-images\\03_stationary_information_expansion-cell-06-01.png",
+        "notebook-images\\03_stationary_information_expansion-cell-06-02.png",
+        "notebook-images\\03_stationary_information_expansion-cell-08-03.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "04_nonstationary_univariate.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\04_nonstationary_univariate-cell-06-00.png",
+        "notebook-images\\04_nonstationary_univariate-cell-06-01.png",
+        "notebook-images\\04_nonstationary_univariate-cell-08-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "05_bulletin_17c.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\05_bulletin_17c-cell-04-00.png",
+        "notebook-images\\05_bulletin_17c-cell-06-01.png",
+        "notebook-images\\05_bulletin_17c-cell-06-02.png",
+        "notebook-images\\05_bulletin_17c-cell-08-03.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "06_advanced_univariate.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\06_advanced_univariate-cell-04-00.png",
+        "notebook-images\\06_advanced_univariate-cell-06-01.png",
+        "notebook-images\\06_advanced_univariate-cell-08-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "07_bivariate_analysis.ipynb",
+      "cells": 8,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\07_bivariate_analysis-cell-04-00.png",
+        "notebook-images\\07_bivariate_analysis-cell-06-01.png",
+        "notebook-images\\07_bivariate_analysis-cell-06-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "08_coincident_frequency.ipynb",
+      "cells": 8,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\08_coincident_frequency-cell-04-00.png",
+        "notebook-images\\08_coincident_frequency-cell-06-01.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "09_rating_curves.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\09_rating_curves-cell-04-00.png",
+        "notebook-images\\09_rating_curves-cell-06-01.png",
+        "notebook-images\\09_rating_curves-cell-06-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "10_classic_time_series.ipynb",
+      "cells": 9,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        },
+        {
+          "cell": 8,
+          "executionCount": 4
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\10_classic_time_series-cell-04-00.png",
+        "notebook-images\\10_classic_time_series-cell-04-01.png",
+        "notebook-images\\10_classic_time_series-cell-06-02.png",
+        "notebook-images\\10_classic_time_series-cell-08-03.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    },
+    {
+      "path": "11_regression.ipynb",
+      "cells": 8,
+      "codeCells": [
+        {
+          "cell": 2,
+          "executionCount": 1
+        },
+        {
+          "cell": 4,
+          "executionCount": 2
+        },
+        {
+          "cell": 6,
+          "executionCount": 3
+        }
+      ],
+      "errors": [],
+      "pngs": [
+        "notebook-images\\11_regression-cell-04-00.png",
+        "notebook-images\\11_regression-cell-06-01.png",
+        "notebook-images\\11_regression-cell-06-02.png"
+      ],
+      "receiptHashMatches": true,
+      "runtimeFlags": [
+        "from pathlib import Path\nimport sys\nROOT = Path.cwd() if (Path.cwd() / \"runtime-lock.json\").exists() else Path.cwd().parent\nsys.path.insert(0, str(ROOT))\nimport json\nimport pandas as pd\nfrom IPython.display import display\nfrom bestfit_examples.project_data import load_project\nfrom bestfit_examples.data import input_inventory, series_inventory\nfrom bestfit_examples.results import saved_case\nfrom bestfit_examples.presentation import (case_metrics, case_provenance, compare_frequency,\n    composite_weights, trend_ownership, uncertain_observations)\n%matplotlib inline\nRUN_ANALYSES = False  # True: rerun the saved analysis and its dependencies at full original settings."
+      ]
+    }
+  ],
+  "missingLinks": [
+    {
+      "file": "CONTRIBUTING.md",
+      "repo": "BestFit-Python-Examples",
+      "links": [
+        {
+          "line": 15,
+          "target": "../../issues/new"
+        },
+        {
+          "line": 25,
+          "target": "../../issues/new"
+        }
+      ]
+    },
+    {
+      "file": "skills\\bestfit-frequency\\references\\workflow.md",
+      "repo": "RMC-BestFit",
+      "links": [
+        {
+          "line": 96,
+          "target": "ABSOLUTE_PATH/frequency.png"
+        }
+      ]
+    }
+  ],
+  "localPathMentions": []
+}

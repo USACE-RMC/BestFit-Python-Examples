@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "exampleSourceCommit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "bestFitRepository": "https://github.com/USACE-RMC/RMC-BestFit.git",
+  "bestFitCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "bestFitAssemblyVersion": "2.0.0.0",
+  "numericsPackageVersion": "2.2.0",
+  "numericsAssemblyVersion": "2.2.0.0",
+  "targetFramework": ".NETCoreApp,Version=v10.0"
+}

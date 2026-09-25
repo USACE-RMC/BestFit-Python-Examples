@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "AMH Copula",
+      "file": "821e18860d5fa6228c9e.json.gz",
+      "sha256": "0593f201fca0e2899921bdc987b6b67ab6331aba6e42f6aa3454db8ab56f1db0"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "Clayton Copula",
+      "file": "08848f4f4725fb000b0b.json.gz",
+      "sha256": "f25567db0d8a480b6ae4d7c2adcd035bb924f7f32d602e6e1a0f31be12d80558"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "Frank Copula",
+      "file": "f554b05c85db1e7b9527.json.gz",
+      "sha256": "1c465230e420e5af3dfd140894e2a667ff2bacae962de12cac018a2733304b6e"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "Gumbel Copula",
+      "file": "12062e2156947ffb4d91.json.gz",
+      "sha256": "2b832e844365e5640c0f5a3fa6afe1f7ba63ae6f58d828f2e0cbb17df7b16019"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "Joe Copula",
+      "file": "6ce12b0550760a341ed7.json.gz",
+      "sha256": "0cf9d8b3184cc66d3957986879f807e5c9a83dfa9e64bb2b3dbb60ff8fc4e8d6"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "table": "Bivariate Distribution Analysis",
+      "name": "Normal Copula",
+      "file": "96b4f08b24e317eee0a4.json.gz",
+      "sha256": "14be4314f75747ea561863c14da73e113c9af0f77b665de4034f8eaddea4dd2d"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Input Data",
+      "name": "Example #2 - Data",
+      "file": "556813dbcbdb58fc0179.json.gz",
+      "sha256": "d6a3de601414726aaa4be8c9c2fd9c1d6f01b17d668bedd6e82944632a289294"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Input Data",
+      "name": "Example #4 - Data",
+      "file": "8db1fe6881e10a4d2ef1.json.gz",
+      "sha256": "58958a82d504040f845c41f84c0c9ec4d7b760982ba789218e0016985db7165e"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Example #2",
+      "file": "a44964879430a8e7618f.json.gz",
+      "sha256": "f756e592052babe7f45c534a832c8af79c851e79834091aa64da96d177d5fc64"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Example #2 - BCB",
+      "file": "35c7818034206dff5f7e.json.gz",
+      "sha256": "052cfbccae5d5718236ea794b78cc18052213db3f9abef7adacd588d9a606a9b"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Example #4",
+      "file": "d171af784201ce23d582.json.gz",
+      "sha256": "294fdff99c322ff1cc82cc9c90f236f0e923379f0a21580dd6ec01bae9a48e25"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Example #4 - BCB",
+      "file": "329a9d11d137a62944f1.json.gz",
+      "sha256": "4ccc5138337da543e7c596aaa408d8b7cdbf244fc695ffc2a7ef5def6a0c0f3c"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "table": "Time Series Analysis",
+      "name": "Airline Passengers - TSA",
+      "file": "092074f8a1e871998a1a.json.gz",
+      "sha256": "7b56a75f614643510400816a896a7a0954b7bb1c1e42200880ecbdffd01e2657"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "table": "Time Series Analysis",
+      "name": "Mauna Loa - CO2",
+      "file": "88fcda24aa8d5abd7458.json.gz",
+      "sha256": "d6904890b3d0b262fffef05909e15152a285194702c7491d4c1ffc232dfde024"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "table": "Time Series Analysis",
+      "name": "Nile River Flows - TSA",
+      "file": "c089429486f8e3022202.json.gz",
+      "sha256": "be270ae9ffb673ee15fb9680c3ac5e69e07c42a9056ef0c19690161db6864d75"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "table": "Input Data",
+      "name": "GHCN-USC00040741-POT",
+      "file": "0f7e4182c0505423ad5d.json.gz",
+      "sha256": "402c05802dbd1cabe2ef02d6ad0d18e5f941c2faf62e1d534a7eb1b872567cfa"
+    },
+    {
+      "slug": "mixed-population-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Competing Flood Types",
+      "file": "70fb46e1edd614dd5b55.json.gz",
+      "sha256": "8552b735d21884f8adff2f11d3bf0ae12c40613d1465839b1f8323213bc2cfd4"
+    },
+    {
+      "slug": "mixed-population-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Mixture of Flood Types",
+      "file": "d355395797f1b3555c5c.json.gz",
+      "sha256": "441bcd3d98a40952ad3ee70e3f8a797388061772f04b7422245ac5c0002d3b38"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Mixture Distribution - 2 Normals",
+      "file": "7822882d7d11b50fdd21.json.gz",
+      "sha256": "bb59ab8ad2990a0997a7c7a7a4d7fcf25db2867cd81f30b9d6f3bd273e4ca736"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "file": "ca9ca8b81402a43b667d.json.gz",
+      "sha256": "6c900586b13308a94d2ae093e512c98c1d2810512bea12a0b734a3a36809cac4"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "Bayesian Model Average",
+      "file": "e754a2207e3aa5c2208c.json.gz",
+      "sha256": "824001ad60a3918ce8394a94ea5d851ed532be83d198b0b913f75ae560176561"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Constant",
+      "file": "a00702d869215965c40d.json.gz",
+      "sha256": "2b8d34ae64cd780a2d298d9f83c15120ac71fff11a752cdde9111120f3dc27f9"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Linear",
+      "file": "99ac6708478e672c0917.json.gz",
+      "sha256": "6adc1a34ca3e4b3ddfe0db167cc218024393b6765536458b6e3aacef500446eb"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Linear - Logistic",
+      "file": "74258e05f2bddffda471.json.gz",
+      "sha256": "50b23a1f81fa0fe5ab8491fc9d6ebe1e93a612c2603fc369770898afad23d05c"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Logistic",
+      "file": "da76aa5d428e985d577c.json.gz",
+      "sha256": "c8f399539ed944ef692dc0bfb7c6b1c8e0e0bbad3c02106ab097ae8bada9b625"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Logistic - Logistic",
+      "file": "0b68236affb9df4e8f31.json.gz",
+      "sha256": "5cc62ccbf618c452e2345671c7180bdb947171e6539b7ade0f6098d5c2d38070"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Step",
+      "file": "a737e69e1c5da8111559.json.gz",
+      "sha256": "8b24d30bfcc4b362ab076e3032525ecc4b2450179f6927fe86ba0c52e3caa2c1"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "table": "Univariate Distribution Analysis",
+      "name": "NSFFA - Step - Logistic",
+      "file": "413d072d930bd3fc5f6c.json.gz",
+      "sha256": "861eb0ac075bf18ea71a9d1709e1a5d5f2688bd630110d4e7fe0035160829cee"
+    },
+    {
+      "slug": "point-process-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "USC00040741 - GEV",
+      "file": "22d8e3727dcb43fd84c6.json.gz",
+      "sha256": "df3603d033c2a5997b0406a2c156c677515a4f615194a98f57f8d67615c6250d"
+    },
+    {
+      "slug": "point-process-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "USC00040741 - Point Process",
+      "file": "46ede5d29dc5e6a375c1.json.gz",
+      "sha256": "a97241063b970f101cc6f4724bc18d8ce743e398c6cd2c39dc51afba62f4c743"
+    },
+    {
+      "slug": "point-process-examples",
+      "table": "Univariate Distribution Analysis",
+      "name": "USC00040741 - Seasonal Point Process",
+      "file": "af9c8ff52d471d08c018.json.gz",
+      "sha256": "82357da8a96874e2c1f2dfab39b17f1047e638839be0726728a343e55b3ac34e"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "table": "Input Data",
+      "name": "Sinnemahoning - MOVE.3 - With Errors",
+      "file": "2e22fafb0d82a428a357.json.gz",
+      "sha256": "e66f3bc76c4c9e2f8300e53a3edbf96a552e3bbe6c1fba10dfbbb919ece9b811"
+    },
+    {
+      "slug": "sum-two-normals",
+      "table": "Bivariate Distribution Analysis",
+      "name": "CFA - Rho = +0.5",
+      "file": "f3b6858378c1f2b9d701.json.gz",
+      "sha256": "917bc6877e02b22f2c80fec7c66fb9d6a8b64fc75e04269596e04bd5d11ddae9"
+    },
+    {
+      "slug": "sum-two-normals",
+      "table": "Bivariate Distribution Analysis",
+      "name": "CFA - Rho = -0.5",
+      "file": "9eaa8a5f594401deaeb9.json.gz",
+      "sha256": "77f5c1387e920cb7f27f0b965e141c82216bf113a147f1e83dacce2148afafa9"
+    },
+    {
+      "slug": "sum-two-normals",
+      "table": "Bivariate Distribution Analysis",
+      "name": "CFA - Rho = 0.0",
+      "file": "ab818dbae4b48341e3c0.json.gz",
+      "sha256": "deaa722927f62448b3128800384a3aa028fb987b712f96b1dbc690b3025f9a29"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "table": "Rating Curve Analysis",
+      "name": "1 Segment Rating Curve",
+      "file": "b5168ed73219b959db5f.json.gz",
+      "sha256": "022b6638c6615f296667411fb006fb77f53584f22e7f939f46d1fcd4415a22ff"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "table": "Rating Curve Analysis",
+      "name": "2 Segment Rating Curve",
+      "file": "424a7057d152f9229308.json.gz",
+      "sha256": "8fcb098a90f0cf201c71ed96e8c790738ca1051b8358be515ccb08664dc707f5"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "table": "Rating Curve Analysis",
+      "name": "3 Segment Rating Curve",
+      "file": "d827c005a4622d693cdf.json.gz",
+      "sha256": "148a16dc407b5464768f4eddd8a7f6b4c5be6356bef397833d8a2d771b7cd18b"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "table": "Time Series Analysis",
+      "name": "Multiple Linear Regression",
+      "file": "97f4f8d9e93a8ab2f18f.json.gz",
+      "sha256": "a86220a68794f7fe9cd554fa91e39b6f84b44a95e4df286d705961d2451a9285"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "table": "Time Series Analysis",
+      "name": "Simple Linear Regression",
+      "file": "5ce2c3b200a7b41f78d2.json.gz",
+      "sha256": "72be4a404d66259a103714bb64ddb0b79db4db36df54157b8a9904c3991890ef"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "table": "Rating Curve Analysis",
+      "name": "USGS 07024175 Rating Curve",
+      "file": "5f172ae1c93213ef43bb.json.gz",
+      "sha256": "74a1d1c99a94eaca52757734daaa91a32ba88e5c53f4bb656ebe22ad8461aa15"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "table": "Input Data",
+      "name": "USGS - 01134500 - Block Max - Calendar Year",
+      "file": "36e767a64f43d0cadb65.json.gz",
+      "sha256": "03b4bc07322c469552ecb9d411762dc5bc7124997c574a8dd40d72bcdda6b7bb"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "table": "Input Data",
+      "name": "USGS - 01134500 - Block Max - Water Year",
+      "file": "ef248f839b8d2de5c100.json.gz",
+      "sha256": "d4a948114cb0e59496b6f0cc1d9cebf08d052003a8937f7bd7cd4cda7c39ee4b"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01134500 - Daily Discharge",
+      "file": "0adbdff5d12fb2343074.json.gz",
+      "sha256": "8bb09ee1cbae4931234ea893bfbfffcfb3b85ea97e53b533f4672d01c9283398"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01570500 - Measured Discharge",
+      "file": "bd4d8371f04f936fe006.json.gz",
+      "sha256": "811975afddd940831ee5cc0f13bd2dfe3aa82efe3d930310246cfb6ae2ff69f0"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01570500 - Measured Stage",
+      "file": "fa79faa2aac9295cca1e.json.gz",
+      "sha256": "5768bccd9c80bf867468eb03667ad9ca4d4f43ac2aec7a2ff5e14b7492fd8a87"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01614000 - Peak Discharge",
+      "file": "1c92d574b0de6c39a8e0.json.gz",
+      "sha256": "5eedff07ae2d3afdb33619658bdd28785cb59ae1ed0c80ae7df1bdc74234aa24"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01614000 - Peak Stage",
+      "file": "6ea31f6765473f806955.json.gz",
+      "sha256": "993ae664b3d94dbb61eacb3fab0cbd470020d5319e1ab6efbb3854820971aded"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01646500 - Instantaneous Discharge",
+      "file": "ed271d0e4c7f7c09ad98.json.gz",
+      "sha256": "fe3d786b5d597028f098ad19c2e5a83ba73e05b7c11bd7001ea3d3a8d33b1959"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 01646500 - Instantaneous Stage",
+      "file": "9e12638c923910891883.json.gz",
+      "sha256": "2308684a39a5c4515fbda891653001e8c21322184f70e5ef8b68a02c58d44c30"
+    },
+    {
+      "slug": "usgs-download-example",
+      "table": "Time Series Data",
+      "name": "USGS - 07010000 - Daily Stage",
+      "file": "f7769a949e5049923c63.json.gz",
+      "sha256": "904331fb48ee4726f8db6e7cace0a77c6480e77c9004b8ce5336c78980c73c43"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "table": "Input Data",
+      "name": "USGS - 01134500 - Peak Discharge",
+      "file": "2f46fc8dd459195bc903.json.gz",
+      "sha256": "050e137a1163379e096ecb37ebf40370e1fe9c020a256316949ee9982a1e5fba"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "table": "Input Data",
+      "name": "USGS - 11274500 - Peak Discharge",
+      "file": "ab27055a3a312e69391d.json.gz",
+      "sha256": "702caa99d3b050922ec01d1a986977c6d7f605ea2a3953de4738f18e714d3394"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Distribution Fitting Analysis",
+      "name": "Fit - Systematic (1951-2001)",
+      "file": "880525108498528e9454.json.gz",
+      "sha256": "ba36d02402d7c963b4d209468e513caeb087a2ab14abbabdd0f8745990e7b6b7"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Distribution Fitting Analysis",
+      "name": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "file": "2d4ae192f138d098b723.json.gz",
+      "sha256": "09d41a76ca1c42fe1b01696db41cb78b8038ae314c404c8ceba338c76123170a"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Distribution Fitting Analysis",
+      "name": "Fit - Systematic (1951-2005)",
+      "file": "880dbe86c033dd05cfc8.json.gz",
+      "sha256": "3ac510a469df9f3c81f1dd103898695b0c71322ddf7082ad6e7e3d82ea6ffa71"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Distribution Fitting Analysis",
+      "name": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "file": "a13e7918706ac0f92ff3.json.gz",
+      "sha256": "8715c7c4f93e7daa81a600f4a5af169338000b7ac5e6a834bf1b9b7d922113ab"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Input Data",
+      "name": "Systematic (1951-2001)",
+      "file": "5e7d3f88182afb58e671.json.gz",
+      "sha256": "26009bd0dfe56086fa818a1554053ebc0a57e73a6dc9775573f4da840c0308f8"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Input Data",
+      "name": "Systematic (1951-2001) + Temporal Expansion",
+      "file": "554a7eaba91bf845c0ac.json.gz",
+      "sha256": "d91cb0f5c84d716bd140bf76dc40df493f12e9d0986d7404f30608db2691de1b"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Input Data",
+      "name": "Systematic (1951-2005)",
+      "file": "7bd5e0cd5c90a86f7c4f.json.gz",
+      "sha256": "30e5c076bf9aa1a8d3bda73ee4a05f0549d0dcc1d4b32b667e795b4aacb66899"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Input Data",
+      "name": "Systematic (1951-2005) + Temporal Expansion",
+      "file": "fecb23cc5b2fba907456.json.gz",
+      "sha256": "0cfa95f19e26a1665ef54cca42ecb2ed07313d0a79ec3b576ab5d7ead72ea608"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2001)",
+      "file": "89a64626698b02f6659b.json.gz",
+      "sha256": "f18546e6ea09f68a14d489ff3816be47c8214d0c7f98eff890a0a84cc971adda"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "file": "699919212fb0e6744e5c.json.gz",
+      "sha256": "10cb62c2c9baae01f9c8568cc93cf8ba414a99f0bd5eeeb57a001d8c9d26403e"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2001) + Causal",
+      "file": "6df786b413728f44b62a.json.gz",
+      "sha256": "afb6ed19c7cc9b521d0767594e47968ba946d436f96297db4450adb39caf2e17"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2001) + Temporal",
+      "file": "2ffaf0b3f4a3b015a871.json.gz",
+      "sha256": "d8d835afd52df5f64f1293fde626fd23675455d25d622e7b889d996a8227dac7"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "file": "cb6ed4bbd6a29077de0c.json.gz",
+      "sha256": "eccf26115f78866d7b7e26ded2ea4f53db8406a2cf1dfe39359119159dc8d015"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2005)",
+      "file": "647e2194969e4cd8ee8b.json.gz",
+      "sha256": "1beee65dd3c8eb963a9be223fcd8ea6756ec5140c9a95e7cac1b1a1c8e391948"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2005) + Causal",
+      "file": "3f880e2cfe95d70e749a.json.gz",
+      "sha256": "47c1b21d8a8190560b2806c19149f2461271bbce3743218e08914737569b1a7d"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2005) + Temporal",
+      "file": "ae83ca42ecce6d1f5bd5.json.gz",
+      "sha256": "d30217e28490ba592d9d1ecb0cfd23adfbe202f3b54a1224bf202623926416d8"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "table": "Univariate Distribution Analysis",
+      "name": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "file": "7891e7749610f4bf192e.json.gz",
+      "sha256": "235ff44397719c7f1131119cf26f1d07f135608f7b589d412c1611690af8029f"
+    },
+    {
+      "slug": "waimea-river-stage-frequency",
+      "table": "Bivariate Distribution Analysis",
+      "name": "CFA - Normal - Conditional",
+      "file": "0b34357bfeb897a18dd5.json.gz",
+      "sha256": "f9cf1f1c7ede8c080de90d28c0c004974fbb4c40384240b823af1764f13aced0"
+    }
+  ]
+}

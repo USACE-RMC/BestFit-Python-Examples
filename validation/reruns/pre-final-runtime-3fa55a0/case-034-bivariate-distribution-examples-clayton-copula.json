@@ -1,0 +1,58 @@
+{
+  "analysis_name": "Clayton Copula",
+  "dependencies": [
+    {
+      "name": "Clayton - Marginal X",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.422
+    },
+    {
+      "name": "Clayton - Marginal Y",
+      "status": "completed",
+      "table": "Univariate Distribution Analysis",
+      "wall_seconds": 0.421
+    }
+  ],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": -60.94932723280312,
+      "BIC": -58.34415704681503,
+      "DIC": -60.99748977179949,
+      "RMSE": 0.022539335334635965
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.43651666666666666,
+        0.4401833333333333,
+        0.4386,
+        0.43783333333333335
+      ],
+      "chain_count": 4,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T16:49:29.046281+00:00",
+  "output_snapshot": "bivariate-distribution-examples/clayton-copula-c0da43dc079d.json.gz",
+  "output_snapshot_bytes": 2347519,
+  "output_snapshot_sha256": "5cc8d8461a98cf50b8ba069580f70e84a20ff6b655a6951d291f134990d90651",
+  "project_slug": "bivariate-distribution-examples",
+  "runtime_bestfit_sha256": "aa9f1341739b9af3bfb71fd18f8ca6d88cfa5470bfd079732dd08e679859cf30",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "schema_version": 1,
+  "settings_sha256": "c0da43dc079d33cc672caab89dbc712d5f023c0051b9d88293b17d7c8818a90e",
+  "source_relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+  "source_sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec",
+  "started_utc": "2026-09-22T16:49:23.901965+00:00",
+  "status": "completed",
+  "table": "Bivariate Distribution Analysis",
+  "wall_seconds": 5.14
+}

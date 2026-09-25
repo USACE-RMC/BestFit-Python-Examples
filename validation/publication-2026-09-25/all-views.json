@@ -1,0 +1,5205 @@
+{
+  "caseCount": 71,
+  "renderedViewCount": 560,
+  "notebookFigureCount": 41,
+  "warningViewCount": 2,
+  "views": [
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "scatter_values",
+      "image": "821e18860d5fa6228c9e--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "density_values",
+      "image": "821e18860d5fa6228c9e--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "joint_exceedance_values",
+      "image": "821e18860d5fa6228c9e--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "scatter_cdf",
+      "image": "821e18860d5fa6228c9e--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "density_cdf",
+      "image": "821e18860d5fa6228c9e--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "821e18860d5fa6228c9e--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_histogram",
+      "image": "821e18860d5fa6228c9e--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_kde",
+      "image": "821e18860d5fa6228c9e--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_acf",
+      "image": "821e18860d5fa6228c9e--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_trace",
+      "image": "821e18860d5fa6228c9e--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "821e18860d5fa6228c9e--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "diagnostic_influence",
+      "image": "821e18860d5fa6228c9e--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "scatter_values",
+      "image": "08848f4f4725fb000b0b--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "density_values",
+      "image": "08848f4f4725fb000b0b--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "joint_exceedance_values",
+      "image": "08848f4f4725fb000b0b--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "scatter_cdf",
+      "image": "08848f4f4725fb000b0b--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "density_cdf",
+      "image": "08848f4f4725fb000b0b--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "08848f4f4725fb000b0b--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_histogram",
+      "image": "08848f4f4725fb000b0b--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_kde",
+      "image": "08848f4f4725fb000b0b--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_acf",
+      "image": "08848f4f4725fb000b0b--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_trace",
+      "image": "08848f4f4725fb000b0b--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "08848f4f4725fb000b0b--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "diagnostic_influence",
+      "image": "08848f4f4725fb000b0b--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "scatter_values",
+      "image": "f554b05c85db1e7b9527--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "density_values",
+      "image": "f554b05c85db1e7b9527--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "joint_exceedance_values",
+      "image": "f554b05c85db1e7b9527--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "scatter_cdf",
+      "image": "f554b05c85db1e7b9527--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "density_cdf",
+      "image": "f554b05c85db1e7b9527--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "f554b05c85db1e7b9527--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_histogram",
+      "image": "f554b05c85db1e7b9527--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_kde",
+      "image": "f554b05c85db1e7b9527--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_acf",
+      "image": "f554b05c85db1e7b9527--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_trace",
+      "image": "f554b05c85db1e7b9527--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "f554b05c85db1e7b9527--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "diagnostic_influence",
+      "image": "f554b05c85db1e7b9527--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "scatter_values",
+      "image": "12062e2156947ffb4d91--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "density_values",
+      "image": "12062e2156947ffb4d91--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "joint_exceedance_values",
+      "image": "12062e2156947ffb4d91--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "scatter_cdf",
+      "image": "12062e2156947ffb4d91--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "density_cdf",
+      "image": "12062e2156947ffb4d91--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "12062e2156947ffb4d91--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_histogram",
+      "image": "12062e2156947ffb4d91--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_kde",
+      "image": "12062e2156947ffb4d91--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_acf",
+      "image": "12062e2156947ffb4d91--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_trace",
+      "image": "12062e2156947ffb4d91--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "12062e2156947ffb4d91--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "diagnostic_influence",
+      "image": "12062e2156947ffb4d91--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "scatter_values",
+      "image": "6ce12b0550760a341ed7--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "density_values",
+      "image": "6ce12b0550760a341ed7--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "joint_exceedance_values",
+      "image": "6ce12b0550760a341ed7--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "scatter_cdf",
+      "image": "6ce12b0550760a341ed7--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "density_cdf",
+      "image": "6ce12b0550760a341ed7--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "6ce12b0550760a341ed7--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_histogram",
+      "image": "6ce12b0550760a341ed7--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_kde",
+      "image": "6ce12b0550760a341ed7--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_acf",
+      "image": "6ce12b0550760a341ed7--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_trace",
+      "image": "6ce12b0550760a341ed7--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "6ce12b0550760a341ed7--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "diagnostic_influence",
+      "image": "6ce12b0550760a341ed7--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "scatter_values",
+      "image": "96b4f08b24e317eee0a4--scatter_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "density_values",
+      "image": "96b4f08b24e317eee0a4--density_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "joint_exceedance_values",
+      "image": "96b4f08b24e317eee0a4--joint_exceedance_values.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "scatter_cdf",
+      "image": "96b4f08b24e317eee0a4--scatter_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "density_cdf",
+      "image": "96b4f08b24e317eee0a4--density_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "96b4f08b24e317eee0a4--joint_exceedance_cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_histogram",
+      "image": "96b4f08b24e317eee0a4--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_kde",
+      "image": "96b4f08b24e317eee0a4--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_acf",
+      "image": "96b4f08b24e317eee0a4--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_trace",
+      "image": "96b4f08b24e317eee0a4--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "96b4f08b24e317eee0a4--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "diagnostic_influence",
+      "image": "96b4f08b24e317eee0a4--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "chronology",
+      "image": "556813dbcbdb58fc0179--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "frequency",
+      "image": "556813dbcbdb58fc0179--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "qq_real",
+      "image": "556813dbcbdb58fc0179--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "qq_log10",
+      "image": "556813dbcbdb58fc0179--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "qq",
+      "image": "556813dbcbdb58fc0179--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "density",
+      "image": "556813dbcbdb58fc0179--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "histogram",
+      "image": "556813dbcbdb58fc0179--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "seasonality",
+      "image": "556813dbcbdb58fc0179--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "acf",
+      "image": "556813dbcbdb58fc0179--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - Data",
+      "view": "pacf",
+      "image": "556813dbcbdb58fc0179--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "chronology",
+      "image": "8db1fe6881e10a4d2ef1--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "frequency",
+      "image": "8db1fe6881e10a4d2ef1--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "qq_real",
+      "image": "8db1fe6881e10a4d2ef1--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "qq_log10",
+      "image": "8db1fe6881e10a4d2ef1--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "qq",
+      "image": "8db1fe6881e10a4d2ef1--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "density",
+      "image": "8db1fe6881e10a4d2ef1--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "histogram",
+      "image": "8db1fe6881e10a4d2ef1--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "seasonality",
+      "image": "8db1fe6881e10a4d2ef1--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "acf",
+      "image": "8db1fe6881e10a4d2ef1--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - Data",
+      "view": "pacf",
+      "image": "8db1fe6881e10a4d2ef1--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2",
+      "view": "frequency",
+      "image": "a44964879430a8e7618f--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2",
+      "view": "diagnostic_histogram",
+      "image": "a44964879430a8e7618f--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2",
+      "view": "diagnostic_kde",
+      "image": "a44964879430a8e7618f--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2",
+      "view": "diagnostic_pair_heatmap",
+      "image": "a44964879430a8e7618f--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2",
+      "view": "diagnostic_influence",
+      "image": "a44964879430a8e7618f--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - BCB",
+      "view": "frequency",
+      "image": "35c7818034206dff5f7e--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - BCB",
+      "view": "diagnostic_histogram",
+      "image": "35c7818034206dff5f7e--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - BCB",
+      "view": "diagnostic_kde",
+      "image": "35c7818034206dff5f7e--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - BCB",
+      "view": "diagnostic_pair_heatmap",
+      "image": "35c7818034206dff5f7e--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #2 - BCB",
+      "view": "diagnostic_influence",
+      "image": "35c7818034206dff5f7e--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4",
+      "view": "frequency",
+      "image": "d171af784201ce23d582--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4",
+      "view": "diagnostic_histogram",
+      "image": "d171af784201ce23d582--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4",
+      "view": "diagnostic_kde",
+      "image": "d171af784201ce23d582--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4",
+      "view": "diagnostic_pair_heatmap",
+      "image": "d171af784201ce23d582--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4",
+      "view": "diagnostic_influence",
+      "image": "d171af784201ce23d582--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - BCB",
+      "view": "frequency",
+      "image": "329a9d11d137a62944f1--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - BCB",
+      "view": "diagnostic_histogram",
+      "image": "329a9d11d137a62944f1--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - BCB",
+      "view": "diagnostic_kde",
+      "image": "329a9d11d137a62944f1--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - BCB",
+      "view": "diagnostic_pair_heatmap",
+      "image": "329a9d11d137a62944f1--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "bulletin-17c-examples",
+      "case": "Example #4 - BCB",
+      "view": "diagnostic_influence",
+      "image": "329a9d11d137a62944f1--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "series",
+      "image": "092074f8a1e871998a1a--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "residuals",
+      "image": "092074f8a1e871998a1a--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "residual_histogram",
+      "image": "092074f8a1e871998a1a--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "residual_qq",
+      "image": "092074f8a1e871998a1a--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "residual_acf",
+      "image": "092074f8a1e871998a1a--residual_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "residual_pacf",
+      "image": "092074f8a1e871998a1a--residual_pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_histogram",
+      "image": "092074f8a1e871998a1a--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_kde",
+      "image": "092074f8a1e871998a1a--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_acf",
+      "image": "092074f8a1e871998a1a--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_pair_heatmap",
+      "image": "092074f8a1e871998a1a--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_trace",
+      "image": "092074f8a1e871998a1a--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "092074f8a1e871998a1a--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Airline Passengers - TSA",
+      "view": "diagnostic_influence",
+      "image": "092074f8a1e871998a1a--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "series",
+      "image": "88fcda24aa8d5abd7458--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "residuals",
+      "image": "88fcda24aa8d5abd7458--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "residual_histogram",
+      "image": "88fcda24aa8d5abd7458--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "residual_qq",
+      "image": "88fcda24aa8d5abd7458--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "residual_acf",
+      "image": "88fcda24aa8d5abd7458--residual_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "residual_pacf",
+      "image": "88fcda24aa8d5abd7458--residual_pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_histogram",
+      "image": "88fcda24aa8d5abd7458--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_kde",
+      "image": "88fcda24aa8d5abd7458--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_acf",
+      "image": "88fcda24aa8d5abd7458--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_pair_heatmap",
+      "image": "88fcda24aa8d5abd7458--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_trace",
+      "image": "88fcda24aa8d5abd7458--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "88fcda24aa8d5abd7458--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Mauna Loa - CO2",
+      "view": "diagnostic_influence",
+      "image": "88fcda24aa8d5abd7458--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "series",
+      "image": "c089429486f8e3022202--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "residuals",
+      "image": "c089429486f8e3022202--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "residual_histogram",
+      "image": "c089429486f8e3022202--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "residual_qq",
+      "image": "c089429486f8e3022202--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "residual_acf",
+      "image": "c089429486f8e3022202--residual_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "residual_pacf",
+      "image": "c089429486f8e3022202--residual_pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_histogram",
+      "image": "c089429486f8e3022202--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_kde",
+      "image": "c089429486f8e3022202--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_acf",
+      "image": "c089429486f8e3022202--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_pair_heatmap",
+      "image": "c089429486f8e3022202--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_trace",
+      "image": "c089429486f8e3022202--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "c089429486f8e3022202--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "classic-time-series-examples",
+      "case": "Nile River Flows - TSA",
+      "view": "diagnostic_influence",
+      "image": "c089429486f8e3022202--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "chronology",
+      "image": "0f7e4182c0505423ad5d--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "frequency",
+      "image": "0f7e4182c0505423ad5d--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "qq_real",
+      "image": "0f7e4182c0505423ad5d--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "qq_log10",
+      "image": "0f7e4182c0505423ad5d--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "qq",
+      "image": "0f7e4182c0505423ad5d--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "density",
+      "image": "0f7e4182c0505423ad5d--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "histogram",
+      "image": "0f7e4182c0505423ad5d--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "seasonality",
+      "image": "0f7e4182c0505423ad5d--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "acf",
+      "image": "0f7e4182c0505423ad5d--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "pacf",
+      "image": "0f7e4182c0505423ad5d--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "mean_residual_life",
+      "image": "0f7e4182c0505423ad5d--mean_residual_life.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "modified_scale",
+      "image": "0f7e4182c0505423ad5d--modified_scale.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "ghcn-peaks-over-threshold-example",
+      "case": "GHCN-USC00040741-POT",
+      "view": "shape",
+      "image": "0f7e4182c0505423ad5d--shape.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixed-population-examples",
+      "case": "Competing Flood Types",
+      "view": "frequency",
+      "image": "70fb46e1edd614dd5b55--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixed-population-examples",
+      "case": "Mixture of Flood Types",
+      "view": "frequency",
+      "image": "d355395797f1b3555c5c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "frequency",
+      "image": "7822882d7d11b50fdd21--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_histogram",
+      "image": "7822882d7d11b50fdd21--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_kde",
+      "image": "7822882d7d11b50fdd21--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_acf",
+      "image": "7822882d7d11b50fdd21--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_pair_heatmap",
+      "image": "7822882d7d11b50fdd21--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_trace",
+      "image": "7822882d7d11b50fdd21--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "7822882d7d11b50fdd21--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals",
+      "view": "diagnostic_influence",
+      "image": "7822882d7d11b50fdd21--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "frequency",
+      "image": "ca9ca8b81402a43b667d--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_histogram",
+      "image": "ca9ca8b81402a43b667d--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_kde",
+      "image": "ca9ca8b81402a43b667d--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_acf",
+      "image": "ca9ca8b81402a43b667d--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_pair_heatmap",
+      "image": "ca9ca8b81402a43b667d--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_trace",
+      "image": "ca9ca8b81402a43b667d--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "ca9ca8b81402a43b667d--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "diagnostic_influence",
+      "image": "ca9ca8b81402a43b667d--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "Bayesian Model Average",
+      "view": "frequency",
+      "image": "e754a2207e3aa5c2208c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "frequency",
+      "image": "a00702d869215965c40d--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "chronology",
+      "image": "a00702d869215965c40d--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_histogram",
+      "image": "a00702d869215965c40d--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_kde",
+      "image": "a00702d869215965c40d--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_acf",
+      "image": "a00702d869215965c40d--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_pair_heatmap",
+      "image": "a00702d869215965c40d--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_trace",
+      "image": "a00702d869215965c40d--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "a00702d869215965c40d--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Constant",
+      "view": "diagnostic_influence",
+      "image": "a00702d869215965c40d--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "frequency",
+      "image": "99ac6708478e672c0917--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "chronology",
+      "image": "99ac6708478e672c0917--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_histogram",
+      "image": "99ac6708478e672c0917--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_kde",
+      "image": "99ac6708478e672c0917--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_acf",
+      "image": "99ac6708478e672c0917--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_pair_heatmap",
+      "image": "99ac6708478e672c0917--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_trace",
+      "image": "99ac6708478e672c0917--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "99ac6708478e672c0917--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear",
+      "view": "diagnostic_influence",
+      "image": "99ac6708478e672c0917--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "frequency",
+      "image": "74258e05f2bddffda471--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "chronology",
+      "image": "74258e05f2bddffda471--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_histogram",
+      "image": "74258e05f2bddffda471--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_kde",
+      "image": "74258e05f2bddffda471--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_acf",
+      "image": "74258e05f2bddffda471--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_pair_heatmap",
+      "image": "74258e05f2bddffda471--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_trace",
+      "image": "74258e05f2bddffda471--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "74258e05f2bddffda471--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Linear - Logistic",
+      "view": "diagnostic_influence",
+      "image": "74258e05f2bddffda471--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "frequency",
+      "image": "da76aa5d428e985d577c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "chronology",
+      "image": "da76aa5d428e985d577c--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_histogram",
+      "image": "da76aa5d428e985d577c--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_kde",
+      "image": "da76aa5d428e985d577c--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_acf",
+      "image": "da76aa5d428e985d577c--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_pair_heatmap",
+      "image": "da76aa5d428e985d577c--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_trace",
+      "image": "da76aa5d428e985d577c--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "da76aa5d428e985d577c--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic",
+      "view": "diagnostic_influence",
+      "image": "da76aa5d428e985d577c--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "frequency",
+      "image": "0b68236affb9df4e8f31--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "chronology",
+      "image": "0b68236affb9df4e8f31--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_histogram",
+      "image": "0b68236affb9df4e8f31--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_kde",
+      "image": "0b68236affb9df4e8f31--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_acf",
+      "image": "0b68236affb9df4e8f31--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_pair_heatmap",
+      "image": "0b68236affb9df4e8f31--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_trace",
+      "image": "0b68236affb9df4e8f31--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "0b68236affb9df4e8f31--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Logistic - Logistic",
+      "view": "diagnostic_influence",
+      "image": "0b68236affb9df4e8f31--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "frequency",
+      "image": "a737e69e1c5da8111559--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "chronology",
+      "image": "a737e69e1c5da8111559--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_histogram",
+      "image": "a737e69e1c5da8111559--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_kde",
+      "image": "a737e69e1c5da8111559--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_acf",
+      "image": "a737e69e1c5da8111559--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_pair_heatmap",
+      "image": "a737e69e1c5da8111559--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_trace",
+      "image": "a737e69e1c5da8111559--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "a737e69e1c5da8111559--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step",
+      "view": "diagnostic_influence",
+      "image": "a737e69e1c5da8111559--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "frequency",
+      "image": "413d072d930bd3fc5f6c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "chronology",
+      "image": "413d072d930bd3fc5f6c--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_histogram",
+      "image": "413d072d930bd3fc5f6c--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_kde",
+      "image": "413d072d930bd3fc5f6c--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_acf",
+      "image": "413d072d930bd3fc5f6c--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_pair_heatmap",
+      "image": "413d072d930bd3fc5f6c--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_trace",
+      "image": "413d072d930bd3fc5f6c--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "413d072d930bd3fc5f6c--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "nsffa-brays-bayou-texas",
+      "case": "NSFFA - Step - Logistic",
+      "view": "diagnostic_influence",
+      "image": "413d072d930bd3fc5f6c--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "frequency",
+      "image": "22d8e3727dcb43fd84c6--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_histogram",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_kde",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_acf",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_pair_heatmap",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_trace",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - GEV",
+      "view": "diagnostic_influence",
+      "image": "22d8e3727dcb43fd84c6--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "frequency",
+      "image": "46ede5d29dc5e6a375c1--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "frequency_ams",
+      "image": "46ede5d29dc5e6a375c1--frequency_ams.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_histogram",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_kde",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_acf",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_pair_heatmap",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_trace",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Point Process",
+      "view": "diagnostic_influence",
+      "image": "46ede5d29dc5e6a375c1--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "frequency",
+      "image": "af9c8ff52d471d08c018--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "frequency_ams",
+      "image": "af9c8ff52d471d08c018--frequency_ams.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_histogram",
+      "image": "af9c8ff52d471d08c018--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_kde",
+      "image": "af9c8ff52d471d08c018--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_acf",
+      "image": "af9c8ff52d471d08c018--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_pair_heatmap",
+      "image": "af9c8ff52d471d08c018--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_trace",
+      "image": "af9c8ff52d471d08c018--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "af9c8ff52d471d08c018--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "point-process-examples",
+      "case": "USC00040741 - Seasonal Point Process",
+      "view": "diagnostic_influence",
+      "image": "af9c8ff52d471d08c018--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "chronology",
+      "image": "2e22fafb0d82a428a357--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "frequency",
+      "image": "2e22fafb0d82a428a357--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "qq_real",
+      "image": "2e22fafb0d82a428a357--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "qq_log10",
+      "image": "2e22fafb0d82a428a357--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "qq",
+      "image": "2e22fafb0d82a428a357--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "density",
+      "image": "2e22fafb0d82a428a357--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "histogram",
+      "image": "2e22fafb0d82a428a357--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "seasonality",
+      "image": "2e22fafb0d82a428a357--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "acf",
+      "image": "2e22fafb0d82a428a357--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sinnemahoning-move3-bayesian",
+      "case": "Sinnemahoning - MOVE.3 - With Errors",
+      "view": "pacf",
+      "image": "2e22fafb0d82a428a357--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sum-two-normals",
+      "case": "CFA - Rho = +0.5",
+      "view": "frequency",
+      "image": "f3b6858378c1f2b9d701--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sum-two-normals",
+      "case": "CFA - Rho = -0.5",
+      "view": "frequency",
+      "image": "9eaa8a5f594401deaeb9--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "sum-two-normals",
+      "case": "CFA - Rho = 0.0",
+      "view": "frequency",
+      "image": "ab818dbae4b48341e3c0--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "curve",
+      "image": "b5168ed73219b959db5f--curve.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "residuals",
+      "image": "b5168ed73219b959db5f--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "residual_histogram",
+      "image": "b5168ed73219b959db5f--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "residual_qq",
+      "image": "b5168ed73219b959db5f--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_histogram",
+      "image": "b5168ed73219b959db5f--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_kde",
+      "image": "b5168ed73219b959db5f--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_acf",
+      "image": "b5168ed73219b959db5f--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_pair_heatmap",
+      "image": "b5168ed73219b959db5f--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_trace",
+      "image": "b5168ed73219b959db5f--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "b5168ed73219b959db5f--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "1 Segment Rating Curve",
+      "view": "diagnostic_influence",
+      "image": "b5168ed73219b959db5f--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "curve",
+      "image": "424a7057d152f9229308--curve.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "residuals",
+      "image": "424a7057d152f9229308--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "residual_histogram",
+      "image": "424a7057d152f9229308--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "residual_qq",
+      "image": "424a7057d152f9229308--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_histogram",
+      "image": "424a7057d152f9229308--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_kde",
+      "image": "424a7057d152f9229308--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_acf",
+      "image": "424a7057d152f9229308--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_pair_heatmap",
+      "image": "424a7057d152f9229308--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_trace",
+      "image": "424a7057d152f9229308--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "424a7057d152f9229308--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "2 Segment Rating Curve",
+      "view": "diagnostic_influence",
+      "image": "424a7057d152f9229308--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "curve",
+      "image": "d827c005a4622d693cdf--curve.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "residuals",
+      "image": "d827c005a4622d693cdf--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "residual_histogram",
+      "image": "d827c005a4622d693cdf--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "residual_qq",
+      "image": "d827c005a4622d693cdf--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_histogram",
+      "image": "d827c005a4622d693cdf--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_kde",
+      "image": "d827c005a4622d693cdf--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_acf",
+      "image": "d827c005a4622d693cdf--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_pair_heatmap",
+      "image": "d827c005a4622d693cdf--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_trace",
+      "image": "d827c005a4622d693cdf--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "d827c005a4622d693cdf--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "synthetic-rating-curve-examples",
+      "case": "3 Segment Rating Curve",
+      "view": "diagnostic_influence",
+      "image": "d827c005a4622d693cdf--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "series",
+      "image": "97f4f8d9e93a8ab2f18f--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "residuals",
+      "image": "97f4f8d9e93a8ab2f18f--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "residual_histogram",
+      "image": "97f4f8d9e93a8ab2f18f--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "residual_qq",
+      "image": "97f4f8d9e93a8ab2f18f--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "residual_acf",
+      "image": "97f4f8d9e93a8ab2f18f--residual_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "residual_pacf",
+      "image": "97f4f8d9e93a8ab2f18f--residual_pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_histogram",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_kde",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_acf",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_pair_heatmap",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_trace",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Multiple Linear Regression",
+      "view": "diagnostic_influence",
+      "image": "97f4f8d9e93a8ab2f18f--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "series",
+      "image": "5ce2c3b200a7b41f78d2--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "residuals",
+      "image": "5ce2c3b200a7b41f78d2--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "residual_histogram",
+      "image": "5ce2c3b200a7b41f78d2--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "residual_qq",
+      "image": "5ce2c3b200a7b41f78d2--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "residual_acf",
+      "image": "5ce2c3b200a7b41f78d2--residual_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "residual_pacf",
+      "image": "5ce2c3b200a7b41f78d2--residual_pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_histogram",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_kde",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_acf",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_pair_heatmap",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_trace",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "time-series-regression-example",
+      "case": "Simple Linear Regression",
+      "view": "diagnostic_influence",
+      "image": "5ce2c3b200a7b41f78d2--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "curve",
+      "image": "5f172ae1c93213ef43bb--curve.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "residuals",
+      "image": "5f172ae1c93213ef43bb--residuals.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "residual_histogram",
+      "image": "5f172ae1c93213ef43bb--residual_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "residual_qq",
+      "image": "5f172ae1c93213ef43bb--residual_qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_histogram",
+      "image": "5f172ae1c93213ef43bb--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_kde",
+      "image": "5f172ae1c93213ef43bb--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_acf",
+      "image": "5f172ae1c93213ef43bb--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_pair_heatmap",
+      "image": "5f172ae1c93213ef43bb--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_trace",
+      "image": "5f172ae1c93213ef43bb--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "5f172ae1c93213ef43bb--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-07024175-mississippi-rating-curve",
+      "case": "USGS 07024175 Rating Curve",
+      "view": "diagnostic_influence",
+      "image": "5f172ae1c93213ef43bb--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "chronology",
+      "image": "36e767a64f43d0cadb65--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "frequency",
+      "image": "36e767a64f43d0cadb65--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "qq_real",
+      "image": "36e767a64f43d0cadb65--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "qq_log10",
+      "image": "36e767a64f43d0cadb65--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "qq",
+      "image": "36e767a64f43d0cadb65--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "density",
+      "image": "36e767a64f43d0cadb65--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "histogram",
+      "image": "36e767a64f43d0cadb65--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "seasonality",
+      "image": "36e767a64f43d0cadb65--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "acf",
+      "image": "36e767a64f43d0cadb65--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Calendar Year",
+      "view": "pacf",
+      "image": "36e767a64f43d0cadb65--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "chronology",
+      "image": "ef248f839b8d2de5c100--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "frequency",
+      "image": "ef248f839b8d2de5c100--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "qq_real",
+      "image": "ef248f839b8d2de5c100--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "qq_log10",
+      "image": "ef248f839b8d2de5c100--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "qq",
+      "image": "ef248f839b8d2de5c100--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "density",
+      "image": "ef248f839b8d2de5c100--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "histogram",
+      "image": "ef248f839b8d2de5c100--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "seasonality",
+      "image": "ef248f839b8d2de5c100--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "acf",
+      "image": "ef248f839b8d2de5c100--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-block-max-example",
+      "case": "USGS - 01134500 - Block Max - Water Year",
+      "view": "pacf",
+      "image": "ef248f839b8d2de5c100--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01134500 - Daily Discharge",
+      "view": "series",
+      "image": "0adbdff5d12fb2343074--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01134500 - Daily Discharge",
+      "view": "seasonality",
+      "image": "0adbdff5d12fb2343074--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01134500 - Daily Discharge",
+      "view": "acf",
+      "image": "0adbdff5d12fb2343074--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01134500 - Daily Discharge",
+      "view": "pacf",
+      "image": "0adbdff5d12fb2343074--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Discharge",
+      "view": "series",
+      "image": "bd4d8371f04f936fe006--series.png",
+      "warnings": [
+        "no explicit representation of timezones available for np.datetime64"
+      ],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Discharge",
+      "view": "seasonality",
+      "image": "bd4d8371f04f936fe006--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Discharge",
+      "view": "acf",
+      "image": "bd4d8371f04f936fe006--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Discharge",
+      "view": "pacf",
+      "image": "bd4d8371f04f936fe006--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Stage",
+      "view": "series",
+      "image": "fa79faa2aac9295cca1e--series.png",
+      "warnings": [
+        "no explicit representation of timezones available for np.datetime64"
+      ],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Stage",
+      "view": "seasonality",
+      "image": "fa79faa2aac9295cca1e--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Stage",
+      "view": "acf",
+      "image": "fa79faa2aac9295cca1e--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01570500 - Measured Stage",
+      "view": "pacf",
+      "image": "fa79faa2aac9295cca1e--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Discharge",
+      "view": "series",
+      "image": "1c92d574b0de6c39a8e0--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Discharge",
+      "view": "seasonality",
+      "image": "1c92d574b0de6c39a8e0--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Discharge",
+      "view": "acf",
+      "image": "1c92d574b0de6c39a8e0--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Discharge",
+      "view": "pacf",
+      "image": "1c92d574b0de6c39a8e0--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Stage",
+      "view": "series",
+      "image": "6ea31f6765473f806955--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Stage",
+      "view": "seasonality",
+      "image": "6ea31f6765473f806955--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Stage",
+      "view": "acf",
+      "image": "6ea31f6765473f806955--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01614000 - Peak Stage",
+      "view": "pacf",
+      "image": "6ea31f6765473f806955--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Discharge",
+      "view": "series",
+      "image": "ed271d0e4c7f7c09ad98--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Discharge",
+      "view": "seasonality",
+      "image": "ed271d0e4c7f7c09ad98--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Discharge",
+      "view": "acf",
+      "image": "ed271d0e4c7f7c09ad98--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Discharge",
+      "view": "pacf",
+      "image": "ed271d0e4c7f7c09ad98--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Stage",
+      "view": "series",
+      "image": "9e12638c923910891883--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Stage",
+      "view": "seasonality",
+      "image": "9e12638c923910891883--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Stage",
+      "view": "acf",
+      "image": "9e12638c923910891883--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 01646500 - Instantaneous Stage",
+      "view": "pacf",
+      "image": "9e12638c923910891883--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 07010000 - Daily Stage",
+      "view": "series",
+      "image": "f7769a949e5049923c63--series.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 07010000 - Daily Stage",
+      "view": "seasonality",
+      "image": "f7769a949e5049923c63--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 07010000 - Daily Stage",
+      "view": "acf",
+      "image": "f7769a949e5049923c63--acf.png",
+      "warnings": [],
+      "omissions": [
+        "The app requires at least 10 observations and no missing values for correlation plots."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-download-example",
+      "case": "USGS - 07010000 - Daily Stage",
+      "view": "pacf",
+      "image": "f7769a949e5049923c63--pacf.png",
+      "warnings": [],
+      "omissions": [
+        "The app requires at least 10 observations and no missing values for correlation plots."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "chronology",
+      "image": "2f46fc8dd459195bc903--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "frequency",
+      "image": "2f46fc8dd459195bc903--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "qq_real",
+      "image": "2f46fc8dd459195bc903--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "qq_log10",
+      "image": "2f46fc8dd459195bc903--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "qq",
+      "image": "2f46fc8dd459195bc903--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "density",
+      "image": "2f46fc8dd459195bc903--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "histogram",
+      "image": "2f46fc8dd459195bc903--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "seasonality",
+      "image": "2f46fc8dd459195bc903--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "acf",
+      "image": "2f46fc8dd459195bc903--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 01134500 - Peak Discharge",
+      "view": "pacf",
+      "image": "2f46fc8dd459195bc903--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "chronology",
+      "image": "ab27055a3a312e69391d--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "frequency",
+      "image": "ab27055a3a312e69391d--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "qq_real",
+      "image": "ab27055a3a312e69391d--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "qq_log10",
+      "image": "ab27055a3a312e69391d--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "qq",
+      "image": "ab27055a3a312e69391d--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "density",
+      "image": "ab27055a3a312e69391d--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "histogram",
+      "image": "ab27055a3a312e69391d--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "seasonality",
+      "image": "ab27055a3a312e69391d--seasonality.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "acf",
+      "image": "ab27055a3a312e69391d--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "usgs-peak-download-example",
+      "case": "USGS - 11274500 - Peak Discharge",
+      "view": "pacf",
+      "image": "ab27055a3a312e69391d--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001)",
+      "view": "frequency",
+      "image": "880525108498528e9454--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001)",
+      "view": "pdf",
+      "image": "880525108498528e9454--pdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001)",
+      "view": "cdf",
+      "image": "880525108498528e9454--cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001)",
+      "view": "pp",
+      "image": "880525108498528e9454--pp.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001)",
+      "view": "qq",
+      "image": "880525108498528e9454--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "view": "frequency",
+      "image": "2d4ae192f138d098b723--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "view": "pdf",
+      "image": "2d4ae192f138d098b723--pdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "view": "cdf",
+      "image": "2d4ae192f138d098b723--cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "view": "pp",
+      "image": "2d4ae192f138d098b723--pp.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "view": "qq",
+      "image": "2d4ae192f138d098b723--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005)",
+      "view": "frequency",
+      "image": "880dbe86c033dd05cfc8--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005)",
+      "view": "pdf",
+      "image": "880dbe86c033dd05cfc8--pdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005)",
+      "view": "cdf",
+      "image": "880dbe86c033dd05cfc8--cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005)",
+      "view": "pp",
+      "image": "880dbe86c033dd05cfc8--pp.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005)",
+      "view": "qq",
+      "image": "880dbe86c033dd05cfc8--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "view": "frequency",
+      "image": "a13e7918706ac0f92ff3--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "view": "pdf",
+      "image": "a13e7918706ac0f92ff3--pdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "view": "cdf",
+      "image": "a13e7918706ac0f92ff3--cdf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "view": "pp",
+      "image": "a13e7918706ac0f92ff3--pp.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "view": "qq",
+      "image": "a13e7918706ac0f92ff3--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "chronology",
+      "image": "5e7d3f88182afb58e671--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "frequency",
+      "image": "5e7d3f88182afb58e671--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "qq_real",
+      "image": "5e7d3f88182afb58e671--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "qq_log10",
+      "image": "5e7d3f88182afb58e671--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "qq",
+      "image": "5e7d3f88182afb58e671--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "density",
+      "image": "5e7d3f88182afb58e671--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "histogram",
+      "image": "5e7d3f88182afb58e671--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "seasonality",
+      "image": "5e7d3f88182afb58e671--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "acf",
+      "image": "5e7d3f88182afb58e671--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001)",
+      "view": "pacf",
+      "image": "5e7d3f88182afb58e671--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "chronology",
+      "image": "554a7eaba91bf845c0ac--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "frequency",
+      "image": "554a7eaba91bf845c0ac--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "qq_real",
+      "image": "554a7eaba91bf845c0ac--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "qq_log10",
+      "image": "554a7eaba91bf845c0ac--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "qq",
+      "image": "554a7eaba91bf845c0ac--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "density",
+      "image": "554a7eaba91bf845c0ac--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "histogram",
+      "image": "554a7eaba91bf845c0ac--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "seasonality",
+      "image": "554a7eaba91bf845c0ac--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "acf",
+      "image": "554a7eaba91bf845c0ac--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2001) + Temporal Expansion",
+      "view": "pacf",
+      "image": "554a7eaba91bf845c0ac--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "chronology",
+      "image": "7bd5e0cd5c90a86f7c4f--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "frequency",
+      "image": "7bd5e0cd5c90a86f7c4f--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "qq_real",
+      "image": "7bd5e0cd5c90a86f7c4f--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "qq_log10",
+      "image": "7bd5e0cd5c90a86f7c4f--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "qq",
+      "image": "7bd5e0cd5c90a86f7c4f--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "density",
+      "image": "7bd5e0cd5c90a86f7c4f--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "histogram",
+      "image": "7bd5e0cd5c90a86f7c4f--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "seasonality",
+      "image": "7bd5e0cd5c90a86f7c4f--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "acf",
+      "image": "7bd5e0cd5c90a86f7c4f--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005)",
+      "view": "pacf",
+      "image": "7bd5e0cd5c90a86f7c4f--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "chronology",
+      "image": "fecb23cc5b2fba907456--chronology.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "frequency",
+      "image": "fecb23cc5b2fba907456--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "qq_real",
+      "image": "fecb23cc5b2fba907456--qq_real.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "qq_log10",
+      "image": "fecb23cc5b2fba907456--qq_log10.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "qq",
+      "image": "fecb23cc5b2fba907456--qq.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "density",
+      "image": "fecb23cc5b2fba907456--density.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "histogram",
+      "image": "fecb23cc5b2fba907456--histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "seasonality",
+      "image": "fecb23cc5b2fba907456--seasonality.png",
+      "warnings": [],
+      "omissions": [
+        "At least 10 exact observations with event dates are required."
+      ],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "acf",
+      "image": "fecb23cc5b2fba907456--acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "Systematic (1951-2005) + Temporal Expansion",
+      "view": "pacf",
+      "image": "fecb23cc5b2fba907456--pacf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "frequency",
+      "image": "89a64626698b02f6659b--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_histogram",
+      "image": "89a64626698b02f6659b--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_kde",
+      "image": "89a64626698b02f6659b--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_acf",
+      "image": "89a64626698b02f6659b--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_pair_heatmap",
+      "image": "89a64626698b02f6659b--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_trace",
+      "image": "89a64626698b02f6659b--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "89a64626698b02f6659b--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001)",
+      "view": "diagnostic_influence",
+      "image": "89a64626698b02f6659b--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "frequency",
+      "image": "699919212fb0e6744e5c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_histogram",
+      "image": "699919212fb0e6744e5c--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_kde",
+      "image": "699919212fb0e6744e5c--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_acf",
+      "image": "699919212fb0e6744e5c--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_pair_heatmap",
+      "image": "699919212fb0e6744e5c--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_trace",
+      "image": "699919212fb0e6744e5c--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "699919212fb0e6744e5c--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + 3 Quantile Priors",
+      "view": "diagnostic_influence",
+      "image": "699919212fb0e6744e5c--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "frequency",
+      "image": "6df786b413728f44b62a--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_histogram",
+      "image": "6df786b413728f44b62a--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_kde",
+      "image": "6df786b413728f44b62a--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_acf",
+      "image": "6df786b413728f44b62a--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "6df786b413728f44b62a--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_trace",
+      "image": "6df786b413728f44b62a--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "6df786b413728f44b62a--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Causal",
+      "view": "diagnostic_influence",
+      "image": "6df786b413728f44b62a--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "frequency",
+      "image": "2ffaf0b3f4a3b015a871--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_histogram",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_kde",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_acf",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_trace",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal",
+      "view": "diagnostic_influence",
+      "image": "2ffaf0b3f4a3b015a871--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "frequency",
+      "image": "cb6ed4bbd6a29077de0c--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_histogram",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_kde",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_acf",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_trace",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2001) + Temporal + Causal",
+      "view": "diagnostic_influence",
+      "image": "cb6ed4bbd6a29077de0c--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "frequency",
+      "image": "647e2194969e4cd8ee8b--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_histogram",
+      "image": "647e2194969e4cd8ee8b--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_kde",
+      "image": "647e2194969e4cd8ee8b--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_acf",
+      "image": "647e2194969e4cd8ee8b--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_pair_heatmap",
+      "image": "647e2194969e4cd8ee8b--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_trace",
+      "image": "647e2194969e4cd8ee8b--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "647e2194969e4cd8ee8b--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005)",
+      "view": "diagnostic_influence",
+      "image": "647e2194969e4cd8ee8b--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "frequency",
+      "image": "3f880e2cfe95d70e749a--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_histogram",
+      "image": "3f880e2cfe95d70e749a--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_kde",
+      "image": "3f880e2cfe95d70e749a--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_acf",
+      "image": "3f880e2cfe95d70e749a--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "3f880e2cfe95d70e749a--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_trace",
+      "image": "3f880e2cfe95d70e749a--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "3f880e2cfe95d70e749a--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Causal",
+      "view": "diagnostic_influence",
+      "image": "3f880e2cfe95d70e749a--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "frequency",
+      "image": "ae83ca42ecce6d1f5bd5--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_histogram",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_kde",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_acf",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_trace",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal",
+      "view": "diagnostic_influence",
+      "image": "ae83ca42ecce6d1f5bd5--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "frequency",
+      "image": "7891e7749610f4bf192e--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_histogram",
+      "image": "7891e7749610f4bf192e--diagnostic_histogram.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_kde",
+      "image": "7891e7749610f4bf192e--diagnostic_kde.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_acf",
+      "image": "7891e7749610f4bf192e--diagnostic_acf.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_pair_heatmap",
+      "image": "7891e7749610f4bf192e--diagnostic_pair_heatmap.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_trace",
+      "image": "7891e7749610f4bf192e--diagnostic_trace.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_mean_log_likelihood",
+      "image": "7891e7749610f4bf192e--diagnostic_mean_log_likelihood.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "viglione-et-al-2013",
+      "case": "MCMC - Systematic (1951-2005) + Temporal + Causal",
+      "view": "diagnostic_influence",
+      "image": "7891e7749610f4bf192e--diagnostic_influence.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    },
+    {
+      "slug": "waimea-river-stage-frequency",
+      "case": "CFA - Normal - Conditional",
+      "view": "frequency",
+      "image": "0b34357bfeb897a18dd5--frequency.png",
+      "warnings": [],
+      "omissions": [],
+      "status": "rendered"
+    }
+  ],
+  "notebookImages": [
+    "00_time_series_data--06-01.png",
+    "00_time_series_data--06-02.png",
+    "00_time_series_data--08-00.png",
+    "01_input_data--04-02.png",
+    "01_input_data--04-03.png",
+    "01_input_data--06-02.png",
+    "01_input_data--06-03.png",
+    "01_input_data--08-01.png",
+    "01_input_data--10-03.png",
+    "02_distribution_fitting--04-02.png",
+    "02_distribution_fitting--06-00.png",
+    "02_distribution_fitting--06-01.png",
+    "03_stationary_information_expansion--04-02.png",
+    "03_stationary_information_expansion--06-00.png",
+    "03_stationary_information_expansion--06-01.png",
+    "03_stationary_information_expansion--08-00.png",
+    "04_nonstationary_univariate--06-00.png",
+    "04_nonstationary_univariate--06-01.png",
+    "04_nonstationary_univariate--08-00.png",
+    "05_bulletin_17c--04-03.png",
+    "05_bulletin_17c--06-00.png",
+    "05_bulletin_17c--06-01.png",
+    "05_bulletin_17c--08-02.png",
+    "06_advanced_univariate--04-01.png",
+    "06_advanced_univariate--06-00.png",
+    "06_advanced_univariate--08-00.png",
+    "07_bivariate_analysis--04-03.png",
+    "07_bivariate_analysis--06-00.png",
+    "07_bivariate_analysis--06-01.png",
+    "08_coincident_frequency--04-00.png",
+    "08_coincident_frequency--06-02.png",
+    "09_rating_curves--04-03.png",
+    "09_rating_curves--06-00.png",
+    "09_rating_curves--06-01.png",
+    "10_classic_time_series--04-02.png",
+    "10_classic_time_series--04-03.png",
+    "10_classic_time_series--06-02.png",
+    "10_classic_time_series--08-01.png",
+    "11_regression--04-03.png",
+    "11_regression--06-04.png",
+    "11_regression--06-05.png"
+  ],
+  "finalLayoutRefresh": [
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "density_cdf",
+      "image": "821e18860d5fa6228c9e--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "AMH Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "821e18860d5fa6228c9e--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "density_cdf",
+      "image": "08848f4f4725fb000b0b--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Clayton Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "08848f4f4725fb000b0b--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "density_cdf",
+      "image": "f554b05c85db1e7b9527--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Frank Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "f554b05c85db1e7b9527--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "density_cdf",
+      "image": "12062e2156947ffb4d91--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Gumbel Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "12062e2156947ffb4d91--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "density_cdf",
+      "image": "6ce12b0550760a341ed7--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Joe Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "6ce12b0550760a341ed7--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "density_cdf",
+      "image": "96b4f08b24e317eee0a4--density_cdf.png"
+    },
+    {
+      "slug": "bivariate-distribution-examples",
+      "case": "Normal Copula",
+      "view": "joint_exceedance_cdf",
+      "image": "96b4f08b24e317eee0a4--joint_exceedance_cdf.png"
+    },
+    {
+      "slug": "mixture-distribution-examples",
+      "case": "Mixture Distribution - 2 Normals - Zero-Inflated",
+      "view": "frequency",
+      "image": "ca9ca8b81402a43b667d--frequency.png"
+    }
+  ],
+  "timezoneWarningChecks": [
+    {
+      "case": "USGS - 01570500 - Measured Discharge",
+      "dateCount": 412,
+      "explicitDatetimeCoordinatesEqual": true
+    },
+    {
+      "case": "USGS - 01570500 - Measured Stage",
+      "dateCount": 939,
+      "explicitDatetimeCoordinatesEqual": true
+    }
+  ]
+}

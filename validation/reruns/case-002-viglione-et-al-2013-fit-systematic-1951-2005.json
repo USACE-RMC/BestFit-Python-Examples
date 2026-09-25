@@ -1,0 +1,24 @@
+{
+  "analysis_name": "Fit - Systematic (1951-2005)",
+  "dependencies": [],
+  "diagnostics": {
+    "is_estimated": true
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-25T19:34:15.310562+00:00",
+  "output_snapshot": "viglione-et-al-2013/fit-systematic-1951-2005-a024fcef89e1.json.gz",
+  "output_snapshot_bytes": 1598,
+  "output_snapshot_sha256": "10ba089ecca204294bef4d82b2d243f7612c261fa2a7d30bbff4a0a323a0a7ae",
+  "project_slug": "viglione-et-al-2013",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "schema_version": 1,
+  "settings_sha256": "a024fcef89e1cfdaaea867d38c03c0ab5c919b7e7ce7dbaa19aa8f7875206452",
+  "source_relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+  "source_sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86",
+  "started_utc": "2026-09-25T19:34:14.910332+00:00",
+  "status": "completed",
+  "table": "Distribution Fitting Analysis",
+  "wall_seconds": 0.406
+}

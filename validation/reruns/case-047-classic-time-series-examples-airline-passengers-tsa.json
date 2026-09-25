@@ -1,0 +1,54 @@
+{
+  "analysis_name": "Airline Passengers - TSA",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1100.8578690459758,
+      "BIC": 1112.007836017104,
+      "DIC": 1115.279455401684,
+      "RMSE": 26.649927178997107
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.19377368421052632,
+        0.13133684210526317,
+        0.14361052631578947,
+        0.20276842105263157,
+        0.1946421052631579,
+        0.15821052631578947,
+        0.19872105263157894,
+        0.18347894736842105
+      ],
+      "chain_count": 8,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-25T19:48:27.711170+00:00",
+  "output_snapshot": "classic-time-series-examples/airline-passengers-tsa-901fb01b7395.json.gz",
+  "output_snapshot_bytes": 2076853,
+  "output_snapshot_sha256": "011b78a7c17b91ed3beb840bd571ce09067274b6381303bd8f56363294485cd2",
+  "project_slug": "classic-time-series-examples",
+  "runtime_bestfit_sha256": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+  "schema_version": 1,
+  "settings_sha256": "901fb01b7395a50e5720f38ff92000598a7259cecae4d1f910dae537fb04b708",
+  "source_relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+  "source_sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb",
+  "started_utc": "2026-09-25T19:48:24.453719+00:00",
+  "status": "completed",
+  "table": "Time Series Analysis",
+  "wall_seconds": 3.25
+}

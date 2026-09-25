@@ -1,0 +1,62 @@
+{
+  "analysis_name": "Mauna Loa - CO2",
+  "dependencies": [],
+  "diagnostics": {
+    "fit_metrics": {
+      "AIC": 1720.3162101837263,
+      "BIC": 1747.0095465486074,
+      "DIC": 1720.183892919406,
+      "RMSE": 0.9347083347932779
+    },
+    "is_estimated": true,
+    "mcmc": {
+      "acceptance_rates": [
+        0.21707045069989234,
+        0.21590524534686972,
+        0.21611290570681432,
+        0.2147323488694047,
+        0.21693201045992924,
+        0.21668974003999383,
+        0.21543224119366253,
+        0.21490539916935855,
+        0.2167589601599754,
+        0.21643208737117367,
+        0.21695508383325643,
+        0.2160398400246116
+      ],
+      "chain_count": 12,
+      "ensemble_size": 10000,
+      "saved_samples_per_chain": [
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500,
+        3500
+      ]
+    }
+  },
+  "example_source_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+  "finished_utc": "2026-09-22T18:06:11.764833+00:00",
+  "output_snapshot": "classic-time-series-examples/mauna-loa-co2-ad33c1c6b072.json.gz",
+  "output_snapshot_bytes": 4110190,
+  "output_snapshot_sha256": "dde6e3d921146e6114c401aedd520c571cffc32e2b9a26e940f85408d3b5d902",
+  "project_slug": "classic-time-series-examples",
+  "runtime_bestfit_sha256": "6052c73477cff3133eb6d15d21729439346be851ccb732efb7f0fa436252f762",
+  "runtime_numerics_sha256": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+  "runtime_source_commit": "190b088f1a354d696440b6f3a94a008cb031bc9c",
+  "schema_version": 1,
+  "settings_sha256": "ad33c1c6b07256d17ba6f133000938442a661e3697099111a050dbf4f7136245",
+  "source_relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+  "source_sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb",
+  "started_utc": "2026-09-22T18:05:57.703544+00:00",
+  "status": "completed",
+  "table": "Time Series Analysis",
+  "wall_seconds": 14.063
+}
