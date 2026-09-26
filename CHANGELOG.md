@@ -2,6 +2,17 @@
 
 ## 0.2.0 — Unreleased
 
+- Correct the twelve notebooks to teach visible Python/pythonnet construction,
+  configuration, headless execution and fresh-result inspection and plotting.
+- Preserve the same example cases/settings and extract observation-only fixtures.
+- Replace cached notebook execution with independent raw-only kernel validation;
+  retain earlier project/result archives solely as comparison evidence.
+- Maintain plain Python notebook sources so regeneration cannot restore the old viewer workflow.
+- Preserve CFA marginal uncertainty by passing both freshly fitted marginal chains;
+  retain rendered PNGs in notebooks and audit original execution/output hashes without replacing them.
+
+Earlier development work (the cached-viewer teaching design below is superseded):
+
 - Replace the original seven notebooks and loose scripts with twelve concise
   walkthroughs drawn from the BestFit application's saved example projects.
 - Preserve 22 complete project snapshots, original settings and seeds, and the

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "description": "Observations and input metadata only; no fitted objects or results.",
+  "projects": {
+    "bivariate-distribution-examples": {
+      "path": "bivariate-distribution-examples.json.gz",
+      "sha256": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+      "source": {
+        "bytes": 15269888,
+        "relative_path": "examples/5-bivariate-distribution-analysis/1-bivariate-distributions/bivariate-distribution-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "56f9408158fea1b2a75e5fb220cde52d4c2e8a5abbc913835026684b2cec12ec"
+      }
+    },
+    "bulletin-17c-examples": {
+      "path": "bulletin-17c-examples.json.gz",
+      "sha256": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+      "source": {
+        "bytes": 7340032,
+        "relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3"
+      }
+    },
+    "chmn-download-example": {
+      "path": "chmn-download-example.json.gz",
+      "sha256": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+      "source": {
+        "bytes": 2097152,
+        "relative_path": "examples/1-time-series-data/3-chmn-download/chmn-download-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "ab8989e41d84685ac09f4d1661699d7acdadc681714f7cc498251b397d3288b3"
+      }
+    },
+    "classic-time-series-examples": {
+      "path": "classic-time-series-examples.json.gz",
+      "sha256": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+      "source": {
+        "bytes": 7143424,
+        "relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb"
+      }
+    },
+    "ghcn-download-example": {
+      "path": "ghcn-download-example.json.gz",
+      "sha256": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+      "source": {
+        "bytes": 458752,
+        "relative_path": "examples/1-time-series-data/2-ghcn-download/ghcn-download-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "c81ad309d2bacc676da052cc2dcbf0ed46d5110aa5cea1961b7a693e2a34349e"
+      }
+    },
+    "ghcn-peaks-over-threshold-example": {
+      "path": "ghcn-peaks-over-threshold-example.json.gz",
+      "sha256": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+      "source": {
+        "bytes": 458752,
+        "relative_path": "examples/2-input-data/3-peaks-over-threshold/ghcn-peaks-over-threshold-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "a69775d7f270163fa3d819b7a804d755e92e7784c6aad67ad8035fde92041686"
+      }
+    },
+    "hec-dss-import-example": {
+      "path": "hec-dss-import-example.json.gz",
+      "sha256": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+      "source": {
+        "bytes": 327680,
+        "relative_path": "examples/1-time-series-data/5-hec-dss-import/hec-dss-import-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "7c81e45c84380b0874800373fa264e3cab04a6526efdd360b22b2f4154c0d0df"
+      }
+    },
+    "manual-entry-example": {
+      "path": "manual-entry-example.json.gz",
+      "sha256": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+      "source": {
+        "bytes": 458752,
+        "relative_path": "examples/1-time-series-data/6-manual-entry/manual-entry-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "98785e3f8b7de3da3102a61d5c2cd86c37af7080507dd659f3caef727e838db7"
+      }
+    },
+    "mixed-population-examples": {
+      "path": "mixed-population-examples.json.gz",
+      "sha256": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+      "source": {
+        "bytes": 5308416,
+        "relative_path": "examples/4-univariate-distribution-analysis/5-composite-analysis/mixed-population-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "fe44dd30ef55fbd5dac151657d299d50033a287f9e3efd87bfb92efdcbd906f6"
+      }
+    },
+    "mixture-distribution-examples": {
+      "path": "mixture-distribution-examples.json.gz",
+      "sha256": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+      "source": {
+        "bytes": 20840448,
+        "relative_path": "examples/4-univariate-distribution-analysis/4-mixture-analysis/mixture-distribution-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "8368ec937d842879033a2976bcaafb257b8d12539024436194b1c8cd6c579ab1"
+      }
+    },
+    "nsffa-brays-bayou-texas": {
+      "path": "nsffa-brays-bayou-texas.json.gz",
+      "sha256": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      }
+    },
+    "point-process-examples": {
+      "path": "point-process-examples.json.gz",
+      "sha256": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+      "source": {
+        "bytes": 17629184,
+        "relative_path": "examples/4-univariate-distribution-analysis/3-point-process-analysis/point-process-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "97cbda9e1747c6996af85ecadcf52a2ba02f28e0863c9d9e0d2c8305e1594514"
+      }
+    },
+    "sinnemahoning-move3-bayesian": {
+      "path": "sinnemahoning-move3-bayesian.json.gz",
+      "sha256": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+      "source": {
+        "bytes": 4259840,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/4-measurement-errors/sinnemahoning-move3-bayesian.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f1832e8473f221a2046eab6330a9b6181eb4ec87f3bf4453234b09e1a888fc2"
+      }
+    },
+    "sum-two-normals": {
+      "path": "sum-two-normals.json.gz",
+      "sha256": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      }
+    },
+    "synthetic-rating-curve-examples": {
+      "path": "synthetic-rating-curve-examples.json.gz",
+      "sha256": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+      "source": {
+        "bytes": 22872064,
+        "relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17"
+      }
+    },
+    "time-series-regression-example": {
+      "path": "time-series-regression-example.json.gz",
+      "sha256": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+      "source": {
+        "bytes": 5373952,
+        "relative_path": "examples/7-time-series-analysis/3-time-series-regression-example/time-series-regression-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "d84276fb50bcb6fc9bde46f361917abedada3398b3b5bacde42dfc01889a6115"
+      }
+    },
+    "usgs-07024175-mississippi-rating-curve": {
+      "path": "usgs-07024175-mississippi-rating-curve.json.gz",
+      "sha256": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+      "source": {
+        "bytes": 8519680,
+        "relative_path": "examples/6-rating-curve-analysis/usgs-07024175-mississippi-rating-curve.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "997fe961e233f540cf64171dfd5b2475b23b9f4ac8cc51459dd545b242a24ece"
+      }
+    },
+    "usgs-block-max-example": {
+      "path": "usgs-block-max-example.json.gz",
+      "sha256": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+      "source": {
+        "bytes": 786432,
+        "relative_path": "examples/2-input-data/1-block-maximum/usgs-block-max-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b809ca84f4792b029e0deca1718c0e394f5c87cea5e3a242028378eb54f52ba3"
+      }
+    },
+    "usgs-download-example": {
+      "path": "usgs-download-example.json.gz",
+      "sha256": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+      "source": {
+        "bytes": 15269888,
+        "relative_path": "examples/1-time-series-data/1-usgs-download/usgs-download-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "bf48bf775c9ab88ad7135e5d0c45be5d08ad303eb0e95aa9e120ab17adf56921"
+      }
+    },
+    "usgs-peak-download-example": {
+      "path": "usgs-peak-download-example.json.gz",
+      "sha256": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+      "source": {
+        "bytes": 327680,
+        "relative_path": "examples/2-input-data/2-usgs-peak-discharge/usgs-peak-download-example.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f2c9db5911443f8bff6d00dfbb97eb16d9cdea7c3fd67912a7c2f632e06f532"
+      }
+    },
+    "viglione-et-al-2013": {
+      "path": "viglione-et-al-2013.json.gz",
+      "sha256": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+      "source": {
+        "bytes": 14090240,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86"
+      }
+    },
+    "waimea-river-stage-frequency": {
+      "path": "waimea-river-stage-frequency.json.gz",
+      "sha256": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+      "source": {
+        "bytes": 36700160,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914"
+      }
+    }
+  }
+}

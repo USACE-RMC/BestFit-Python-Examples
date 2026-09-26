@@ -41,14 +41,17 @@ Pull requests may take several weeks or longer to review. Before submitting code
 3. **Include unit tests** that validate against known results (R, SciPy, Mathematica, or published tables)
 4. **Ensure a clean build** with zero errors and warnings
 
-For this curriculum, start from a saved app example and retain its data provenance,
+For this curriculum, retain the existing app example's raw observations, data provenance,
 model settings and scientific context. Keep the teaching surface at 12 notebooks.
 Preserve notebook narratives unless a source-verified technical correction is needed.
 Upstream AI-generated narration is still awaiting author review.
 Put reusable plotting changes in RMC-BestFit's canonical `bestfit_plots` package.
-Run the Python contract tests and `scripts/validate_notebooks.py`; record full
-numerical reruns separately from cached notebook execution. Never replace source
-data or shorten sampling to obtain a passing demonstration.
+Edit `scripts/notebook_sources/` and regenerate with `scripts/create_notebooks.py`.
+Keep data/model/analysis construction, substantive configuration, execution calls and
+result access visible in notebook cells. Helpers may handle loading, conversion and plotting.
+Run the Python contract tests and `scripts/validate_notebooks.py --write`; validation
+executes every selected notebook in an independent kernel with saved projects and
+results unavailable. Never replace source data or shorten sampling to obtain a pass.
 
 ## Developer Certificate of Origin
 

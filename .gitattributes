@@ -2,3 +2,12 @@
 notebooks/*.ipynb -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 validation/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/plot-gallery/index.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Raw-only execution receipts also hash these inputs and Python helpers.
+# Preserve their validated bytes across clones with different core.autocrlf settings.
+bestfit_examples/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/raw/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/raw-responses/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runtime-lock.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+curriculum-cases.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+dotnet/bestfit.runtimeconfig.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

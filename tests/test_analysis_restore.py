@@ -405,7 +405,7 @@ def test_curriculum_runner_lists_exact_cases_without_starting_analysis() -> None
 def test_curriculum_runner_rejects_stale_receipt_and_missing_or_changed_output(tmp_path) -> None:
     import hashlib
     import json
-    from scripts.run_curriculum_analyses import _existing_receipt_issue
+    from scripts.compare_saved_analyses import _existing_receipt_issue
 
     expected = {
         "status": "prepared", "project_slug": "fixture", "table": "Time Series Analysis",
@@ -438,7 +438,7 @@ def test_curriculum_runner_rejects_stale_receipt_and_missing_or_changed_output(t
 
 def test_curriculum_runner_does_not_replace_stale_receipt(monkeypatch: pytest.MonkeyPatch, tmp_path, capsys) -> None:
     import json
-    import scripts.run_curriculum_analyses as runner
+    import scripts.compare_saved_analyses as runner
 
     monkeypatch.setattr(runner, "_cases", lambda: [("fixture", "Time Series Analysis", "case")])
     monkeypatch.setattr(runner, "load_project", lambda slug: {

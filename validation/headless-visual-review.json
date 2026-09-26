@@ -1,0 +1,735 @@
+{
+  "figures": 75,
+  "unchangedFromEarlierRenders": 71,
+  "newlyInspectedCfaFigures": 4,
+  "records": [
+    {
+      "notebook": "00_time_series_data",
+      "file": "000-time_series_data.series.png",
+      "pngSha256": "c9b4a0489ae5c367013a9f2845caeb0ed92a7fb962f6b08a517b7fc4687cd836",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/00_time_series_data/figures/000-time_series_data.series.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/00_time_series_data/figures/000-time_series_data.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "00_time_series_data",
+      "file": "001-time_series_data.seasonality.png",
+      "pngSha256": "15e78383064e49c30e80fecf4aa39c45d902f0482df2a7edf1ef5bab0c913464",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/00_time_series_data/figures/001-time_series_data.seasonality.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/00_time_series_data/figures/001-time_series_data.seasonality.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "00_time_series_data",
+      "file": "002-time_series_data.series.png",
+      "pngSha256": "56ac68d89cca4186658613a16ab1cefa941263a22cedc1bc0953c0b1d1860099",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/00_time_series_data/figures/002-time_series_data.series.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/00_time_series_data/figures/002-time_series_data.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "00_time_series_data",
+      "file": "003-time_series_data.seasonality.png",
+      "pngSha256": "f6306f9814cd263ac2e5ec516c0ed7e968afa0f6bf938e137edb71a378ff790b",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/00_time_series_data/figures/003-time_series_data.seasonality.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/00_time_series_data/figures/003-time_series_data.seasonality.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "000-input_data.chronology.png",
+      "pngSha256": "01b36fe95982bd072758025fe663b3777c8f75092da4eb2a67cac2feb768d662",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/000-input_data.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "001-input_data.frequency.png",
+      "pngSha256": "9e7ee1577158a674bfff93631dd457fd6b11a89a976028341dad0914b1889e51",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/001-input_data.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "002-input_data.mean_residual_life.png",
+      "pngSha256": "e289388d4b9a77bd8aad0b812843d3172659f06ade4ce5e11f3004f9c648066c",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/002-input_data.mean_residual_life.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "003-input_data.shape.png",
+      "pngSha256": "d7a62d7f1ab49d3aff05af0fedaf14b6e6f3ec0f1083c0eb194692915e66170b",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/003-input_data.shape.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "004-input_data.chronology.png",
+      "pngSha256": "0a694045300f1bacdf9c3c2041a5c1deda3143609aa99005a182913058f3c236",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/004-input_data.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "01_input_data",
+      "file": "005-input_data.chronology.png",
+      "pngSha256": "b661bb4d7d2d449dc202295f9677530b44b63975fc8ed8b542265ec58280fb03",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/01_input_data/figures/005-input_data.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "000-fitting.frequency.png",
+      "pngSha256": "64fb3b872025557f404564e349b8526bcfa906c8b21e4b2d2e7dead32b1edd5a",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/000-fitting.frequency.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/000-fitting.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "001-fitting.frequency.png",
+      "pngSha256": "8ae6abe88bcb635f4916991bcf7b7278aa52ef2708ae7c2897f8b87577f89382",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/001-fitting.frequency.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/001-fitting.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "002-fitting.frequency.png",
+      "pngSha256": "ef397d3c5c1b304a520ff3dc0bfbe59bce9ed690a6e066168419f349a6c3d8eb",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/002-fitting.frequency.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/002-fitting.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "003-fitting.frequency.png",
+      "pngSha256": "1309200d0de3e8b74ba4d45747f171de8b7275c72a280a8c9a639ee5bfac1952",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/003-fitting.frequency.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/003-fitting.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "004-fitting.pdf.png",
+      "pngSha256": "76bc5a5fa01c8d0b6a54c08bacc0c98dc5b1d043180b8710d3ae4cf6a2feabd0",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/004-fitting.pdf.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/004-fitting.pdf.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "02_distribution_fitting",
+      "file": "005-fitting.qq.png",
+      "pngSha256": "bc6cc8a66e164aa1b80a9f734aad4ff324840e55cff777619ae496f530838d0b",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/4311f89eee7c/new-output/02_distribution_fitting/figures/005-fitting.qq.png",
+        ".runtime/headless-validation/a306d605b45d/new-output/02_distribution_fitting/figures/005-fitting.qq.png",
+        ".runtime/headless-validation/bb43e48eae18/new-output/02_distribution_fitting/figures/005-fitting.qq.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "000-univariate.frequency.png",
+      "pngSha256": "711997148868e681928c81cfa685aa4c45edb7f4c8151e91a073f1e2b8e1d49e",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/000-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "001-univariate.frequency.png",
+      "pngSha256": "697ad6b3fce8a4e020caa47289e770ed14c77d71f558347b2989006f535a4863",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/001-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "002-univariate.frequency.png",
+      "pngSha256": "0b128996b4210751a422656efcdfd591d4bdfcb54c56095aebe2052c4445aecb",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/002-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "003-univariate.frequency.png",
+      "pngSha256": "fcdb41ed65f0c5aaea84768ae1cf449c15b6843aa4cca3597a9b949a88cacf8e",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/003-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "004-univariate.frequency.png",
+      "pngSha256": "6e7bf1d342f368b53ff347edf40b32b006a6eefea37536155c158b4d72ff07aa",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/004-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "005-univariate.frequency.png",
+      "pngSha256": "103620b69b7eecb4a0952104d60f144dfb599b3757a84463bcfe651d6fdac090",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/005-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "006-univariate.frequency.png",
+      "pngSha256": "4edf181276c67c8a5a9ad1e068c6f063f63a4fb9fd38233907ccb5a1792b36b3",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/006-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "007-univariate.frequency.png",
+      "pngSha256": "8d6d1033d39c1b22d20d5f6cf23c894b0385d2b3d74012379911192552a65e91",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/007-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "008-univariate.frequency.png",
+      "pngSha256": "80c1b5cce7d746edb8615aaad32f35bca6e1609917b3ac16201a511a1384bf19",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/008-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "03_stationary_information_expansion",
+      "file": "009-shared_diagnostics.histogram.png",
+      "pngSha256": "eaf13d5e67ff2b184b72700fec3b9dc867615a002e1a9b6f84aef2ac33a2c793",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/03_stationary_information_expansion/figures/009-shared_diagnostics.histogram.png",
+        ".runtime/headless-validation/5d0b4d921bf7/new-output/03_stationary_information_expansion/figures/009-shared_diagnostics.histogram.png",
+        ".runtime/headless-validation/f2673435dfcf/new-output/03_stationary_information_expansion/figures/009-shared_diagnostics.histogram.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "000-univariate.frequency.png",
+      "pngSha256": "edbd5f2ea105a95174c1521b48be2bf686ca6984c961de83f7e67c14ec5df211",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0b4423b88e88/new-output/04_nonstationary_univariate/figures/000-univariate.frequency.png",
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/000-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "001-univariate.chronology.png",
+      "pngSha256": "4af780ca868304dd364bb557afc72ca57b2e3dfe59a363927e8855b7dcff7a07",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0b4423b88e88/new-output/04_nonstationary_univariate/figures/001-univariate.chronology.png",
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/001-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "002-univariate.frequency.png",
+      "pngSha256": "0cd187fd5411e124232051978b73974c805f3be58c20e2233c24ce54df5932d0",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/002-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "003-univariate.chronology.png",
+      "pngSha256": "01d9bf2a4fe9d0edc3342eada1cdb5cf17e88c29171671e3d51935e766d1560f",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/003-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "004-univariate.frequency.png",
+      "pngSha256": "87b6b426ce136eefab097fe8426aa894d135d802c1b58f4e87382f5f895fe767",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/004-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "005-univariate.chronology.png",
+      "pngSha256": "d47d55e9d31e88ce4c219c9b6081ea4103acddc28dc5565ebb9a3e75c6d4b8c2",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/005-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "006-univariate.frequency.png",
+      "pngSha256": "df273977b8f283ac62d8763e2a0d3b42e6bd42a674583fe83ff6da4f7f645a25",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/006-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "007-univariate.chronology.png",
+      "pngSha256": "6480c8843eaed928717ed371fbc2499ddf34d380cc0b6db853bc814cae8b61ad",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/007-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "008-univariate.frequency.png",
+      "pngSha256": "6c9af511296c82dd12b1f32c65124c3cfba0c2cb179cdcc39a77ea088a16bf19",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/008-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "009-univariate.chronology.png",
+      "pngSha256": "665594cbd335fd17c00b53ea1ac572ae9fd9d285f90a64f21b478e500f60a902",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/009-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "010-univariate.frequency.png",
+      "pngSha256": "2afe433e3cda190d68b3ef03f6c642ea1f69264b8ad000d5966bfda9d58088f6",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/010-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "011-univariate.chronology.png",
+      "pngSha256": "66089bf56e03b455d7245ae2d423d5f23ebf344bbf30e824027efe40127dd7e4",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/011-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "012-univariate.frequency.png",
+      "pngSha256": "a236ec17e6d52a6475577a40548d280e140261e160badaf278efd2418da380f4",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/012-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "013-univariate.chronology.png",
+      "pngSha256": "eca2501bc6e9a30ccda288109877d6aa418ccb0c71c5d021faeaa33ca8163112",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/013-univariate.chronology.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "04_nonstationary_univariate",
+      "file": "014-composite.frequency.png",
+      "pngSha256": "987ef43b625e9f1725144140cd3f3c01c391e68484ffa1a9203460cbfa3f34b8",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/7cdbc1cc3fd0/new-output/04_nonstationary_univariate/figures/014-composite.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "05_bulletin_17c",
+      "file": "000-b17c.frequency.png",
+      "pngSha256": "13f2e6d85c4c38e2d71f0a228bf137721507611743ffed68cdc2c1ddc25b14b1",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/05_bulletin_17c/figures/000-b17c.frequency.png",
+        ".runtime/headless-validation/fdc69de67c9e/new-output/05_bulletin_17c/figures/000-b17c.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "05_bulletin_17c",
+      "file": "001-b17c.frequency.png",
+      "pngSha256": "561d02e094606dd3da289d9a716804e334e4d208f1c4d4919be4df498f2efac3",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/05_bulletin_17c/figures/001-b17c.frequency.png",
+        ".runtime/headless-validation/fdc69de67c9e/new-output/05_bulletin_17c/figures/001-b17c.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "05_bulletin_17c",
+      "file": "002-b17c.frequency.png",
+      "pngSha256": "c0e58ad15a2912142d57f701c5ddd46b609c86407c43dda46f0cfa2781042453",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/05_bulletin_17c/figures/002-b17c.frequency.png",
+        ".runtime/headless-validation/fdc69de67c9e/new-output/05_bulletin_17c/figures/002-b17c.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "05_bulletin_17c",
+      "file": "003-b17c.frequency.png",
+      "pngSha256": "62be9ed07aecee583afb202dc4df15ab635552b4d0e6bed45047dbb4f41b5aae",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/25266995e0af/new-output/05_bulletin_17c/figures/003-b17c.frequency.png",
+        ".runtime/headless-validation/fdc69de67c9e/new-output/05_bulletin_17c/figures/003-b17c.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "000-point_process.frequency.png",
+      "pngSha256": "22dac92fe61b1db0dc8c7c51b902ed39e3653a514ff8427750758b72c376510d",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/000-point_process.frequency.png",
+        ".runtime/headless-validation/41074f226a3c/new-output/06_advanced_univariate/figures/000-point_process.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/000-point_process.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "001-univariate.frequency.png",
+      "pngSha256": "e6c0df771318911a21025223e75a9b98a19f884af4412c3ae490f5947e26a7ef",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/001-univariate.frequency.png",
+        ".runtime/headless-validation/41074f226a3c/new-output/06_advanced_univariate/figures/001-univariate.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/001-univariate.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "002-point_process.frequency.png",
+      "pngSha256": "42c48c8aa0d45817f23a63fd775bb5ebaf59f36b50877fc5ca91ab85da980c1d",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/002-point_process.frequency.png",
+        ".runtime/headless-validation/41074f226a3c/new-output/06_advanced_univariate/figures/002-point_process.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/002-point_process.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "003-mixture.frequency.png",
+      "pngSha256": "6ff85ef7b36f05b5632d0a022d15fba6b19110e2ba54abe36d60ab77204420c3",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/003-mixture.frequency.png",
+        ".runtime/headless-validation/41074f226a3c/new-output/06_advanced_univariate/figures/003-mixture.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/003-mixture.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "004-mixture.frequency.png",
+      "pngSha256": "d08cf22b06192964873f485101c91de15deb8ae586d7cf6f71a3fb5c6622a051",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/004-mixture.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "005-composite.frequency.png",
+      "pngSha256": "dc986f7fddd45acbdabf200ae6107d21235579a8a4c37ba2dcf20e4c03c132af",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/005-composite.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/005-composite.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "06_advanced_univariate",
+      "file": "006-composite.frequency.png",
+      "pngSha256": "26265d98e7281c5dac405319fab564adedb1348d2f3dea2cf768e301fedb8d41",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/0e3c29edd6cd/new-output/06_advanced_univariate/figures/006-composite.frequency.png",
+        ".runtime/headless-validation/e7b2c8c2fb57/new-output/06_advanced_univariate/figures/006-composite.frequency.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "07_bivariate_analysis",
+      "file": "000-bivariate.distribution.png",
+      "pngSha256": "a11573ba7e60c1d8e28823dedad1b188113bfd66033044feff62797c297a7150",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/07_bivariate_analysis/figures/000-bivariate.distribution.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/07_bivariate_analysis/figures/000-bivariate.distribution.png",
+        ".runtime/headless-validation/9d392a34b30b/new-output/07_bivariate_analysis/figures/000-bivariate.distribution.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "07_bivariate_analysis",
+      "file": "001-bivariate.distribution.png",
+      "pngSha256": "e158effa750ea7acc773d01f930e0af4bbc17f55494b98cfbcf28f9cc698c598",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/07_bivariate_analysis/figures/001-bivariate.distribution.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/07_bivariate_analysis/figures/001-bivariate.distribution.png",
+        ".runtime/headless-validation/9d392a34b30b/new-output/07_bivariate_analysis/figures/001-bivariate.distribution.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "07_bivariate_analysis",
+      "file": "002-bivariate.distribution.png",
+      "pngSha256": "82660377443453b67898ddd245794916d3e419664fc65c674492e84837631ad2",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/07_bivariate_analysis/figures/002-bivariate.distribution.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/07_bivariate_analysis/figures/002-bivariate.distribution.png",
+        ".runtime/headless-validation/9d392a34b30b/new-output/07_bivariate_analysis/figures/002-bivariate.distribution.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "08_coincident_frequency",
+      "file": "000-coincident.frequency.png",
+      "pngSha256": "0aa7ae3f7c01cca6a45f4280c904d1145349c72d5b53ac5d8039e57a22b3fb9b",
+      "earlierMatchingRenders": [],
+      "review": "fresh CFA render visually inspected"
+    },
+    {
+      "notebook": "08_coincident_frequency",
+      "file": "001-coincident.frequency.png",
+      "pngSha256": "0a0ada66599250af25d443cc32f5cd0e0c8e44af34a4238a16ac0e0cb3c41b47",
+      "earlierMatchingRenders": [],
+      "review": "fresh CFA render visually inspected"
+    },
+    {
+      "notebook": "08_coincident_frequency",
+      "file": "002-coincident.frequency.png",
+      "pngSha256": "4586f291de0dec9fdd37ffd7e3bee9c3eece16eca2a353e1a38f5d129d04de57",
+      "earlierMatchingRenders": [],
+      "review": "fresh CFA render visually inspected"
+    },
+    {
+      "notebook": "08_coincident_frequency",
+      "file": "003-coincident.frequency.png",
+      "pngSha256": "d11c03b6c55c405f4829af4a366194bec46a332996c7dd54604409c4d6514c63",
+      "earlierMatchingRenders": [],
+      "review": "fresh CFA render visually inspected"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "000-rating.curve.png",
+      "pngSha256": "c96ba0e6ac3c6c25a9d0fd3f90a267216d3ecc1156e3eb1a0ffc0c4ce5ed803f",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/000-rating.curve.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/000-rating.curve.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "001-rating.residuals.png",
+      "pngSha256": "f5bee871c61d4d4782ac8f6b5897f61ddf9e9918bdec84183bf284c8561b6048",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/001-rating.residuals.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/001-rating.residuals.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "002-rating.residual_qq.png",
+      "pngSha256": "14e68064cd47ed735a87764732a0142d6a6ef5d9c6f3290745f88a1eda123fc6",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/002-rating.residual_qq.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/002-rating.residual_qq.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "003-rating.curve.png",
+      "pngSha256": "ab07b073161e5f230216444279c194cd65530fccd276b003920f3ac85692173e",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/003-rating.curve.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/003-rating.curve.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "004-rating.curve.png",
+      "pngSha256": "d469541dde9568f4269036dd8220cfefdba411edc876af93ebad55b473092a1d",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/004-rating.curve.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/004-rating.curve.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "09_rating_curves",
+      "file": "005-rating.curve.png",
+      "pngSha256": "040c88ad245bea9923999b69858f5c175018fa2f0b572b51467d381c74451e74",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/02942fdd60d4/new-output/09_rating_curves/figures/005-rating.curve.png",
+        ".runtime/headless-validation/8147047b76e6/new-output/09_rating_curves/figures/005-rating.curve.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "000-time_series_analysis.series.png",
+      "pngSha256": "f553ad465562a9b285595d441d4fdb02c8374bee538bb47c1ca0610397756f8e",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/000-time_series_analysis.series.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/000-time_series_analysis.series.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/000-time_series_analysis.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "001-time_series_analysis.series.png",
+      "pngSha256": "fbbc87d3d62ff71fb77ddefc2d8c8afa6ec990c1a3396cf5a19cbebc2c34f866",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/001-time_series_analysis.series.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/001-time_series_analysis.series.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/001-time_series_analysis.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "002-time_series_analysis.series.png",
+      "pngSha256": "10b2cfdb148438d4f6f8a2bede1aefe11709fd763f0ec85624297c9b397bd35a",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/002-time_series_analysis.series.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/002-time_series_analysis.series.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/002-time_series_analysis.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "003-time_series_analysis.residual_acf.png",
+      "pngSha256": "c6a662414a9fcda4247d545f2657e1aa830a4bfa92fa79811158aada7230fb49",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/003-time_series_analysis.residual_acf.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/003-time_series_analysis.residual_acf.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/003-time_series_analysis.residual_acf.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "004-time_series_analysis.residuals.png",
+      "pngSha256": "0ff132ebe5d1fa29e846d2d0af754ab00d04bd094703e9304c2d581e9d03d88f",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/004-time_series_analysis.residuals.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/004-time_series_analysis.residuals.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/004-time_series_analysis.residuals.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "10_classic_time_series",
+      "file": "005-time_series_analysis.residual_acf.png",
+      "pngSha256": "94eca2e946d3eae4ea9de614f60f93c1344ed27df7528eab27260ecf59638b71",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/10_classic_time_series/figures/005-time_series_analysis.residual_acf.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/10_classic_time_series/figures/005-time_series_analysis.residual_acf.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/10_classic_time_series/figures/005-time_series_analysis.residual_acf.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "11_regression",
+      "file": "000-time_series_analysis.series.png",
+      "pngSha256": "9aa14621d71831dadc3dd0def5f7d5c2d8a50e62ade8fd5e68945105dd4cb146",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/bab33e9aea9f/new-output/11_regression/figures/000-time_series_analysis.series.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/11_regression/figures/000-time_series_analysis.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "11_regression",
+      "file": "001-time_series_analysis.series.png",
+      "pngSha256": "616f65bc2d50d9a6d226382d3bfbfe98184f769c28b2b2926f936d0339ca681a",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/bab33e9aea9f/new-output/11_regression/figures/001-time_series_analysis.series.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/11_regression/figures/001-time_series_analysis.series.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "11_regression",
+      "file": "002-time_series_analysis.residuals.png",
+      "pngSha256": "f38b08ab1536d3e7ea8018dde681e136a343287ac7e1edc479a354f4f6d8ad11",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/11_regression/figures/002-time_series_analysis.residuals.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/11_regression/figures/002-time_series_analysis.residuals.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/11_regression/figures/002-time_series_analysis.residuals.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/11_regression/figures/002-time_series_analysis.residuals.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    },
+    {
+      "notebook": "11_regression",
+      "file": "003-time_series_analysis.residual_pacf.png",
+      "pngSha256": "69e4ea1d05c816cac635c4454b186ec4d9e8ff19be029e25aeeecb8259b8edd0",
+      "earlierMatchingRenders": [
+        ".runtime/headless-validation/41f468aede26/new-output/11_regression/figures/003-time_series_analysis.residual_pacf.png",
+        ".runtime/headless-validation/838bd62e320a/new-output/11_regression/figures/003-time_series_analysis.residual_pacf.png",
+        ".runtime/headless-validation/bab33e9aea9f/new-output/11_regression/figures/003-time_series_analysis.residual_pacf.png",
+        ".runtime/headless-validation/cfe7289a0c21/new-output/11_regression/figures/003-time_series_analysis.residual_pacf.png"
+      ],
+      "review": "byte-identical to previously reviewed render"
+    }
+  ]
+}

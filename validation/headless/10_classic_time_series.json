@@ -1,0 +1,443 @@
+{
+  "notebook": "10_classic_time_series.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "eb26c2856316",
+  "sourceSha256": "0ea4d0a14661aa4a2665f860b550744431269a09c39032228042d3edb8421d71",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\eb26c2856316",
+  "codeCells": 7,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "Mauna Loa - CO2",
+      "class": "ARIMAXAnalysis",
+      "status": "completed",
+      "runId": "3ecc3558-e2c8-4c44-a97c-6ef989f999d1",
+      "seconds": 18.294,
+      "source": {
+        "bytes": 7143424,
+        "relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<ARIMAXAnalysis IsEstimated=\"true\" ForecastingTimeSteps=\"0\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"12\" ThinningInterval=\"60\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"600\" Jump=\"0.68704682033565467\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1720.1838929194059\" WAIC=\"1719.7930652478303\" WAIC_pD=\"5.5333110636165079\" LOOIC=\"1719.8005926951105\" LOO_pD=\"5.5370747872565289\" LOOIC_SE=\"32.091268432311089\" IsEstimated=\"True\" ElapsedTime=\"173977063\" />\r\n</ARIMAXAnalysis>",
+      "modelSettings": "<ARIMAX TransformType=\"None\" TransformLambda=\"0\" TransformLambdaIsManual=\"False\" CovariateExtension=\"BlockBootstrap\" IncludeIntercept=\"True\" IncludeSeasonality=\"True\" TrendType=\"Quadratic\" AROrderP=\"0\" DiffOrderD=\"0\" MAOrderQ=\"0\" XOrderB=\"0\" TrainingTimeSteps=\"632\" UseDefaultTrainingSteps=\"True\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Intercept (μ)\" Value=\"314.16176637923934\" LowerBound=\"10\" UpperBound=\"10000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"10\" Max=\"10000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Trend (γ₁)\" Value=\"0.068459433302492365\" LowerBound=\"-1\" UpperBound=\"1\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-1\" Max=\"1\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Trend (γ₂)\" Value=\"8.3166948600860388E-05\" LowerBound=\"-0.001\" UpperBound=\"0.001\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.001\" Max=\"0.001\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Seasonality Sin (ψ₁)\" Value=\"1.6772695056388109\" LowerBound=\"-2497.5\" UpperBound=\"2497.5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-2497.5\" Max=\"2497.5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Seasonality Cos (ψ₂)\" Value=\"2.2493933615238797\" LowerBound=\"-2497.5\" UpperBound=\"2497.5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-2497.5\" Max=\"2497.5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"0.93956186913207729\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</ARIMAX>",
+      "metrics": {
+        "AIC": 1720.3162101837263,
+        "BIC": 1747.0095465486074,
+        "DIC": 1720.183892919406,
+        "RMSE": 0.9347083347932779
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0003103310903243,
+          "ESS": 9984.842408073308
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.000277922605305,
+          "ESS": 10202.873438323222
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0002406727055002,
+          "ESS": 9604.08868025364
+        },
+        {
+          "parameter": 3,
+          "Rhat": 0.9998859459580423,
+          "ESS": 9256.011400098214
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.0002250769102992,
+          "ESS": 9735.001654392361
+        },
+        {
+          "parameter": 5,
+          "Rhat": 1.0000808851997758,
+          "ESS": 9947.211114569413
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Intercept (μ)",
+          "value": 314.16176637923934,
+          "lower": 10.0,
+          "upper": 10000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Trend (γ₁)",
+          "value": 0.06845943330249236,
+          "lower": -1.0,
+          "upper": 1.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Trend (γ₂)",
+          "value": 8.316694860086039e-05,
+          "lower": -0.001,
+          "upper": 0.001,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Seasonality Sin (ψ₁)",
+          "value": 1.677269505638811,
+          "lower": -2497.5,
+          "upper": 2497.5,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Seasonality Cos (ψ₂)",
+          "value": 2.2493933615238797,
+          "lower": -2497.5,
+          "upper": 2497.5,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 0.9395618691320773,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Airline Passengers - TSA",
+      "class": "ARIMAXAnalysis",
+      "status": "completed",
+      "runId": "a78acdbb-f5f8-458c-acf9-ce7c528a006e",
+      "seconds": 2.642,
+      "source": {
+        "bytes": 7143424,
+        "relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<ARIMAXAnalysis IsEstimated=\"true\" ForecastingTimeSteps=\"0\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"8\" ThinningInterval=\"40\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"400\" Jump=\"0.8414570696119914\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1115.2794554016839\" WAIC=\"1119.3041748388978\" WAIC_pD=\"6.3569380571620124\" LOOIC=\"1120.3648404672367\" LOO_pD=\"6.8872708713314523\" LOOIC_SE=\"18.324183148555047\" IsEstimated=\"True\" ElapsedTime=\"13287830\" />\r\n</ARIMAXAnalysis>",
+      "modelSettings": "<ARIMAX TransformType=\"None\" TransformLambda=\"0\" TransformLambdaIsManual=\"False\" CovariateExtension=\"BlockBootstrap\" IncludeIntercept=\"True\" IncludeSeasonality=\"False\" TrendType=\"None\" AROrderP=\"1\" DiffOrderD=\"1\" MAOrderQ=\"1\" XOrderB=\"0\" TrainingTimeSteps=\"120\" UseDefaultTrainingSteps=\"False\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Intercept (μ)\" Value=\"3.3643454249387204\" LowerBound=\"0.10000000000000001\" UpperBound=\"100\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0.10000000000000001\" Max=\"100\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"AR (φ₁)\" Value=\"-0.36832681115669075\" LowerBound=\"-2\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-2\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"MA (θ₁)\" Value=\"0.72882637012591234\" LowerBound=\"-2\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-2\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"27.131068248342345\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</ARIMAX>",
+      "metrics": {
+        "AIC": 1100.8578690459758,
+        "BIC": 1112.007836017104,
+        "DIC": 1115.279455401684,
+        "RMSE": 26.649927178997107
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0813505602247955,
+          "ESS": 1469.444718945075
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.1587849229885856,
+          "ESS": 126.80584701485026
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.262018700253505,
+          "ESS": 51.56085809824184
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.161592876441394,
+          "ESS": 217.6743572738807
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Intercept (μ)",
+          "value": 3.3643454249387204,
+          "lower": 0.1,
+          "upper": 100.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "AR (φ₁)",
+          "value": -0.36832681115669075,
+          "lower": -2.0,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "MA (θ₁)",
+          "value": 0.7288263701259123,
+          "lower": -2.0,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 27.131068248342345,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Nile River Flows - TSA",
+      "class": "ARIMAXAnalysis",
+      "status": "completed",
+      "runId": "946914e0-ea99-4ee1-b905-0f194a91597a",
+      "seconds": 0.843,
+      "source": {
+        "bytes": 7143424,
+        "relative_path": "examples/7-time-series-analysis/2-classic-time-series-examples/classic-time-series-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9eca00ee4cf0f1b06b79c0dd1257ceac9f444192b9ce50a3272ecf6d9852cfeb"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<ARIMAXAnalysis IsEstimated=\"true\" ForecastingTimeSteps=\"0\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"6\" ThinningInterval=\"30\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"0.25\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"False\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1016.3188915901637\" WAIC=\"1016.4744992954189\" WAIC_pD=\"2.4435392313153885\" LOOIC=\"1016.5026996071181\" LOO_pD=\"2.4576393871649884\" LOOIC_SE=\"11.40161662077646\" IsEstimated=\"True\" ElapsedTime=\"5467631\" />\r\n</ARIMAXAnalysis>",
+      "modelSettings": "<ARIMAX TransformType=\"None\" TransformLambda=\"0\" TransformLambdaIsManual=\"False\" CovariateExtension=\"BlockBootstrap\" IncludeIntercept=\"True\" IncludeSeasonality=\"False\" TrendType=\"None\" AROrderP=\"1\" DiffOrderD=\"1\" MAOrderQ=\"0\" XOrderB=\"0\" TrainingTimeSteps=\"80\" UseDefaultTrainingSteps=\"False\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Intercept (μ)\" Value=\"-11.95804059811357\" LowerBound=\"-100\" UpperBound=\"-0.10000000000000001\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-100\" Max=\"-0.10000000000000001\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"AR (φ₁)\" Value=\"-0.39736333357307307\" LowerBound=\"-2\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-2\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"161.5766898653294\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"10000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"10000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</ARIMAX>",
+      "metrics": {
+        "AIC": 1016.9984062557375,
+        "BIC": 1024.144486159759,
+        "DIC": 1016.3188915901637,
+        "RMSE": 156.3184314576501
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0002488932347746,
+          "ESS": 6606.7189774606
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0004124292438938,
+          "ESS": 7143.40473608968
+        },
+        {
+          "parameter": 2,
+          "Rhat": 0.999879816012976,
+          "ESS": 6166.198330511605
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Intercept (μ)",
+          "value": -11.95804059811357,
+          "lower": -100.0,
+          "upper": -0.1,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "AR (φ₁)",
+          "value": -0.3973633335730731,
+          "lower": -2.0,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 161.5766898653294,
+          "lower": 1.11022302462516e-16,
+          "upper": 10000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 3,
+    "completedAnalysesIncludingDependencies": 3,
+    "figureLineage": [
+      {
+        "file": "000-time_series_analysis.series.png",
+        "plotId": "time_series_analysis.series",
+        "source": {
+          "kind": "rerun",
+          "id": "Airline Passengers - TSA",
+          "runId": "a78acdbb-f5f8-458c-acf9-ce7c528a006e"
+        },
+        "specSha256": "c16ce3a4cced12120d61330354dac8644035f8b54bc0fe7c9bee9a3b31e610c0",
+        "pngSha256": "f553ad465562a9b285595d441d4fdb02c8374bee538bb47c1ca0610397756f8e"
+      },
+      {
+        "file": "001-time_series_analysis.series.png",
+        "plotId": "time_series_analysis.series",
+        "source": {
+          "kind": "rerun",
+          "id": "Nile River Flows - TSA",
+          "runId": "946914e0-ea99-4ee1-b905-0f194a91597a"
+        },
+        "specSha256": "e768fa89bf45abf0512b187f33aa13b21f34235f92424407bfb0ce0b4c3950fd",
+        "pngSha256": "fbbc87d3d62ff71fb77ddefc2d8c8afa6ec990c1a3396cf5a19cbebc2c34f866"
+      },
+      {
+        "file": "002-time_series_analysis.series.png",
+        "plotId": "time_series_analysis.series",
+        "source": {
+          "kind": "rerun",
+          "id": "Mauna Loa - CO2",
+          "runId": "3ecc3558-e2c8-4c44-a97c-6ef989f999d1"
+        },
+        "specSha256": "73e0a746a1f469276190443e8b73730031488772c9112012ab030f2e42520c31",
+        "pngSha256": "10b2cfdb148438d4f6f8a2bede1aefe11709fd763f0ec85624297c9b397bd35a"
+      },
+      {
+        "file": "003-time_series_analysis.residual_acf.png",
+        "plotId": "time_series_analysis.residual_acf",
+        "source": {
+          "kind": "rerun",
+          "id": "Airline Passengers - TSA",
+          "runId": "a78acdbb-f5f8-458c-acf9-ce7c528a006e"
+        },
+        "specSha256": "e57aa69591415036b0044f733eaa5c76069fb7de262a208f1105d76b68bc91de",
+        "pngSha256": "c6a662414a9fcda4247d545f2657e1aa830a4bfa92fa79811158aada7230fb49"
+      },
+      {
+        "file": "004-time_series_analysis.residuals.png",
+        "plotId": "time_series_analysis.residuals",
+        "source": {
+          "kind": "rerun",
+          "id": "Nile River Flows - TSA",
+          "runId": "946914e0-ea99-4ee1-b905-0f194a91597a"
+        },
+        "specSha256": "e29d0916e473feaf55b4180526b09901a1b5a4bccc4627546cfef2d13bddef47",
+        "pngSha256": "0ff132ebe5d1fa29e846d2d0af754ab00d04bd094703e9304c2d581e9d03d88f"
+      },
+      {
+        "file": "005-time_series_analysis.residual_acf.png",
+        "plotId": "time_series_analysis.residual_acf",
+        "source": {
+          "kind": "rerun",
+          "id": "Mauna Loa - CO2",
+          "runId": "3ecc3558-e2c8-4c44-a97c-6ef989f999d1"
+        },
+        "specSha256": "10f3c21fd795b862ff36109e4a83b21d09b9692cd626c332ba5ac0093d9d80bf",
+        "pngSha256": "94eca2e946d3eae4ea9de614f60f93c1344ed27df7528eab27260ecf59638b71"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 7,
+    "embeddedPngs": 6,
+    "outputsSha256": "b6991601fe3022de989e89e897b620d752e6da0e22f094ce0fac44cf01853465"
+  },
+  "figures": 6,
+  "elapsedSeconds": 29.031
+}

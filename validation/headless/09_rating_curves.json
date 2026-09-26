@@ -1,0 +1,635 @@
+{
+  "notebook": "09_rating_curves.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "eb26c2856316",
+  "sourceSha256": "59c3c9a8d2f2a88c958a7f0845903d68273fb1503770889e806aafb4b97a392c",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\eb26c2856316",
+  "codeCells": 6,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "1 Segment Rating Curve",
+      "class": "RatingCurveAnalysis",
+      "status": "completed",
+      "runId": "131c6383-ac7a-4827-840c-036e71745c11",
+      "seconds": 6.52,
+      "source": {
+        "bytes": 22872064,
+        "relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<RatingCurveAnalysis IsEstimated=\"true\" MinStage=\"-0.7326817927\" MaxStage=\"21.7691008757\" StageBins=\"100\" UseDefaultStageBins=\"true\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"8\" ThinningInterval=\"40\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"400\" Jump=\"0.8414570696119914\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"3156.3705013223853\" WAIC=\"3156.8649647299758\" WAIC_pD=\"4.2693177836909904\" LOOIC=\"3157.087562845255\" LOO_pD=\"4.3806168413304931\" LOOIC_SE=\"83.447570108152476\" IsEstimated=\"True\" ElapsedTime=\"56381969\" />\r\n</RatingCurveAnalysis>",
+      "modelSettings": "<RatingCurve NumberOfSegments=\"1\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Zero-Flow Stage (h₁)\" Value=\"0.98658830118317664\" LowerBound=\"-17.609018793999997\" UpperBound=\"3.0176153186999999\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-17.609018793999997\" Max=\"3.0176153186999999\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₁)\" Value=\"0.22064258765060768\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₁)\" Value=\"2.692511992391621\" LowerBound=\"0\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"0.051060220338175089\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"3\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"3\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</RatingCurve>",
+      "metrics": {
+        "AIC": 3156.2359676437572,
+        "BIC": 3171.051097542382,
+        "DIC": 3156.3705013223853,
+        "RMSE": 224.36464296481583
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.000314644590876,
+          "ESS": 9708.36141027971
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0005862813814024,
+          "ESS": 9674.895449338897
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0002510019937514,
+          "ESS": 9452.862005923731
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0000319661991592,
+          "ESS": 9708.795865513599
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Zero-Flow Stage (h₁)",
+          "value": 0.9865883011831766,
+          "lower": -17.609018793999997,
+          "upper": 3.0176153187,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₁)",
+          "value": 0.22064258765060768,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₁)",
+          "value": 2.692511992391621,
+          "lower": 0.0,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 0.05106022033817509,
+          "lower": 1.11022302462516e-16,
+          "upper": 3.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "3 Segment Rating Curve",
+      "class": "RatingCurveAnalysis",
+      "status": "completed",
+      "runId": "d8f1b498-8ef5-4841-bd62-9f877e7c3496",
+      "seconds": 38.262,
+      "source": {
+        "bytes": 22872064,
+        "relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<RatingCurveAnalysis IsEstimated=\"true\" MinStage=\"-0.7326817927\" MaxStage=\"21.7691008757\" StageBins=\"100\" UseDefaultStageBins=\"true\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"20\" ThinningInterval=\"100\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"1000\" Jump=\"0.53218417864494993\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"3774.2264846930061\" WAIC=\"3780.9246851805215\" WAIC_pD=\"10.470946645078739\" LOOIC=\"3781.2312102425285\" LOO_pD=\"10.624209176082331\" LOOIC_SE=\"115.00220806203104\" IsEstimated=\"True\" ElapsedTime=\"370067849\" />\r\n</RatingCurveAnalysis>",
+      "modelSettings": "<RatingCurve NumberOfSegments=\"3\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Zero-Flow Stage (h₁)\" Value=\"0.98493772969031679\" LowerBound=\"-17.609018793999997\" UpperBound=\"3.0176153186999999\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-17.609018793999997\" Max=\"3.0176153186999999\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₁)\" Value=\"0.2166215699626195\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₁)\" Value=\"2.6987993013108307\" LowerBound=\"0\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Activation Stage (h₂)\" Value=\"9.7050122761885689\" LowerBound=\"4.8927638743999999\" UpperBound=\"14.268506652899998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"4.8927638743999999\" Max=\"14.268506652899998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₂)\" Value=\"2.7172731927615006\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₂)\" Value=\"1.9533262339590007\" LowerBound=\"0\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Activation Stage (h₃)\" Value=\"14.648033778968093\" LowerBound=\"10.518209541499999\" UpperBound=\"19.89395232\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"10.518209541499999\" Max=\"19.89395232\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₃)\" Value=\"3.1559684147849607\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₃)\" Value=\"2.1715529261903797\" LowerBound=\"0\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"0.050661441625089426\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"5\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"5\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</RatingCurve>",
+      "metrics": {
+        "AIC": 3779.38612222518,
+        "BIC": 3816.4239469717418,
+        "DIC": 3774.226484693006,
+        "RMSE": 4042.050521044258
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.000366564866517,
+          "ESS": 9374.644264565553
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0004114142335818,
+          "ESS": 9298.65075975447
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.000281545251186,
+          "ESS": 9339.973227377064
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0004171892829694,
+          "ESS": 8171.308687960638
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.000452706159785,
+          "ESS": 8020.789865849608
+        },
+        {
+          "parameter": 5,
+          "Rhat": 1.0005212077595602,
+          "ESS": 7519.799844792147
+        },
+        {
+          "parameter": 6,
+          "Rhat": 1.0009155813420394,
+          "ESS": 2121.156129132061
+        },
+        {
+          "parameter": 7,
+          "Rhat": 1.0011079728024663,
+          "ESS": 2153.5770315030904
+        },
+        {
+          "parameter": 8,
+          "Rhat": 1.0011681626721383,
+          "ESS": 2153.080459691548
+        },
+        {
+          "parameter": 9,
+          "Rhat": 1.0001168126147817,
+          "ESS": 8248.98729009331
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Zero-Flow Stage (h₁)",
+          "value": 0.9849377296903168,
+          "lower": -17.609018793999997,
+          "upper": 3.0176153187,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₁)",
+          "value": 0.2166215699626195,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₁)",
+          "value": 2.6987993013108307,
+          "lower": 0.0,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Activation Stage (h₂)",
+          "value": 9.705012276188569,
+          "lower": 4.8927638744,
+          "upper": 14.268506652899998,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₂)",
+          "value": 2.7172731927615006,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₂)",
+          "value": 1.9533262339590007,
+          "lower": 0.0,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Activation Stage (h₃)",
+          "value": 14.648033778968093,
+          "lower": 10.5182095415,
+          "upper": 19.89395232,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₃)",
+          "value": 3.1559684147849607,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₃)",
+          "value": 2.1715529261903797,
+          "lower": 0.0,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 0.050661441625089426,
+          "lower": 1.11022302462516e-16,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "2 Segment Rating Curve",
+      "class": "RatingCurveAnalysis",
+      "status": "completed",
+      "runId": "96dd1378-57c3-459a-9781-6ea4de3e640d",
+      "seconds": 21.895,
+      "source": {
+        "bytes": 22872064,
+        "relative_path": "examples/6-rating-curve-analysis/synthetic-rating-curve-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "e18dd2f001c4fa16add8e66162ed80ac5dd2057b6d915f106ec5c799cab1bb17"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<RatingCurveAnalysis IsEstimated=\"true\" MinStage=\"-0.7326817927\" MaxStage=\"21.7691008757\" StageBins=\"100\" UseDefaultStageBins=\"true\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"14\" ThinningInterval=\"70\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"700\" Jump=\"0.63608175575157\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"3699.8599970131986\" WAIC=\"3700.6576686330736\" WAIC_pD=\"7.2876645888060967\" LOOIC=\"3700.9047559371152\" LOO_pD=\"7.4112082408269089\" LOOIC_SE=\"109.3675555134251\" IsEstimated=\"True\" ElapsedTime=\"208813285\" />\r\n</RatingCurveAnalysis>",
+      "modelSettings": "<RatingCurve NumberOfSegments=\"2\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Zero-Flow Stage (h₁)\" Value=\"0.98443920396926754\" LowerBound=\"-17.609018793999997\" UpperBound=\"3.0176153186999999\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-17.609018793999997\" Max=\"3.0176153186999999\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₁)\" Value=\"0.21539245664120124\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₁)\" Value=\"2.700970122898156\" LowerBound=\"0.10000000000000001\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0.10000000000000001\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Activation Stage (h₂)\" Value=\"9.8473381231701431\" LowerBound=\"4.8927638743999999\" UpperBound=\"14.268506652899998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"4.8927638743999999\" Max=\"14.268506652899998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₂)\" Value=\"2.838394935538092\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₂)\" Value=\"1.7878900086648921\" LowerBound=\"0.10000000000000001\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0.10000000000000001\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"0.050652129812198826\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"4\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"4\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</RatingCurve>",
+      "metrics": {
+        "AIC": 3700.116114710855,
+        "BIC": 3726.0425920334483,
+        "DIC": 3699.8599970131986,
+        "RMSE": 2036.6227682496915
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0000962540106633,
+          "ESS": 9912.926202227956
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0002353266145156,
+          "ESS": 9189.89204440527
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0001436068894742,
+          "ESS": 9886.984358756159
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0003154566953683,
+          "ESS": 10262.115962715698
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.0001768759590977,
+          "ESS": 9717.273039692678
+        },
+        {
+          "parameter": 5,
+          "Rhat": 1.0002249602175863,
+          "ESS": 10173.69139200279
+        },
+        {
+          "parameter": 6,
+          "Rhat": 1.0000876251891522,
+          "ESS": 9767.924347096463
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Zero-Flow Stage (h₁)",
+          "value": 0.9844392039692675,
+          "lower": -17.609018793999997,
+          "upper": 3.0176153187,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₁)",
+          "value": 0.21539245664120124,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₁)",
+          "value": 2.700970122898156,
+          "lower": 0.1,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Activation Stage (h₂)",
+          "value": 9.847338123170143,
+          "lower": 4.8927638744,
+          "upper": 14.268506652899998,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₂)",
+          "value": 2.838394935538092,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₂)",
+          "value": 1.7878900086648921,
+          "lower": 0.1,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 0.050652129812198826,
+          "lower": 1.11022302462516e-16,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "USGS 07024175 Rating Curve",
+      "class": "RatingCurveAnalysis",
+      "status": "completed",
+      "runId": "f0250bb6-fc7a-4e74-a3ef-b15e0cde34e6",
+      "seconds": 3.246,
+      "source": {
+        "bytes": 8519680,
+        "relative_path": "examples/6-rating-curve-analysis/usgs-07024175-mississippi-rating-curve.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "997fe961e233f540cf64171dfd5b2475b23b9f4ac8cc51459dd545b242a24ece"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<RatingCurveAnalysis IsEstimated=\"true\" MinStage=\"-10.32\" MaxStage=\"45.96\" StageBins=\"100\" UseDefaultStageBins=\"true\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"8\" ThinningInterval=\"40\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"400\" Jump=\"0.8414570696119914\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMode\" DIC=\"2233.3212238378092\" WAIC=\"2233.3875494133281\" WAIC_pD=\"3.005002194119458\" LOOIC=\"2233.4206415275598\" LOO_pD=\"3.0215482512353447\" LOOIC_SE=\"15.519782271873128\" IsEstimated=\"True\" ElapsedTime=\"20468090\" />\r\n</RatingCurveAnalysis>",
+      "modelSettings": "<RatingCurve NumberOfSegments=\"1\" UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Zero-Flow Stage (h₁)\" Value=\"-52.470744342349683\" LowerBound=\"-52.530000000000008\" UpperBound=\"-0.9399999999999995\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-52.530000000000008\" Max=\"-0.9399999999999995\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Coefficient (α₁)\" Value=\"-0.41270212492285713\" LowerBound=\"-10\" UpperBound=\"10\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10\" Max=\"10\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Exponent (β₁)\" Value=\"3.3280988532106885\" LowerBound=\"0.10000000000000001\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0.10000000000000001\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Scale (σ)\" Value=\"0.022508411638756814\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</RatingCurve>",
+      "metrics": {
+        "AIC": 2233.4645239626057,
+        "BIC": 2243.721916728477,
+        "DIC": 2233.321223837809,
+        "RMSE": 30328.581766139872
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0001908215074973,
+          "ESS": 8265.7977529014
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.000191717859795,
+          "ESS": 8514.179390244759
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0001480897239547,
+          "ESS": 8582.005198676476
+        },
+        {
+          "parameter": 3,
+          "Rhat": 0.9998022372590463,
+          "ESS": 8560.702960190678
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Zero-Flow Stage (h₁)",
+          "value": -52.47074434234968,
+          "lower": -52.53000000000001,
+          "upper": -0.9399999999999995,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Coefficient (α₁)",
+          "value": -0.4127021249228571,
+          "lower": -10.0,
+          "upper": 10.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Exponent (β₁)",
+          "value": 3.3280988532106885,
+          "lower": 0.1,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Scale (σ)",
+          "value": 0.022508411638756814,
+          "lower": 1.11022302462516e-16,
+          "upper": 1.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 4,
+    "completedAnalysesIncludingDependencies": 4,
+    "figureLineage": [
+      {
+        "file": "000-rating.curve.png",
+        "plotId": "rating.curve",
+        "source": {
+          "kind": "rerun",
+          "id": "USGS 07024175 Rating Curve",
+          "runId": "f0250bb6-fc7a-4e74-a3ef-b15e0cde34e6"
+        },
+        "specSha256": "b0c8a2ed1e575782d0b9069b375628ab8f8d7c9f4a5044f7f017c18765aeaf6e",
+        "pngSha256": "c96ba0e6ac3c6c25a9d0fd3f90a267216d3ecc1156e3eb1a0ffc0c4ce5ed803f"
+      },
+      {
+        "file": "001-rating.residuals.png",
+        "plotId": "rating.residuals",
+        "source": {
+          "kind": "rerun",
+          "id": "USGS 07024175 Rating Curve",
+          "runId": "f0250bb6-fc7a-4e74-a3ef-b15e0cde34e6"
+        },
+        "specSha256": "72316a06b774d62b9d26ccf6f38a8aba8496a294605a7ec12562bafb9a9504eb",
+        "pngSha256": "f5bee871c61d4d4782ac8f6b5897f61ddf9e9918bdec84183bf284c8561b6048"
+      },
+      {
+        "file": "002-rating.residual_qq.png",
+        "plotId": "rating.residual_qq",
+        "source": {
+          "kind": "rerun",
+          "id": "USGS 07024175 Rating Curve",
+          "runId": "f0250bb6-fc7a-4e74-a3ef-b15e0cde34e6"
+        },
+        "specSha256": "1897ae7df82b779382bdf8bee2434a8f9f282ecc6b180bcc197fe5f5d71f741f",
+        "pngSha256": "14e68064cd47ed735a87764732a0142d6a6ef5d9c6f3290745f88a1eda123fc6"
+      },
+      {
+        "file": "003-rating.curve.png",
+        "plotId": "rating.curve",
+        "source": {
+          "kind": "rerun",
+          "id": "1 Segment Rating Curve",
+          "runId": "131c6383-ac7a-4827-840c-036e71745c11"
+        },
+        "specSha256": "d4ebe63b2d868b3bbb1470d51fe03a9c1eff0882ab938256c4bbc6004a66b4af",
+        "pngSha256": "ab07b073161e5f230216444279c194cd65530fccd276b003920f3ac85692173e"
+      },
+      {
+        "file": "004-rating.curve.png",
+        "plotId": "rating.curve",
+        "source": {
+          "kind": "rerun",
+          "id": "2 Segment Rating Curve",
+          "runId": "96dd1378-57c3-459a-9781-6ea4de3e640d"
+        },
+        "specSha256": "8b0c501f851c43db4b283373626cea6e5ca3f5bf4bb635bebe4dc4a0ff76dd45",
+        "pngSha256": "d469541dde9568f4269036dd8220cfefdba411edc876af93ebad55b473092a1d"
+      },
+      {
+        "file": "005-rating.curve.png",
+        "plotId": "rating.curve",
+        "source": {
+          "kind": "rerun",
+          "id": "3 Segment Rating Curve",
+          "runId": "d8f1b498-8ef5-4841-bd62-9f877e7c3496"
+        },
+        "specSha256": "7078a60ecec810a2cc3d6b0762017cd15559103c1344792623e804d3d372d06d",
+        "pngSha256": "040c88ad245bea9923999b69858f5c175018fa2f0b572b51467d381c74451e74"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 6,
+    "embeddedPngs": 6,
+    "outputsSha256": "1539e42ea83d016b6cba44f23c9b97dcddf2fc4a42004dede3b04c3b5d74e9e7"
+  },
+  "figures": 6,
+  "elapsedSeconds": 77.031
+}

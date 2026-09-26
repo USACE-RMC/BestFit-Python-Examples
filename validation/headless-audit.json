@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "command": "scripts/validate_notebooks.py --audit-only",
+  "exitCode": 0,
+  "receiptHashesUnchanged": true,
+  "receiptSha256": {
+    "00_time_series_data.json": "577c874018f2e871eb2132f6b71d915b23fa88fa8a64308af74db698cf2c05fc",
+    "01_input_data.json": "b3fee8500fd13b576bdcc9d420bdc6a26fba0d820c3bd32423c543ad623a2e24",
+    "02_distribution_fitting.json": "40b182f07f88bb71cc2318423fa1906d84e90b7ce7404695ec3c5b5799996094",
+    "03_stationary_information_expansion.json": "a6ea1e5a191eb015e86693b360e67c3562b46b33fa3b10e39aad823c444d2822",
+    "04_nonstationary_univariate.json": "1763a65b2a3f54540e99da24ac31149ac4c5209dd8da95c8797caac583ffb6c1",
+    "05_bulletin_17c.json": "58c600b172abf3c850f1983c6d50ec345b2d0857d983d98840acba033e511ce2",
+    "06_advanced_univariate.json": "a8869a349608aeaaab74e16bba77bf8d5b29167d66fba300563f99978ed6ec2c",
+    "07_bivariate_analysis.json": "240d0e181ac51ff4ae8021c26b855fcef5d65c6f1a9648ea00cfc20c0b5d135a",
+    "08_coincident_frequency.json": "d1b51b0b52371e1f005903980323472603148f83ba26760cdfcd123e1c9ad15d",
+    "09_rating_curves.json": "b1f33d5b653cb598c984b9ded996434c437965120b0af67ac32b8363da36caf3",
+    "10_classic_time_series.json": "6c5eb8120a93d39221dad018d330a30342796b6b5c2c754a6e901853e231d81c",
+    "11_regression.json": "bad9b1ae69c57488bf0cad9bc0c02ff223a7649611f295ccfe102de239592d75"
+  },
+  "stdout": "00_time_series_data: original inputs, runs, tables and embedded figures verified\n01_input_data: original inputs, runs, tables and embedded figures verified\n02_distribution_fitting: original inputs, runs, tables and embedded figures verified\n03_stationary_information_expansion: original inputs, runs, tables and embedded figures verified\n04_nonstationary_univariate: original inputs, runs, tables and embedded figures verified\n05_bulletin_17c: original inputs, runs, tables and embedded figures verified\n06_advanced_univariate: original inputs, runs, tables and embedded figures verified\n07_bivariate_analysis: original inputs, runs, tables and embedded figures verified\n08_coincident_frequency: original inputs, runs, tables and embedded figures verified\n09_rating_curves: original inputs, runs, tables and embedded figures verified\n10_classic_time_series: original inputs, runs, tables and embedded figures verified\n11_regression: original inputs, runs, tables and embedded figures verified\n"
+}

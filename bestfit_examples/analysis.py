@@ -1,4 +1,6 @@
-"""Restore frozen model analyses through the app's public XML constructors.
+"""Legacy archive/comparison support, never imported by teaching notebooks.
+
+Restore frozen model analyses through the app's public XML constructors.
 
 This module only deserializes original project cells. It never calls RunAsync,
 Estimate, or a sampler during restoration.

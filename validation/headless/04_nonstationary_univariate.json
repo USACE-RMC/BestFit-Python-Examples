@@ -1,0 +1,965 @@
+{
+  "notebook": "04_nonstationary_univariate.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "eb26c2856316",
+  "sourceSha256": "89092b25fdae5d237c3247fea4d581c29d70e6c14fac7c6f9bb620308af417c9",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\eb26c2856316",
+  "codeCells": 6,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "NSFFA - Logistic - Logistic",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "ad773694-9c2f-46d9-8ff0-64f728510dda",
+      "seconds": 19.887,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"10\" ThinningInterval=\"50\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"500\" Jump=\"0.75262208312007417\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"20000\" PointEstimator=\"PosteriorMean\" DIC=\"1161.8309912069976\" WAIC=\"1168.7736033247095\" WAIC_pD=\"5.7312379593544556\" LOOIC=\"1169.4997878778731\" LOO_pD=\"6.0943302359362406\" LOOIC_SE=\"35.168446418032623\" IsEstimated=\"True\" ElapsedTime=\"165310537\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.8391907080822456\" Sigma=\"0.1170895512935954\" Gamma=\"-0.47706117628878109\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.889604306764757\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.04243171973463216\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"1.0006400575384673\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.02127378335281201\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.47706117628878109\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Logistic\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.889604306764757\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.04243171973463216\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Logistic\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"1.0006400575384673\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.02127378335281201\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.47706117628878109\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1167.4301850482352,
+        "BIC": 1180.2519260055744,
+        "DIC": 1161.8309912069976,
+        "RMSE": 346.3476275002525
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.004603275415847,
+          "ESS": 918.0411578946488
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.004823455153342,
+          "ESS": 920.6070036182987
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0022823792255566,
+          "ESS": 5565.6851970359985
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0025310322151078,
+          "ESS": 2534.252110917605
+        },
+        {
+          "parameter": 4,
+          "Rhat": 0.9999600978503349,
+          "ESS": 14752.78115479991
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(α)",
+          "value": 2.889604306764757,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": 0.04243171973463216,
+          "lower": -0.06,
+          "upper": 0.06,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 1.0006400575384673,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": -0.02127378335281201,
+          "lower": -0.06,
+          "upper": 0.06,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.4770611762887811,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "NSFFA - Linear - Logistic",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "f3cba6dc-4281-42b0-af14-23782c0efd3d",
+      "seconds": 15.141,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"10\" ThinningInterval=\"50\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"500\" Jump=\"0.75262208312007417\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1172.2961824689098\" WAIC=\"1172.3096314951213\" WAIC_pD=\"4.0629989629101191\" LOOIC=\"1172.4287473595023\" LOO_pD=\"4.1225568951006153\" LOOIC_SE=\"34.302374422730864\" IsEstimated=\"True\" ElapsedTime=\"134534065\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.8679970226599374\" Sigma=\"0.15510501842013941\" Gamma=\"-0.59565065862212152\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.0206651203280299\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.00891928318244113\" LowerBound=\"-0.10000000000000001\" UpperBound=\"0.10000000000000001\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.10000000000000001\" Max=\"0.10000000000000001\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.80794903704835397\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.015128797959841052\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.59565065862212152\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Linear\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.0206651203280299\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.00891928318244113\" LowerBound=\"-0.10000000000000001\" UpperBound=\"0.10000000000000001\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.10000000000000001\" Max=\"0.10000000000000001\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Logistic\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.80794903704835397\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.015128797959841052\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.59565065862212152\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1173.0076580095683,
+        "BIC": 1185.8293989669075,
+        "DIC": 1172.2961824689098,
+        "RMSE": 408.77246538533245
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9999682307134253,
+          "ESS": 9693.418571642416
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999166751923103,
+          "ESS": 9502.934296349988
+        },
+        {
+          "parameter": 2,
+          "Rhat": 0.9998802632812215,
+          "ESS": 9744.511187709033
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0000453795640702,
+          "ESS": 9937.85400638515
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.0000874182042363,
+          "ESS": 9308.772513336846
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(α)",
+          "value": 2.02066512032803,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": 0.00891928318244113,
+          "lower": -0.1,
+          "upper": 0.1,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.807949037048354,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": -0.015128797959841052,
+          "lower": -0.06,
+          "upper": 0.06,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.5956506586221215,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "NSFFA - Constant",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "342a4f04-1fb2-4f6a-98ec-25ee89724bf5",
+      "seconds": 8.058,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"6\" ThinningInterval=\"30\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"0.97163093130399403\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1228.3468630581006\" WAIC=\"1228.217507526261\" WAIC_pD=\"2.1398807585894306\" LOOIC=\"1228.304585273461\" LOO_pD=\"2.1834196321894979\" LOOIC_SE=\"33.73272415237799\" IsEstimated=\"True\" ElapsedTime=\"61044422\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.4572969666455449\" Sigma=\"0.38813706551903476\" Gamma=\"-1.2898133320309504\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.4572969666455449\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.38813706551903476\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-1.2898133320309504\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.4572969666455449\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.38813706551903476\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-1.2898133320309504\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1228.7137573197747,
+        "BIC": 1236.4068018941782,
+        "DIC": 1228.3468630581006,
+        "RMSE": 22.833832656042098
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9999730072451736,
+          "ESS": 8761.551694066986
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999128304128713,
+          "ESS": 9554.747938043334
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0000611932215844,
+          "ESS": 8949.94970341123
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(α)",
+          "value": 2.457296966645545,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.38813706551903476,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -1.2898133320309504,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "NSFFA - Step - Logistic",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "1e629f20-9c2a-4841-a534-abf2b4738f7e",
+      "seconds": 27.639,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"12\" ThinningInterval=\"60\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"600\" Jump=\"0.68704682033565467\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1154.8344044363869\" WAIC=\"1155.604323821711\" WAIC_pD=\"5.5929900377730899\" LOOIC=\"1156.28833826716\" LOO_pD=\"5.9349972604976529\" LOOIC_SE=\"33.623548893594695\" IsEstimated=\"True\" ElapsedTime=\"253444019\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.6913472194389327\" Sigma=\"0.15677687396864387\" Gamma=\"-0.58537515342161661\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₁)\" Value=\"2.0996080945989375\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₂)\" Value=\"2.6913472194389327\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(tₛ)\" Value=\"1967.6692847466229\" LowerBound=\"1929\" UpperBound=\"2024\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1929\" Max=\"2024\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.6475175275687286\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.012011496613118877\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.58537515342161661\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"StepFunction\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₁)\" Value=\"2.0996080945989375\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₂)\" Value=\"2.6913472194389327\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(tₛ)\" Value=\"1967.6692847466229\" LowerBound=\"1929\" UpperBound=\"2024\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1929\" Max=\"2024\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Logistic\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.6475175275687286\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(β)\" Value=\"-0.012011496613118877\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.58537515342161661\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1154.4375236012072,
+        "BIC": 1169.8236127500143,
+        "DIC": 1154.8344044363869,
+        "RMSE": 163.57487467041375
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0000351900758713,
+          "ESS": 9548.168329324459
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999769879824036,
+          "ESS": 9202.403078964913
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0002040456393684,
+          "ESS": 8758.208742770265
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0004160340079717,
+          "ESS": 8630.939213918298
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.0001989592983414,
+          "ESS": 8619.023607908055
+        },
+        {
+          "parameter": 5,
+          "Rhat": 0.9998955486115245,
+          "ESS": 9235.914343802417
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(μ₁)",
+          "value": 2.0996080945989375,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(μ₂)",
+          "value": 2.6913472194389327,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(tₛ)",
+          "value": 1967.669284746623,
+          "lower": 1929.0,
+          "upper": 2024.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.6475175275687286,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": -0.012011496613118877,
+          "lower": -0.06,
+          "upper": 0.06,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.5853751534216166,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "NSFFA - Logistic",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "1057e0e7-be79-409f-b449-548bc6588572",
+      "seconds": 8.918,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"8\" ThinningInterval=\"40\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"400\" Jump=\"0.8414570696119914\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1178.9430383540355\" WAIC=\"1180.0500780393813\" WAIC_pD=\"3.8434313396471103\" LOOIC=\"1180.5019755654168\" LOO_pD=\"4.0693801026648089\" LOOIC_SE=\"35.574581985476179\" IsEstimated=\"True\" ElapsedTime=\"72467425\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.8911113939341408\" Sigma=\"0.25972059620795407\" Gamma=\"-0.44685187784622138\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"3.8402057012774407\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.011725137930413944\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.25972059620795407\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.44685187784622138\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Logistic\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"3.8402057012774407\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.011725137930413944\" LowerBound=\"-0.059999999999999998\" UpperBound=\"0.059999999999999998\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.059999999999999998\" Max=\"0.059999999999999998\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.25972059620795407\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.44685187784622138\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1179.6077113361,
+        "BIC": 1189.8651041019714,
+        "DIC": 1178.9430383540355,
+        "RMSE": 604.9457508649449
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0007535776920882,
+          "ESS": 7408.605897735656
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0003823156198048,
+          "ESS": 7391.507749739085
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0002055027201278,
+          "ESS": 8066.723258128011
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.0000586949846486,
+          "ESS": 8016.769921052851
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(α)",
+          "value": 3.8402057012774407,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": 0.011725137930413944,
+          "lower": -0.06,
+          "upper": 0.06,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.25972059620795407,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.4468518778462214,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Bayesian Model Average",
+      "class": "CompositeAnalysis",
+      "status": "completed",
+      "runId": "73b56f58-dac6-43e3-8b6a-5398af581d00",
+      "seconds": 2.927,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<CompositeAnalysis IsEstimated=\"true\" CompositeDistributionType=\"ModelAverage\" ModelAverageMethod=\"DIC\" Dependency=\"Independent\" IsMaximum=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0\" WAIC=\"0\" WAIC_pD=\"0\" LOOIC=\"0\" LOO_pD=\"0\" LOOIC_SE=\"0\" IsEstimated=\"False\" />\r\n  <Analyses>\r\n    <WeightedUnivariateAnalysis Weight=\"0.00015675189881678747\" />\r\n    <WeightedUnivariateAnalysis Weight=\"0.029356225760089637\" />\r\n    <WeightedUnivariateAnalysis Weight=\"0.97048702234109352\" />\r\n  </Analyses>\r\n</CompositeAnalysis>",
+      "modelSettings": null,
+      "metrics": {
+        "AIC": 0.0,
+        "BIC": 0.0,
+        "DIC": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "name": "NSFFA - Step",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "b193661b-e833-46e5-8f21-25090b27bf0e",
+      "seconds": 14.06,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"10\" ThinningInterval=\"50\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"500\" Jump=\"0.75262208312007417\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1158.1195589320162\" WAIC=\"1158.893289959994\" WAIC_pD=\"4.9370575550341158\" LOOIC=\"1159.7153685280441\" LOO_pD=\"5.348096839059167\" LOOIC_SE=\"33.614301685490979\" IsEstimated=\"True\" ElapsedTime=\"122852462\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.6448628391210014\" Sigma=\"0.23993367443695024\" Gamma=\"-0.88487225296125616\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₁)\" Value=\"2.1393543457056583\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₂)\" Value=\"2.6448628391210014\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(tₛ)\" Value=\"1967.731416983087\" LowerBound=\"1929\" UpperBound=\"2024\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1929\" Max=\"2024\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.23993367443695024\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.88487225296125616\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"StepFunction\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₁)\" Value=\"2.1393543457056583\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(μ₂)\" Value=\"2.6448628391210014\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(tₛ)\" Value=\"1967.731416983087\" LowerBound=\"1929\" UpperBound=\"2024\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1929\" Max=\"2024\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.23993367443695024\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.88487225296125616\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1157.7369960749957,
+        "BIC": 1170.5587370323349,
+        "DIC": 1158.1195589320162,
+        "RMSE": 126.4292522986932
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9998910105231391,
+          "ESS": 9270.50140963985
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9998909312800046,
+          "ESS": 9467.166519641205
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.000253585043579,
+          "ESS": 8497.15529672686
+        },
+        {
+          "parameter": 3,
+          "Rhat": 0.9999527690587018,
+          "ESS": 9634.90944281188
+        },
+        {
+          "parameter": 4,
+          "Rhat": 1.000194333609561,
+          "ESS": 9142.630409362459
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(μ₁)",
+          "value": 2.1393543457056583,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(μ₂)",
+          "value": 2.6448628391210014,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(tₛ)",
+          "value": 1967.731416983087,
+          "lower": 1929.0,
+          "upper": 2024.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.23993367443695024,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.8848722529612562,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "NSFFA - Linear",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "c14c71d1-afe4-4c4d-8a12-5bf210814d0a",
+      "seconds": 10.008,
+      "source": {
+        "bytes": 21626880,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/5-nonstationary-ffa/nsffa-brays-bayou-texas.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "9c513e3b1dbea681edd74ba2c67bba0647767700fefbb90b61331807598b5b31"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"8\" ThinningInterval=\"40\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"400\" Jump=\"0.8414570696119914\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1180.3654336395537\" WAIC=\"1180.8495353237597\" WAIC_pD=\"3.8666372839114049\" LOOIC=\"1181.0379986472506\" LOO_pD=\"3.9608689456567845\" LOOIC_SE=\"35.01498053285691\" IsEstimated=\"True\" ElapsedTime=\"84477547\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"True\" ParameterTimeIndex=\"2024\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"2.8649842653322906\" Sigma=\"0.26248603722295077\" Gamma=\"-0.59247209583074512\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.0042110177808041\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.0090607710268577508\" LowerBound=\"-0.10000000000000001\" UpperBound=\"0.10000000000000001\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.10000000000000001\" Max=\"0.10000000000000001\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.26248603722295077\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.59247209583074512\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Linear\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(α)\" Value=\"2.0042110177808041\" LowerBound=\"1\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1\" Max=\"4\" />\r\n        </ModelParameter>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"(β)\" Value=\"0.0090607710268577508\" LowerBound=\"-0.10000000000000001\" UpperBound=\"0.10000000000000001\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-0.10000000000000001\" Max=\"0.10000000000000001\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"(α)\" Value=\"0.26248603722295077\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1929\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"(α)\" Value=\"-0.59247209583074512\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1180.7445349007282,
+        "BIC": 1191.0019276665996,
+        "DIC": 1180.3654336395537,
+        "RMSE": 536.4712174078636
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0005012339431612,
+          "ESS": 9763.515543581041
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0000398690735226,
+          "ESS": 9367.27078346142
+        },
+        {
+          "parameter": 2,
+          "Rhat": 1.0001788224305563,
+          "ESS": 9785.219810103643
+        },
+        {
+          "parameter": 3,
+          "Rhat": 1.00010579546612,
+          "ESS": 9801.569275778236
+        }
+      ],
+      "parameters": [
+        {
+          "name": "(α)",
+          "value": 2.004211017780804,
+          "lower": 1.0,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(β)",
+          "value": 0.00906077102685775,
+          "lower": -0.1,
+          "upper": 0.1,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": 0.2624860372229508,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "(α)",
+          "value": -0.5924720958307451,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 8,
+    "completedAnalysesIncludingDependencies": 8,
+    "figureLineage": [
+      {
+        "file": "000-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Constant",
+          "runId": "342a4f04-1fb2-4f6a-98ec-25ee89724bf5"
+        },
+        "specSha256": "288d5ce764fb5cc26b2f3307dd53adbd0640bed63586309200e2e08c8455b205",
+        "pngSha256": "edbd5f2ea105a95174c1521b48be2bf686ca6984c961de83f7e67c14ec5df211"
+      },
+      {
+        "file": "001-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Constant",
+          "runId": "342a4f04-1fb2-4f6a-98ec-25ee89724bf5"
+        },
+        "specSha256": "8f79d354dfa47a508bf4d1ef8e7bdec76a0edfd1bb29928f6a866029e5a29140",
+        "pngSha256": "4af780ca868304dd364bb557afc72ca57b2e3dfe59a363927e8855b7dcff7a07"
+      },
+      {
+        "file": "002-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Linear",
+          "runId": "c14c71d1-afe4-4c4d-8a12-5bf210814d0a"
+        },
+        "specSha256": "b5d4a1e4f8c811abe9144a58c8fef5a7a41578a35509f426f9347adc6cfb4c4e",
+        "pngSha256": "0cd187fd5411e124232051978b73974c805f3be58c20e2233c24ce54df5932d0"
+      },
+      {
+        "file": "003-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Linear",
+          "runId": "c14c71d1-afe4-4c4d-8a12-5bf210814d0a"
+        },
+        "specSha256": "6737b3a17e8c12513edf1c5367598436929eb5eca33e42146d1287b862822608",
+        "pngSha256": "01d9bf2a4fe9d0edc3342eada1cdb5cf17e88c29171671e3d51935e766d1560f"
+      },
+      {
+        "file": "004-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Logistic",
+          "runId": "1057e0e7-be79-409f-b449-548bc6588572"
+        },
+        "specSha256": "323e9fce70ef4bb39a0703501982f2397f4b8e729c9b532846460fc2e25ea5d6",
+        "pngSha256": "87b6b426ce136eefab097fe8426aa894d135d802c1b58f4e87382f5f895fe767"
+      },
+      {
+        "file": "005-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Logistic",
+          "runId": "1057e0e7-be79-409f-b449-548bc6588572"
+        },
+        "specSha256": "a24700ad7d4ea8bbf1e1da31e86e4e06ac86c11d6eb245869b0193a8389aefdc",
+        "pngSha256": "d47d55e9d31e88ce4c219c9b6081ea4103acddc28dc5565ebb9a3e75c6d4b8c2"
+      },
+      {
+        "file": "006-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Step",
+          "runId": "b193661b-e833-46e5-8f21-25090b27bf0e"
+        },
+        "specSha256": "42d08aaefd4c6555927c42041bbd84979a37287f445e95fb49ac2b73627470bb",
+        "pngSha256": "df273977b8f283ac62d8763e2a0d3b42e6bd42a674583fe83ff6da4f7f645a25"
+      },
+      {
+        "file": "007-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Step",
+          "runId": "b193661b-e833-46e5-8f21-25090b27bf0e"
+        },
+        "specSha256": "84974c352b4d2d5fe6e4a9d3bf717f9b9a9dccd2f3b04643730c12a73bde7868",
+        "pngSha256": "6480c8843eaed928717ed371fbc2499ddf34d380cc0b6db853bc814cae8b61ad"
+      },
+      {
+        "file": "008-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Linear - Logistic",
+          "runId": "f3cba6dc-4281-42b0-af14-23782c0efd3d"
+        },
+        "specSha256": "c4fdc8049adde89d22ca755aa823023e7f8e3c715d17feb72e12cc7b8d161bb4",
+        "pngSha256": "6c9af511296c82dd12b1f32c65124c3cfba0c2cb179cdcc39a77ea088a16bf19"
+      },
+      {
+        "file": "009-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Linear - Logistic",
+          "runId": "f3cba6dc-4281-42b0-af14-23782c0efd3d"
+        },
+        "specSha256": "5022af67f3ebf888b426ac559b503849501a0f40fb109ccd0d0e51941803ebcb",
+        "pngSha256": "665594cbd335fd17c00b53ea1ac572ae9fd9d285f90a64f21b478e500f60a902"
+      },
+      {
+        "file": "010-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Logistic - Logistic",
+          "runId": "ad773694-9c2f-46d9-8ff0-64f728510dda"
+        },
+        "specSha256": "d90f0f778b73ca0c20d136628c31874c8d1ff06d67be282491f1a251f26a70be",
+        "pngSha256": "2afe433e3cda190d68b3ef03f6c642ea1f69264b8ad000d5966bfda9d58088f6"
+      },
+      {
+        "file": "011-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Logistic - Logistic",
+          "runId": "ad773694-9c2f-46d9-8ff0-64f728510dda"
+        },
+        "specSha256": "93e1be06d48eb28a330e53e919341f3847279a7b3d2e7af2317d8af2c822107b",
+        "pngSha256": "66089bf56e03b455d7245ae2d423d5f23ebf344bbf30e824027efe40127dd7e4"
+      },
+      {
+        "file": "012-univariate.frequency.png",
+        "plotId": "univariate.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Step - Logistic",
+          "runId": "1e629f20-9c2a-4841-a534-abf2b4738f7e"
+        },
+        "specSha256": "ce4ae9551776b57b96072e4ec9e7db9709a465a96bf9b57426a1f3fc7fe8e3d7",
+        "pngSha256": "a236ec17e6d52a6475577a40548d280e140261e160badaf278efd2418da380f4"
+      },
+      {
+        "file": "013-univariate.chronology.png",
+        "plotId": "univariate.chronology",
+        "source": {
+          "kind": "rerun",
+          "id": "NSFFA - Step - Logistic",
+          "runId": "1e629f20-9c2a-4841-a534-abf2b4738f7e"
+        },
+        "specSha256": "4f47619f29ab66530a519e086e88f29dfa65f4867d8c2aeda25abfb738f32cd8",
+        "pngSha256": "eca2501bc6e9a30ccda288109877d6aa418ccb0c71c5d021faeaa33ca8163112"
+      },
+      {
+        "file": "014-composite.frequency.png",
+        "plotId": "composite.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Bayesian Model Average",
+          "runId": "73b56f58-dac6-43e3-8b6a-5398af581d00"
+        },
+        "specSha256": "5289729951bf28ec48aef19972790ce19d69029df5e200425fe72ce170893576",
+        "pngSha256": "987ef43b625e9f1725144140cd3f3c01c391e68484ffa1a9203460cbfa3f34b8"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 6,
+    "embeddedPngs": 15,
+    "outputsSha256": "23462ed5223f5c7fb6836efc62c958b4ee3ef351728012a70aa5d188054756a6"
+  },
+  "figures": 15,
+  "elapsedSeconds": 116.797
+}

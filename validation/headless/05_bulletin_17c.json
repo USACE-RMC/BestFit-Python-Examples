@@ -1,0 +1,444 @@
+{
+  "notebook": "05_bulletin_17c.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "eb26c2856316",
+  "sourceSha256": "56e15f852569c31e141c052ce8d678599c6d556a360b496e7b162d3c2cd66441",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\eb26c2856316",
+  "codeCells": 6,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "Example #4 - BCB",
+      "class": "Bulletin17CAnalysis",
+      "status": "completed",
+      "runId": "be1a5336-88e0-468c-baa2-b9224fde3897",
+      "seconds": 6.716,
+      "source": {
+        "bytes": 7340032,
+        "relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<Bulletin17CAnalysis IsEstimated=\"True\" UncertaintyMethod=\"BiasCorrectedBootstrap\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"1000\" PointEstimator=\"PosteriorMode\" DIC=\"NaN\" WAIC=\"NaN\" WAIC_pD=\"NaN\" LOOIC=\"NaN\" LOO_pD=\"NaN\" LOOIC_SE=\"NaN\" IsEstimated=\"True\" />\r\n  <GeneralizedMethodOfMoments EstimationStrategy=\"Iterative\" OptimizerMethod=\"BFGS\" SampleSize=\"840\" MaxGMMIterations=\"100\" AbsoluteTolerance=\"1E-08\" RelativeTolerance=\"1E-08\" GMMIterations=\"3\" JStat=\"NaN\" ConvergedWithinTolerance=\"True\" JStatPval=\"NaN\" Status=\"Success\">\r\n    <BestParameterSet>\r\n      <ParameterSet Values=\"3.8857772415215845|0.24592085957359444|0.81784998988321123\" Fitness=\"7.8460226762720336E-17\" Weight=\"0\" />\r\n    </BestParameterSet>\r\n    <S>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>0.0087987838585670726|0.0035254786369147088|0.0037257823530607416</row>\r\n        <row>0.0035254786369147088|0.0030707072167322881|0.0028350150601442257</row>\r\n        <row>0.0037257823530607416|0.0028350150601442257|0.0029812282123576075</row>\r\n      </Matrix>\r\n    </S>\r\n    <W>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>241.4483417768096|11.323386959270609|-312.51748513153757</row>\r\n        <row>11.323386959270696|2669.0881646278144|-2552.3351709008843</row>\r\n        <row>-312.51748513153757|-2552.3351709008843|3153.1570579536051</row>\r\n      </Matrix>\r\n    </W>\r\n  </GeneralizedMethodOfMoments>\r\n  <BootstrapDiagnostics TotalReplicates=\"1000\" AttemptedReplicates=\"1000\" AttemptedRealizations=\"1000\" FailedReplicates=\"0\" BoundRepairs=\"0\" TotalRetries=\"0\" TotalFunctionEvaluations=\"45176\" PivotRejections=\"0\" MahalanobisRejections=\"0\" RetainedReplicates=\"1000\" TransformFailures=\"0\" StatusSuccessCount=\"1000\" StatusMaximumIterationsCount=\"0\" StatusMaximumFunctionEvaluationsCount=\"0\" StatusFailureCount=\"0\" StatusNoneCount=\"0\" OptimizerFallbacks=\"1\" Phase1Time=\"63536056\" Phase2Time=\"45903\" Phase3Time=\"32729\" />\r\n</Bulletin17CAnalysis>",
+      "modelSettings": "<Bulletin17CDistribution>\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"3.8857772415215845\" Sigma=\"0.24592085957359444\" Gamma=\"0.81784998988321123\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Mean (of log) (µ)\" Value=\"3.8857772415215845\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Std Dev (of log) (σ)\" Value=\"0.24592085957359444\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Skew (of log) (γ)\" Value=\"0.81784998988321123\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <ParameterPenalties>\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Mean (of log) (µ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Std Dev (of log) (σ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Skew (of log) (γ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </ParameterPenalties>\r\n  <QuantilePenalties>\r\n    <QuantilePenalty Enabled=\"False\" UseLog10=\"False\" AEP=\"0.01\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </QuantilePenalties>\r\n  <LinkController>\r\n    <Link Index=\"0\" />\r\n    <Link Index=\"1\" />\r\n    <Link Index=\"2\" />\r\n  </LinkController>\r\n</Bulletin17CDistribution>",
+      "metrics": {
+        "AIC": 1617.0784720912488,
+        "BIC": 1624.4064258607198,
+        "DIC": null,
+        "RMSE": 4326.175977713717
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 1,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 2,
+          "Rhat": null,
+          "ESS": null
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Mean (of log) (µ)",
+          "value": 3.8857772415215845,
+          "lower": 1.11022302462516e-16,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Std Dev (of log) (σ)",
+          "value": 0.24592085957359444,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Skew (of log) (γ)",
+          "value": 0.8178499898832112,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Example #4",
+      "class": "Bulletin17CAnalysis",
+      "status": "completed",
+      "runId": "9df782d4-1974-4c3d-b3ea-87aede4abbfb",
+      "seconds": 1.304,
+      "source": {
+        "bytes": 7340032,
+        "relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<Bulletin17CAnalysis IsEstimated=\"True\" UncertaintyMethod=\"LinkedMultivariateNormal\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMode\" DIC=\"NaN\" WAIC=\"NaN\" WAIC_pD=\"NaN\" LOOIC=\"NaN\" LOO_pD=\"NaN\" LOOIC_SE=\"NaN\" IsEstimated=\"True\" />\r\n  <GeneralizedMethodOfMoments EstimationStrategy=\"Iterative\" OptimizerMethod=\"BFGS\" SampleSize=\"840\" MaxGMMIterations=\"100\" AbsoluteTolerance=\"1E-08\" RelativeTolerance=\"1E-08\" GMMIterations=\"3\" JStat=\"NaN\" ConvergedWithinTolerance=\"True\" JStatPval=\"NaN\" Status=\"Success\">\r\n    <BestParameterSet>\r\n      <ParameterSet Values=\"3.8857772415215845|0.24592085957359444|0.81784998988321123\" Fitness=\"7.8460226762720336E-17\" Weight=\"0\" />\r\n    </BestParameterSet>\r\n    <S>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>0.0087987838585670726|0.0035254786369147088|0.0037257823530607416</row>\r\n        <row>0.0035254786369147088|0.0030707072167322881|0.0028350150601442257</row>\r\n        <row>0.0037257823530607416|0.0028350150601442257|0.0029812282123576075</row>\r\n      </Matrix>\r\n    </S>\r\n    <W>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>241.4483417768096|11.323386959270609|-312.51748513153757</row>\r\n        <row>11.323386959270696|2669.0881646278144|-2552.3351709008843</row>\r\n        <row>-312.51748513153757|-2552.3351709008843|3153.1570579536051</row>\r\n      </Matrix>\r\n    </W>\r\n  </GeneralizedMethodOfMoments>\r\n</Bulletin17CAnalysis>",
+      "modelSettings": "<Bulletin17CDistribution>\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"3.8857772415215845\" Sigma=\"0.24592085957359444\" Gamma=\"0.81784998988321123\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Mean (of log) (µ)\" Value=\"3.8857772415215845\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"5\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Std Dev (of log) (σ)\" Value=\"0.24592085957359444\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Skew (of log) (γ)\" Value=\"0.81784998988321123\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <ParameterPenalties>\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Mean (of log) (µ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Std Dev (of log) (σ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Skew (of log) (γ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </ParameterPenalties>\r\n  <QuantilePenalties>\r\n    <QuantilePenalty Enabled=\"False\" UseLog10=\"False\" AEP=\"0.01\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </QuantilePenalties>\r\n  <LinkController />\r\n</Bulletin17CDistribution>",
+      "metrics": {
+        "AIC": 1617.0784720912488,
+        "BIC": 1624.4064258607198,
+        "DIC": null,
+        "RMSE": 4326.175977713717
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 1,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 2,
+          "Rhat": null,
+          "ESS": null
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Mean (of log) (µ)",
+          "value": 3.8857772415215845,
+          "lower": 1.11022302462516e-16,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Std Dev (of log) (σ)",
+          "value": 0.24592085957359444,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Skew (of log) (γ)",
+          "value": 0.8178499898832112,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Example #2 - BCB",
+      "class": "Bulletin17CAnalysis",
+      "status": "completed",
+      "runId": "00cef3cb-b5f9-49da-92e3-46f8b00f7dd1",
+      "seconds": 5.1,
+      "source": {
+        "bytes": 7340032,
+        "relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<Bulletin17CAnalysis IsEstimated=\"True\" UncertaintyMethod=\"BiasCorrectedBootstrap\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"1000\" PointEstimator=\"PosteriorMode\" DIC=\"NaN\" WAIC=\"NaN\" WAIC_pD=\"NaN\" LOOIC=\"NaN\" LOO_pD=\"NaN\" LOOIC_SE=\"NaN\" IsEstimated=\"True\" />\r\n  <GeneralizedMethodOfMoments EstimationStrategy=\"Iterative\" OptimizerMethod=\"BFGS\" SampleSize=\"82\" MaxGMMIterations=\"100\" AbsoluteTolerance=\"1E-08\" RelativeTolerance=\"1E-08\" GMMIterations=\"3\" JStat=\"NaN\" ConvergedWithinTolerance=\"True\" JStatPval=\"NaN\" Status=\"Success\">\r\n    <BestParameterSet>\r\n      <ParameterSet Values=\"3.0226628414769925|0.68208747234565004|-0.92910986829379649\" Fitness=\"1.3265054818374157E-17\" Weight=\"0\" />\r\n    </BestParameterSet>\r\n    <S>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>0.36201627502062483|-0.075549607570752492|0.4132654309478816</row>\r\n        <row>-0.075549607570752492|0.1124496577722422|-0.11096031010119438</row>\r\n        <row>0.4132654309478816|-0.11096031010119438|0.49772200745379447</row>\r\n      </Matrix>\r\n    </S>\r\n    <W>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>63.526806731243227|-12.009889313287221|-55.424622158332653</row>\r\n        <row>-12.009889313287221|13.671371070533365|13.019821424690507</row>\r\n        <row>-55.42462215833266|13.019821424690507|50.931571046687154</row>\r\n      </Matrix>\r\n    </W>\r\n  </GeneralizedMethodOfMoments>\r\n  <BootstrapDiagnostics TotalReplicates=\"1000\" AttemptedReplicates=\"1000\" AttemptedRealizations=\"1000\" FailedReplicates=\"0\" BoundRepairs=\"0\" TotalRetries=\"0\" TotalFunctionEvaluations=\"96717\" PivotRejections=\"11\" MahalanobisRejections=\"0\" RetainedReplicates=\"1000\" TransformFailures=\"0\" StatusSuccessCount=\"995\" StatusMaximumIterationsCount=\"0\" StatusMaximumFunctionEvaluationsCount=\"5\" StatusFailureCount=\"0\" StatusNoneCount=\"0\" OptimizerFallbacks=\"39\" Phase1Time=\"48921012\" Phase2Time=\"135345\" Phase3Time=\"26393\" />\r\n</Bulletin17CAnalysis>",
+      "modelSettings": "<Bulletin17CDistribution>\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"3.0226628414769925\" Sigma=\"0.68208747234565004\" Gamma=\"-0.92910986829379649\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Mean (of log) (µ)\" Value=\"3.0226628414769925\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Std Dev (of log) (σ)\" Value=\"0.68208747234565004\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"3\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"3\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Skew (of log) (γ)\" Value=\"-0.92910986829379649\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <ParameterPenalties>\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Mean (of log) (µ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Std Dev (of log) (σ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Skew (of log) (γ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </ParameterPenalties>\r\n  <QuantilePenalties>\r\n    <QuantilePenalty Enabled=\"False\" UseLog10=\"False\" AEP=\"0.01\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </QuantilePenalties>\r\n  <LinkController>\r\n    <Link Index=\"0\" />\r\n    <Link Index=\"1\" />\r\n    <Link Index=\"2\" />\r\n  </LinkController>\r\n</Bulletin17CDistribution>",
+      "metrics": {
+        "AIC": 1042.2450111810203,
+        "BIC": 1048.0987423367646,
+        "DIC": null,
+        "RMSE": 493.6934948762119
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 1,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 2,
+          "Rhat": null,
+          "ESS": null
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Mean (of log) (µ)",
+          "value": 3.0226628414769925,
+          "lower": 1.11022302462516e-16,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Std Dev (of log) (σ)",
+          "value": 0.68208747234565,
+          "lower": 1.11022302462516e-16,
+          "upper": 3.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Skew (of log) (γ)",
+          "value": -0.9291098682937965,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Example #2",
+      "class": "Bulletin17CAnalysis",
+      "status": "completed",
+      "runId": "a4ca8bd3-b612-4060-a0be-19ddc00effa7",
+      "seconds": 1.831,
+      "source": {
+        "bytes": 7340032,
+        "relative_path": "examples/4-univariate-distribution-analysis/2-bulletin-17C-analysis/1-bulletin17C-examples/bulletin-17c-examples.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "2e55826d0492643cbb340ac9785a15161dbac0771048a932f51e88db0b2098a3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<Bulletin17CAnalysis IsEstimated=\"True\" UncertaintyMethod=\"MultivariateNormal\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMode\" DIC=\"NaN\" WAIC=\"NaN\" WAIC_pD=\"NaN\" LOOIC=\"NaN\" LOO_pD=\"NaN\" LOOIC_SE=\"NaN\" IsEstimated=\"True\" />\r\n  <GeneralizedMethodOfMoments EstimationStrategy=\"Iterative\" OptimizerMethod=\"BFGS\" SampleSize=\"82\" MaxGMMIterations=\"100\" AbsoluteTolerance=\"1E-08\" RelativeTolerance=\"1E-08\" GMMIterations=\"3\" JStat=\"NaN\" ConvergedWithinTolerance=\"True\" JStatPval=\"NaN\" Status=\"Success\">\r\n    <BestParameterSet>\r\n      <ParameterSet Values=\"3.0226628414769925|0.68208747234565004|-0.92910986829379649\" Fitness=\"1.3265054818374157E-17\" Weight=\"0\" />\r\n    </BestParameterSet>\r\n    <S>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>0.36201627502062483|-0.075549607570752492|0.4132654309478816</row>\r\n        <row>-0.075549607570752492|0.1124496577722422|-0.11096031010119438</row>\r\n        <row>0.4132654309478816|-0.11096031010119438|0.49772200745379447</row>\r\n      </Matrix>\r\n    </S>\r\n    <W>\r\n      <Matrix NumberOfRows=\"3\" NumberOfColumns=\"3\">\r\n        <row>63.526806731243227|-12.009889313287221|-55.424622158332653</row>\r\n        <row>-12.009889313287221|13.671371070533365|13.019821424690507</row>\r\n        <row>-55.42462215833266|13.019821424690507|50.931571046687154</row>\r\n      </Matrix>\r\n    </W>\r\n  </GeneralizedMethodOfMoments>\r\n</Bulletin17CAnalysis>",
+      "modelSettings": "<Bulletin17CDistribution>\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"3.0226628414769925\" Sigma=\"0.68208747234565004\" Gamma=\"-0.92910986829379649\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Mean (of log) (µ)\" Value=\"3.0226628414769925\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"4\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"4\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Std Dev (of log) (σ)\" Value=\"0.68208747234565004\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"3\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"3\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"\" Name=\"Skew (of log) (γ)\" Value=\"-0.92910986829379649\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <ParameterPenalties>\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Mean (of log) (µ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Std Dev (of log) (σ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n    <ParameterPenalty Enabled=\"False\" Name=\"Skew (of log) (γ)\" UseLog=\"False\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </ParameterPenalties>\r\n  <QuantilePenalties>\r\n    <QuantilePenalty Enabled=\"False\" UseLog10=\"False\" AEP=\"0.01\" Mean=\"NaN\" MSE=\"NaN\" />\r\n  </QuantilePenalties>\r\n  <LinkController>\r\n    <Link Index=\"0\" />\r\n    <Link Index=\"1\" />\r\n    <Link Index=\"2\" />\r\n  </LinkController>\r\n</Bulletin17CDistribution>",
+      "metrics": {
+        "AIC": 1042.2450111810203,
+        "BIC": 1048.0987423367646,
+        "DIC": null,
+        "RMSE": 493.6934948762119
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 1,
+          "Rhat": null,
+          "ESS": null
+        },
+        {
+          "parameter": 2,
+          "Rhat": null,
+          "ESS": null
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Mean (of log) (µ)",
+          "value": 3.0226628414769925,
+          "lower": 1.11022302462516e-16,
+          "upper": 4.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Std Dev (of log) (σ)",
+          "value": 0.68208747234565,
+          "lower": 1.11022302462516e-16,
+          "upper": 3.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "Skew (of log) (γ)",
+          "value": -0.9291098682937965,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 4,
+    "completedAnalysesIncludingDependencies": 4,
+    "figureLineage": [
+      {
+        "file": "000-b17c.frequency.png",
+        "plotId": "b17c.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Example #2",
+          "runId": "a4ca8bd3-b612-4060-a0be-19ddc00effa7"
+        },
+        "specSha256": "6e11a122828a4c8bacfacca65089b1d47947053ad9ce56e763401ca1725e8383",
+        "pngSha256": "13f2e6d85c4c38e2d71f0a228bf137721507611743ffed68cdc2c1ddc25b14b1"
+      },
+      {
+        "file": "001-b17c.frequency.png",
+        "plotId": "b17c.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Example #2 - BCB",
+          "runId": "00cef3cb-b5f9-49da-92e3-46f8b00f7dd1"
+        },
+        "specSha256": "4a7f7810ee175bae38016f96666aae7ab2a16f223ca96002346ba29b4bd63ab0",
+        "pngSha256": "561d02e094606dd3da289d9a716804e334e4d208f1c4d4919be4df498f2efac3"
+      },
+      {
+        "file": "002-b17c.frequency.png",
+        "plotId": "b17c.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Example #4",
+          "runId": "9df782d4-1974-4c3d-b3ea-87aede4abbfb"
+        },
+        "specSha256": "552ec76f605d0c653dfd619fabd30d8ba4612930d0b9d4202f718d1dd1dfd9c0",
+        "pngSha256": "c0e58ad15a2912142d57f701c5ddd46b609c86407c43dda46f0cfa2781042453"
+      },
+      {
+        "file": "003-b17c.frequency.png",
+        "plotId": "b17c.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Example #4 - BCB",
+          "runId": "be1a5336-88e0-468c-baa2-b9224fde3897"
+        },
+        "specSha256": "f89bb0359140af89aaf39aca9a7031019aeef9192aeb67aac3b9fd46bd258f7f",
+        "pngSha256": "62be9ed07aecee583afb202dc4df15ab635552b4d0e6bed45047dbb4f41b5aae"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 6,
+    "embeddedPngs": 4,
+    "outputsSha256": "88309c6ca6364df861be3468ecf250c529ca48686fb9310d12fd6541516bcff0"
+  },
+  "figures": 4,
+  "elapsedSeconds": 23.407
+}

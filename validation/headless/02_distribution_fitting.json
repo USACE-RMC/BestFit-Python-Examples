@@ -1,0 +1,274 @@
+{
+  "notebook": "02_distribution_fitting.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "609a588612c4",
+  "sourceSha256": "373babb00f44e95d7eec7a5a52d6cee3a702579b1e9fd14b71595ad55f7c569a",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\609a588612c4",
+  "codeCells": 7,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "Fit - Systematic (1951-2001) + Temporal Expansion",
+      "class": "FittingAnalysis",
+      "status": "completed",
+      "runId": "fa6d1486-ac7a-495f-b619-910a66f2c3e4",
+      "seconds": 0.151,
+      "source": {
+        "bytes": 14090240,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<FittingAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <FittedDistributions>\r\n    <FittedDistribution AIC=\"509.11072710705525\" BIC=\"517.10363128429333\" RMSE=\"15.83074634714826\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Exponential\" Xi=\"16.999999654400284\" Alpha=\"46.194330892447603\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"516.87540161587162\" BIC=\"524.8683057931097\" RMSE=\"22.252142626940589\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GammaDistribution\" Theta=\"24.227642897974484\" Kappa=\"2.7315617819079563\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"510.42185068675576\" BIC=\"522.41120695261282\" RMSE=\"20.864688463296027\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedExtremeValue\" Xi=\"43.336844089445613\" Alpha=\"21.72138882558993\" Kappa=\"-0.2208634592219178\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"510.93889287749852\" BIC=\"522.92824914335563\" RMSE=\"27.65559473830405\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedLogistic\" Xi=\"51.352125110303191\" Alpha=\"15.610281951191849\" Kappa=\"-0.34309787027175859\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"509.64912762987512\" BIC=\"521.63848389573218\" RMSE=\"18.400159406734105\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedNormal\" Xi=\"51.593016109083401\" Alpha=\"29.539473988897132\" Kappa=\"-0.67487210540657017\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"510.80546618006713\" BIC=\"522.79482244592418\" RMSE=\"16.663646639768356\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedPareto\" Xi=\"16.999999922903385\" Alpha=\"49.947156067067191\" Kappa=\"0.047976432076776918\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"518.30741252271446\" BIC=\"526.30031669995253\" RMSE=\"25.616808043351774\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Gumbel\" Xi=\"47.708710180675922\" Alpha=\"27.62985905261371\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"511.12072522595514\" BIC=\"527.10653358043123\" RMSE=\"17.894349878712514\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"KappaFour\" Xi=\"33.32650411986495\" Alpha=\"32.533353317227807\" Kappa=\"-0.085454833452592749\" Hondo=\"0.5711715507570817\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"508.84079267136826\" BIC=\"516.83369684860634\" RMSE=\"18.900168805672362\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LnNormal\" Mean=\"63.598000114733402\" StandardDeviation=\"40.089517790517192\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"537.51318524870771\" BIC=\"545.50608942594579\" RMSE=\"30.981660914811858\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Logistic\" Xi=\"57.583406253438774\" Alpha=\"22.130074684147115\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"508.84079185552031\" BIC=\"516.83369603275833\" RMSE=\"18.902788255361081\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"1.7308011867209614\" Sigma=\"0.25118692674353832\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"509.89504665554682\" BIC=\"521.88440292140388\" RMSE=\"19.111716413725574\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogPearsonTypeIII\" Mu=\"1.7248589575639226\" Sigma=\"0.24216590786329106\" Gamma=\"0.27235716309601099\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"551.93472506362525\" BIC=\"559.92762924086333\" RMSE=\"30.856746931518245\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Normal\" Mu=\"65.787158782522113\" Sigma=\"47.194405233043057\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"509.77925999417755\" BIC=\"521.76861626003461\" RMSE=\"17.849045970859663\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"PearsonTypeIII\" Mu=\"65.019861948819127\" Sigma=\"42.72756963615381\" Gamma=\"1.7650125440479245\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"524.46461074572017\" BIC=\"532.45751492295824\" RMSE=\"22.078327798894502\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Weibull\" Lambda=\"74.329226140185256\" Kappa=\"1.5405562030232032\" />\r\n    </FittedDistribution>\r\n  </FittedDistributions>\r\n</FittingAnalysis>",
+      "modelSettings": null,
+      "metrics": {}
+    },
+    {
+      "name": "Fit - Systematic (1951-2005)",
+      "class": "FittingAnalysis",
+      "status": "completed",
+      "runId": "db642f82-1925-49e4-948b-bcb7bb050060",
+      "seconds": 0.204,
+      "source": {
+        "bytes": 14090240,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<FittingAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <FittedDistributions>\r\n    <FittedDistribution AIC=\"537.10269493176179\" BIC=\"541.11736130222675\" RMSE=\"36.264756165362165\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Exponential\" Xi=\"16.999999543887405\" Alpha=\"46.823088195888822\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"549.0015778512095\" BIC=\"553.01624422167447\" RMSE=\"40.330511707071921\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GammaDistribution\" Theta=\"24.420759650576301\" Kappa=\"2.6134783397964445\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"531.98576859556522\" BIC=\"538.00776815126267\" RMSE=\"35.340353214413469\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedExtremeValue\" Xi=\"41.691408246582895\" Alpha=\"20.664294088731555\" Kappa=\"-0.30957176261273617\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"530.98924229494992\" BIC=\"537.01124185064737\" RMSE=\"33.845284664367462\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedLogistic\" Xi=\"49.973102548909402\" Alpha=\"16.108144477099113\" Kappa=\"-0.41878379956904666\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"533.08331965360662\" BIC=\"539.10531920930407\" RMSE=\"36.454148121435722\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedNormal\" Xi=\"49.679059933708047\" Alpha=\"29.158968505115816\" Kappa=\"-0.75144329429971291\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"537.53680432296903\" BIC=\"543.55880387866648\" RMSE=\"34.30616928304741\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedPareto\" Xi=\"16.999999759327956\" Alpha=\"41.629264368775218\" Kappa=\"-0.10329155776258056\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"547.83951194251495\" BIC=\"551.85417831297991\" RMSE=\"42.798836665672255\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Gumbel\" Xi=\"45.975522560905503\" Alpha=\"25.947618863397363\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"531.46375457640318\" BIC=\"539.49308731733311\" RMSE=\"37.348756967491873\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"KappaFour\" Xi=\"55.805768973482138\" Alpha=\"14.824043720802536\" Kappa=\"-0.37605217641359456\" Hondo=\"-1.999994936007204\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"533.99014694780624\" BIC=\"538.0048133182712\" RMSE=\"39.34802046034207\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LnNormal\" Mean=\"61.437121789864925\" StandardDeviation=\"38.44714374111738\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"568.12778550896405\" BIC=\"572.14245187942902\" RMSE=\"45.595128912319261\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Logistic\" Xi=\"54.919738390230549\" Alpha=\"20.808918363410669\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"533.99014789094917\" BIC=\"538.00481426141414\" RMSE=\"39.351051928725539\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"1.7166470591580494\" Sigma=\"0.24964272527139725\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"532.39120484529542\" BIC=\"538.41320440099287\" RMSE=\"35.798047603823456\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogPearsonTypeIII\" Mu=\"1.7166715142828046\" Sigma=\"0.24748960162412975\" Gamma=\"0.5322001277271019\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"611.94273751021262\" BIC=\"615.95740388067759\" RMSE=\"47.482173326862366\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Normal\" Mu=\"63.824437827459491\" Sigma=\"60.81363478679998\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"538.64033444841903\" BIC=\"544.66233400411647\" RMSE=\"37.942024876054134\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"PearsonTypeIII\" Mu=\"63.823735301276614\" Sigma=\"43.205964433780075\" Gamma=\"1.8373556785816503\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"560.50849678834766\" BIC=\"564.52316315881262\" RMSE=\"38.838554825338939\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Weibull\" Lambda=\"70.837291030814171\" Kappa=\"1.3706630799679524\" />\r\n    </FittedDistribution>\r\n  </FittedDistributions>\r\n</FittingAnalysis>",
+      "modelSettings": null,
+      "metrics": {}
+    },
+    {
+      "name": "Fit - Systematic (1951-2001)",
+      "class": "FittingAnalysis",
+      "status": "completed",
+      "runId": "e5d1d6cf-1d9e-418d-859d-6f61c1430ebc",
+      "seconds": 0.345,
+      "source": {
+        "bytes": 14090240,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<FittingAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <FittedDistributions>\r\n    <FittedDistribution AIC=\"481.38693021549381\" BIC=\"485.25058148094246\" RMSE=\"8.3833955649119485\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Exponential\" Xi=\"16.999999992957694\" Alpha=\"39.660959273875832\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"477.87256063977458\" BIC=\"481.73621190522323\" RMSE=\"5.6594339540564498\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GammaDistribution\" Theta=\"13.216081420416431\" Kappa=\"4.2869727023303899\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"479.42510977977753\" BIC=\"485.22058667795051\" RMSE=\"4.4558963697964549\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedExtremeValue\" Xi=\"42.919977405726804\" Alpha=\"20.207632010835276\" Kappa=\"-0.096177117580068278\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"480.10516055012789\" BIC=\"485.90063744830087\" RMSE=\"4.523873313823386\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedLogistic\" Xi=\"50.308389924694708\" Alpha=\"14.395664866400576\" Kappa=\"-0.30378092658558198\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"478.86519093884306\" BIC=\"484.66066783701604\" RMSE=\"4.200849204721476\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedNormal\" Xi=\"50.232662441516361\" Alpha=\"24.954891430520014\" Kappa=\"-0.4939581117574296\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"477.51536983045526\" BIC=\"483.31084672862823\" RMSE=\"5.5625980351827558\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedPareto\" Xi=\"16.999999705070294\" Alpha=\"54.089360958370833\" Kappa=\"0.36785306990686045\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"478.11814949546937\" BIC=\"481.98180076091802\" RMSE=\"5.945565278837325\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Gumbel\" Xi=\"43.988139597513523\" Alpha=\"21.026092614883126\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"478.97701534485037\" BIC=\"486.70431787574768\" RMSE=\"4.971881896161487\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"KappaFour\" Xi=\"28.973476989002268\" Alpha=\"38.227922932793554\" Kappa=\"0.22003095517990423\" Hondo=\"0.72724980074013212\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"476.86574959147964\" BIC=\"480.72940085692829\" RMSE=\"4.1347522041474107\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LnNormal\" Mean=\"56.795225806270324\" StandardDeviation=\"30.075147741140277\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"488.22177405296509\" BIC=\"492.08542531841374\" RMSE=\"9.6292578852180952\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Logistic\" Xi=\"53.212194169674852\" Alpha=\"15.376054398106978\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"476.86575024309036\" BIC=\"480.72940150853901\" RMSE=\"4.1348951075065505\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"1.7006208271226906\" Sigma=\"0.21592786128307664\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"478.79654573006525\" BIC=\"484.59202262823823\" RMSE=\"4.4913124170687437\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogPearsonTypeIII\" Mu=\"1.7006331754231114\" Sigma=\"0.21595832801953888\" Gamma=\"-0.1054850287493961\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"490.67113202418966\" BIC=\"494.53478328963831\" RMSE=\"8.9264423023564827\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Normal\" Mu=\"56.659540722894654\" Sigma=\"28.568694784112925\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"477.69194439107372\" BIC=\"483.4874212892467\" RMSE=\"4.1310251348349345\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"PearsonTypeIII\" Mu=\"56.657252121648135\" Sigma=\"29.729923136917765\" Gamma=\"1.4086689396696848\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"482.2490171989798\" BIC=\"486.11266846442845\" RMSE=\"6.517176604440313\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Weibull\" Lambda=\"64.252784722897061\" Kappa=\"2.1168532892581333\" />\r\n    </FittedDistribution>\r\n  </FittedDistributions>\r\n</FittingAnalysis>",
+      "modelSettings": null,
+      "metrics": {}
+    },
+    {
+      "name": "Fit - Systematic (1951-2005) + Temporal Expansion",
+      "class": "FittingAnalysis",
+      "status": "completed",
+      "runId": "1a643738-302c-43a7-9f5b-15c34a580062",
+      "seconds": 0.099,
+      "source": {
+        "bytes": 14090240,
+        "relative_path": "examples/4-univariate-distribution-analysis/1-univariate-analysis/1-information-expansion/viglione-et-al-2013.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "6f6f984f8d0357d490ffde9d394601ae77324a0f293a84a3993afaf7e9762e86"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<FittingAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <FittedDistributions>\r\n    <FittedDistribution AIC=\"563.03274924004143\" BIC=\"571.04545555924494\" RMSE=\"21.808370002595208\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Exponential\" Xi=\"16.99999979593229\" Alpha=\"50.257101035819353\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"577.06043388331682\" BIC=\"585.07314020252034\" RMSE=\"29.831887779139727\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GammaDistribution\" Theta=\"32.190868369474103\" Kappa=\"2.2016806462386858\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"561.64594716867612\" BIC=\"573.66500664748128\" RMSE=\"17.305817143237697\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedExtremeValue\" Xi=\"42.680318702087\" Alpha=\"21.477522225549627\" Kappa=\"-0.28071061707607886\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"561.70501897597228\" BIC=\"573.72407845477744\" RMSE=\"20.066312459489836\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedLogistic\" Xi=\"50.815113665985358\" Alpha=\"16.020864510507391\" Kappa=\"-0.3865527828140094\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"561.33945030027519\" BIC=\"573.35850977908035\" RMSE=\"18.243239543294415\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedNormal\" Xi=\"51.101078501195929\" Alpha=\"30.585408575988559\" Kappa=\"-0.75324844352007447\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"564.43303763946983\" BIC=\"576.45209711827499\" RMSE=\"18.909382526424974\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"GeneralizedPareto\" Xi=\"16.99999986784308\" Alpha=\"45.542459592693412\" Kappa=\"-0.052685921464466094\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"581.16531657091275\" BIC=\"589.17802289011627\" RMSE=\"35.88451933596771\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Gumbel\" Xi=\"49.242841797494876\" Alpha=\"32.05610736159219\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"561.85077764782386\" BIC=\"577.87619028623078\" RMSE=\"18.548379097666754\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"KappaFour\" Xi=\"57.057889717196772\" Alpha=\"15.308957152083806\" Kappa=\"-0.37601637262179011\" Hondo=\"-1.9999989848920599\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"562.45801790578662\" BIC=\"570.47072422499014\" RMSE=\"23.608922320535093\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LnNormal\" Mean=\"66.031290841917624\" StandardDeviation=\"44.80744960792633\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"606.09103675479969\" BIC=\"614.10374307400321\" RMSE=\"42.215241548285462\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Logistic\" Xi=\"59.426044631350734\" Alpha=\"27.058552002213261\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"562.45801766809518\" BIC=\"570.4707239872987\" RMSE=\"23.607338471205932\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"1.7374961139049676\" Sigma=\"0.26728655840343918\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"561.34371094883284\" BIC=\"573.362770427638\" RMSE=\"17.493704779755177\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"LogPearsonTypeIII\" Mu=\"1.7263141250268714\" Sigma=\"0.24957666347773719\" Gamma=\"0.45223206323819215\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"637.20793047212271\" BIC=\"645.22063679132623\" RMSE=\"45.092085070919175\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Normal\" Mu=\"71.860224813814611\" Sigma=\"69.32247157240306\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"564.891481579431\" BIC=\"576.91054105823616\" RMSE=\"23.626434394779331\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"PearsonTypeIII\" Mu=\"68.272804791650742\" Sigma=\"49.012012956376822\" Gamma=\"1.9079363849847095\" />\r\n    </FittedDistribution>\r\n    <FittedDistribution AIC=\"585.72093226152094\" BIC=\"593.73363858072446\" RMSE=\"28.317497737863249\" FitSucceeded=\"True\" ShowResults=\"True\">\r\n      <Distribution Type=\"Weibull\" Lambda=\"76.978086264076737\" Kappa=\"1.3362801445110073\" />\r\n    </FittedDistribution>\r\n  </FittedDistributions>\r\n</FittingAnalysis>",
+      "modelSettings": null,
+      "metrics": {}
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 4,
+    "completedAnalysesIncludingDependencies": 4,
+    "figureLineage": [
+      {
+        "file": "000-fitting.frequency.png",
+        "plotId": "fitting.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2001)",
+          "runId": "e5d1d6cf-1d9e-418d-859d-6f61c1430ebc"
+        },
+        "specSha256": "baabdb8d5b60b0bf4d51e40b675110ed07979c418e13ca91748a6a1d31f722a5",
+        "pngSha256": "64fb3b872025557f404564e349b8526bcfa906c8b21e4b2d2e7dead32b1edd5a"
+      },
+      {
+        "file": "001-fitting.frequency.png",
+        "plotId": "fitting.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2005)",
+          "runId": "db642f82-1925-49e4-948b-bcb7bb050060"
+        },
+        "specSha256": "124816f1a29c0d7f34d9ce4a211286eb663fdd1f2e20e47ead5b763b2addd2d6",
+        "pngSha256": "8ae6abe88bcb635f4916991bcf7b7278aa52ef2708ae7c2897f8b87577f89382"
+      },
+      {
+        "file": "002-fitting.frequency.png",
+        "plotId": "fitting.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2001) + Temporal Expansion",
+          "runId": "fa6d1486-ac7a-495f-b619-910a66f2c3e4"
+        },
+        "specSha256": "16cbe06bb61fdad4a08dc74f45117db4ca61625bb5c089d36635b44e7285b7e4",
+        "pngSha256": "ef397d3c5c1b304a520ff3dc0bfbe59bce9ed690a6e066168419f349a6c3d8eb"
+      },
+      {
+        "file": "003-fitting.frequency.png",
+        "plotId": "fitting.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2005) + Temporal Expansion",
+          "runId": "1a643738-302c-43a7-9f5b-15c34a580062"
+        },
+        "specSha256": "50747aa43438cc7d1ad08ba1118a37ed267097fe66d23be1236feb840d3e6e37",
+        "pngSha256": "1309200d0de3e8b74ba4d45747f171de8b7275c72a280a8c9a639ee5bfac1952"
+      },
+      {
+        "file": "004-fitting.pdf.png",
+        "plotId": "fitting.pdf",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2001)",
+          "runId": "e5d1d6cf-1d9e-418d-859d-6f61c1430ebc"
+        },
+        "specSha256": "12cb35fb7657fb44d0316248591920fe775e5a52704e702953bac8f1543da227",
+        "pngSha256": "76bc5a5fa01c8d0b6a54c08bacc0c98dc5b1d043180b8710d3ae4cf6a2feabd0"
+      },
+      {
+        "file": "005-fitting.qq.png",
+        "plotId": "fitting.qq",
+        "source": {
+          "kind": "rerun",
+          "id": "Fit - Systematic (1951-2001)",
+          "runId": "e5d1d6cf-1d9e-418d-859d-6f61c1430ebc"
+        },
+        "specSha256": "544b441911a3a6d3fe8e1c8a86fde3d56ec685fff1a6b304f06c11f7b62960c6",
+        "pngSha256": "bc6cc8a66e164aa1b80a9f734aad4ff324840e55cff777619ae496f530838d0b"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 7,
+    "embeddedPngs": 6,
+    "outputsSha256": "699a6f62bc7acf0a5b5a143193391d6c45f041ad93a4e974da30bcc1b320666e"
+  },
+  "figures": 6,
+  "elapsedSeconds": 9.687
+}

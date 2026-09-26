@@ -1,0 +1,1038 @@
+{
+  "notebook": "08_coincident_frequency.ipynb",
+  "status": "passed",
+  "python": "3.12.14",
+  "independentKernel": true,
+  "savedCachesUnavailable": true,
+  "runId": "670ccd6c634b",
+  "sourceSha256": "50f26c1b239b78066e5e7676ccf850a453898bf82e906e7995b367ab8473138b",
+  "rawManifestSha256": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+  "runtime": {
+    "schemaVersion": 1,
+    "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+    "numericsVersion": "2.2.0.0",
+    "bestFitVersion": "2.0.0.0",
+    "targetFramework": ".NETCoreApp,Version=v10.0",
+    "fileHashes": {
+      "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+      "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+    }
+  },
+  "executionInputs": {
+    ".runtime/lib/Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48",
+    ".runtime/lib/RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+    ".runtime/provenance.json": "777e085a14efb82c5ceea94d4b2634287e3d5fca70c0f30dea938548d4f1c4fa",
+    "bestfit_examples/__init__.py": "29b5b4d48bc95621a3e5f6f77cc45140d2c9234d2fcaab90a40e0e69bac996e3",
+    "bestfit_examples/analysis.py": "c96f2df00b10458e13a0094013840f44fb4cdd6fcbdd7afa8532a1d01f439abe",
+    "bestfit_examples/data.py": "9e1bc13f46244c8aea35afd5b3aba2f48cf3403552c657adf274916f14d4ecce",
+    "bestfit_examples/fresh.py": "2de31cd9803d513e7f12c7071b90dcf047176197c287912cee3ade29eddd3cba",
+    "bestfit_examples/plotting.py": "6ef5746f33ea6c68e7bcd1ff5320c34cc81396a4db031aa72c0540f4d7d99901",
+    "bestfit_examples/presentation.py": "b1059bfe167240267f34cb4c6fe7c3aba9b97ac335397d18252b7f2597b4c52c",
+    "bestfit_examples/project_data.py": "70fe08eced1172a90de67edc889b8776b78fc86439e6d1a0c3bb2b0f70415873",
+    "bestfit_examples/raw.py": "d7a9e8899d1bd21c674342003b810fb22ebc90939a2297d131effa0b0e326caa",
+    "bestfit_examples/results.py": "8007e6da0188af3b223197a11a75cc70b4e40968302ddfbdd232c2408c79aa42",
+    "bestfit_examples/runtime.py": "006a25d4265250805fd796b7cc399bb2985d2ae31e369f97b2de54225200037a",
+    "bestfit_examples/snapshot.py": "98c5d7e9d47dc761c7c98e6c40efa378b06a1d9f993832a407e0985bf40a9210",
+    "curriculum-cases.json": "7374a64dde58600f2874343d667d5f42d42504cbbaee91e98fff87653d925f20",
+    "data/raw/bivariate-distribution-examples.json.gz": "ea6dbf3f8bd246b6a0d25255995cb5987962b0e7cb858bfe03ba75f229011210",
+    "data/raw/bulletin-17c-examples.json.gz": "2779996ce3c3a85bf6948929fdcc9ab4cd47b9b38c562da9cfef2e2276df3cee",
+    "data/raw/chmn-download-example.json.gz": "04f4c1dfb920dbfa87538f6b438a412c68de88a1b455c0db895ee7aea72d5c29",
+    "data/raw/classic-time-series-examples.json.gz": "f6b545090c0216bedbb03f280109d23469df2a15796f085f1c8507e69092d182",
+    "data/raw/ghcn-download-example.json.gz": "df47f68b2cd52c8c0d487b5ba9d60c56f13285dc965f22693260aa12113738dc",
+    "data/raw/ghcn-peaks-over-threshold-example.json.gz": "03de6ad76cdaedc785e85ecd85f03d47345545eb3965bee7d8008f17d550f7ea",
+    "data/raw/hec-dss-import-example.json.gz": "9ebfeb7ce352ef0a31ba87ca5930206f255d4424057e8aff2cc6c636b298ed48",
+    "data/raw/manifest.json": "ddbd13bfa5d30d80bb0e40c131043128774b8db36a501504e8b4875e7bae17a8",
+    "data/raw/manual-entry-example.json.gz": "d2acd152f0065da96599ee31994fd63d41a38b47c339bc03d1d8b51c26774b6c",
+    "data/raw/mixed-population-examples.json.gz": "b426158d4099a0b82b11239f51244101ba38df2edb8c30bd9ac78e3da66d10cc",
+    "data/raw/mixture-distribution-examples.json.gz": "6e51ef5bb191d8bb54255fb64a0a5840fddd14e21517d50fce55c44d7c1d0ce0",
+    "data/raw/nsffa-brays-bayou-texas.json.gz": "d3d862ccecdcb1979775d9770c6ab0648eaef9c377ec234bf60ad995af90e531",
+    "data/raw/point-process-examples.json.gz": "467d158bcca5bcba61e44f2796a748c8d290127dd08322df2ab6a105e29d792a",
+    "data/raw/sinnemahoning-move3-bayesian.json.gz": "621402808f755e104084261a9dcbd217d2a5c550dc05fa8cef15e924d02a126a",
+    "data/raw/sum-two-normals.json.gz": "c9aacd72810c54d894f2aca45d9addb2a033c0cd668936156fde8995d0fc169f",
+    "data/raw/synthetic-rating-curve-examples.json.gz": "d8ded17c6852dc5b458555f78951b0ce04e459500033b49e56c1a7517b641d7c",
+    "data/raw/time-series-regression-example.json.gz": "daccf22ed8e5293aea00fb39f688a0106a0dc2978aa7b58c0d55dbd1a00920e3",
+    "data/raw/usgs-07024175-mississippi-rating-curve.json.gz": "e996cf90e7c448211d21836f1f32664cf6ec60429f936865eb58f592cc6f99d2",
+    "data/raw/usgs-block-max-example.json.gz": "9f5b6f049f037cbcce68b82a87a75ac493487524494584f94a3836e4aa86fcd4",
+    "data/raw/usgs-download-example.json.gz": "f5402e904b7e9e6f04396950538922312ac7d5a8bcdec87d8c9e5ffa9800ce22",
+    "data/raw/usgs-peak-download-example.json.gz": "25194ebdb68ec62a5617032db1770067f8bd29f0f81d14269ad8addcb3f2bf4a",
+    "data/raw/viglione-et-al-2013.json.gz": "cd17904e3a314bcbb9b898e1b0a5877ac247277c468855889cc424e3c8e92a75",
+    "data/raw/waimea-river-stage-frequency.json.gz": "4f533714d87bac4fef2287451b2c87aae1c92d6f577119cf59e27841854904d7",
+    "data/raw-responses/manifest.json": "d84a2c295963d5db1054d84acf3cde47560725c4b8f8806342cfeceb8ef808f3",
+    "data/raw-responses/sum-two-normals.json": "fb333b473f226b9175c88eb7e18cbdae67ca09c32a5c84f3b2a6c645dcc253d1",
+    "data/raw-responses/waimea-river-stage-frequency.json": "ece35a443ac0861bd53eae9f6f5ab153ba237b09f50139f108a5174a387320e9",
+    "dotnet/bestfit.runtimeconfig.json": "a5d7d4652640ece0db0fc99654117c56a675339c590f2d9f74edf0f590d50c5b",
+    "runtime-lock.json": "9f7baa46a4654d7a931f5c696155487ecb64397e8378dd1ee9724cf39f87091a",
+    "canonical_plots/__init__.py": "f01d16651bf80781a5d7d26a497c15bc662204f516f0b3114ba15f2bd91bdb08",
+    "canonical_plots/adapters/__init__.py": "d38139b7214e602dd70a627b533271f9f16a51a701d1ec9af4319c0a8c0f9311",
+    "canonical_plots/adapters/api_response_models.py": "8c8628f6e679f2dc2c85b8599869cd840e735f8a5e342d4ab50fff8f5a8b3558",
+    "canonical_plots/adapters/common.py": "110b6fd3c8efe3e5a10ff2e83471d29715e325cb716604053d42ba1be7a193e6",
+    "canonical_plots/adapters/desktop.py": "aefe18e1c37bbaf549449a2a356e74b1bd397e4d2cd6554f18f0d738d0d0c123",
+    "canonical_plots/adapters/diagnostics.py": "32dc04547849200b51f32ec80aaedcc19ed037277de198a9fc00d00bf4d2a3eb",
+    "canonical_plots/adapters/frequency.py": "cce3562065782336e6e5bb3a222537cd9ee27e1835a9683bc1dea4bac6035bbe",
+    "canonical_plots/adapters/input_data.py": "253b4b297db1634346bbaf36e0f3b62554898b44a8c02bd354915c951642ce6c",
+    "canonical_plots/adapters/response_models.py": "b11adab25b98d73bdf779bab1bc55ae78d6f049438bc4c6dffeacc278fff5846",
+    "canonical_plots/legacy_frequency.py": "4b01eb84327b95801c9ff6df54f21c13477cd3a87c0d8286a51251fbc500cf35",
+    "canonical_plots/render.py": "914a38a7b870eb6e382c200762f4719714623a214216da82a2bdc9df6d702922",
+    "canonical_plots/source.py": "3393e44780dc2419edd7e9291680a5bf63917da5ed576e594f529760017e6c09",
+    "canonical_plots/spec.py": "d8215e89832f607c50d33b1af6f8d9c046c8fcfe2331d7c3d79d1f853987d1b3"
+  },
+  "notebookWritten": true,
+  "workspace": "C:\\GIT\\BestFit-Python-Examples\\.runtime\\headless-validation\\670ccd6c634b",
+  "codeCells": 7,
+  "errorOutputs": 0,
+  "analyses": [
+    {
+      "name": "Y Marginal - Rho = 0.0",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "71b9611a-c14b-4fe3-be84-6e12624c7b1b",
+      "seconds": 0.655,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"924.77111183068973\" WAIC=\"924.4764492395193\" WAIC_pD=\"1.6609590658339644\" LOOIC=\"924.47990254748697\" LOO_pD=\"1.66268571981783\" LOOIC_SE=\"11.701696392768511\" IsEstimated=\"True\" ElapsedTime=\"3598146\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"80.618735242404384\" Sigma=\"24.484764347906722\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"80.618735242404384\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"24.484764347906722\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"80.618735242404384\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"24.484764347906722\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 924.7618501823079,
+        "BIC": 929.972190554284,
+        "DIC": 924.7711118306897,
+        "RMSE": 2.07425266025501
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9996510225904063,
+          "ESS": 8770.724954738282
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0007864270507767,
+          "ESS": 9559.676671346939
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 80.61873524240438,
+          "lower": -1000.0,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 24.484764347906722,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "CFA - Normal - Conditional",
+      "class": "CoincidentFrequencyAnalysis",
+      "status": "completed",
+      "runId": "edeaec38-aac8-4394-8070-43542a49b189",
+      "seconds": 0.444,
+      "source": {
+        "bytes": 36700160,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<CoincidentFrequencyAnalysis IsEstimated=\"true\" NumberOfBins=\"50\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0\" WAIC=\"0\" WAIC_pD=\"0\" LOOIC=\"0\" LOO_pD=\"0\" LOOIC_SE=\"0\" IsEstimated=\"False\" />\r\n  <XValues>2241,5342,12555,25544,30427,41676,47053,62140,70162,93827</XValues>\r\n  <YValues>2453,4363,7567,12531,19464</YValues>\r\n  <BivariateResponse>7.1399999999999997,8.25,10.529999999999999,13.539999999999999,16.739999999999998,9.6600000000000001,10.5,11.83,13.84,16.91,13.720000000000001,14.25,15.07,16.219999999999999,17.73,18.440000000000001,18.73,19.23,20.059999999999999,21.109999999999999,19.859999999999999,20.129999999999999,20.559999999999999,21.280000000000001,22.260000000000002,22.699999999999999,22.949999999999999,23.32,23.84,24.440000000000001,23.84,23.989999999999998,24.23,24.59,24.989999999999998,25.43,25.52,25.670000000000002,25.890000000000001,26.190000000000001,26.030000000000001,26.109999999999999,26.239999999999998,26.440000000000001,26.710000000000001,27.5,27.57,27.699999999999999,27.870000000000001,28.149999999999999</BivariateResponse>\r\n</CoincidentFrequencyAnalysis>",
+      "modelSettings": null,
+      "metrics": {
+        "AIC": 0.0,
+        "BIC": 0.0,
+        "DIC": 0.0,
+        "RMSE": 0.0
+      },
+      "marginalChains": {
+        "X": {
+          "runId": "b7b2a78e-e40a-4ea5-94ba-511e008f01d6",
+          "name": "WaimeaPk - Exact + Historical + RR Prior_RSkew",
+          "outputDraws": 10000
+        },
+        "Y": {
+          "runId": "82176096-b44d-448a-a12f-87474d1d446c",
+          "name": "MakaweliPk - Cond - Exact",
+          "outputDraws": 10000
+        }
+      }
+    },
+    {
+      "name": "Normal Copula - Rho =+0.5",
+      "class": "BivariateAnalysis",
+      "status": "completed",
+      "runId": "58fda36f-22e0-4fd7-b9e2-e22016702ecd",
+      "seconds": 3.541,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<BivariateAnalysis IsEstimated=\"true\">\r\n  <UncertainOrderedPairedData X_Strict=\"False\" Y_Strict=\"False\" X_Order=\"Ascending\" Y_Order=\"Ascending\" Distribution=\"Deterministic\" AllowDifferentDistributionTypes=\"False\">\r\n    <Ordinates>\r\n      <UncertainOrdinate X=\"0\">\r\n        <Distribution Type=\"Deterministic\" Value=\"0\" />\r\n      </UncertainOrdinate>\r\n    </Ordinates>\r\n  </UncertainOrderedPairedData>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"10\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"100\" Jump=\"1.6829141392239828\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"-16.217385943957463\" WAIC=\"-15.978453503389767\" WAIC_pD=\"1.1400456905946676\" LOOIC=\"-15.970135627371441\" LOO_pD=\"1.1442046286038305\" LOOIC_SE=\"8.0712554161792891\" IsEstimated=\"True\" ElapsedTime=\"33234832\" />\r\n</BivariateAnalysis>",
+      "modelSettings": "<BivariateDistribution CopulaType=\"Normal\" CopulaEstimationMethod=\"InferenceFromMargins\" UseDefaultFlatPriors=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Dependency (θ)\" Value=\"0.39821888047007414\" LowerBound=\"-0.99999999999999989\" UpperBound=\"0.99999999999999989\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.99999999999999989\" Max=\"0.99999999999999989\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</BivariateDistribution>",
+      "metrics": {
+        "AIC": -16.164175857503587,
+        "BIC": -13.559005671515495,
+        "DIC": -16.217385943957463,
+        "RMSE": 0.022805726199710268
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.000876533593552,
+          "ESS": 9290.327397590532
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Dependency (θ)",
+          "value": 0.39821888047007414,
+          "lower": -0.9999999999999999,
+          "upper": 0.9999999999999999,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Y Marginal - Rho = +0.5",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "26af843c-f555-4de0-b402-6ecf08da7a2b",
+      "seconds": 0.594,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"931.15164556175159\" WAIC=\"931.10907875339728\" WAIC_pD=\"1.8942175974933193\" LOOIC=\"931.11354380154842\" LOO_pD=\"1.8964501215688756\" LOOIC_SE=\"13.744155537677697\" IsEstimated=\"True\" ElapsedTime=\"2486712\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"84.4775947649171\" Sigma=\"25.259021792085878\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"84.4775947649171\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"25.259021792085878\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"84.4775947649171\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"25.259021792085878\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 931.1541263815232,
+        "BIC": 936.3644667534993,
+        "DIC": 931.1516455617516,
+        "RMSE": 2.248223300890392
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0001801977144307,
+          "ESS": 9654.182062285887
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9998602245544451,
+          "ESS": 9485.884209983096
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 84.4775947649171,
+          "lower": -1000.0,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 25.25902179208588,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "X Marginal - Rho = -0.5",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "eed33975-f0f5-4074-8314-cb00f9dd28e4",
+      "seconds": 2.306,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"834.87382947764661\" WAIC=\"834.96017675581015\" WAIC_pD=\"1.9982800808829542\" LOOIC=\"834.96614172125032\" LOO_pD=\"2.0012625636030634\" LOOIC_SE=\"14.664067617526712\" IsEstimated=\"True\" ElapsedTime=\"11234499\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"96.680088094729413\" Sigma=\"15.606327221410364\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"96.680088094729413\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"15.606327221410364\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"96.680088094729413\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"15.606327221410364\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 834.9094088300021,
+        "BIC": 840.1197492019783,
+        "DIC": 834.8738294776466,
+        "RMSE": 1.5543836534560058
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9998123873315398,
+          "ESS": 10058.343045827987
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999594456819664,
+          "ESS": 9768.773947947306
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 96.68008809472941,
+          "lower": -1000.0,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 15.606327221410364,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Normal Copula - Rho = 0.0",
+      "class": "BivariateAnalysis",
+      "status": "completed",
+      "runId": "453bb9dd-5e15-4705-afd3-f2bf8a0c637e",
+      "seconds": 3.528,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<BivariateAnalysis IsEstimated=\"true\">\r\n  <UncertainOrderedPairedData X_Strict=\"False\" Y_Strict=\"False\" X_Order=\"Ascending\" Y_Order=\"Ascending\" Distribution=\"Deterministic\" AllowDifferentDistributionTypes=\"False\">\r\n    <Ordinates>\r\n      <UncertainOrdinate X=\"0\">\r\n        <Distribution Type=\"Deterministic\" Value=\"0\" />\r\n      </UncertainOrdinate>\r\n    </Ordinates>\r\n  </UncertainOrderedPairedData>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"10\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"100\" Jump=\"1.6829141392239828\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1.0205217051796331\" WAIC=\"1.0481519510619846\" WAIC_pD=\"0.94838542658575298\" LOOIC=\"1.0504165132388543\" LOO_pD=\"0.94951770767418786\" LOOIC_SE=\"1.7741438092367976\" IsEstimated=\"True\" ElapsedTime=\"33197655\" />\r\n</BivariateAnalysis>",
+      "modelSettings": "<BivariateDistribution CopulaType=\"Normal\" CopulaEstimationMethod=\"InferenceFromMargins\" UseDefaultFlatPriors=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Dependency (θ)\" Value=\"0.088550743996887005\" LowerBound=\"-0.99999999999999989\" UpperBound=\"0.99999999999999989\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.99999999999999989\" Max=\"0.99999999999999989\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</BivariateDistribution>",
+      "metrics": {
+        "AIC": 1.1250146672173877,
+        "BIC": 3.7301848532054795,
+        "DIC": 1.0205217051796331,
+        "RMSE": 0.016965007909273033
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.999978701576916,
+          "ESS": 9456.87296411374
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Dependency (θ)",
+          "value": 0.088550743996887,
+          "lower": -0.9999999999999999,
+          "upper": 0.9999999999999999,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "WaimeaPk - Exact + Historical + RR Prior_RSkew",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "b7b2a78e-e40a-4ea5-94ba-511e008f01d6",
+      "seconds": 12.682,
+      "source": {
+        "bytes": 36700160,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"6\" ThinningInterval=\"30\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"0.97163093130399403\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1280.4201815215447\" WAIC=\"1280.6898545801357\" WAIC_pD=\"2.2884522995985299\" LOOIC=\"1280.7063536072958\" LOO_pD=\"2.2967018131785153\" LOOIC_SE=\"39.088247141187288\" IsEstimated=\"True\" ElapsedTime=\"119729026\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"False\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"True\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"4.0790392294759501\" Sigma=\"0.26745424537985363\" Gamma=\"-0.43202797196997555\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"\" Value=\"4.0790392294759501\" LowerBound=\"-7\" UpperBound=\"7\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"0\" Max=\"6\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"\" Value=\"0.26745424537985363\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"7\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"\" Value=\"-0.43202797196997555\" LowerBound=\"-2\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Normal\" Mu=\"-0.157\" Sigma=\"0.46000000000000002\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors>\r\n    <QuantilePrior Alpha=\"0.10000000000000001\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"4.3234000000000004\" Sigma=\"0.17580000000000001\" />\r\n    </QuantilePrior>\r\n    <QuantilePrior Alpha=\"0.01\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"4.6407999999999996\" Sigma=\"0.163401346\" />\r\n    </QuantilePrior>\r\n    <QuantilePrior Alpha=\"0.002\">\r\n      <Distribution Type=\"LogNormal\" Mu=\"4.8037000000000001\" Sigma=\"0.1578\" />\r\n    </QuantilePrior>\r\n  </QuantilePriors>\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1914\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"\" Value=\"4.0790392294759501\" LowerBound=\"-7\" UpperBound=\"7\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"0\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1914\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"\" Value=\"0.26745424537985363\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"7\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1914\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"\" Value=\"-0.43202797196997555\" LowerBound=\"-2\" UpperBound=\"2\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Normal\" Mu=\"-0.157\" Sigma=\"0.46000000000000002\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1282.151474675892,
+        "BIC": 1290.2255183225793,
+        "DIC": 1280.4201815215447,
+        "RMSE": 1881.6443846225416
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0004148625967437,
+          "ESS": 9009.581385588106
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0003787532118231,
+          "ESS": 9562.813038409775
+        },
+        {
+          "parameter": 2,
+          "Rhat": 0.9999959225447238,
+          "ESS": 9582.515688882188
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 4.07903922947595,
+          "lower": -7.0,
+          "upper": 7.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 0.26745424537985363,
+          "lower": 1.11022302462516e-16,
+          "upper": 7.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": -0.43202797196997555,
+          "lower": -2.0,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Normal",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "MakaweliPk - Cond - Exact",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "82176096-b44d-448a-a12f-87474d1d446c",
+      "seconds": 2.958,
+      "source": {
+        "bytes": 36700160,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"6\" ThinningInterval=\"30\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"0.97163093130399403\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"1060.3537614688616\" WAIC=\"1060.1959749356406\" WAIC_pD=\"2.2114853517652118\" LOOIC=\"1060.2482777180546\" LOO_pD=\"2.2376367429721995\" LOOIC_SE=\"13.540985207200096\" IsEstimated=\"True\" ElapsedTime=\"20324560\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"LogPearsonTypeIII\" Mu=\"3.5953767515840673\" Sigma=\"0.5125056050980461\" Gamma=\"-0.8048875278695572\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"\" Value=\"3.5953767515840673\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"5\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"5\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"\" Value=\"0.5125056050980461\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"\" Value=\"-0.8048875278695572\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (of log) (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1946\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (of log) (µ)\" Name=\"\" Value=\"3.5953767515840673\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"5\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"5\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (of log) (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1946\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (of log) (σ)\" Name=\"\" Value=\"0.5125056050980461\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"2\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"2\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Skew (of log) (γ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1946\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Skew (of log) (γ)\" Name=\"\" Value=\"-0.8048875278695572\" LowerBound=\"-6\" UpperBound=\"6\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-6\" Max=\"6\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 1060.8123095425046,
+        "BIC": 1066.7792616821976,
+        "DIC": 1060.3537614688616,
+        "RMSE": 783.7499925101254
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0005821496357394,
+          "ESS": 9373.74328088668
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999858151966103,
+          "ESS": 9473.713357756358
+        },
+        {
+          "parameter": 2,
+          "Rhat": 0.9999984732525535,
+          "ESS": 9499.441268454619
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 3.5953767515840673,
+          "lower": 1.11022302462516e-16,
+          "upper": 5.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 0.5125056050980461,
+          "lower": 1.11022302462516e-16,
+          "upper": 2.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": -0.8048875278695572,
+          "lower": -6.0,
+          "upper": 6.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Y Marginal - Rho = -0.5",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "d7bab35e-9aee-40ff-b78b-4caa36336fd5",
+      "seconds": 0.988,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"947.47208934601838\" WAIC=\"947.30288814164464\" WAIC_pD=\"1.7974766268701143\" LOOIC=\"947.30743448289229\" LOO_pD=\"1.7997497974939165\" LOOIC_SE=\"12.679257540246537\" IsEstimated=\"True\" ElapsedTime=\"3196280\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"80.23816766186269\" Sigma=\"27.424265177675089\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"80.23816766186269\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"27.424265177675089\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"80.23816766186269\" LowerBound=\"-1000\" UpperBound=\"1000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-1000\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"27.424265177675089\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 947.4214949954103,
+        "BIC": 952.6318353673864,
+        "DIC": 947.4720893460184,
+        "RMSE": 2.1849279416689025
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.999848902542403,
+          "ESS": 10057.300246841303
+        },
+        {
+          "parameter": 1,
+          "Rhat": 0.9999482703185559,
+          "ESS": 9278.078529833427
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 80.23816766186269,
+          "lower": -1000.0,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 27.42426517767509,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "CFA - Rho = -0.5",
+      "class": "CoincidentFrequencyAnalysis",
+      "status": "completed",
+      "runId": "be210912-e6c3-42e8-b6ff-6983a4a3cf06",
+      "seconds": 0.66,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<CoincidentFrequencyAnalysis IsEstimated=\"true\" NumberOfBins=\"50\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0\" WAIC=\"0\" WAIC_pD=\"0\" LOOIC=\"0\" LOO_pD=\"0\" LOOIC_SE=\"0\" IsEstimated=\"False\" />\r\n  <XValues>65,75,90,100,110,125,135</XValues>\r\n  <YValues>22,39,63,80,97,121,138</YValues>\r\n  <BivariateResponse>87,104,128,145,162,186,203,97,114,138,155,172,196,213,112,129,153,170,187,211,228,122,139,163,180,197,221,238,132,149,173,190,207,231,248,147,164,188,205,222,246,263,157,174,198,215,232,256,273</BivariateResponse>\r\n</CoincidentFrequencyAnalysis>",
+      "modelSettings": null,
+      "metrics": {
+        "AIC": 0.0,
+        "BIC": 0.0,
+        "DIC": 0.0,
+        "RMSE": 0.0
+      },
+      "marginalChains": {
+        "X": {
+          "runId": "eed33975-f0f5-4074-8314-cb00f9dd28e4",
+          "name": "X Marginal - Rho = -0.5",
+          "outputDraws": 10000
+        },
+        "Y": {
+          "runId": "d7bab35e-9aee-40ff-b78b-4caa36336fd5",
+          "name": "Y Marginal - Rho = -0.5",
+          "outputDraws": 10000
+        }
+      }
+    },
+    {
+      "name": "X Marginal - Rho = 0.0",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "20ef847d-7887-4215-a785-67e29fff39c9",
+      "seconds": 0.61,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"824.04488647053233\" WAIC=\"823.61855187843776\" WAIC_pD=\"1.5285453320813884\" LOOIC=\"823.62323976598816\" LOO_pD=\"1.5308892758565662\" LOOIC_SE=\"10.387457270928556\" IsEstimated=\"True\" ElapsedTime=\"2636863\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"100.63740328831686\" Sigma=\"14.781253421080233\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"100.63740328831686\" LowerBound=\"-10000\" UpperBound=\"10000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10000\" Max=\"10000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"14.781253421080233\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"100.63740328831686\" LowerBound=\"-10000\" UpperBound=\"10000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-10000\" Max=\"10000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"14.781253421080233\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 824.0499595432402,
+        "BIC": 829.2602999152164,
+        "DIC": 824.0448864705323,
+        "RMSE": 1.865712224632325
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.00027470872924,
+          "ESS": 9321.432169490528
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.000295415993141,
+          "ESS": 9343.243580224293
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 100.63740328831686,
+          "lower": -10000.0,
+          "upper": 10000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 14.781253421080233,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Normal Copula - Rho = -0.5",
+      "class": "BivariateAnalysis",
+      "status": "completed",
+      "runId": "0329384d-d006-4e31-aa0c-df6a1770cb43",
+      "seconds": 3.556,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<BivariateAnalysis IsEstimated=\"true\">\r\n  <UncertainOrderedPairedData X_Strict=\"False\" Y_Strict=\"False\" X_Order=\"Ascending\" Y_Order=\"Ascending\" Distribution=\"Deterministic\" AllowDifferentDistributionTypes=\"False\">\r\n    <Ordinates>\r\n      <UncertainOrdinate X=\"0\">\r\n        <Distribution Type=\"Deterministic\" Value=\"0\" />\r\n      </UncertainOrdinate>\r\n    </Ordinates>\r\n  </UncertainOrderedPairedData>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"10\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"100\" Jump=\"1.6829141392239828\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"-22.15346645141123\" WAIC=\"-22.040709007338673\" WAIC_pD=\"1.0399999197062009\" LOOIC=\"-22.035414321085021\" LOO_pD=\"1.042647262833027\" LOOIC_SE=\"9.2165704173925516\" IsEstimated=\"True\" ElapsedTime=\"33282401\" />\r\n</BivariateAnalysis>",
+      "modelSettings": "<BivariateDistribution CopulaType=\"Normal\" CopulaEstimationMethod=\"InferenceFromMargins\" UseDefaultFlatPriors=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Dependency (θ)\" Value=\"-0.45401606386939342\" LowerBound=\"-0.99999999999999989\" UpperBound=\"0.99999999999999989\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.99999999999999989\" Max=\"0.99999999999999989\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</BivariateDistribution>",
+      "metrics": {
+        "AIC": -22.149627919780947,
+        "BIC": -19.544457733792854,
+        "DIC": -22.15346645141123,
+        "RMSE": 0.012599756846524143
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0002639462443266,
+          "ESS": 9189.423416526923
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Dependency (θ)",
+          "value": -0.4540160638693934,
+          "lower": -0.9999999999999999,
+          "upper": 0.9999999999999999,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "CFA - Rho = 0.0",
+      "class": "CoincidentFrequencyAnalysis",
+      "status": "completed",
+      "runId": "69fe8c87-7e21-4003-b157-c809aed780d6",
+      "seconds": 0.171,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<CoincidentFrequencyAnalysis IsEstimated=\"true\" NumberOfBins=\"20\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.94999999999999996\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0\" WAIC=\"0\" WAIC_pD=\"0\" LOOIC=\"0\" LOO_pD=\"0\" LOOIC_SE=\"0\" IsEstimated=\"False\" />\r\n  <XValues>65,75,90,100,110,125,135</XValues>\r\n  <YValues>22,39,63,80,97,121,138</YValues>\r\n  <BivariateResponse>87,104,128,145,162,186,203,97,114,138,155,172,196,213,112,129,153,170,187,211,228,122,139,163,180,197,221,238,132,149,173,190,207,231,248,147,164,188,205,222,246,263,157,174,198,215,232,256,273</BivariateResponse>\r\n</CoincidentFrequencyAnalysis>",
+      "modelSettings": null,
+      "metrics": {
+        "AIC": 0.0,
+        "BIC": 0.0,
+        "DIC": 0.0,
+        "RMSE": 0.0
+      },
+      "marginalChains": {
+        "X": {
+          "runId": "20ef847d-7887-4215-a785-67e29fff39c9",
+          "name": "X Marginal - Rho = 0.0",
+          "outputDraws": 10000
+        },
+        "Y": {
+          "runId": "71b9611a-c14b-4fe3-be84-6e12624c7b1b",
+          "name": "Y Marginal - Rho = 0.0",
+          "outputDraws": 10000
+        }
+      }
+    },
+    {
+      "name": "X Marginal - Rho = +0.5",
+      "class": "UnivariateAnalysis",
+      "status": "completed",
+      "runId": "40704fb9-43c2-4f5d-811d-ba0ceea47f55",
+      "seconds": 0.532,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<UnivariateAnalysis IsEstimated=\"true\">\r\n  <ProbabilityOrdinates>9.9999999999999995E-07|1.9999999999999999E-06|5.0000000000000004E-06|1.0000000000000001E-05|2.0000000000000002E-05|5.0000000000000002E-05|0.0001|0.00020000000000000001|0.00050000000000000001|0.001|0.002|0.0050000000000000001|0.01|0.02|0.050000000000000003|0.10000000000000001|0.20000000000000001|0.29999999999999999|0.5|0.69999999999999996|0.80000000000000004|0.90000000000000002|0.94999999999999996|0.97999999999999998|0.98999999999999999</ProbabilityOrdinates>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"200\" Jump=\"1.1899999999999999\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"822.94045858514119\" WAIC=\"823.05222956786235\" WAIC_pD=\"2.0391382360986143\" LOOIC=\"823.06751389206045\" LOO_pD=\"2.0467803981976544\" LOOIC_SE=\"14.823418691765127\" IsEstimated=\"True\" ElapsedTime=\"2459256\" />\r\n</UnivariateAnalysis>",
+      "modelSettings": "<UnivariateDistribution UseDefaultFlatPriors=\"True\" UseJeffreysRuleForScale=\"True\" EnableQuantilePriors=\"False\" UseSingleQuantile=\"False\" IsNonstationary=\"False\" ParameterTimeIndex=\"0\" Alpha=\"0.5\">\r\n  <Distribution Type=\"Normal\" Mu=\"102.25910419991649\" Sigma=\"14.709635027350927\" />\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"102.25910419991649\" LowerBound=\"-10000\" UpperBound=\"10000\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-10000\" Max=\"10000\" />\r\n    </ModelParameter>\r\n    <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"14.709635027350927\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n  <QuantilePriors />\r\n  <TrendModels>\r\n    <ITrendModel OwnerName=\"Mean (µ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Mean (µ)\" Name=\"\" Value=\"102.25910419991649\" LowerBound=\"-10000\" UpperBound=\"10000\" IsPositive=\"False\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"-10000\" Max=\"10000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n    <ITrendModel OwnerName=\"Std Dev (σ)\" UseDefaultFlatPriors=\"True\" Type=\"Constant\" StartIndex=\"1\">\r\n      <Parameters>\r\n        <ModelParameter OwnerName=\"Std Dev (σ)\" Name=\"\" Value=\"14.709635027350927\" LowerBound=\"1.11022302462516E-16\" UpperBound=\"1000\" IsPositive=\"True\" IsFixed=\"False\">\r\n          <Distribution Type=\"Uniform\" Min=\"1.11022302462516E-16\" Max=\"1000\" />\r\n        </ModelParameter>\r\n      </Parameters>\r\n    </ITrendModel>\r\n  </TrendModels>\r\n</UnivariateDistribution>",
+      "metrics": {
+        "AIC": 822.9203869826994,
+        "BIC": 828.1307273546755,
+        "DIC": 822.9404585851412,
+        "RMSE": 1.605390498992474
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 1.0006129846542535,
+          "ESS": 9609.624109165783
+        },
+        {
+          "parameter": 1,
+          "Rhat": 1.0003062294495075,
+          "ESS": 9437.088610630823
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": 102.2591041999165,
+          "lower": -10000.0,
+          "upper": 10000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        },
+        {
+          "name": "",
+          "value": 14.709635027350927,
+          "lower": 1.11022302462516e-16,
+          "upper": 1000.0,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "Normal Copula - Conditional",
+      "class": "BivariateAnalysis",
+      "status": "completed",
+      "runId": "53017622-5e2c-4825-bc90-87c3b1b256b4",
+      "seconds": 9.296,
+      "source": {
+        "bytes": 36700160,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/waimea-river-stage-frequency.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "b05ed96b6ee4951a606cf6233c261f045a7c251590c145d7e67ec79754870914"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<BivariateAnalysis IsEstimated=\"true\">\r\n  <UncertainOrderedPairedData X_Strict=\"False\" Y_Strict=\"False\" X_Order=\"Ascending\" Y_Order=\"Ascending\" Distribution=\"Deterministic\" AllowDifferentDistributionTypes=\"False\">\r\n    <Ordinates>\r\n      <UncertainOrdinate X=\"0\">\r\n        <Distribution Type=\"Deterministic\" Value=\"0\" />\r\n      </UncertainOrdinate>\r\n    </Ordinates>\r\n  </UncertainOrderedPairedData>\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"10\" WarmupIterations=\"1750\" Iterations=\"3500\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"100\" Jump=\"1.6829141392239828\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0.32330699543783803\" WAIC=\"0.17681928387393486\" WAIC_pD=\"0.70725449225404569\" LOOIC=\"0.18147997000310667\" LOO_pD=\"0.70958483531863159\" LOOIC_SE=\"1.9943391485424617\" IsEstimated=\"True\" ElapsedTime=\"84140026\" />\r\n</BivariateAnalysis>",
+      "modelSettings": "<BivariateDistribution CopulaType=\"Normal\" CopulaEstimationMethod=\"InferenceFromMargins\" UseDefaultFlatPriors=\"True\">\r\n  <Parameters>\r\n    <ModelParameter OwnerName=\"\" Name=\"Dependency (θ)\" Value=\"0.16721558104665563\" LowerBound=\"-0.99999999999999989\" UpperBound=\"0.99999999999999989\" IsPositive=\"False\" IsFixed=\"False\">\r\n      <Distribution Type=\"Uniform\" Min=\"-0.99999999999999989\" Max=\"0.99999999999999989\" />\r\n    </ModelParameter>\r\n  </Parameters>\r\n</BivariateDistribution>",
+      "metrics": {
+        "AIC": 0.5341600264180482,
+        "BIC": 2.465985659142374,
+        "DIC": 0.32330699543783803,
+        "RMSE": 0.027788806349465164
+      },
+      "diagnostics": [
+        {
+          "parameter": 0,
+          "Rhat": 0.9997705599234848,
+          "ESS": 9349.17654531767
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Dependency (θ)",
+          "value": 0.16721558104665563,
+          "lower": -0.9999999999999999,
+          "upper": 0.9999999999999999,
+          "prior": "Numerics.Distributions.Uniform",
+          "fixed": false
+        }
+      ]
+    },
+    {
+      "name": "CFA - Rho = +0.5",
+      "class": "CoincidentFrequencyAnalysis",
+      "status": "completed",
+      "runId": "64fdaef7-fa5f-4760-8403-33848c9cb899",
+      "seconds": 0.472,
+      "source": {
+        "bytes": 7536640,
+        "relative_path": "examples/5-bivariate-distribution-analysis/2-coincident-frequency/sum-two-normals.bestfit",
+        "repository_commit": "3fa55a0f75bbd583e2fb7fce42180faa376f007c",
+        "sha256": "dc63d9466446e8e659176032f6665cc85ed8f08addfa8567616737999e9647d3"
+      },
+      "runtime": {
+        "schemaVersion": 1,
+        "sourceCommit": "db5807d6e3a85606797cda79542f2d51a80a57a6",
+        "numericsVersion": "2.2.0.0",
+        "bestFitVersion": "2.0.0.0",
+        "targetFramework": ".NETCoreApp,Version=v10.0",
+        "fileHashes": {
+          "RMC.BestFit.dll": "8714d7e4e9d738e99e45c36d5581ce759e8fd535361b7a141d9647a9a5eac8dd",
+          "Numerics.dll": "364d2296a6024643a8bf0f60d1eaa8f5be5511563dea0b5d572074e45c27ea48"
+        }
+      },
+      "analysisSettings": "<CoincidentFrequencyAnalysis IsEstimated=\"true\" NumberOfBins=\"50\">\r\n  <BayesianAnalysis Type=\"DEMCzs\" NumberOfChains=\"4\" ThinningInterval=\"20\" WarmupIterations=\"1500\" Iterations=\"3000\" UseSimulationDefaults=\"True\" PRNGSeed=\"12345\" InitialIterations=\"300\" Jump=\"1\" JumpThreshold=\"0.10000000000000001\" SnookerThreshold=\"0.10000000000000001\" Noise=\"9.9999999999999998E-13\" Scale=\"5.6643999999999997\" Beta=\"0.050000000000000003\" MaxTreeDepth=\"10\" UseAdvancedSimulationDefaults=\"True\" CredibleIntervalWidth=\"0.90000000000000002\" OutputLength=\"10000\" PointEstimator=\"PosteriorMean\" DIC=\"0\" WAIC=\"0\" WAIC_pD=\"0\" LOOIC=\"0\" LOO_pD=\"0\" LOOIC_SE=\"0\" IsEstimated=\"False\" />\r\n  <XValues>65,75,90,100,110,125,135</XValues>\r\n  <YValues>22,39,63,80,97,121,138</YValues>\r\n  <BivariateResponse>87,104,128,145,162,186,203,97,114,138,155,172,196,213,112,129,153,170,187,211,228,122,139,163,180,197,221,238,132,149,173,190,207,231,248,147,164,188,205,222,246,263,157,174,198,215,232,256,273</BivariateResponse>\r\n</CoincidentFrequencyAnalysis>",
+      "modelSettings": null,
+      "metrics": {
+        "AIC": 0.0,
+        "BIC": 0.0,
+        "DIC": 0.0,
+        "RMSE": 0.0
+      },
+      "marginalChains": {
+        "X": {
+          "runId": "40704fb9-43c2-4f5d-811d-ba0ceea47f55",
+          "name": "X Marginal - Rho = +0.5",
+          "outputDraws": 10000
+        },
+        "Y": {
+          "runId": "26af843c-f555-4de0-b402-6ecf08da7a2b",
+          "name": "Y Marginal - Rho = +0.5",
+          "outputDraws": 10000
+        }
+      }
+    }
+  ],
+  "artifactAudit": {
+    "status": "passed",
+    "expectedPrimaryCases": 4,
+    "completedAnalysesIncludingDependencies": 16,
+    "figureLineage": [
+      {
+        "file": "000-coincident.frequency.png",
+        "plotId": "coincident.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "CFA - Rho = -0.5",
+          "runId": "be210912-e6c3-42e8-b6ff-6983a4a3cf06"
+        },
+        "specSha256": "4a144e51d2ca75927a268f8ce6d9386aee77d17fcf3b9eeaa73c4adab4f291c7",
+        "pngSha256": "0aa7ae3f7c01cca6a45f4280c904d1145349c72d5b53ac5d8039e57a22b3fb9b"
+      },
+      {
+        "file": "001-coincident.frequency.png",
+        "plotId": "coincident.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "CFA - Rho = 0.0",
+          "runId": "69fe8c87-7e21-4003-b157-c809aed780d6"
+        },
+        "specSha256": "80ea4272042f1b8a1bae504a5343e6d881b81c507e929fd05e400bc64a40036d",
+        "pngSha256": "0a0ada66599250af25d443cc32f5cd0e0c8e44af34a4238a16ac0e0cb3c41b47"
+      },
+      {
+        "file": "002-coincident.frequency.png",
+        "plotId": "coincident.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "CFA - Rho = +0.5",
+          "runId": "64fdaef7-fa5f-4760-8403-33848c9cb899"
+        },
+        "specSha256": "2094ed3cc043addf029a1ff58906d32f3acdfbb2ae138edced74aca97cac4f5b",
+        "pngSha256": "4586f291de0dec9fdd37ffd7e3bee9c3eece16eca2a353e1a38f5d129d04de57"
+      },
+      {
+        "file": "003-coincident.frequency.png",
+        "plotId": "coincident.frequency",
+        "source": {
+          "kind": "rerun",
+          "id": "CFA - Normal - Conditional",
+          "runId": "edeaec38-aac8-4394-8070-43542a49b189"
+        },
+        "specSha256": "13ea4b3372d641e8838fa79217ec1205d5bc69341c524aa184d60072965f8103",
+        "pngSha256": "d11c03b6c55c405f4829af4a366194bec46a332996c7dd54604409c4d6514c63"
+      }
+    ]
+  },
+  "notebookOutputAudit": {
+    "status": "passed",
+    "executedCodeCells": 7,
+    "embeddedPngs": 4,
+    "outputsSha256": "298f841c05705896481abc1bead5e056ab9b7e4a90b6244cb33a89a15d8830b0"
+  },
+  "figures": 4,
+  "elapsedSeconds": 51.407
+}

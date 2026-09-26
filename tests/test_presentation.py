@@ -122,7 +122,8 @@ def test_generated_notebooks_keep_reviewed_presentation_contract() -> None:
                 assert all(output.output_type != "error" for output in cell.get("outputs", []))
     for number in range(2, 12):
         book = next(book for name, book in books.items() if name.startswith(f"{number:02d}_"))
-        assert any("case_provenance" in cell.source and "import" not in cell.source for cell in book.cells)
+        assert any("record_run(" in cell.source for cell in book.cells)
     assert any("Sinnemahoning - MOVE.3 - With Errors" in cell.source for cell in books["01_input_data"].cells)
-    assert any("inactive sampler for B17C" in cell.source for cell in books["05_bulletin_17c"].cells)
-    assert any("OLE Automation" in cell.source for cell in books["10_classic_time_series"].cells)
+    assert any("GMM" in cell.source and "posterior" in cell.source.lower() for cell in books["05_bulletin_17c"].cells)
+    assert any("1897" in cell.source and "1871" in cell.source and "display only" in cell.source
+               for cell in books["10_classic_time_series"].cells)
